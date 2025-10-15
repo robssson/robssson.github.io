@@ -27,6 +27,26 @@
     table.table-hover tbody tr:hover:not(.first-place):not(.second-place):not(.third-place) {
         background-color: #f0f0f0 !important;
     }
+
+    /* Ikony sortowania */
+    th.sortable::after {
+        content: '⇅';
+        font-size: 0.8em;
+        margin-left: 5px;
+        color: #999;
+    }
+    th.sorted-asc::after {
+        content: '⬆️';
+        font-size: 0.8em;
+        margin-left: 5px;
+        color: #007bff;
+    }
+    th.sorted-desc::after {
+        content: '⬇️';
+        font-size: 0.8em;
+        margin-left: 5px;
+        color: #007bff;
+    }
 </style>
 </head>
 <body>
@@ -41,9 +61,9 @@
         <table class="table table-bordered table-hover" id="high-finishes-table">
             <thead class="table-dark">
                 <tr>
-                    <th data-key="player">Zawodnik</th>
-                    <th data-key="count">Liczba wysokich zakończeń</th>
-                    <th data-key="values">Wartości zakończeń (>=100)</th>
+                    <th data-key="player" class="sortable">Zawodnik</th>
+                    <th data-key="count" class="sortable">Liczba wysokich zakończeń</th>
+                    <th data-key="values" class="sortable">Wartości zakończeń (>=100)</th>
                 </tr>
             </thead>
             <tbody id="high-finishes-body"></tbody>
@@ -57,9 +77,9 @@
         <table class="table table-bordered table-hover" id="fast-legs-table">
             <thead class="table-dark">
                 <tr>
-                    <th data-key="player">Zawodnik</th>
-                    <th data-key="count">Liczba szybkich lotek</th>
-                    <th data-key="values">Szybkie legi (<=18)</th>
+                    <th data-key="player" class="sortable">Zawodnik</th>
+                    <th data-key="count" class="sortable">Liczba szybkich lotek</th>
+                    <th data-key="values" class="sortable">Szybkie legi (<=18)</th>
                 </tr>
             </thead>
             <tbody id="fast-legs-body"></tbody>
@@ -68,13 +88,14 @@
 </div>
 
 <script>
-// --- Funkcja do sortowania tabel dynamicznie po kliknięciu nagłówka ---
+// --- Uniwersalna funkcja do sortowania tabel po kliknięciu ---
 function makeSortable(tableId, rowsData, buildRow) {
     const table = document.getElementById(tableId);
-    const headers = table.querySelectorAll('th');
+    const headers = table.querySelectorAll('th.sortable');
     headers.forEach((th) => {
         let asc = true;
         th.addEventListener('click', () => {
+            headers.forEach(h => h.classList.remove('sorted-asc', 'sorted-desc'));
             const key = th.dataset.key;
             rowsData.sort((a,b) => {
                 let valA = a[key], valB = b[key];
@@ -83,6 +104,7 @@ function makeSortable(tableId, rowsData, buildRow) {
                 if(valA > valB) return asc ? 1 : -1;
                 return 0;
             });
+            th.classList.add(asc ? 'sorted-asc' : 'sorted-desc');
             asc = !asc;
             buildRow();
         });
