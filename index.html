@@ -1,183 +1,164 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🎯 Tomi Dart Club Liga Jesień 2025 - Statystyki</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Sortable tables -->
-    <script src="https://www.kryogenix.org/code/browser/sorttable/sorttable.js"></script>
-    <style>
-        body { padding: 20px; background-color: #f9f9f9; }
-        h1, h2 { text-align: center; margin-bottom: 20px; color: #2c3e50; }
-        h5 { text-align: center; margin-bottom: 10px; color: #555; }
-        table th, table td { text-align: center; }
-        .table-container { overflow-x: auto; margin-bottom: 50px; }
-        .summary { text-align: center; font-weight: bold; margin-bottom: 10px; color: #34495e; }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🎯 Tomi Dart Club Liga Jesień 2025 - Statystyki</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<style>
+    body { padding: 20px; background-color: #f9f9f9; }
+    h1, h2 { text-align: center; margin-bottom: 20px; color: #2c3e50; }
+    h5 { text-align: center; margin-bottom: 10px; color: #555; }
+    table th, table td { text-align: center; cursor: pointer; }
+    .table-container { overflow-x: auto; margin-bottom: 50px; }
+    .summary { text-align: center; font-weight: bold; margin-bottom: 10px; color: #34495e; }
 
-        /* Kolory dla miejsc 1-3 */
-        .first-place { background-color: #ffd700 !important; color: #000 !important; }   /* złoty */
-        .second-place { background-color: #c0c0c0 !important; color: #000 !important; }  /* srebrny */
-        .third-place { background-color: #cd7f32 !important; color: #fff !important; }   /* brązowy */
-    </style>
+    .first-place { background-color: #ffd700 !important; color: #000 !important; }
+    .second-place { background-color: #c0c0c0 !important; color: #000 !important; }
+    .third-place { background-color: #cd7f32 !important; color: #fff !important; }
+</style>
 </head>
 <body>
-    <div class="container">
-        <h5>Ostatnia aktualizacja: 15/10/2025</h5>
-        <h1>🎯 Tomi Dart Club Liga Jesień 2025 🎯</h1>
+<div class="container">
+    <h5>Ostatnia aktualizacja: 15/10/2025</h5>
+    <h1>🎯 Tomi Dart Club Liga Jesień 2025 🎯</h1>
 
-        <!-- WYSOKIE ZAKOŃCZENIA -->
-        <h2>Zestawienie wysokich zakończeń</h2>
-        <p id="high-finishes-matches" class="summary">Ładowanie danych...</p>
-        <p id="high-finishes-sum" class="summary"></p>
-        <div class="table-container">
-            <table class="table table-bordered table-hover sortable">
-                <thead class="table-dark">
-                    <tr>
-                        <th>Zawodnik</th>
-                        <th>Liczba wysokich zakończeń</th>
-                        <th>Wartości zakończeń (>=100)</th>
-                    </tr>
-                </thead>
-                <tbody id="high-finishes-body"></tbody>
-            </table>
-        </div>
-
-        <!-- SZYBKIE LOTKI -->
-        <h2>Podsumowanie szybkich lotek</h2>
-        <p id="fast-legs-matches" class="summary">Ładowanie danych...</p>
-        <p id="fast-legs-sum" class="summary"></p>
-        <div class="table-container">
-            <table class="table table-bordered table-hover sortable">
-                <thead class="table-dark">
-                    <tr>
-                        <th>Zawodnik</th>
-                        <th>Liczba szybkich lotek</th>
-                        <th>Szybkie legi (<=18)</th>
-                    </tr>
-                </thead>
-                <tbody id="fast-legs-body"></tbody>
-            </table>
-        </div>
+    <h2>Zestawienie wysokich zakończeń</h2>
+    <p id="high-finishes-matches" class="summary"></p>
+    <p id="high-finishes-sum" class="summary"></p>
+    <div class="table-container">
+        <table class="table table-bordered table-hover" id="high-finishes-table">
+            <thead class="table-dark">
+                <tr>
+                    <th data-key="player">Zawodnik</th>
+                    <th data-key="count">Liczba wysokich zakończeń</th>
+                    <th data-key="values">Wartości zakończeń (>=100)</th>
+                </tr>
+            </thead>
+            <tbody id="high-finishes-body"></tbody>
+        </table>
     </div>
 
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <h2>Podsumowanie szybkich lotek</h2>
+    <p id="fast-legs-matches" class="summary"></p>
+    <p id="fast-legs-sum" class="summary"></p>
+    <div class="table-container">
+        <table class="table table-bordered table-hover" id="fast-legs-table">
+            <thead class="table-dark">
+                <tr>
+                    <th data-key="player">Zawodnik</th>
+                    <th data-key="count">Liczba szybkich lotek</th>
+                    <th data-key="values">Szybkie legi (<=18)</th>
+                </tr>
+            </thead>
+            <tbody id="fast-legs-body"></tbody>
+        </table>
+    </div>
+</div>
 
-    <script>
-        // --- WYSOKIE ZAKOŃCZENIA ---
-        fetch('tournament_high_finishes.json')
-            .then(resp => {
-                if (!resp.ok) throw new Error('Nie udało się wczytać tournament_high_finishes.json');
-                return resp.json();
-            })
-            .then(data => {
-                const playerFinishes = {};
-                let totalHighFinishes = 0;
-
-                // liczba unikalnych meczów po tmid
-                const uniqueMatches = new Set(data.map(match => match.tmid));
-                document.getElementById('high-finishes-matches').textContent = `Liczba rozegranych meczów: ${uniqueMatches.size}`;
-
-                data.forEach(match => {
-                    const highFinishes = match.high_finishes || {};
-                    for (const [player, finishes] of Object.entries(highFinishes)) {
-                        if (!finishes || finishes.length === 0) continue;
-                        if (!playerFinishes[player]) playerFinishes[player] = [];
-                        playerFinishes[player] = playerFinishes[player].concat(finishes);
-                        totalHighFinishes += finishes.length;
-                    }
-                });
-
-                document.getElementById('high-finishes-sum').textContent = `Suma wszystkich wysokich zakończeń: ${totalHighFinishes}`;
-
-                const sortedPlayers = Object.entries(playerFinishes)
-                    .sort((a,b) => b[1].length - a[1].length || a[0].localeCompare(b[0]));
-
-                const tbody = document.getElementById('high-finishes-body');
-                tbody.innerHTML = '';
-                sortedPlayers.forEach(([player, finishes], index) => {
-                    finishes.sort((a,b) => a-b);
-                    const row = document.createElement('tr');
-
-                    // Kolory dla trzech najlepszych miejsc
-                    if(index === 0) row.classList.add('first-place');
-                    else if(index === 1) row.classList.add('second-place');
-                    else if(index === 2) row.classList.add('third-place');
-
-                    row.innerHTML = `
-                        <td>${player}</td>
-                        <td>${finishes.length}</td>
-                        <td>${finishes.join(', ')}</td>
-                    `;
-                    tbody.appendChild(row);
-                });
-            })
-            .catch(err => {
-                console.error(err);
-                document.getElementById('high-finishes-matches').textContent = '❌ Błąd wczytywania danych wysokich zakończeń';
-                document.getElementById('high-finishes-sum').textContent = '';
+<script>
+// --- Funkcja do sortowania tabel dynamicznie po kliknięciu nagłówka ---
+function makeSortable(tableId, rowsData, buildRow) {
+    const table = document.getElementById(tableId);
+    const headers = table.querySelectorAll('th');
+    headers.forEach((th, index) => {
+        let asc = true;
+        th.addEventListener('click', () => {
+            rowsData.sort((a,b) => {
+                const key = th.dataset.key;
+                let valA = a[key], valB = b[key];
+                if(key === 'count') { valA = parseInt(valA); valB = parseInt(valB); }
+                if(valA < valB) return asc ? -1 : 1;
+                if(valA > valB) return asc ? 1 : -1;
+                return 0;
             });
+            asc = !asc;
+            buildRow();
+        });
+    });
+}
 
-        // --- SZYBKIE LOTKI ---
-        fetch('tournament_fast_legs.json')
-            .then(resp => {
-                if (!resp.ok) throw new Error('Nie udało się wczytać tournament_fast_legs.json');
-                return resp.json();
-            })
-            .then(data => {
-                const fastTotal = {};
-                const fastNumbers = {};
-                let totalFastLegs = 0;
+// --- WYSOKIE ZAKOŃCZENIA ---
+fetch('tournament_high_finishes.json').then(r => r.json()).then(data => {
+    const playerFinishes = {};
+    let totalHighFinishes = 0;
+    const uniqueMatches = new Set(data.map(m => m.tmid));
+    document.getElementById('high-finishes-matches').textContent = `Liczba rozegranych meczów: ${uniqueMatches.size}`;
 
-                // liczba unikalnych meczów po tmid
-                const uniqueMatches = new Set(data.map(match => match.tmid));
-                document.getElementById('fast-legs-matches').textContent = `Liczba rozegranych meczów: ${uniqueMatches.size}`;
+    data.forEach(match => {
+        const hf = match.high_finishes || {};
+        for(const [player, finishes] of Object.entries(hf)) {
+            if(!finishes || finishes.length===0) continue;
+            if(!playerFinishes[player]) playerFinishes[player] = [];
+            playerFinishes[player] = playerFinishes[player].concat(finishes);
+            totalHighFinishes += finishes.length;
+        }
+    });
+    document.getElementById('high-finishes-sum').textContent = `Suma wszystkich wysokich zakończeń: ${totalHighFinishes}`;
 
-                data.forEach(match => {
-                    const fastLegs = match.fast_legs || {};
-                    for (const [player, legs] of Object.entries(fastLegs)) {
-                        if (!legs || legs.length === 0) continue;
-                        if (!fastTotal[player]) {
-                            fastTotal[player] = 0;
-                            fastNumbers[player] = [];
-                        }
-                        fastTotal[player] += legs.length;
-                        fastNumbers[player] = fastNumbers[player].concat(legs);
-                        totalFastLegs += legs.length;
-                    }
-                });
+    const rowsData = Object.entries(playerFinishes).map(([player, finishes]) => ({
+        player,
+        count: finishes.length,
+        values: finishes.sort((a,b)=>a-b).join(', ')
+    })).sort((a,b) => b.count - a.count);
 
-                document.getElementById('fast-legs-sum').textContent = `Suma wszystkich szybkich lotek: ${totalFastLegs}`;
+    const tbody = document.getElementById('high-finishes-body');
+    function buildHighRows() {
+        tbody.innerHTML = '';
+        rowsData.forEach((row,index)=>{
+            const tr = document.createElement('tr');
+            if(index===0) tr.classList.add('first-place');
+            else if(index===1) tr.classList.add('second-place');
+            else if(index===2) tr.classList.add('third-place');
+            tr.innerHTML = `<td>${row.player}</td><td>${row.count}</td><td>${row.values}</td>`;
+            tbody.appendChild(tr);
+        });
+    }
+    buildHighRows();
+    makeSortable('high-finishes-table', rowsData, buildHighRows);
+});
 
-                const sortedPlayers = Object.keys(fastTotal)
-                    .sort((a,b) => fastTotal[b] - fastTotal[a]);
+// --- SZYBKIE LOTKI ---
+fetch('tournament_fast_legs.json').then(r => r.json()).then(data => {
+    const fastTotal = {};
+    const fastNumbers = {};
+    let totalFastLegs = 0;
+    const uniqueMatches = new Set(data.map(m => m.tmid));
+    document.getElementById('fast-legs-matches').textContent = `Liczba rozegranych meczów: ${uniqueMatches.size}`;
 
-                const tbody = document.getElementById('fast-legs-body');
-                tbody.innerHTML = '';
-                sortedPlayers.forEach((player, index) => {
-                    const legs = fastNumbers[player].sort((a,b)=>a-b);
-                    const row = document.createElement('tr');
+    data.forEach(match=>{
+        const fl = match.fast_legs || {};
+        for(const [player, legs] of Object.entries(fl)){
+            if(!legs || legs.length===0) continue;
+            if(!fastTotal[player]) { fastTotal[player]=0; fastNumbers[player]=[]; }
+            fastTotal[player]+=legs.length;
+            fastNumbers[player]=fastNumbers[player].concat(legs);
+            totalFastLegs+=legs.length;
+        }
+    });
+    document.getElementById('fast-legs-sum').textContent = `Suma wszystkich szybkich lotek: ${totalFastLegs}`;
 
-                    // Kolory dla trzech najlepszych miejsc
-                    if(index === 0) row.classList.add('first-place');
-                    else if(index === 1) row.classList.add('second-place');
-                    else if(index === 2) row.classList.add('third-place');
+    const rowsData = Object.keys(fastTotal).map(player=>({
+        player,
+        count: fastTotal[player],
+        values: fastNumbers[player].sort((a,b)=>a-b).join(', ')
+    })).sort((a,b)=>b.count - a.count);
 
-                    row.innerHTML = `
-                        <td>${player}</td>
-                        <td>${fastTotal[player]}</td>
-                        <td>${legs.join(', ')}</td>
-                    `;
-                    tbody.appendChild(row);
-                });
-            })
-            .catch(err => {
-                console.error(err);
-                document.getElementById('fast-legs-matches').textContent = '❌ Błąd wczytywania danych szybkich lotek';
-                document.getElementById('fast-legs-sum').textContent = '';
-            });
-    </script>
+    const tbody = document.getElementById('fast-legs-body');
+    function buildFastRows() {
+        tbody.innerHTML = '';
+        rowsData.forEach((row,index)=>{
+            const tr = document.createElement('tr');
+            if(index===0) tr.classList.add('first-place');
+            else if(index===1) tr.classList.add('second-place');
+            else if(index===2) tr.classList.add('third-place');
+            tr.innerHTML = `<td>${row.player}</td><td>${row.count}</td><td>${row.values}</td>`;
+            tbody.appendChild(tr);
+        });
+    }
+    buildFastRows();
+    makeSortable('fast-legs-table', rowsData, buildFastRows);
+});
+</script>
 </body>
 </html>
