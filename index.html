@@ -262,7 +262,7 @@ Promise.all([
         highScoreMatches.add(m.tmid);
     });
     document.getElementById('high-scores-matches').textContent=`Liczba rozegranych meczów: ${highScoreMatches.size}`;
-    document.getElementById('high-scores-sum').textContent=`Suma wszystkich rzutów 170–179: ${totalHighScores}`;
+    document.getElementById('high-scores-sum').textContent=`Suma wszystkich rzutów 170+: ${totalHighScores}`;
     const highScoreRows=Object.entries(highScoresStats).filter(([_,vals])=>vals.length>0).map(([p,vals])=>({player:p,count:vals.length,values:vals.sort((a,b)=>a-b).join(', ')})).sort((a,b)=>b.count-a.count);
     const highScoreBody=document.getElementById('high-scores-body');
     const buildHighScoreRow=r=>`<td>${r.player}</td><td>${r.count}</td><td>${r.values}</td>`;
