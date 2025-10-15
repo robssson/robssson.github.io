@@ -62,6 +62,24 @@
         </table>
     </div>
 
+     <!-- RZUTY 170+ -->
+    <h2>🔥 Podsumowanie rzutów 170+</h2>
+    <p id="high-scores-matches" class="summary"></p>
+    <p id="high-scores-sum" class="summary"></p>
+    <div class="table-container">
+        <table class="table table-bordered table-hover" id="high-scores-table">
+            <thead class="table-dark">
+                <tr>
+                    <th data-key="player" class="sortable">Zawodnik</th>
+                    <th data-key="count" class="sortable">Liczba rzutów 170+</th>
+                    <th data-key="values">Wyniki</th>
+                </tr>
+            </thead>
+            <tbody id="high-scores-body"></tbody>
+        </table>
+    </div>
+</div>
+    
     <!-- MAKSY -->
     <h2>Podsumowanie maksów (180)</h2>
     <p id="max-matches" class="summary"></p>
@@ -111,24 +129,6 @@
             <tbody id="fast-legs-body"></tbody>
         </table>
     </div>
-
-    <!-- RZUTY 170–179 -->
-    <h2>🔥 Podsumowanie rzutów 170+</h2>
-    <p id="high-scores-matches" class="summary"></p>
-    <p id="high-scores-sum" class="summary"></p>
-    <div class="table-container">
-        <table class="table table-bordered table-hover" id="high-scores-table">
-            <thead class="table-dark">
-                <tr>
-                    <th data-key="player" class="sortable">Zawodnik</th>
-                    <th data-key="count" class="sortable">Liczba rzutów 170+</th>
-                    <th data-key="values">Wyniki</th>
-                </tr>
-            </thead>
-            <tbody id="high-scores-body"></tbody>
-        </table>
-    </div>
-</div>
 
 <script>
 function makeSortable(tableId, rowsData, buildRow) {
