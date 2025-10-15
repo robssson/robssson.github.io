@@ -3,29 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🎯 Wysokie Zakończenia</title>
+    <title>🎯 Turniej Dartów</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        body {
-            padding: 20px;
-            background-color: #f9f9f9;
-        }
-        h1 {
-            margin-bottom: 30px;
-            color: #2c3e50;
-        }
-        table th, table td {
-            text-align: center;
-        }
-        .table-container {
-            overflow-x: auto;
-        }
+        body { padding: 20px; background-color: #f9f9f9; }
+        h1, h2 { text-align: center; margin-bottom: 20px; color: #2c3e50; }
+        table th, table td { text-align: center; }
+        .table-container { overflow-x: auto; margin-bottom: 50px; }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1 class="text-center">🎯 ZESTAWIENIE WYSOKICH ZAKOŃCZEŃ 🎯</h1>
+        <h1>🎯 Turniej Dartów 🎯</h1>
+
+        <h2>Zestawienie wysokich zakończeń</h2>
         <div class="table-container">
             <table class="table table-striped table-bordered table-hover">
                 <thead class="table-dark">
@@ -35,23 +27,34 @@
                         <th>Wartości zakończeń (≥100)</th>
                     </tr>
                 </thead>
-                <tbody id="results-body">
-                    <!-- Wiersze będą generowane dynamicznie -->
-                </tbody>
+                <tbody id="high-finishes-body"></tbody>
+            </table>
+        </div>
+
+        <h2>Podsumowanie szybkich lotek</h2>
+        <div class="table-container">
+            <table class="table table-striped table-bordered table-hover">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Zawodnik</th>
+                        <th>Liczba szybkich lotek</th>
+                        <th>Szybkie legi (lotki)</th>
+                    </tr>
+                </thead>
+                <tbody id="fast-legs-body"></tbody>
             </table>
         </div>
     </div>
 
-    <!-- Bootstrap JS (opcjonalnie, do responsywnych funkcji) -->
+    <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
     <script>
-        // Wczytywanie danych z JSON
+        // --- WYSOKIE ZAKOŃCZENIA ---
         fetch('data.json')
-            .then(response => response.json())
+            .then(resp => resp.json())
             .then(data => {
                 const playerFinishes = {};
-
                 data.forEach(match => {
                     const highFinishes = match.high_finishes || {};
                     for (const [player, finishes] of Object.entries(highFinishes)) {
@@ -62,11 +65,10 @@
                     }
                 });
 
-                // Sortowanie: po liczbie high finish malejąco, potem alfabetycznie
                 const sortedPlayers = Object.entries(playerFinishes)
-                    .sort((a, b) => b[1].length - a[1].length || a[0].localeCompare(b[0]));
+                    .sort((a,b) => b[1].length - a[1].length || a[0].localeCompare(b[0]));
 
-                const tbody = document.getElementById('results-body');
+                const tbody = document.getElementById('high-finishes-body');
                 sortedPlayers.forEach(([player, finishes]) => {
                     finishes.sort((a,b) => a-b);
                     const row = document.createElement('tr');
@@ -78,13 +80,44 @@
                     tbody.appendChild(row);
                 });
             })
-            .catch(err => {
-                console.error('Błąd wczytywania danych:', err);
-                const tbody = document.getElementById('results-body');
-                const row = document.createElement('tr');
-                row.innerHTML = `<td colspan="3">❌ Nie udało się wczytać danych</td>`;
-                tbody.appendChild(row);
-            });
+            .catch(err => console.error('Błąd wczytywania high finishes:', err));
+
+        // --- SZYBKIE LOTKI ---
+        fetch('fast_legs.json')
+            .then(resp => resp.json())
+            .then(data => {
+                const fastTotal = {};
+                const fastNumbers = {};
+
+                data.forEach(match => {
+                    const fastLegs = match.fast_legs || {};
+                    for (const [player, legs] of Object.entries(fastLegs)) {
+                        if (!legs || legs.length === 0) continue;
+                        if (!fastTotal[player]) {
+                            fastTotal[player] = 0;
+                            fastNumbers[player] = [];
+                        }
+                        fastTotal[player] += legs.length;
+                        fastNumbers[player] = fastNumbers[player].concat(legs);
+                    }
+                });
+
+                const sortedPlayers = Object.keys(fastTotal)
+                    .sort((a,b) => fastTotal[b] - fastTotal[a]);
+
+                const tbody = document.getElementById('fast-legs-body');
+                sortedPlayers.forEach(player => {
+                    const legs = fastNumbers[player].sort((a,b)=>a-b);
+                    const row = document.createElement('tr');
+                    row.innerHTML = `
+                        <td>${player}</td>
+                        <td>${fastTotal[player]}</td>
+                        <td>${legs.join(', ')}</td>
+                    `;
+                    tbody.appendChild(row);
+                });
+            })
+            .catch(err => console.error('Błąd wczytywania fast legs:', err));
     </script>
 </body>
 </html>
