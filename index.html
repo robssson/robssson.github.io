@@ -15,9 +15,10 @@
 </head>
 <body>
     <div class="container">
-        <h4>Ostatnia aktualizacja: 15/10/2025</h4>
+        <h5>Ostatnia aktualizacja: 15/10/2025</h5>
         <h1>🎯 Tomi Dart Club Liga Jesień 2025 🎯</h1>
         <h2>Zestawienie wysokich zakończeń</h2>
+        <p id="high-finishes-sum" class="summary"></p>
         <div class="table-container">
             <table class="table table-striped table-bordered table-hover">
                 <thead class="table-dark">
@@ -32,6 +33,7 @@
         </div>
 
         <h2>Podsumowanie szybkich lotek</h2>
+        <p id="fast-legs-sum" class="summary"></p>
         <div class="table-container">
             <table class="table table-striped table-bordered table-hover">
                 <thead class="table-dark">
@@ -46,24 +48,29 @@
         </div>
     </div>
 
-    <!-- Bootstrap JS -->
+     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
     <script>
         // --- WYSOKIE ZAKOŃCZENIA ---
-        fetch('tournament_high_finishes.json')
+        fetch('data.json')
             .then(resp => resp.json())
             .then(data => {
                 const playerFinishes = {};
+                let totalHighFinishes = 0;
+
                 data.forEach(match => {
                     const highFinishes = match.high_finishes || {};
                     for (const [player, finishes] of Object.entries(highFinishes)) {
                         if (finishes && finishes.length > 0) {
                             if (!playerFinishes[player]) playerFinishes[player] = [];
                             playerFinishes[player] = playerFinishes[player].concat(finishes);
+                            totalHighFinishes += finishes.length;
                         }
                     }
                 });
+
+                document.getElementById('high-finishes-sum').textContent = `Suma wszystkich wysokich zakończeń: ${totalHighFinishes}`;
 
                 const sortedPlayers = Object.entries(playerFinishes)
                     .sort((a,b) => b[1].length - a[1].length || a[0].localeCompare(b[0]));
@@ -83,11 +90,12 @@
             .catch(err => console.error('Błąd wczytywania high finishes:', err));
 
         // --- SZYBKIE LOTKI ---
-        fetch('tournament_fast_legs.json')
+        fetch('fast_legs.json')
             .then(resp => resp.json())
             .then(data => {
                 const fastTotal = {};
                 const fastNumbers = {};
+                let totalFastLegs = 0;
 
                 data.forEach(match => {
                     const fastLegs = match.fast_legs || {};
@@ -99,8 +107,11 @@
                         }
                         fastTotal[player] += legs.length;
                         fastNumbers[player] = fastNumbers[player].concat(legs);
+                        totalFastLegs += legs.length;
                     }
                 });
+
+                document.getElementById('fast-legs-sum').textContent = `Suma wszystkich szybkich lotek: ${totalFastLegs}`;
 
                 const sortedPlayers = Object.keys(fastTotal)
                     .sort((a,b) => fastTotal[b] - fastTotal[a]);
