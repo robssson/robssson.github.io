@@ -136,18 +136,24 @@ function makeSortable(tableId, rowsData, buildRow) {
     headers.forEach(th => {
         let asc = false;
         th.addEventListener('click', () => {
-            headers.forEach(h => h.classList.remove('sorted-asc','sorted-desc'));
+            headers.forEach(h => h.classList.remove('sorted-asc', 'sorted-desc'));
             const key = th.dataset.key;
-            rowsData.sort((a,b)=>{
-                let va=a[key], vb=b[key];
-                if(typeof va==='string') va=va.toLowerCase();
-                if(typeof vb==='string') vb=vb.toLowerCase();
-                if(va<vb) return asc?-1:1;
-                if(va>vb) return asc?1:-1;
+            rowsData.sort((a, b) => {
+                let va = a[key];
+                let vb = b[key];
+                const na = parseFloat(va);
+                const nb = parseFloat(vb);
+                if (!isNaN(na) && !isNaN(nb)) {
+                    return asc ? na - nb : nb - na;
+                }
+                va = va ? va.toString().toLowerCase() : '';
+                vb = vb ? vb.toString().toLowerCase() : '';
+                if (va < vb) return asc ? -1 : 1;
+                if (va > vb) return asc ? 1 : -1;
                 return 0;
             });
-            th.classList.add(asc?'sorted-asc':'sorted-desc');
-            asc=!asc;
+            th.classList.add(asc ? 'sorted-asc' : 'sorted-desc');
+            asc = !asc;
             buildRow();
         });
     });
@@ -155,8 +161,8 @@ function makeSortable(tableId, rowsData, buildRow) {
 
 function colorizeTop3(tbody, rows, buildFn) {
     tbody.innerHTML = '';
-    rows.forEach((r,i)=>{
-        const tr=document.createElement('tr');
+    rows.forEach((r, i) => {
+        const tr = document.createElement('tr');
         if(i===0) tr.classList.add('first-place');
         else if(i===1) tr.classList.add('second-place');
         else if(i===2) tr.classList.add('third-place');
