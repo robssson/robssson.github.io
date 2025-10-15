@@ -110,10 +110,27 @@
             <tbody id="fast-legs-body"></tbody>
         </table>
     </div>
+
+    <!-- RZUTY 170–179 -->
+    <h2>🔥 Podsumowanie rzutów 170–179</h2>
+    <p id="high-scores-matches" class="summary"></p>
+    <p id="high-scores-sum" class="summary"></p>
+    <div class="table-container">
+        <table class="table table-bordered table-hover" id="high-scores-table">
+            <thead class="table-dark">
+                <tr>
+                    <th data-key="player" class="sortable">Zawodnik</th>
+                    <th data-key="count" class="sortable">Liczba rzutów 170–179</th>
+                    <th data-key="values">Wyniki</th>
+                </tr>
+            </thead>
+            <tbody id="high-scores-body"></tbody>
+        </table>
+    </div>
 </div>
 
 <script>
-// --- SORTOWANIE ---
+// --- SORTOWANIE I KOLOROWANIE ---
 function makeSortable(tableId, rowsData, buildRow) {
     const headers = document.querySelectorAll(`#${tableId} th.sortable`);
     headers.forEach(th => {
@@ -151,9 +168,10 @@ function colorizeTop3(tbody, rows, buildFn) {
 Promise.all([
     fetch('tournament_max.json').then(r=>r.json()),
     fetch('tournament_high_finishes.json').then(r=>r.json()),
-    fetch('tournament_fast_legs.json').then(r=>r.json())
-]).then(([maxData, highData, fastData])=>{
-    const maxStats={}, highStats={}, fastStats={};
+    fetch('tournament_fast_legs.json').then(r=>r.json()),
+    fetch('tournament_high_scores.json').then(r=>r.json())
+]).then(([maxData, highData, fastData, highScoresData])=>{
+    const maxStats={}, highStats={}, fastStats={}, highScoresStats={};
     const allMatches=new Map();
     const allMatchIDs=new Set();
 
@@ -174,10 +192,7 @@ Promise.all([
     });
     document.getElementById('max-matches').textContent=`Liczba rozegranych meczów: ${maxMatches.size}`;
     document.getElementById('max-sum').textContent=`Suma wszystkich 180: ${totalMax}`;
-    const maxRows=Object.entries(maxStats)
-        .filter(([_,vals])=>vals.length>0)
-        .map(([p,vals])=>({player:p,count:vals.length}))
-        .sort((a,b)=>b.count-a.count);
+    const maxRows=Object.entries(maxStats).filter(([_,vals])=>vals.length>0).map(([p,vals])=>({player:p,count:vals.length})).sort((a,b)=>b.count-a.count);
     const maxBody=document.getElementById('max-body');
     const buildMaxRow=r=>`<td>${r.player}</td><td>${r.count}</td>`;
     colorizeTop3(maxBody,maxRows,buildMaxRow);
@@ -200,10 +215,7 @@ Promise.all([
     });
     document.getElementById('high-finishes-matches').textContent=`Liczba rozegranych meczów: ${highMatches.size}`;
     document.getElementById('high-finishes-sum').textContent=`Suma wszystkich wysokich zakończeń: ${totalHigh}`;
-    const highRows=Object.entries(highStats)
-        .filter(([_,vals])=>vals.length>0)
-        .map(([p,vals])=>({player:p,count:vals.length,values:vals.sort((a,b)=>a-b).join(', ')}))
-        .sort((a,b)=>b.count-a.count);
+    const highRows=Object.entries(highStats).filter(([_,vals])=>vals.length>0).map(([p,vals])=>({player:p,count:vals.length,values:vals.sort((a,b)=>a-b).join(', ')})).sort((a,b)=>b.count-a.count);
     const highBody=document.getElementById('high-finishes-body');
     const buildHighRow=r=>`<td>${r.player}</td><td>${r.count}</td><td>${r.values}</td>`;
     colorizeTop3(highBody,highRows,buildHighRow);
@@ -226,14 +238,35 @@ Promise.all([
     });
     document.getElementById('fast-legs-matches').textContent=`Liczba rozegranych meczów: ${fastMatches.size}`;
     document.getElementById('fast-legs-sum').textContent=`Suma wszystkich szybkich lotek: ${totalFast}`;
-    const fastRows=Object.entries(fastStats)
-        .filter(([_,vals])=>vals.length>0)
-        .map(([p,vals])=>({player:p,count:vals.length,values:vals.sort((a,b)=>a-b).join(', ')}))
-        .sort((a,b)=>b.count-a.count);
+    const fastRows=Object.entries(fastStats).filter(([_,vals])=>vals.length>0).map(([p,vals])=>({player:p,count:vals.length,values:vals.sort((a,b)=>a-b).join(', ')})).sort((a,b)=>b.count-a.count);
     const fastBody=document.getElementById('fast-legs-body');
     const buildFastRow=r=>`<td>${r.player}</td><td>${r.count}</td><td>${r.values}</td>`;
     colorizeTop3(fastBody,fastRows,buildFastRow);
     makeSortable('fast-legs-table',fastRows,()=>colorizeTop3(fastBody,fastRows,buildFastRow));
+
+    // --- HIGH SCORES 170–179 ---
+    let totalHighScores=0;
+    const highScoreMatches=new Set();
+    highScoresData.forEach(m=>{
+        allMatchIDs.add(m.tmid);
+        const scores=m.scores||{};
+        for(const [p,list] of Object.entries(scores)){
+            if(!highScoresStats[p]) highScoresStats[p]=[];
+            const filtered=list.filter(v=>v>=170 && v<180);
+            highScoresStats[p].push(...filtered);
+            totalHighScores+=filtered.length;
+            if(!allMatches.has(p)) allMatches.set(p,new Set());
+            allMatches.get(p).add(m.tmid);
+        }
+        highScoreMatches.add(m.tmid);
+    });
+    document.getElementById('high-scores-matches').textContent=`Liczba rozegranych meczów: ${highScoreMatches.size}`;
+    document.getElementById('high-scores-sum').textContent=`Suma wszystkich rzutów 170–179: ${totalHighScores}`;
+    const highScoreRows=Object.entries(highScoresStats).filter(([_,vals])=>vals.length>0).map(([p,vals])=>({player:p,count:vals.length,values:vals.sort((a,b)=>a-b).join(', ')})).sort((a,b)=>b.count-a.count);
+    const highScoreBody=document.getElementById('high-scores-body');
+    const buildHighScoreRow=r=>`<td>${r.player}</td><td>${r.count}</td><td>${r.values}</td>`;
+    colorizeTop3(highScoreBody,highScoreRows,buildHighScoreRow);
+    makeSortable('high-scores-table',highScoreRows,()=>colorizeTop3(highScoreBody,highScoreRows,buildHighScoreRow));
 
     // --- WYBRYKI ---
     const allPlayers=new Set([...Object.keys(maxStats),...Object.keys(highStats),...Object.keys(fastStats)]);
