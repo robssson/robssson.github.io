@@ -13,18 +13,18 @@
     .table-container { overflow-x: auto; margin-bottom: 50px; }
     .summary { text-align: center; font-weight: bold; margin-bottom: 10px; color: #34495e; }
 
-    /* Kolory top3 */
-    .first-place { background-color: #ffd700 !important; color: #000 !important; }
-    .second-place { background-color: #c0c0c0 !important; color: #000 !important; }
-    .third-place { background-color: #cd7f32 !important; color: #fff !important; }
+    /* Kolory top3 - ustawiamy tło na TD, bo Bootstrap może nadpisywać TR */
+    tr.first-place > td { background-color: #ffd700 !important; color: #000 !important; }
+    tr.second-place > td { background-color: #c0c0c0 !important; color: #000 !important; }
+    tr.third-place > td { background-color: #cd7f32 !important; color: #fff !important; }
 
-    /* Efekt hover dla top3 */
-    tr.first-place:hover { background-color: #ffea70 !important; }
-    tr.second-place:hover { background-color: #e0e0e0 !important; }
-    tr.third-place:hover { background-color: #d89454 !important; }
+    /* Efekt hover dla top3 (również na TD) */
+    tr.first-place:hover > td { background-color: #ffea70 !important; color: #000 !important; }
+    tr.second-place:hover > td { background-color: #e0e0e0 !important; color: #000 !important; }
+    tr.third-place:hover > td { background-color: #d89454 !important; color: #fff !important; }
 
-    /* Efekt hover dla pozostałych */
-    table.table-hover tbody tr:hover:not(.first-place):not(.second-place):not(.third-place) {
+    /* Efekt hover dla pozostałych (nie top3) */
+    table.table-hover tbody tr:hover:not(.first-place):not(.second-place):not(.third-place) td {
         background-color: #f0f0f0 !important;
     }
 
@@ -112,7 +112,10 @@ function makeSortable(tableId, rowsData, buildRow) {
 }
 
 // --- WYSOKIE ZAKOŃCZENIA ---
-fetch('tournament_high_finishes.json').then(r => r.json()).then(data => {
+fetch('tournament_high_finishes.json').then(r => {
+    if (!r.ok) throw new Error('Nie udało się wczytać tournament_high_finishes.json');
+    return r.json();
+}).then(data => {
     const playerFinishes = {};
     let totalHighFinishes = 0;
     const uniqueMatches = new Set(data.map(m => m.tmid));
@@ -149,10 +152,16 @@ fetch('tournament_high_finishes.json').then(r => r.json()).then(data => {
     }
     buildHighRows();
     makeSortable('high-finishes-table', rowsData, buildHighRows);
+}).catch(err => {
+    console.error(err);
+    document.getElementById('high-finishes-matches').textContent = '❌ Błąd wczytywania danych wysokich zakończeń';
 });
 
 // --- SZYBKIE LOTKI ---
-fetch('tournament_fast_legs.json').then(r => r.json()).then(data => {
+fetch('tournament_fast_legs.json').then(r => {
+    if (!r.ok) throw new Error('Nie udało się wczytać tournament_fast_legs.json');
+    return r.json();
+}).then(data => {
     const fastTotal = {};
     const fastNumbers = {};
     let totalFastLegs = 0;
@@ -191,6 +200,9 @@ fetch('tournament_fast_legs.json').then(r => r.json()).then(data => {
     }
     buildFastRows();
     makeSortable('fast-legs-table', rowsData, buildFastRows);
+}).catch(err => {
+    console.error(err);
+    document.getElementById('fast-legs-matches').textContent = '❌ Błąd wczytywania danych szybkich lotek';
 });
 </script>
 </body>
