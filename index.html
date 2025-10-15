@@ -43,6 +43,7 @@
 
     <!-- WYBRYKI -->
     <h2>💪 Podsumowanie wybryków</h2>
+    <p id="all-matches-summary" class="summary"></p>
     <p id="all-tricks-summary" class="summary"></p>
     <div class="table-container">
         <table class="table table-bordered table-hover" id="tricks-table">
@@ -135,7 +136,6 @@ function makeSortable(tableId, rowsData, buildRow) {
     });
 }
 
-// --- FUNKCJA DO KOLOROWANIA TOP3 ---
 function colorizeTop3(tbody, rows, buildFn) {
     tbody.innerHTML = '';
     rows.forEach((r,i)=>{
@@ -148,19 +148,20 @@ function colorizeTop3(tbody, rows, buildFn) {
     });
 }
 
-// --- ŁADOWANIE TRZECH JSONÓW ---
 Promise.all([
     fetch('tournament_max.json').then(r=>r.json()),
     fetch('tournament_high_finishes.json').then(r=>r.json()),
     fetch('tournament_fast_legs.json').then(r=>r.json())
 ]).then(([maxData, highData, fastData])=>{
     const maxStats={}, highStats={}, fastStats={};
-    const allMatches=new Map(); // gracz -> Set meczów
+    const allMatches=new Map();
+    const allMatchIDs=new Set();
 
     // --- MAXY ---
     let totalMax=0;
     const maxMatches=new Set();
     maxData.forEach(m=>{
+        allMatchIDs.add(m.tmid);
         const maxes=m.maxes||{};
         for(const [p,list] of Object.entries(maxes)){
             if(!maxStats[p]) maxStats[p]=[];
@@ -173,7 +174,10 @@ Promise.all([
     });
     document.getElementById('max-matches').textContent=`Liczba rozegranych meczów: ${maxMatches.size}`;
     document.getElementById('max-sum').textContent=`Suma wszystkich 180: ${totalMax}`;
-    const maxRows=Object.entries(maxStats).map(([p,vals])=>({player:p,count:vals.length})).sort((a,b)=>b.count-a.count);
+    const maxRows=Object.entries(maxStats)
+        .filter(([_,vals])=>vals.length>0)
+        .map(([p,vals])=>({player:p,count:vals.length}))
+        .sort((a,b)=>b.count-a.count);
     const maxBody=document.getElementById('max-body');
     const buildMaxRow=r=>`<td>${r.player}</td><td>${r.count}</td>`;
     colorizeTop3(maxBody,maxRows,buildMaxRow);
@@ -183,6 +187,7 @@ Promise.all([
     let totalHigh=0;
     const highMatches=new Set();
     highData.forEach(m=>{
+        allMatchIDs.add(m.tmid);
         const hf=m.high_finishes||{};
         for(const [p,list] of Object.entries(hf)){
             if(!highStats[p]) highStats[p]=[];
@@ -195,7 +200,10 @@ Promise.all([
     });
     document.getElementById('high-finishes-matches').textContent=`Liczba rozegranych meczów: ${highMatches.size}`;
     document.getElementById('high-finishes-sum').textContent=`Suma wszystkich wysokich zakończeń: ${totalHigh}`;
-    const highRows=Object.entries(highStats).map(([p,vals])=>({player:p,count:vals.length,values:vals.sort((a,b)=>a-b).join(', ')})).sort((a,b)=>b.count-a.count);
+    const highRows=Object.entries(highStats)
+        .filter(([_,vals])=>vals.length>0)
+        .map(([p,vals])=>({player:p,count:vals.length,values:vals.sort((a,b)=>a-b).join(', ')}))
+        .sort((a,b)=>b.count-a.count);
     const highBody=document.getElementById('high-finishes-body');
     const buildHighRow=r=>`<td>${r.player}</td><td>${r.count}</td><td>${r.values}</td>`;
     colorizeTop3(highBody,highRows,buildHighRow);
@@ -205,6 +213,7 @@ Promise.all([
     let totalFast=0;
     const fastMatches=new Set();
     fastData.forEach(m=>{
+        allMatchIDs.add(m.tmid);
         const fl=m.fast_legs||{};
         for(const [p,list] of Object.entries(fl)){
             if(!fastStats[p]) fastStats[p]=[];
@@ -217,7 +226,10 @@ Promise.all([
     });
     document.getElementById('fast-legs-matches').textContent=`Liczba rozegranych meczów: ${fastMatches.size}`;
     document.getElementById('fast-legs-sum').textContent=`Suma wszystkich szybkich lotek: ${totalFast}`;
-    const fastRows=Object.entries(fastStats).map(([p,vals])=>({player:p,count:vals.length,values:vals.sort((a,b)=>a-b).join(', ')})).sort((a,b)=>b.count-a.count);
+    const fastRows=Object.entries(fastStats)
+        .filter(([_,vals])=>vals.length>0)
+        .map(([p,vals])=>({player:p,count:vals.length,values:vals.sort((a,b)=>a-b).join(', ')}))
+        .sort((a,b)=>b.count-a.count);
     const fastBody=document.getElementById('fast-legs-body');
     const buildFastRow=r=>`<td>${r.player}</td><td>${r.count}</td><td>${r.values}</td>`;
     colorizeTop3(fastBody,fastRows,buildFastRow);
@@ -239,7 +251,9 @@ Promise.all([
     const buildRow=r=>`<td>${r.player}</td><td>${r.matches}</td><td>${r.total}</td><td>${r.max}</td><td>${r.high}</td><td>${r.fast}</td>`;
     colorizeTop3(tbody,rows,buildRow);
     makeSortable('tricks-table',rows,()=>colorizeTop3(tbody,rows,buildRow));
+
     document.getElementById('all-tricks-summary').textContent=`Suma wszystkich wybryków: ${rows.reduce((a,b)=>a+b.total,0)}`;
+    document.getElementById('all-matches-summary').textContent=`Liczba rozegranych meczów (łącznie): ${allMatchIDs.size}`;
 }).catch(err=>{
     console.error('Błąd wczytywania danych:',err);
 });
