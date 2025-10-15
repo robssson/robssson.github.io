@@ -56,7 +56,7 @@
 
     <script>
         // --- WYSOKIE ZAKOŃCZENIA ---
-        fetch('data.json')
+        fetch('tournament_high_finishes.json')
             .then(resp => resp.json())
             .then(data => {
                 const playerFinishes = {};
@@ -93,7 +93,7 @@
             .catch(err => console.error('Błąd wczytywania high finishes:', err));
 
         // --- SZYBKIE LOTKI ---
-        fetch('fast_legs.json')
+        fetch('tournament_fast_legs.json')
             .then(resp => resp.json())
             .then(data => {
                 const fastTotal = {};
