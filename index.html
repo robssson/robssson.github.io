@@ -53,9 +53,9 @@
                     <th data-key="matches" class="sortable">Rozegrane mecze</th>
                     <th data-key="total" class="sortable">Suma wybryków</th>
                     <th data-key="max" class="sortable">Maksów (180)</th>
-                    <th data-key="highScores" class="sortable">Rzuty 170–179</th>
                     <th data-key="high" class="sortable">Wysokie zakończenia</th>
                     <th data-key="fast" class="sortable">Szybkie lotki</th>
+                    <th data-key="highScores" class="sortable">Rzuty 170–179</th>
                 </tr>
             </thead>
             <tbody id="tricks-body"></tbody>
@@ -88,7 +88,7 @@
                 <tr>
                     <th data-key="player" class="sortable">Zawodnik</th>
                     <th data-key="count" class="sortable">Liczba wysokich zakończeń</th>
-                    <th data-key="values" class="sortable">Wartości (>=100)</th>
+                    <th data-key="values">Wartości (>=100)</th>
                 </tr>
             </thead>
             <tbody id="high-finishes-body"></tbody>
@@ -105,7 +105,7 @@
                 <tr>
                     <th data-key="player" class="sortable">Zawodnik</th>
                     <th data-key="count" class="sortable">Liczba szybkich lotek</th>
-                    <th data-key="values" class="sortable">Legi (<=18)</th>
+                    <th data-key="values">Legi (<=18)</th>
                 </tr>
             </thead>
             <tbody id="fast-legs-body"></tbody>
@@ -121,8 +121,8 @@
             <thead class="table-dark">
                 <tr>
                     <th data-key="player" class="sortable">Zawodnik</th>
-                    <th data-key="count" class="sortable">Liczba rzutów 170+</th>
-                    <th data-key="values" class="sortable">Wyniki</th>
+                    <th data-key="count" class="sortable">Liczba rzutów 170–179</th>
+                    <th data-key="values">Wyniki</th>
                 </tr>
             </thead>
             <tbody id="high-scores-body"></tbody>
@@ -133,44 +133,30 @@
 <script>
 function makeSortable(tableId, rowsData, buildRow) {
     const headers = document.querySelectorAll(`#${tableId} th.sortable`);
-    const sortStates = {};
-
     headers.forEach(th => {
+        let asc = false;
         th.addEventListener('click', () => {
+            headers.forEach(h => h.classList.remove('sorted-asc','sorted-desc'));
             const key = th.dataset.key;
-            sortStates[key] = !sortStates[key];
-            const asc = sortStates[key];
-
-            headers.forEach(h => h.classList.remove('sorted-asc', 'sorted-desc'));
-            th.classList.add(asc ? 'sorted-asc' : 'sorted-desc');
-
-            rowsData.sort((a, b) => {
-                let va = a[key] ?? 0;
-                let vb = b[key] ?? 0;
-
-                // Wszystkie kolumny liczbowo traktujemy jako number
-                const na = Number(va);
-                const nb = Number(vb);
-                if (!isNaN(na) && !isNaN(nb)) return asc ? na - nb : nb - na;
-
-                // Jeśli to string
-                va = va.toString().toLowerCase();
-                vb = vb.toString().toLowerCase();
-                if (va < vb) return asc ? -1 : 1;
-                if (va > vb) return asc ? 1 : -1;
+            rowsData.sort((a,b)=>{
+                let va=a[key], vb=b[key];
+                if(typeof va==='string') va=va.toLowerCase();
+                if(typeof vb==='string') vb=vb.toLowerCase();
+                if(va<vb) return asc?-1:1;
+                if(va>vb) return asc?1:-1;
                 return 0;
             });
-
+            th.classList.add(asc?'sorted-asc':'sorted-desc');
+            asc=!asc;
             buildRow();
         });
     });
 }
 
-
 function colorizeTop3(tbody, rows, buildFn) {
     tbody.innerHTML = '';
-    rows.forEach((r, i) => {
-        const tr = document.createElement('tr');
+    rows.forEach((r,i)=>{
+        const tr=document.createElement('tr');
         if(i===0) tr.classList.add('first-place');
         else if(i===1) tr.classList.add('second-place');
         else if(i===2) tr.classList.add('third-place');
@@ -254,7 +240,7 @@ Promise.all([
         highScoreMatches.add(m.tmid);
     });
 
-    // --- TABELA ZBIORCZA ---
+    // --- WYPISANIE TABELI ZBIORCZEJ WYBRYKÓW + 170–179 ---
     const allPlayers=new Set([...Object.keys(maxStats), ...Object.keys(highStats), ...Object.keys(fastStats), ...Object.keys(highScoresStats)]);
     const rows=[];
     allPlayers.forEach(p=>{
@@ -275,7 +261,7 @@ Promise.all([
     document.getElementById('all-tricks-summary').textContent=`Suma wszystkich wybryków: ${rows.reduce((a,b)=>a+b.total,0)}`;
     document.getElementById('all-matches-summary').textContent=`Liczba rozegranych meczów (łącznie): ${allMatchIDs.size}`;
 
-    // --- POZOSTAŁE TABELKI ---
+    // --- WYPEŁNIANIE POZOSTAŁYCH TABEL ---
     const maxRows=Object.entries(maxStats).filter(([_,vals])=>vals.length>0).map(([p,vals])=>({player:p,count:vals.length})).sort((a,b)=>b.count-a.count);
     const maxBody=document.getElementById('max-body');
     const buildMaxRow=r=>`<td>${r.player}</td><td>${r.count}</td>`;
