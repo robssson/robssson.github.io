@@ -13,9 +13,20 @@
     .table-container { overflow-x: auto; margin-bottom: 50px; }
     .summary { text-align: center; font-weight: bold; margin-bottom: 10px; color: #34495e; }
 
+    /* Kolory top3 */
     .first-place { background-color: #ffd700 !important; color: #000 !important; }
     .second-place { background-color: #c0c0c0 !important; color: #000 !important; }
     .third-place { background-color: #cd7f32 !important; color: #fff !important; }
+
+    /* Efekt hover dla top3 */
+    tr.first-place:hover { background-color: #ffea70 !important; }
+    tr.second-place:hover { background-color: #e0e0e0 !important; }
+    tr.third-place:hover { background-color: #d89454 !important; }
+
+    /* Efekt hover dla pozostałych */
+    table.table-hover tbody tr:hover:not(.first-place):not(.second-place):not(.third-place) {
+        background-color: #f0f0f0 !important;
+    }
 </style>
 </head>
 <body>
@@ -61,11 +72,11 @@
 function makeSortable(tableId, rowsData, buildRow) {
     const table = document.getElementById(tableId);
     const headers = table.querySelectorAll('th');
-    headers.forEach((th, index) => {
+    headers.forEach((th) => {
         let asc = true;
         th.addEventListener('click', () => {
+            const key = th.dataset.key;
             rowsData.sort((a,b) => {
-                const key = th.dataset.key;
                 let valA = a[key], valB = b[key];
                 if(key === 'count') { valA = parseInt(valA); valB = parseInt(valB); }
                 if(valA < valB) return asc ? -1 : 1;
