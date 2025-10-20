@@ -1,5 +1,499 @@
 [
   {
+    "tmid": "t_o05r_3954_lg_0_w8sx_feRc_lSd0",
+    "title": "Tomi Dart Club Liga Jesień 2025",
+    "player1": "Mateusz Pięta",
+    "player2": "Franciszek Kukiełka",
+    "score": "7:1",
+    "high_finishes_count": {
+      "Mateusz Pięta": 0,
+      "Franciszek Kukiełka": 0
+    },
+    "high_finishes": {
+      "Mateusz Pięta": [],
+      "Franciszek Kukiełka": []
+    }
+  },
+  {
+    "tmid": "t_o05r_3954_lg_0_8pnu_5mAI_xF2S",
+    "title": "Tomi Dart Club Liga Jesień 2025",
+    "player1": "Hubert Sułek",
+    "player2": "Grzegorz Kulig",
+    "score": "7:0",
+    "high_finishes_count": {
+      "Hubert Sułek": 1,
+      "Grzegorz Kulig": 0
+    },
+    "high_finishes": {
+      "Hubert Sułek": [
+        100
+      ],
+      "Grzegorz Kulig": []
+    }
+  },
+  {
+    "tmid": "t_o05r_3954_lg_0_seci_5mAI_lSd0",
+    "title": "Tomi Dart Club Liga Jesień 2025",
+    "player1": "Hubert Sułek",
+    "player2": "Mateusz Pięta",
+    "score": "7:0",
+    "high_finishes_count": {
+      "Hubert Sułek": 0,
+      "Mateusz Pięta": 0
+    },
+    "high_finishes": {
+      "Hubert Sułek": [],
+      "Mateusz Pięta": []
+    }
+  },
+  {
+    "tmid": "t_o05r_3954_lg_0_icdi_YIvX_feRc",
+    "title": "Tomi Dart Club Liga Jesień 2025",
+    "player1": "Franciszek Kukiełka",
+    "player2": "Mariusz Kania Hefa",
+    "score": "7:3",
+    "high_finishes_count": {
+      "Franciszek Kukiełka": 0,
+      "Mariusz Kania Hefa": 0
+    },
+    "high_finishes": {
+      "Franciszek Kukiełka": [],
+      "Mariusz Kania Hefa": []
+    }
+  },
+  {
+    "tmid": "t_o05r_3954_lg_0_ic0s_C1OC_ncmI",
+    "title": "Tomi Dart Club Liga Jesień 2025",
+    "player1": "Jakub Lipka",
+    "player2": "Szymon Put",
+    "score": "3:7",
+    "high_finishes_count": {
+      "Jakub Lipka": 0,
+      "Szymon Put": 0
+    },
+    "high_finishes": {
+      "Jakub Lipka": [],
+      "Szymon Put": []
+    }
+  },
+  {
+    "tmid": "t_o05r_3954_lg_0_qyfj_5mAI_ng9Q",
+    "title": "Tomi Dart Club Liga Jesień 2025",
+    "player1": "Hubert Sułek",
+    "player2": "Tomasz Krzysztof (Miedziany)",
+    "score": "7:3",
+    "high_finishes_count": {
+      "Hubert Sułek": 0,
+      "Tomasz Krzysztof (Miedziany)": 0
+    },
+    "high_finishes": {
+      "Hubert Sułek": [],
+      "Tomasz Krzysztof (Miedziany)": []
+    }
+  },
+  {
+    "tmid": "t_o05r_3954_lg_0_1ohc_C1OC_lZCI",
+    "title": "Tomi Dart Club Liga Jesień 2025",
+    "player1": "Szymon Put",
+    "player2": "Jarosław Gryga",
+    "score": "1:7",
+    "high_finishes_count": {
+      "Szymon Put": 0,
+      "Jarosław Gryga": 1
+    },
+    "high_finishes": {
+      "Szymon Put": [],
+      "Jarosław Gryga": [
+        164
+      ]
+    }
+  },
+  {
+    "tmid": "t_o05r_3954_lg_0_02mf_M6B2_feRc",
+    "title": "Tomi Dart Club Liga Jesień 2025",
+    "player1": "Piotrek Gryga",
+    "player2": "Franciszek Kukiełka",
+    "score": "3:7",
+    "high_finishes_count": {
+      "Piotrek Gryga": 0,
+      "Franciszek Kukiełka": 0
+    },
+    "high_finishes": {
+      "Piotrek Gryga": [],
+      "Franciszek Kukiełka": []
+    }
+  },
+  {
+    "tmid": "t_o05r_3954_lg_0_bbow_2TZl_xF2S",
+    "title": "Tomi Dart Club Liga Jesień 2025",
+    "player1": "Grzegorz Kulig",
+    "player2": "Tomasz Radecki",
+    "score": "4:7",
+    "high_finishes_count": {
+      "Grzegorz Kulig": 1,
+      "Tomasz Radecki": 0
+    },
+    "high_finishes": {
+      "Grzegorz Kulig": [
+        113
+      ],
+      "Tomasz Radecki": []
+    }
+  },
+  {
+    "tmid": "t_o05r_3954_lg_0_fstf_Ocds_YIvX",
+    "title": "Tomi Dart Club Liga Jesień 2025",
+    "player1": "Michał Kural",
+    "player2": "Mariusz Kania Hefa",
+    "score": "7:3",
+    "high_finishes_count": {
+      "Michał Kural": 0,
+      "Mariusz Kania Hefa": 0
+    },
+    "high_finishes": {
+      "Michał Kural": [],
+      "Mariusz Kania Hefa": []
+    }
+  },
+  {
+    "tmid": "t_o05r_3954_lg_0_dr6q_2TZl_M6B2",
+    "title": "Tomi Dart Club Liga Jesień 2025",
+    "player1": "Tomasz Radecki",
+    "player2": "Piotrek Gryga",
+    "score": "1:7",
+    "high_finishes_count": {
+      "Tomasz Radecki": 0,
+      "Piotrek Gryga": 0
+    },
+    "high_finishes": {
+      "Tomasz Radecki": [],
+      "Piotrek Gryga": []
+    }
+  },
+  {
+    "tmid": "t_o05r_3954_lg_0_4cej_5mAI_feRc",
+    "title": "Tomi Dart Club Liga Jesień 2025",
+    "player1": "Franciszek Kukiełka",
+    "player2": "Hubert Sułek",
+    "score": "3:7",
+    "high_finishes_count": {
+      "Franciszek Kukiełka": 0,
+      "Hubert Sułek": 1
+    },
+    "high_finishes": {
+      "Franciszek Kukiełka": [],
+      "Hubert Sułek": [
+        100
+      ]
+    }
+  },
+  {
+    "tmid": "t_o05r_3954_lg_0_km63_lSd0_lZCI",
+    "title": "Tomi Dart Club Liga Jesień 2025",
+    "player1": "Jarosław Gryga",
+    "player2": "Mateusz Pięta",
+    "score": "5:7",
+    "high_finishes_count": {
+      "Jarosław Gryga": 0,
+      "Mateusz Pięta": 1
+    },
+    "high_finishes": {
+      "Jarosław Gryga": [],
+      "Mateusz Pięta": [
+        100
+      ]
+    }
+  },
+  {
+    "tmid": "t_o05r_3954_lg_0_nsw5_ncmI_ng9Q",
+    "title": "Tomi Dart Club Liga Jesień 2025",
+    "player1": "Tomasz Krzysztof (Miedziany)",
+    "player2": "Jakub Lipka",
+    "score": "6:6",
+    "high_finishes_count": {
+      "Tomasz Krzysztof (Miedziany)": 0,
+      "Jakub Lipka": 1
+    },
+    "high_finishes": {
+      "Tomasz Krzysztof (Miedziany)": [],
+      "Jakub Lipka": [
+        100
+      ]
+    }
+  },
+  {
+    "tmid": "t_o05r_3954_lg_0_so7n_C1OC_xF2S",
+    "title": "Tomi Dart Club Liga Jesień 2025",
+    "player1": "Grzegorz Kulig",
+    "player2": "Szymon Put",
+    "score": "6:6",
+    "high_finishes_count": {
+      "Grzegorz Kulig": 0,
+      "Szymon Put": 0
+    },
+    "high_finishes": {
+      "Grzegorz Kulig": [],
+      "Szymon Put": []
+    }
+  },
+  {
+    "tmid": "t_o05r_3954_lg_0_shgo_5mAI_M6B2",
+    "title": "Tomi Dart Club Liga Jesień 2025",
+    "player1": "Hubert Sułek",
+    "player2": "Piotrek Gryga",
+    "score": "6:6",
+    "high_finishes_count": {
+      "Hubert Sułek": 0,
+      "Piotrek Gryga": 0
+    },
+    "high_finishes": {
+      "Hubert Sułek": [],
+      "Piotrek Gryga": []
+    }
+  },
+  {
+    "tmid": "t_o05r_3954_lg_0_jps7_feRc_ncmI",
+    "title": "Tomi Dart Club Liga Jesień 2025",
+    "player1": "Jakub Lipka",
+    "player2": "Franciszek Kukiełka",
+    "score": "1:7",
+    "high_finishes_count": {
+      "Jakub Lipka": 0,
+      "Franciszek Kukiełka": 0
+    },
+    "high_finishes": {
+      "Jakub Lipka": [],
+      "Franciszek Kukiełka": []
+    }
+  },
+  {
+    "tmid": "t_o05r_3954_lg_0_zuzt_2TZl_Ocds",
+    "title": "Tomi Dart Club Liga Jesień 2025",
+    "player1": "Michał Kural",
+    "player2": "Tomasz Radecki",
+    "score": "5:7",
+    "high_finishes_count": {
+      "Michał Kural": 0,
+      "Tomasz Radecki": 0
+    },
+    "high_finishes": {
+      "Michał Kural": [],
+      "Tomasz Radecki": []
+    }
+  },
+  {
+    "tmid": "t_o05r_3954_lg_0_qqgz_ng9Q_xF2S",
+    "title": "Tomi Dart Club Liga Jesień 2025",
+    "player1": "Tomasz Krzysztof (Miedziany)",
+    "player2": "Grzegorz Kulig",
+    "score": "7:1",
+    "high_finishes_count": {
+      "Tomasz Krzysztof (Miedziany)": 0,
+      "Grzegorz Kulig": 0
+    },
+    "high_finishes": {
+      "Tomasz Krzysztof (Miedziany)": [],
+      "Grzegorz Kulig": []
+    }
+  },
+  {
+    "tmid": "t_o05r_3954_lg_0_a54g_YIvX_lZCI",
+    "title": "Tomi Dart Club Liga Jesień 2025",
+    "player1": "Mariusz Kania Hefa",
+    "player2": "Jarosław Gryga",
+    "score": "4:7",
+    "high_finishes_count": {
+      "Mariusz Kania Hefa": 0,
+      "Jarosław Gryga": 0
+    },
+    "high_finishes": {
+      "Mariusz Kania Hefa": [],
+      "Jarosław Gryga": []
+    }
+  },
+  {
+    "tmid": "t_o05r_3954_lg_0_jl2e_feRc_gwXx",
+    "title": "Tomi Dart Club Liga Jesień 2025",
+    "player1": "Mariusz Olchawa",
+    "player2": "Franciszek Kukiełka",
+    "score": "1:7",
+    "high_finishes_count": {
+      "Mariusz Olchawa": 0,
+      "Franciszek Kukiełka": 0
+    },
+    "high_finishes": {
+      "Mariusz Olchawa": [],
+      "Franciszek Kukiełka": []
+    }
+  },
+  {
+    "tmid": "t_o05r_3954_lg_0_x1p8_6nBc_C1OC",
+    "title": "Tomi Dart Club Liga Jesień 2025",
+    "player1": "Szymon Put",
+    "player2": "Michał Kowalinski",
+    "score": "7:4",
+    "high_finishes_count": {
+      "Szymon Put": 0,
+      "Michał Kowalinski": 0
+    },
+    "high_finishes": {
+      "Szymon Put": [],
+      "Michał Kowalinski": []
+    }
+  },
+  {
+    "tmid": "t_o05r_3954_lg_0_npi1_DbKn_M6B2",
+    "title": "Tomi Dart Club Liga Jesień 2025",
+    "player1": "Krystian Sułek",
+    "player2": "Piotrek Gryga",
+    "score": "6:6",
+    "high_finishes_count": {
+      "Krystian Sułek": 1,
+      "Piotrek Gryga": 0
+    },
+    "high_finishes": {
+      "Krystian Sułek": [
+        112
+      ],
+      "Piotrek Gryga": []
+    }
+  },
+  {
+    "tmid": "t_o05r_3954_lg_0_7lnt_Ocds_hZPG",
+    "title": "Tomi Dart Club Liga Jesień 2025",
+    "player1": "Krzysztof Tomasz (Tomi)",
+    "player2": "Michał Kural",
+    "score": "6:6",
+    "high_finishes_count": {
+      "Krzysztof Tomasz (Tomi)": 0,
+      "Michał Kural": 0
+    },
+    "high_finishes": {
+      "Krzysztof Tomasz (Tomi)": [],
+      "Michał Kural": []
+    }
+  },
+  {
+    "tmid": "t_o05r_3954_lg_0_tsjq_C1OC_DbKn",
+    "title": "Tomi Dart Club Liga Jesień 2025",
+    "player1": "Krystian Sułek",
+    "player2": "Szymon Put",
+    "score": "7:1",
+    "high_finishes_count": {
+      "Krystian Sułek": 0,
+      "Szymon Put": 0
+    },
+    "high_finishes": {
+      "Krystian Sułek": [],
+      "Szymon Put": []
+    }
+  },
+  {
+    "tmid": "t_o05r_3954_lg_0_ap6w_YIvX_ncmI",
+    "title": "Tomi Dart Club Liga Jesień 2025",
+    "player1": "Jakub Lipka",
+    "player2": "Mariusz Kania Hefa",
+    "score": "6:6",
+    "high_finishes_count": {
+      "Jakub Lipka": 0,
+      "Mariusz Kania Hefa": 0
+    },
+    "high_finishes": {
+      "Jakub Lipka": [],
+      "Mariusz Kania Hefa": []
+    }
+  },
+  {
+    "tmid": "t_o05r_3954_lg_0_kiz9_6nBc_gwXx",
+    "title": "Tomi Dart Club Liga Jesień 2025",
+    "player1": "Mariusz Olchawa",
+    "player2": "Michał Kowalinski",
+    "score": "7:5",
+    "high_finishes_count": {
+      "Mariusz Olchawa": 0,
+      "Michał Kowalinski": 0
+    },
+    "high_finishes": {
+      "Mariusz Olchawa": [],
+      "Michał Kowalinski": []
+    }
+  },
+  {
+    "tmid": "t_o05r_3954_lg_0_va5t_Ocds_feRc",
+    "title": "Tomi Dart Club Liga Jesień 2025",
+    "player1": "Franciszek Kukiełka",
+    "player2": "Michał Kural",
+    "score": "7:1",
+    "high_finishes_count": {
+      "Franciszek Kukiełka": 0,
+      "Michał Kural": 0
+    },
+    "high_finishes": {
+      "Franciszek Kukiełka": [],
+      "Michał Kural": []
+    }
+  },
+  {
+    "tmid": "t_o05r_3954_lg_0_cws7_DbKn_feRc",
+    "title": "Tomi Dart Club Liga Jesień 2025",
+    "player1": "Franciszek Kukiełka",
+    "player2": "Krystian Sułek",
+    "score": "5:7",
+    "high_finishes_count": {
+      "Franciszek Kukiełka": 0,
+      "Krystian Sułek": 0
+    },
+    "high_finishes": {
+      "Franciszek Kukiełka": [],
+      "Krystian Sułek": []
+    }
+  },
+  {
+    "tmid": "t_o05r_3954_lg_0_beba_6nBc_YIvX",
+    "title": "Tomi Dart Club Liga Jesień 2025",
+    "player1": "Michał Kowalinski",
+    "player2": "Mariusz Kania Hefa",
+    "score": "4:7",
+    "high_finishes_count": {
+      "Michał Kowalinski": 0,
+      "Mariusz Kania Hefa": 0
+    },
+    "high_finishes": {
+      "Michał Kowalinski": [],
+      "Mariusz Kania Hefa": []
+    }
+  },
+  {
+    "tmid": "t_o05r_3954_lg_0_8vsd_gwXx_hZPG",
+    "title": "Tomi Dart Club Liga Jesień 2025",
+    "player1": "Mariusz Olchawa",
+    "player2": "Krzysztof Tomasz (Tomi)",
+    "score": "4:7",
+    "high_finishes_count": {
+      "Mariusz Olchawa": 0,
+      "Krzysztof Tomasz (Tomi)": 0
+    },
+    "high_finishes": {
+      "Mariusz Olchawa": [],
+      "Krzysztof Tomasz (Tomi)": []
+    }
+  },
+  {
+    "tmid": "t_o05r_3954_lg_0_obra_TSAF_ncmI",
+    "title": "Tomi Dart Club Liga Jesień 2025",
+    "player1": "Waldemar Kopacz",
+    "player2": "Jakub Lipka",
+    "score": "7:2",
+    "high_finishes_count": {
+      "Waldemar Kopacz": 0,
+      "Jakub Lipka": 0
+    },
+    "high_finishes": {
+      "Waldemar Kopacz": [],
+      "Jakub Lipka": []
+    }
+  },
+  {
     "tmid": "t_o05r_3954_lg_0_wrjg_lSd0_xF2S",
     "title": "Tomi Dart Club Liga Jesień 2025",
     "player1": "Mateusz Pięta",
