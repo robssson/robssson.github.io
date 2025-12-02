@@ -1,5 +1,369 @@
 [
   {
+    "tmid": "t_o05r_3954_lg_0_14fn_feRc_xF2S",
+    "title": "Tomi Dart Club Liga Jesień 2025",
+    "player1": "Franciszek Kukiełka",
+    "player2": "Grzegorz Kulig",
+    "score": "7:3",
+    "scores_count": {
+      "Franciszek Kukiełka": 0,
+      "Grzegorz Kulig": 0
+    },
+    "scores": {
+      "Franciszek Kukiełka": [],
+      "Grzegorz Kulig": []
+    }
+  },
+  {
+    "tmid": "t_o05r_3954_lg_0_a0zp_lZCI_xF2S",
+    "title": "Tomi Dart Club Liga Jesień 2025",
+    "player1": "Jarosław Gryga",
+    "player2": "Grzegorz Kulig",
+    "score": "7:3",
+    "scores_count": {
+      "Jarosław Gryga": 0,
+      "Grzegorz Kulig": 0
+    },
+    "scores": {
+      "Jarosław Gryga": [],
+      "Grzegorz Kulig": []
+    }
+  },
+  {
+    "tmid": "t_o05r_3954_lg_0_71nv_feRc_hZPG",
+    "title": "Tomi Dart Club Liga Jesień 2025",
+    "player1": "Franciszek Kukiełka",
+    "player2": "Krzysztof Tomasz (Tomi)",
+    "score": "7:0",
+    "scores_count": {
+      "Franciszek Kukiełka": 0,
+      "Krzysztof Tomasz (Tomi)": 0
+    },
+    "scores": {
+      "Franciszek Kukiełka": [],
+      "Krzysztof Tomasz (Tomi)": []
+    }
+  },
+  {
+    "tmid": "t_o05r_3954_lg_0_8tfc_M6B2_xF2S",
+    "title": "Tomi Dart Club Liga Jesień 2025",
+    "player1": "Grzegorz Kulig",
+    "player2": "Piotrek Gryga",
+    "score": "2:7",
+    "scores_count": {
+      "Grzegorz Kulig": 0,
+      "Piotrek Gryga": 1
+    },
+    "scores": {
+      "Grzegorz Kulig": [],
+      "Piotrek Gryga": [
+        174
+      ]
+    }
+  },
+  {
+    "tmid": "t_o05r_3954_lg_0_sd5o_2Nul_TSAF",
+    "title": "Tomi Dart Club Liga Jesień 2025",
+    "player1": "Julian Samek",
+    "player2": "Waldemar Kopacz",
+    "score": "1:7",
+    "scores_count": {
+      "Julian Samek": 0,
+      "Waldemar Kopacz": 0
+    },
+    "scores": {
+      "Julian Samek": [],
+      "Waldemar Kopacz": []
+    }
+  },
+  {
+    "tmid": "t_o05r_3954_lg_0_hb3k_Ocds_gwXx",
+    "title": "Tomi Dart Club Liga Jesień 2025",
+    "player1": "Michał Kural",
+    "player2": "Mariusz Olchawa",
+    "score": "3:7",
+    "scores_count": {
+      "Michał Kural": 0,
+      "Mariusz Olchawa": 0
+    },
+    "scores": {
+      "Michał Kural": [],
+      "Mariusz Olchawa": []
+    }
+  },
+  {
+    "tmid": "t_o05r_3954_lg_0_twbw_DXNo_YIvX",
+    "title": "Tomi Dart Club Liga Jesień 2025",
+    "player1": "Wiktor Święch",
+    "player2": "Mariusz Kania Hefa",
+    "score": "4:7",
+    "scores_count": {
+      "Wiktor Święch": 0,
+      "Mariusz Kania Hefa": 0
+    },
+    "scores": {
+      "Wiktor Święch": [],
+      "Mariusz Kania Hefa": []
+    }
+  },
+  {
+    "tmid": "t_o05r_3954_lg_0_yvza_2Nul_feRc",
+    "title": "Tomi Dart Club Liga Jesień 2025",
+    "player1": "Franciszek Kukiełka",
+    "player2": "Julian Samek",
+    "score": "7:3",
+    "scores_count": {
+      "Franciszek Kukiełka": 0,
+      "Julian Samek": 0
+    },
+    "scores": {
+      "Franciszek Kukiełka": [],
+      "Julian Samek": []
+    }
+  },
+  {
+    "tmid": "t_o05r_3954_lg_0_fwgw_5mAI_lZCI",
+    "title": "Tomi Dart Club Liga Jesień 2025",
+    "player1": "Jarosław Gryga",
+    "player2": "Hubert Sułek",
+    "score": "6:6",
+    "scores_count": {
+      "Jarosław Gryga": 0,
+      "Hubert Sułek": 0
+    },
+    "scores": {
+      "Jarosław Gryga": [],
+      "Hubert Sułek": []
+    }
+  },
+  {
+    "tmid": "t_o05r_3954_lg_0_ovfg_2TZl_yCuD",
+    "title": "Tomi Dart Club Liga Jesień 2025",
+    "player1": "Rafał Zahora",
+    "player2": "Tomasz Radecki",
+    "score": "7:4",
+    "scores_count": {
+      "Rafał Zahora": 0,
+      "Tomasz Radecki": 0
+    },
+    "scores": {
+      "Rafał Zahora": [],
+      "Tomasz Radecki": []
+    }
+  },
+  {
+    "tmid": "t_o05r_3954_lg_0_mttm_DXNo_M6B2",
+    "title": "Tomi Dart Club Liga Jesień 2025",
+    "player1": "Wiktor Święch",
+    "player2": "Piotrek Gryga",
+    "score": "0:7",
+    "scores_count": {
+      "Wiktor Święch": 0,
+      "Piotrek Gryga": 0
+    },
+    "scores": {
+      "Wiktor Święch": [],
+      "Piotrek Gryga": []
+    }
+  },
+  {
+    "tmid": "t_o05r_3954_lg_0_km5j_DbKn_TSAF",
+    "title": "Tomi Dart Club Liga Jesień 2025",
+    "player1": "Waldemar Kopacz",
+    "player2": "Krystian Sułek",
+    "score": "6:6",
+    "scores_count": {
+      "Waldemar Kopacz": 1,
+      "Krystian Sułek": 0
+    },
+    "scores": {
+      "Waldemar Kopacz": [
+        171
+      ],
+      "Krystian Sułek": []
+    }
+  },
+  {
+    "tmid": "t_o05r_3954_lg_0_tajj_5mAI_YIvX",
+    "title": "Tomi Dart Club Liga Jesień 2025",
+    "player1": "Mariusz Kania Hefa",
+    "player2": "Hubert Sułek",
+    "score": "2:7",
+    "scores_count": {
+      "Mariusz Kania Hefa": 0,
+      "Hubert Sułek": 0
+    },
+    "scores": {
+      "Mariusz Kania Hefa": [],
+      "Hubert Sułek": []
+    }
+  },
+  {
+    "tmid": "t_o05r_3954_lg_0_hn7n_2Nul_Ocds",
+    "title": "Tomi Dart Club Liga Jesień 2025",
+    "player1": "Michał Kural",
+    "player2": "Julian Samek",
+    "score": "3:7",
+    "scores_count": {
+      "Michał Kural": 0,
+      "Julian Samek": 0
+    },
+    "scores": {
+      "Michał Kural": [],
+      "Julian Samek": []
+    }
+  },
+  {
+    "tmid": "t_o05r_3954_lg_0_ry1g_feRc_yCuD",
+    "title": "Tomi Dart Club Liga Jesień 2025",
+    "player1": "Franciszek Kukiełka",
+    "player2": "Rafał Zahora",
+    "score": "7:5",
+    "scores_count": {
+      "Franciszek Kukiełka": 0,
+      "Rafał Zahora": 0
+    },
+    "scores": {
+      "Franciszek Kukiełka": [],
+      "Rafał Zahora": []
+    }
+  },
+  {
+    "tmid": "t_o05r_3954_lg_0_e25a_5mAI_DbKn",
+    "title": "Tomi Dart Club Liga Jesień 2025",
+    "player1": "Hubert Sułek",
+    "player2": "Krystian Sułek",
+    "score": "7:4",
+    "scores_count": {
+      "Hubert Sułek": 0,
+      "Krystian Sułek": 0
+    },
+    "scores": {
+      "Hubert Sułek": [],
+      "Krystian Sułek": []
+    }
+  },
+  {
+    "tmid": "t_o05r_3954_lg_0_8dok_TSAF_gwXx",
+    "title": "Tomi Dart Club Liga Jesień 2025",
+    "player1": "Waldemar Kopacz",
+    "player2": "Mariusz Olchawa",
+    "score": "7:4",
+    "scores_count": {
+      "Waldemar Kopacz": 0,
+      "Mariusz Olchawa": 0
+    },
+    "scores": {
+      "Waldemar Kopacz": [],
+      "Mariusz Olchawa": []
+    }
+  },
+  {
+    "tmid": "t_o05r_3954_lg_0_ktnm_DXNo_hZPG",
+    "title": "Tomi Dart Club Liga Jesień 2025",
+    "player1": "Krzysztof Tomasz (Tomi)",
+    "player2": "Wiktor Święch",
+    "score": "7:3",
+    "scores_count": {
+      "Krzysztof Tomasz (Tomi)": 0,
+      "Wiktor Święch": 0
+    },
+    "scores": {
+      "Krzysztof Tomasz (Tomi)": [],
+      "Wiktor Święch": []
+    }
+  },
+  {
+    "tmid": "t_o05r_3954_lg_0_o427_2Nul_2TZl",
+    "title": "Tomi Dart Club Liga Jesień 2025",
+    "player1": "Julian Samek",
+    "player2": "Tomasz Radecki",
+    "score": "7:5",
+    "scores_count": {
+      "Julian Samek": 0,
+      "Tomasz Radecki": 0
+    },
+    "scores": {
+      "Julian Samek": [],
+      "Tomasz Radecki": []
+    }
+  },
+  {
+    "tmid": "t_o05r_3954_lg_0_ulyn_DbKn_yCuD",
+    "title": "Tomi Dart Club Liga Jesień 2025",
+    "player1": "Rafał Zahora",
+    "player2": "Krystian Sułek",
+    "score": "0:7",
+    "scores_count": {
+      "Rafał Zahora": 0,
+      "Krystian Sułek": 0
+    },
+    "scores": {
+      "Rafał Zahora": [],
+      "Krystian Sułek": []
+    }
+  },
+  {
+    "tmid": "t_o05r_3954_lg_0_4t2r_2Nul_5mAI",
+    "title": "Tomi Dart Club Liga Jesień 2025",
+    "player1": "Julian Samek",
+    "player2": "Hubert Sułek",
+    "score": "2:7",
+    "scores_count": {
+      "Julian Samek": 0,
+      "Hubert Sułek": 0
+    },
+    "scores": {
+      "Julian Samek": [],
+      "Hubert Sułek": []
+    }
+  },
+  {
+    "tmid": "t_o05r_3954_lg_0_keyc_2TZl_DXNo",
+    "title": "Tomi Dart Club Liga Jesień 2025",
+    "player1": "Wiktor Święch",
+    "player2": "Tomasz Radecki",
+    "score": "0:7",
+    "scores_count": {
+      "Wiktor Święch": 0,
+      "Tomasz Radecki": 0
+    },
+    "scores": {
+      "Wiktor Święch": [],
+      "Tomasz Radecki": []
+    }
+  },
+  {
+    "tmid": "t_o05r_3954_lg_0_6itv_Ocds_feRc",
+    "title": "Tomi Dart Club Liga Jesień 2025",
+    "player1": "Michał Kural",
+    "player2": "Franciszek Kukiełka",
+    "score": "2:7",
+    "scores_count": {
+      "Michał Kural": 0,
+      "Franciszek Kukiełka": 0
+    },
+    "scores": {
+      "Michał Kural": [],
+      "Franciszek Kukiełka": []
+    }
+  },
+  {
+    "tmid": "t_o05r_3954_lg_0_9kx3_2TZl_DbKn",
+    "title": "Tomi Dart Club Liga Jesień 2025",
+    "player1": "Krystian Sułek",
+    "player2": "Tomasz Radecki",
+    "score": "7:5",
+    "scores_count": {
+      "Krystian Sułek": 0,
+      "Tomasz Radecki": 0
+    },
+    "scores": {
+      "Krystian Sułek": [],
+      "Tomasz Radecki": []
+    }
+  },
+  {
     "tmid": "t_o05r_3954_lg_0_tvf3_lZCI_ng9Q",
     "title": "Tomi Dart Club Liga Jesień 2025",
     "player1": "Tomasz Krzysztof (Miedziany)",
