@@ -5053,25 +5053,6 @@
     }
   },
   {
-    "tmid": "t_o05r_3954_lg_0_5k38_2TZl_jctp",
-    "title": "Tomi Dart Club Liga Jesień 2025",
-    "player1": "Tomasz Radecki",
-    "player2": "Adrian Ochel",
-    "score": "7:5",
-    "fast_legs_count": {
-      "Tomasz Radecki": 0,
-      "Adrian Ochel": 0
-    },
-    "fast_legs": {
-      "Tomasz Radecki": [],
-      "Adrian Ochel": []
-    },
-    "average": {
-      "Tomasz Radecki": 50.86581469648562,
-      "Adrian Ochel": 49.72668810289389
-    }
-  },
-  {
     "tmid": "t_o05r_3954_lg_0_7rdt_6nBc_feRc",
     "title": "Tomi Dart Club Liga Jesień 2025",
     "player1": "Franciszek Kukiełka",
@@ -5107,25 +5088,6 @@
     "average": {
       "Mariusz Olchawa": 47.049180327868854,
       "Szymon Put": 47.85911602209945
-    }
-  },
-  {
-    "tmid": "t_o05r_3954_lg_0_dxe7_jctp_lSd0",
-    "title": "Tomi Dart Club Liga Jesień 2025",
-    "player1": "Mateusz Pięta",
-    "player2": "Adrian Ochel",
-    "score": "7:3",
-    "fast_legs_count": {
-      "Mateusz Pięta": 0,
-      "Adrian Ochel": 0
-    },
-    "fast_legs": {
-      "Mateusz Pięta": [],
-      "Adrian Ochel": []
-    },
-    "average": {
-      "Mateusz Pięta": 59.50819672131148,
-      "Adrian Ochel": 54.06276150627615
     }
   },
   {
@@ -5402,25 +5364,6 @@
     }
   },
   {
-    "tmid": "t_o05r_3954_lg_0_y4am_YIvX_jctp",
-    "title": "Tomi Dart Club Liga Jesień 2025",
-    "player1": "Adrian Ochel",
-    "player2": "Mariusz Kania Hefa",
-    "score": "5:7",
-    "fast_legs_count": {
-      "Adrian Ochel": 0,
-      "Mariusz Kania Hefa": 0
-    },
-    "fast_legs": {
-      "Adrian Ochel": [],
-      "Mariusz Kania Hefa": []
-    },
-    "average": {
-      "Adrian Ochel": 44.598971722365036,
-      "Mariusz Kania Hefa": 42.44961240310077
-    }
-  },
-  {
     "tmid": "t_o05r_3954_lg_0_mvpl_M6B2_hZPG",
     "title": "Tomi Dart Club Liga Jesień 2025",
     "player1": "Piotrek Gryga",
@@ -5477,25 +5420,6 @@
     "average": {
       "Tomasz Krzysztof (Miedziany)": 57.7248322147651,
       "Hubert Sułek": 60.49662162162162
-    }
-  },
-  {
-    "tmid": "t_o05r_3954_lg_0_3jyj_jctp_xF2S",
-    "title": "Tomi Dart Club Liga Jesień 2025",
-    "player1": "Grzegorz Kulig",
-    "player2": "Adrian Ochel",
-    "score": "7:5",
-    "fast_legs_count": {
-      "Grzegorz Kulig": 0,
-      "Adrian Ochel": 0
-    },
-    "fast_legs": {
-      "Grzegorz Kulig": [],
-      "Adrian Ochel": []
-    },
-    "average": {
-      "Grzegorz Kulig": 47.19613259668508,
-      "Adrian Ochel": 47.966850828729285
     }
   },
   {
@@ -5713,25 +5637,6 @@
     }
   },
   {
-    "tmid": "t_o05r_3954_lg_0_i0al_DXNo_jctp",
-    "title": "Tomi Dart Club Liga Jesień 2025",
-    "player1": "Adrian Ochel",
-    "player2": "Wiktor Święch",
-    "score": "7:3",
-    "fast_legs_count": {
-      "Adrian Ochel": 0,
-      "Wiktor Święch": 0
-    },
-    "fast_legs": {
-      "Adrian Ochel": [],
-      "Wiktor Święch": []
-    },
-    "average": {
-      "Adrian Ochel": 46.61904761904762,
-      "Wiktor Święch": 41.271844660194176
-    }
-  },
-  {
     "tmid": "t_o05r_3954_lg_0_2n4f_lZCI_ng9Q",
     "title": "Tomi Dart Club Liga Jesień 2025",
     "player1": "Jarosław Gryga",
@@ -5767,25 +5672,6 @@
     "average": {
       "Mariusz Olchawa": 47.36065573770492,
       "Waldemar Kopacz": 54.89754098360656
-    }
-  },
-  {
-    "tmid": "t_o05r_3954_lg_0_qde6_jctp_yCuD",
-    "title": "Tomi Dart Club Liga Jesień 2025",
-    "player1": "Rafał Zahora",
-    "player2": "Adrian Ochel",
-    "score": "5:7",
-    "fast_legs_count": {
-      "Rafał Zahora": 0,
-      "Adrian Ochel": 0
-    },
-    "fast_legs": {
-      "Rafał Zahora": [],
-      "Adrian Ochel": []
-    },
-    "average": {
-      "Rafał Zahora": 51.590625,
-      "Adrian Ochel": 53.36593059936909
     }
   },
   {
@@ -6141,25 +6027,6 @@
     }
   },
   {
-    "tmid": "t_o05r_3954_lg_0_jmkx_M6B2_jctp",
-    "title": "Tomi Dart Club Liga Jesień 2025",
-    "player1": "Piotrek Gryga",
-    "player2": "Adrian Ochel",
-    "score": "7:3",
-    "fast_legs_count": {
-      "Piotrek Gryga": 0,
-      "Adrian Ochel": 0
-    },
-    "fast_legs": {
-      "Piotrek Gryga": [],
-      "Adrian Ochel": []
-    },
-    "average": {
-      "Piotrek Gryga": 57.992217898832685,
-      "Adrian Ochel": 54.83529411764706
-    }
-  },
-  {
     "tmid": "t_o05r_3954_lg_0_skhr_DbKn_TSAF",
     "title": "Tomi Dart Club Liga Jesień 2025",
     "player1": "Krystian Sułek",
@@ -6236,25 +6103,6 @@
     }
   },
   {
-    "tmid": "t_o05r_3954_lg_0_q66e_TSAF_jctp",
-    "title": "Tomi Dart Club Liga Jesień 2025",
-    "player1": "Waldemar Kopacz",
-    "player2": "Adrian Ochel",
-    "score": "5:7",
-    "fast_legs_count": {
-      "Waldemar Kopacz": 0,
-      "Adrian Ochel": 0
-    },
-    "fast_legs": {
-      "Waldemar Kopacz": [],
-      "Adrian Ochel": []
-    },
-    "average": {
-      "Waldemar Kopacz": 57.46,
-      "Adrian Ochel": 56.820598006644516
-    }
-  },
-  {
     "tmid": "t_o05r_3954_lg_0_fz4i_6nBc_hZPG",
     "title": "Tomi Dart Club Liga Jesień 2025",
     "player1": "Krzysztof Tomasz (Tomi)",
@@ -6290,25 +6138,6 @@
     "average": {
       "Michał Kowalinski": 44.5,
       "Krystian Sułek": 54.041666666666664
-    }
-  },
-  {
-    "tmid": "t_o05r_3954_lg_0_wesc_jctp_ncmI",
-    "title": "Tomi Dart Club Liga Jesień 2025",
-    "player1": "Jakub Lipka",
-    "player2": "Adrian Ochel",
-    "score": "6:6",
-    "fast_legs_count": {
-      "Jakub Lipka": 0,
-      "Adrian Ochel": 0
-    },
-    "fast_legs": {
-      "Jakub Lipka": [],
-      "Adrian Ochel": []
-    },
-    "average": {
-      "Jakub Lipka": 51.25970149253731,
-      "Adrian Ochel": 51.008823529411764
     }
   },
   {
@@ -6408,25 +6237,6 @@
     "average": {
       "Grzegorz Kulig": 45.603305785123965,
       "Mariusz Kania Hefa": 48.01648351648352
-    }
-  },
-  {
-    "tmid": "t_o05r_3954_lg_0_4w1s_C1OC_jctp",
-    "title": "Tomi Dart Club Liga Jesień 2025",
-    "player1": "Adrian Ochel",
-    "player2": "Szymon Put",
-    "score": "7:1",
-    "fast_legs_count": {
-      "Adrian Ochel": 0,
-      "Szymon Put": 0
-    },
-    "fast_legs": {
-      "Adrian Ochel": [],
-      "Szymon Put": []
-    },
-    "average": {
-      "Adrian Ochel": 52.810810810810814,
-      "Szymon Put": 46.92660550458716
     }
   },
   {
@@ -6560,25 +6370,6 @@
     "average": {
       "Mateusz Pięta": 63.0,
       "Michał Kowalinski": 44.236363636363635
-    }
-  },
-  {
-    "tmid": "t_o05r_3954_lg_0_6eon_jctp_ng9Q",
-    "title": "Tomi Dart Club Liga Jesień 2025",
-    "player1": "Adrian Ochel",
-    "player2": "Tomasz Krzysztof (Miedziany)",
-    "score": "6:6",
-    "fast_legs_count": {
-      "Adrian Ochel": 0,
-      "Tomasz Krzysztof (Miedziany)": 0
-    },
-    "fast_legs": {
-      "Adrian Ochel": [],
-      "Tomasz Krzysztof (Miedziany)": []
-    },
-    "average": {
-      "Adrian Ochel": 55.10689655172414,
-      "Tomasz Krzysztof (Miedziany)": 60.114583333333336
     }
   },
   {
@@ -6792,25 +6583,6 @@
     "average": {
       "Jarosław Gryga": 48.57807308970099,
       "Rafał Zahora": 48.70169491525424
-    }
-  },
-  {
-    "tmid": "t_o05r_3954_lg_0_h5zn_gwXx_jctp",
-    "title": "Tomi Dart Club Liga Jesień 2025",
-    "player1": "Mariusz Olchawa",
-    "player2": "Adrian Ochel",
-    "score": "1:7",
-    "fast_legs_count": {
-      "Mariusz Olchawa": 0,
-      "Adrian Ochel": 0
-    },
-    "fast_legs": {
-      "Mariusz Olchawa": [],
-      "Adrian Ochel": []
-    },
-    "average": {
-      "Mariusz Olchawa": 43.25726141078838,
-      "Adrian Ochel": 49.358024691358025
     }
   },
   {
