@@ -345,6 +345,25 @@
     }
   },
   {
+    "tmid": "t_o05r_3954_lg_0_b5wb_ncmI_yCuD",
+    "title": "Tomi Dart Club Liga Jesień 2025",
+    "player1": "Rafał Zahora",
+    "player2": "Jakub Lipka",
+    "score": "3:7",
+    "fast_legs_count": {
+      "Rafał Zahora": 0,
+      "Jakub Lipka": 0
+    },
+    "fast_legs": {
+      "Rafał Zahora": [],
+      "Jakub Lipka": []
+    },
+    "average": {
+      "Rafał Zahora": 43.54716981132076,
+      "Jakub Lipka": 46.70886075949367
+    }
+  },
+  {
     "tmid": "t_o05r_3954_lg_0_c785_lZCI_ncmI",
     "title": "Tomi Dart Club Liga Jesień 2025",
     "player1": "Jarosław Gryga",
