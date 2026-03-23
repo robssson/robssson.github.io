@@ -1,0 +1,244 @@
+[
+  {
+    "tmid": "t_2y14_1402_lg_0_6t4k_Vsaa_tJLk",
+    "title": "Tomi Dart Club Wiosna 2026 Liga 2",
+    "player1": "Jakub Tota",
+    "player2": "Mariusz Kania Hefa",
+    "score": "1:7",
+    "scores_count": {
+      "Jakub Tota": 0,
+      "Mariusz Kania Hefa": 0
+    },
+    "scores": {
+      "Jakub Tota": [],
+      "Mariusz Kania Hefa": []
+    }
+  },
+  {
+    "tmid": "t_2y14_1402_lg_0_w4xm_Vsaa_h6XQ",
+    "title": "Tomi Dart Club Wiosna 2026 Liga 2",
+    "player1": "Grzegorz Kulig",
+    "player2": "Mariusz Kania Hefa",
+    "score": "5:7",
+    "scores_count": {
+      "Grzegorz Kulig": 0,
+      "Mariusz Kania Hefa": 0
+    },
+    "scores": {
+      "Grzegorz Kulig": [],
+      "Mariusz Kania Hefa": []
+    }
+  },
+  {
+    "tmid": "t_2y14_1402_lg_0_xx5w_miWE_tJLk",
+    "title": "Tomi Dart Club Wiosna 2026 Liga 2",
+    "player1": "Jakub Tota",
+    "player2": "Tomasz Pilecki",
+    "score": "4:7",
+    "scores_count": {
+      "Jakub Tota": 0,
+      "Tomasz Pilecki": 0
+    },
+    "scores": {
+      "Jakub Tota": [],
+      "Tomasz Pilecki": []
+    }
+  },
+  {
+    "tmid": "t_2y14_1402_lg_0_kuau_Choh_Vsaa",
+    "title": "Tomi Dart Club Wiosna 2026 Liga 2",
+    "player1": "Michał Kural Siupa",
+    "player2": "Mariusz Kania Hefa",
+    "score": "2:7",
+    "scores_count": {
+      "Michał Kural Siupa": 0,
+      "Mariusz Kania Hefa": 0
+    },
+    "scores": {
+      "Michał Kural Siupa": [],
+      "Mariusz Kania Hefa": []
+    }
+  },
+  {
+    "tmid": "t_2y14_1402_lg_0_6xio_h6XQ_tJLk",
+    "title": "Tomi Dart Club Wiosna 2026 Liga 2",
+    "player1": "Jakub Tota",
+    "player2": "Grzegorz Kulig",
+    "score": "4:7",
+    "scores_count": {
+      "Jakub Tota": 1,
+      "Grzegorz Kulig": 0
+    },
+    "scores": {
+      "Jakub Tota": [
+        171
+      ],
+      "Grzegorz Kulig": []
+    }
+  },
+  {
+    "tmid": "t_2y14_1402_lg_0_rmnc_09fT_DPzb",
+    "title": "Tomi Dart Club Wiosna 2026 Liga 2",
+    "player1": "Krystian Krzywy",
+    "player2": "Adrian Ochel",
+    "score": "7:4",
+    "scores_count": {
+      "Krystian Krzywy": 0,
+      "Adrian Ochel": 0
+    },
+    "scores": {
+      "Krystian Krzywy": [],
+      "Adrian Ochel": []
+    }
+  },
+  {
+    "tmid": "t_2y14_1402_lg_0_wncg_dqJQ_miWE",
+    "title": "Tomi Dart Club Wiosna 2026 Liga 2",
+    "player1": "Daniel Czernecki",
+    "player2": "Tomasz Pilecki",
+    "score": "6:6",
+    "scores_count": {
+      "Daniel Czernecki": 0,
+      "Tomasz Pilecki": 0
+    },
+    "scores": {
+      "Daniel Czernecki": [],
+      "Tomasz Pilecki": []
+    }
+  },
+  {
+    "tmid": "t_2y14_1402_lg_0_k76r_4pj3_Choh",
+    "title": "Tomi Dart Club Wiosna 2026 Liga 2",
+    "player1": "Mariusz Olchawa Mario",
+    "player2": "Michał Kural Siupa",
+    "score": "7:3",
+    "scores_count": {
+      "Mariusz Olchawa Mario": 0,
+      "Michał Kural Siupa": 0
+    },
+    "scores": {
+      "Mariusz Olchawa Mario": [],
+      "Michał Kural Siupa": []
+    }
+  },
+  {
+    "tmid": "t_2y14_1402_lg_0_5679_LSHl_Vsaa",
+    "title": "Tomi Dart Club Wiosna 2026 Liga 2",
+    "player1": "Mariusz Kania Hefa",
+    "player2": "Wiktor Święch",
+    "score": "5:7",
+    "scores_count": {
+      "Mariusz Kania Hefa": 0,
+      "Wiktor Święch": 0
+    },
+    "scores": {
+      "Mariusz Kania Hefa": [],
+      "Wiktor Święch": []
+    }
+  },
+  {
+    "tmid": "t_2y14_1402_lg_0_7glf_09fT_miWE",
+    "title": "Tomi Dart Club Wiosna 2026 Liga 2",
+    "player1": "Tomasz Pilecki",
+    "player2": "Krystian Krzywy",
+    "score": "0:7",
+    "scores_count": {
+      "Tomasz Pilecki": 0,
+      "Krystian Krzywy": 0
+    },
+    "scores": {
+      "Tomasz Pilecki": [],
+      "Krystian Krzywy": []
+    }
+  },
+  {
+    "tmid": "t_2y14_1402_lg_0_i9rj_DPzb_h6XQ",
+    "title": "Tomi Dart Club Wiosna 2026 Liga 2",
+    "player1": "Grzegorz Kulig",
+    "player2": "Adrian Ochel",
+    "score": "5:7",
+    "scores_count": {
+      "Grzegorz Kulig": 0,
+      "Adrian Ochel": 0
+    },
+    "scores": {
+      "Grzegorz Kulig": [],
+      "Adrian Ochel": []
+    }
+  },
+  {
+    "tmid": "t_2y14_1402_lg_0_iw0p_4pj3_LSHl",
+    "title": "Tomi Dart Club Wiosna 2026 Liga 2",
+    "player1": "Mariusz Olchawa Mario",
+    "player2": "Wiktor Święch",
+    "score": "1:7",
+    "scores_count": {
+      "Mariusz Olchawa Mario": 0,
+      "Wiktor Święch": 0
+    },
+    "scores": {
+      "Mariusz Olchawa Mario": [],
+      "Wiktor Święch": []
+    }
+  },
+  {
+    "tmid": "t_2y14_1402_lg_0_90mx_Choh_dqJQ",
+    "title": "Tomi Dart Club Wiosna 2026 Liga 2",
+    "player1": "Daniel Czernecki",
+    "player2": "Michał Kural Siupa",
+    "score": "7:0",
+    "scores_count": {
+      "Daniel Czernecki": 0,
+      "Michał Kural Siupa": 0
+    },
+    "scores": {
+      "Daniel Czernecki": [],
+      "Michał Kural Siupa": []
+    }
+  },
+  {
+    "tmid": "t_2y14_1402_lg_0_b5kx_09fT_h6XQ",
+    "title": "Tomi Dart Club Wiosna 2026 Liga 2",
+    "player1": "Krystian Krzywy",
+    "player2": "Grzegorz Kulig",
+    "score": "7:2",
+    "scores_count": {
+      "Krystian Krzywy": 0,
+      "Grzegorz Kulig": 0
+    },
+    "scores": {
+      "Krystian Krzywy": [],
+      "Grzegorz Kulig": []
+    }
+  },
+  {
+    "tmid": "t_2y14_1402_lg_0_f4zo_LSHl_dqJQ",
+    "title": "Tomi Dart Club Wiosna 2026 Liga 2",
+    "player1": "Daniel Czernecki",
+    "player2": "Wiktor Święch",
+    "score": "7:2",
+    "scores_count": {
+      "Daniel Czernecki": 0,
+      "Wiktor Święch": 0
+    },
+    "scores": {
+      "Daniel Czernecki": [],
+      "Wiktor Święch": []
+    }
+  },
+  {
+    "tmid": "t_2y14_1402_lg_0_coxh_4pj3_DPzb",
+    "title": "Tomi Dart Club Wiosna 2026 Liga 2",
+    "player1": "Adrian Ochel",
+    "player2": "Mariusz Olchawa Mario",
+    "score": "7:3",
+    "scores_count": {
+      "Adrian Ochel": 0,
+      "Mariusz Olchawa Mario": 0
+    },
+    "scores": {
+      "Adrian Ochel": [],
+      "Mariusz Olchawa Mario": []
+    }
+  }
+]
