@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>🎯 Tomi Dart Club Liga Jesień 2025 - Statystyki</title>
+<title>🎯 Tomi Dart Club Liga Wiosna 2026 - Statystyki</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 <style>
     body { padding: 20px; background-color: #f9f9f9; }
@@ -12,124 +12,70 @@
     .summary { text-align: center; font-weight: bold; margin-bottom: 10px; color: #34495e; }
     table th, table td { text-align: center; cursor: pointer; }
     .table-container { overflow-x: auto; margin-bottom: 50px; }
-
-    /* Kolory top3 */
     tr.first-place > td { background-color: #ffd700 !important; color: #000 !important; }
     tr.second-place > td { background-color: #c0c0c0 !important; color: #000 !important; }
     tr.third-place > td { background-color: #cd7f32 !important; color: #fff !important; }
-
     tr.first-place:hover > td { background-color: #ffea70 !important; }
     tr.second-place:hover > td { background-color: #e0e0e0 !important; }
     tr.third-place:hover > td { background-color: #d89454 !important; }
-
     table.table-hover tbody tr:hover:not(.first-place):not(.second-place):not(.third-place) td {
         background-color: #f0f0f0 !important;
     }
-
-    th.sortable::after {
-        content: '⇅';
-        font-size: 0.8em;
-        margin-left: 5px;
-        color: #999;
-    }
+    th.sortable::after { content: '⇅'; font-size: 0.8em; margin-left: 5px; color: #999; }
     th.sorted-asc::after { content: '⬆️'; color: #007bff; }
     th.sorted-desc::after { content: '⬇️'; color: #007bff; }
+    
+    /* Styl zakładek */
+    .nav-tabs .nav-link { font-size: 1.2em; font-weight: bold; }
+    .nav-tabs .nav-link.active { background-color: #2c3e50; color: #fff; }
+    .league-badge { font-size: 0.7em; vertical-align: middle; }
 </style>
 </head>
 <body>
 <div class="container">
-    <h5>Ostatnia aktualizacja: LIGA ZAKOŃCZONA </h5>
-    <h1>🎯 Tomi Dart Club Liga Jesień 2025 🎯</h1>
+    <h5>Sezon Wiosna 2026</h5>
+    <h1>🎯 Tomi Dart Club 🎯</h1>
 
-    <!-- WYBRYKI (zbiorcza tabela) -->
-    <h2>💪 Podsumowanie wybryków</h2>
-    <p id="all-matches-summary" class="summary"></p>
-    <p id="all-tricks-summary" class="summary"></p>
-    <div class="table-container">
-        <table class="table table-bordered table-hover" id="tricks-table">
-            <thead class="table-dark">
-                <tr>
-                    <th data-key="player" class="sortable">Zawodnik</th>
-                    <th data-key="matches" class="sortable">Rozegrane mecze</th>
-                    <th data-key="total" class="sortable">Suma wybryków</th>
-                    <th data-key="max" class="sortable">Maxy (180)</th>
-                    <th data-key="score170" class="sortable">Rzuty 170+</th>
-                    <th data-key="high" class="sortable">Wysokie zakończenia</th>
-                    <th data-key="fast" class="sortable">Szybkie lotki</th>
-                </tr>
-            </thead>
-            <tbody id="tricks-body"></tbody>
-        </table>
-    </div>
+    <!-- ZAKŁADKI LIG -->
+    <ul class="nav nav-tabs justify-content-center mb-4" id="leagueTabs" role="tablist">
+        <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="liga1-tab" data-bs-toggle="tab" data-bs-target="#liga1" type="button" role="tab">
+                🥇 I Liga
+            </button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="liga2-tab" data-bs-toggle="tab" data-bs-target="#liga2" type="button" role="tab">
+                🥈 II Liga
+            </button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="all-tab" data-bs-toggle="tab" data-bs-target="#all" type="button" role="tab">
+                📊 Obie Ligi
+            </button>
+        </li>
+    </ul>
 
-     <!-- RZUTY 170+ -->
-    <h2>🔥 Podsumowanie rzutów 170+</h2>
-    <p id="high-scores-matches" class="summary"></p>
-    <p id="high-scores-sum" class="summary"></p>
-    <div class="table-container">
-        <table class="table table-bordered table-hover" id="high-scores-table">
-            <thead class="table-dark">
-                <tr>
-                    <th data-key="player" class="sortable">Zawodnik</th>
-                    <th data-key="count" class="sortable">Liczba rzutów 170+</th>
-                    <th data-key="values">Wyniki</th>
-                </tr>
-            </thead>
-            <tbody id="high-scores-body"></tbody>
-        </table>
+    <!-- ZAWARTOŚĆ ZAKŁADEK -->
+    <div class="tab-content" id="leagueTabContent">
+        <!-- I LIGA -->
+        <div class="tab-pane fade show active" id="liga1" role="tabpanel">
+            <h2>🥇 I Liga — Statystyki</h2>
+            <div id="liga1-content"></div>
+        </div>
+        <!-- II LIGA -->
+        <div class="tab-pane fade" id="liga2" role="tabpanel">
+            <h2>🥈 II Liga — Statystyki</h2>
+            <div id="liga2-content"></div>
+        </div>
+        <!-- OBIE LIGI -->
+        <div class="tab-pane fade" id="all" role="tabpanel">
+            <h2>📊 Obie Ligi — Łączne Statystyki</h2>
+            <div id="all-content"></div>
+        </div>
     </div>
 </div>
-    
-    <!-- MAKSY -->
-    <h2>💥 Podsumowanie maksów (180)</h2>
-    <p id="max-matches" class="summary"></p>
-    <p id="max-sum" class="summary"></p>
-    <div class="table-container">
-        <table class="table table-bordered table-hover" id="max-table">
-            <thead class="table-dark">
-                <tr>
-                    <th data-key="player" class="sortable">Zawodnik</th>
-                    <th data-key="count" class="sortable">Liczba 180</th>
-                </tr>
-            </thead>
-            <tbody id="max-body"></tbody>
-        </table>
-    </div>
 
-    <!-- WYSOKIE ZAKOŃCZENIA -->
-    <h2>🎯 Zestawienie wysokich zakończeń (>=100)</h2>
-    <p id="high-finishes-matches" class="summary"></p>
-    <p id="high-finishes-sum" class="summary"></p>
-    <div class="table-container">
-        <table class="table table-bordered table-hover" id="high-finishes-table">
-            <thead class="table-dark">
-                <tr>
-                    <th data-key="player" class="sortable">Zawodnik</th>
-                    <th data-key="count" class="sortable">Liczba wysokich zakończeń</th>
-                    <th data-key="values">Wartości (>=100)</th>
-                </tr>
-            </thead>
-            <tbody id="high-finishes-body"></tbody>
-        </table>
-    </div>
-
-    <!-- SZYBKIE LOTKI -->
-    <h2>⚡ Podsumowanie szybkich lotek (<=18)</h2>
-    <p id="fast-legs-matches" class="summary"></p>
-    <p id="fast-legs-sum" class="summary"></p>
-    <div class="table-container">
-        <table class="table table-bordered table-hover" id="fast-legs-table">
-            <thead class="table-dark">
-                <tr>
-                    <th data-key="player" class="sortable">Zawodnik</th>
-                    <th data-key="count" class="sortable">Liczba szybkich lotek</th>
-                    <th data-key="values">Legi (<=18)</th>
-                </tr>
-            </thead>
-            <tbody id="fast-legs-body"></tbody>
-        </table>
-    </div>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 <script>
 function makeSortable(tableId, rowsData, buildRow) {
     const headers = document.querySelectorAll(`#${tableId} th.sortable`);
@@ -138,7 +84,7 @@ function makeSortable(tableId, rowsData, buildRow) {
         th.addEventListener('click', () => {
             headers.forEach(h => h.classList.remove('sorted-asc','sorted-desc'));
             const key = th.dataset.key;
-            rowsData.sort((a,b)=>{
+            rowsData.sort((a,b) => {
                 let va=a[key], vb=b[key];
                 if(!isNaN(va) && !isNaN(vb)) return asc ? va - vb : vb - va;
                 if(typeof va==='string') va=va.toLowerCase();
@@ -156,8 +102,8 @@ function makeSortable(tableId, rowsData, buildRow) {
 
 function colorizeTop3(tbody, rows, buildFn) {
     tbody.innerHTML = '';
-    rows.forEach((r,i)=>{
-        const tr=document.createElement('tr');
+    rows.forEach((r,i) => {
+        const tr = document.createElement('tr');
         if(i===0) tr.classList.add('first-place');
         else if(i===1) tr.classList.add('second-place');
         else if(i===2) tr.classList.add('third-place');
@@ -166,134 +112,271 @@ function colorizeTop3(tbody, rows, buildFn) {
     });
 }
 
+function buildLeagueHTML(prefix, containerId) {
+    const container = document.getElementById(containerId);
+    container.innerHTML = `
+        <h3>💪 Podsumowanie wybryków</h3>
+        <p id="${prefix}-all-matches" class="summary"></p>
+        <p id="${prefix}-all-tricks" class="summary"></p>
+        <div class="table-container">
+            <table class="table table-bordered table-hover" id="${prefix}-tricks-table">
+                <thead class="table-dark"><tr>
+                    <th data-key="player" class="sortable">Zawodnik</th>
+                    <th data-key="matches" class="sortable">Mecze</th>
+                    <th data-key="total" class="sortable">Suma wybryków</th>
+                    <th data-key="max" class="sortable">180</th>
+                    <th data-key="score170" class="sortable">170+</th>
+                    <th data-key="high" class="sortable">Wys. zakończenia</th>
+                    <th data-key="fast" class="sortable">Szybkie lotki</th>
+                </tr></thead>
+                <tbody id="${prefix}-tricks-body"></tbody>
+            </table>
+        </div>
+        <h3>💥 Maxy (180)</h3>
+        <p id="${prefix}-max-sum" class="summary"></p>
+        <div class="table-container">
+            <table class="table table-bordered table-hover" id="${prefix}-max-table">
+                <thead class="table-dark"><tr>
+                    <th data-key="player" class="sortable">Zawodnik</th>
+                    <th data-key="count" class="sortable">Liczba 180</th>
+                </tr></thead>
+                <tbody id="${prefix}-max-body"></tbody>
+            </table>
+        </div>
+        <h3>🔥 Rzuty 170+</h3>
+        <p id="${prefix}-scores-sum" class="summary"></p>
+        <div class="table-container">
+            <table class="table table-bordered table-hover" id="${prefix}-scores-table">
+                <thead class="table-dark"><tr>
+                    <th data-key="player" class="sortable">Zawodnik</th>
+                    <th data-key="count" class="sortable">Liczba</th>
+                    <th data-key="values">Wyniki</th>
+                </tr></thead>
+                <tbody id="${prefix}-scores-body"></tbody>
+            </table>
+        </div>
+        <h3>🎯 Wysokie zakończenia (>=100)</h3>
+        <p id="${prefix}-high-sum" class="summary"></p>
+        <div class="table-container">
+            <table class="table table-bordered table-hover" id="${prefix}-high-table">
+                <thead class="table-dark"><tr>
+                    <th data-key="player" class="sortable">Zawodnik</th>
+                    <th data-key="count" class="sortable">Liczba</th>
+                    <th data-key="values">Wartości</th>
+                </tr></thead>
+                <tbody id="${prefix}-high-body"></tbody>
+            </table>
+        </div>
+        <h3>⚡ Szybkie lotki (<=18)</h3>
+        <p id="${prefix}-fast-sum" class="summary"></p>
+        <div class="table-container">
+            <table class="table table-bordered table-hover" id="${prefix}-fast-table">
+                <thead class="table-dark"><tr>
+                    <th data-key="player" class="sortable">Zawodnik</th>
+                    <th data-key="count" class="sortable">Liczba</th>
+                    <th data-key="values">Legi</th>
+                </tr></thead>
+                <tbody id="${prefix}-fast-body"></tbody>
+            </table>
+        </div>
+    `;
+}
+
+function loadLeague(prefix, containerId) {
+    buildLeagueHTML(prefix, containerId);
+
+    return Promise.all([
+        fetch(`${prefix}_max.json`).then(r=>r.json()),
+        fetch(`${prefix}_high_finishes.json`).then(r=>r.json()),
+        fetch(`${prefix}_fast_legs.json`).then(r=>r.json()),
+        fetch(`${prefix}_high_scores.json`).then(r=>r.json())
+    ]).then(([maxData, highData, fastData, scoresData]) => {
+        const maxStats={}, highStats={}, fastStats={}, scoresStats={};
+        const allMatches=new Map();
+        const allMatchIDs=new Set();
+        let totalMax=0, totalHigh=0, totalFast=0, totalScores=0;
+
+        // MAXY
+        maxData.forEach(m => {
+            allMatchIDs.add(m.tmid);
+            for(const [p,list] of Object.entries(m.maxes||{})) {
+                if(!maxStats[p]) maxStats[p]=[];
+                maxStats[p].push(...list); totalMax+=list.length;
+                if(!allMatches.has(p)) allMatches.set(p,new Set());
+                allMatches.get(p).add(m.tmid);
+            }
+        });
+
+        // HIGH FINISHES
+        highData.forEach(m => {
+            allMatchIDs.add(m.tmid);
+            for(const [p,list] of Object.entries(m.high_finishes||{})) {
+                if(!highStats[p]) highStats[p]=[];
+                highStats[p].push(...list); totalHigh+=list.length;
+                if(!allMatches.has(p)) allMatches.set(p,new Set());
+                allMatches.get(p).add(m.tmid);
+            }
+        });
+
+        // FAST LEGS
+        fastData.forEach(m => {
+            allMatchIDs.add(m.tmid);
+            for(const [p,list] of Object.entries(m.fast_legs||{})) {
+                if(!fastStats[p]) fastStats[p]=[];
+                fastStats[p].push(...list); totalFast+=list.length;
+                if(!allMatches.has(p)) allMatches.set(p,new Set());
+                allMatches.get(p).add(m.tmid);
+            }
+        });
+
+        // HIGH SCORES
+        scoresData.forEach(m => {
+            allMatchIDs.add(m.tmid);
+            for(const [p,list] of Object.entries(m.scores||{})) {
+                if(!scoresStats[p]) scoresStats[p]=[];
+                const filtered=list.filter(v=>v>=170&&v<180);
+                scoresStats[p].push(...filtered); totalScores+=filtered.length;
+                if(!allMatches.has(p)) allMatches.set(p,new Set());
+                allMatches.get(p).add(m.tmid);
+            }
+        });
+
+        // Tabele
+        const maxRows=Object.entries(maxStats).filter(([_,v])=>v.length>0).map(([p,v])=>({player:p,count:v.length})).sort((a,b)=>b.count-a.count);
+        const maxBody=document.getElementById(`${prefix}-max-body`);
+        const buildMax=r=>`<td>${r.player}</td><td>${r.count}</td>`;
+        colorizeTop3(maxBody,maxRows,buildMax);
+        makeSortable(`${prefix}-max-table`,maxRows,()=>colorizeTop3(maxBody,maxRows,buildMax));
+        document.getElementById(`${prefix}-max-sum`).textContent=`Suma 180: ${totalMax}`;
+
+        const highRows=Object.entries(highStats).filter(([_,v])=>v.length>0).map(([p,v])=>({player:p,count:v.length,values:v.sort((a,b)=>a-b).join(', ')})).sort((a,b)=>b.count-a.count);
+        const highBody=document.getElementById(`${prefix}-high-body`);
+        const buildHigh=r=>`<td>${r.player}</td><td>${r.count}</td><td>${r.values}</td>`;
+        colorizeTop3(highBody,highRows,buildHigh);
+        makeSortable(`${prefix}-high-table`,highRows,()=>colorizeTop3(highBody,highRows,buildHigh));
+        document.getElementById(`${prefix}-high-sum`).textContent=`Suma wysokich zakończeń: ${totalHigh}`;
+
+        const fastRows=Object.entries(fastStats).filter(([_,v])=>v.length>0).map(([p,v])=>({player:p,count:v.length,values:v.sort((a,b)=>a-b).join(', ')})).sort((a,b)=>b.count-a.count);
+        const fastBody=document.getElementById(`${prefix}-fast-body`);
+        const buildFast=r=>`<td>${r.player}</td><td>${r.count}</td><td>${r.values}</td>`;
+        colorizeTop3(fastBody,fastRows,buildFast);
+        makeSortable(`${prefix}-fast-table`,fastRows,()=>colorizeTop3(fastBody,fastRows,buildFast));
+        document.getElementById(`${prefix}-fast-sum`).textContent=`Suma szybkich lotek: ${totalFast}`;
+
+        const scoreRows=Object.entries(scoresStats).filter(([_,v])=>v.length>0).map(([p,v])=>({player:p,count:v.length,values:v.sort((a,b)=>a-b).join(', ')})).sort((a,b)=>b.count-a.count);
+        const scoreBody=document.getElementById(`${prefix}-scores-body`);
+        const buildScore=r=>`<td>${r.player}</td><td>${r.count}</td><td>${r.values}</td>`;
+        colorizeTop3(scoreBody,scoreRows,buildScore);
+        makeSortable(`${prefix}-scores-table`,scoreRows,()=>colorizeTop3(scoreBody,scoreRows,buildScore));
+        document.getElementById(`${prefix}-scores-sum`).textContent=`Suma rzutów 170+: ${totalScores}`;
+
+        // Wybryki
+        const allPlayers=new Set([...Object.keys(maxStats),...Object.keys(highStats),...Object.keys(fastStats),...Object.keys(scoresStats)]);
+        const tricksRows=[];
+        allPlayers.forEach(p=>{
+            const max=maxStats[p]?.length||0, score170=scoresStats[p]?.length||0, high=highStats[p]?.length||0, fast=fastStats[p]?.length||0;
+            const total=max+score170+high+fast;
+            if(total>0) tricksRows.push({player:p,matches:allMatches.get(p)?.size||0,total,max,score170,high,fast});
+        });
+        tricksRows.sort((a,b)=>b.total-a.total);
+        const tricksBody=document.getElementById(`${prefix}-tricks-body`);
+        const buildTrick=r=>`<td>${r.player}</td><td>${r.matches}</td><td>${r.total}</td><td>${r.max}</td><td>${r.score170}</td><td>${r.high}</td><td>${r.fast}</td>`;
+        colorizeTop3(tricksBody,tricksRows,buildTrick);
+        makeSortable(`${prefix}-tricks-table`,tricksRows,()=>colorizeTop3(tricksBody,tricksRows,buildTrick));
+        document.getElementById(`${prefix}-all-matches`).textContent=`Mecze: ${allMatchIDs.size}`;
+        document.getElementById(`${prefix}-all-tricks`).textContent=`Suma wybryków: ${tricksRows.reduce((a,b)=>a+b.total,0)}`;
+
+        return { maxStats, highStats, fastStats, scoresStats, allMatches, allMatchIDs };
+    });
+}
+
+// Ładuj obie ligi
 Promise.all([
-    fetch('tournament_max.json').then(r=>r.json()),
-    fetch('tournament_high_finishes.json').then(r=>r.json()),
-    fetch('tournament_fast_legs.json').then(r=>r.json()),
-    fetch('tournament_high_scores.json').then(r=>r.json())
-]).then(([maxData, highData, fastData, highScoresData])=>{
-    const maxStats={}, highStats={}, fastStats={}, highScoresStats={};
-    const allMatches=new Map();
-    const allMatchIDs=new Set();
+    loadLeague('liga1', 'liga1-content'),
+    loadLeague('liga2', 'liga2-content')
+]).then(([data1, data2]) => {
+    // OBIE LIGI — łączne statystyki
+    buildLeagueHTML('all', 'all-content');
 
-    // MAXY
-    let totalMax=0;
-    const maxMatches=new Set();
-    maxData.forEach(m=>{
-        allMatchIDs.add(m.tmid);
-        const maxes=m.maxes||{};
-        for(const [p,list] of Object.entries(maxes)){
-            if(!maxStats[p]) maxStats[p]=[];
-            maxStats[p].push(...list);
-            totalMax+=list.length;
-            if(!allMatches.has(p)) allMatches.set(p,new Set());
-            allMatches.get(p).add(m.tmid);
+    const mergedMax={}, mergedHigh={}, mergedFast={}, mergedScores={};
+    const mergedMatches=new Map();
+    const mergedMatchIDs=new Set();
+
+    function mergeStats(source, target) {
+        for(const [p,vals] of Object.entries(source)) {
+            if(!target[p]) target[p]=[];
+            target[p].push(...vals);
         }
-        maxMatches.add(m.tmid);
-    });
-    document.getElementById('max-matches').textContent=`Liczba rozegranych meczów: ${maxMatches.size}`;
-    document.getElementById('max-sum').textContent=`Suma wszystkich 180: ${totalMax}`;
-    const maxRows=Object.entries(maxStats).filter(([_,vals])=>vals.length>0).map(([p,vals])=>({player:p,count:vals.length})).sort((a,b)=>b.count-a.count);
-    const maxBody=document.getElementById('max-body');
-    const buildMaxRow=r=>`<td>${r.player}</td><td>${r.count}</td>`;
-    colorizeTop3(maxBody,maxRows,buildMaxRow);
-    makeSortable('max-table',maxRows,()=>colorizeTop3(maxBody,maxRows,buildMaxRow));
+    }
+    function mergeMatches(source) {
+        source.forEach((matchSet, player) => {
+            if(!mergedMatches.has(player)) mergedMatches.set(player, new Set());
+            matchSet.forEach(id => { mergedMatches.get(player).add(id); mergedMatchIDs.add(id); });
+        });
+    }
 
-    // HIGH FINISHES
-    let totalHigh=0;
-    const highMatches=new Set();
-    highData.forEach(m=>{
-        allMatchIDs.add(m.tmid);
-        const hf=m.high_finishes||{};
-        for(const [p,list] of Object.entries(hf)){
-            if(!highStats[p]) highStats[p]=[];
-            highStats[p].push(...list);
-            totalHigh+=list.length;
-            if(!allMatches.has(p)) allMatches.set(p,new Set());
-            allMatches.get(p).add(m.tmid);
-        }
-        highMatches.add(m.tmid);
+    [data1, data2].forEach(d => {
+        mergeStats(d.maxStats, mergedMax);
+        mergeStats(d.highStats, mergedHigh);
+        mergeStats(d.fastStats, mergedFast);
+        mergeStats(d.scoresStats, mergedScores);
+        mergeMatches(d.allMatches);
+        d.allMatchIDs.forEach(id => mergedMatchIDs.add(id));
     });
-    document.getElementById('high-finishes-matches').textContent=`Liczba rozegranych meczów: ${highMatches.size}`;
-    document.getElementById('high-finishes-sum').textContent=`Suma wszystkich wysokich zakończeń: ${totalHigh}`;
-    const highRows=Object.entries(highStats).filter(([_,vals])=>vals.length>0).map(([p,vals])=>({player:p,count:vals.length,values:vals.sort((a,b)=>a-b).join(', ')})).sort((a,b)=>b.count-a.count);
-    const highBody=document.getElementById('high-finishes-body');
-    const buildHighRow=r=>`<td>${r.player}</td><td>${r.count}</td><td>${r.values}</td>`;
-    colorizeTop3(highBody,highRows,buildHighRow);
-    makeSortable('high-finishes-table',highRows,()=>colorizeTop3(highBody,highRows,buildHighRow));
 
-    // FAST LEGS
-    let totalFast=0;
-    const fastMatches=new Set();
-    fastData.forEach(m=>{
-        allMatchIDs.add(m.tmid);
-        const fl=m.fast_legs||{};
-        for(const [p,list] of Object.entries(fl)){
-            if(!fastStats[p]) fastStats[p]=[];
-            fastStats[p].push(...list);
-            totalFast+=list.length;
-            if(!allMatches.has(p)) allMatches.set(p,new Set());
-            allMatches.get(p).add(m.tmid);
-        }
-        fastMatches.add(m.tmid);
+    // Renderuj tabele "all" tak samo jak pojedynczą ligę
+    let totalMax=0, totalHigh=0, totalFast=0, totalScores=0;
+    Object.values(mergedMax).forEach(v=>totalMax+=v.length);
+    Object.values(mergedHigh).forEach(v=>totalHigh+=v.length);
+    Object.values(mergedFast).forEach(v=>totalFast+=v.length);
+    Object.values(mergedScores).forEach(v=>totalScores+=v.length);
+
+    const p = 'all';
+
+    const maxRows=Object.entries(mergedMax).filter(([_,v])=>v.length>0).map(([pl,v])=>({player:pl,count:v.length})).sort((a,b)=>b.count-a.count);
+    const maxBody=document.getElementById(`${p}-max-body`);
+    const buildMax=r=>`<td>${r.player}</td><td>${r.count}</td>`;
+    colorizeTop3(maxBody,maxRows,buildMax);
+    makeSortable(`${p}-max-table`,maxRows,()=>colorizeTop3(maxBody,maxRows,buildMax));
+    document.getElementById(`${p}-max-sum`).textContent=`Suma 180: ${totalMax}`;
+
+    const highRows=Object.entries(mergedHigh).filter(([_,v])=>v.length>0).map(([pl,v])=>({player:pl,count:v.length,values:v.sort((a,b)=>a-b).join(', ')})).sort((a,b)=>b.count-a.count);
+    const highBody=document.getElementById(`${p}-high-body`);
+    const buildHigh=r=>`<td>${r.player}</td><td>${r.count}</td><td>${r.values}</td>`;
+    colorizeTop3(highBody,highRows,buildHigh);
+    makeSortable(`${p}-high-table`,highRows,()=>colorizeTop3(highBody,highRows,buildHigh));
+    document.getElementById(`${p}-high-sum`).textContent=`Suma wysokich zakończeń: ${totalHigh}`;
+
+    const fastRows=Object.entries(mergedFast).filter(([_,v])=>v.length>0).map(([pl,v])=>({player:pl,count:v.length,values:v.sort((a,b)=>a-b).join(', ')})).sort((a,b)=>b.count-a.count);
+    const fastBody=document.getElementById(`${p}-fast-body`);
+    const buildFast=r=>`<td>${r.player}</td><td>${r.count}</td><td>${r.values}</td>`;
+    colorizeTop3(fastBody,fastRows,buildFast);
+    makeSortable(`${p}-fast-table`,fastRows,()=>colorizeTop3(fastBody,fastRows,buildFast));
+    document.getElementById(`${p}-fast-sum`).textContent=`Suma szybkich lotek: ${totalFast}`;
+
+    const scoreRows=Object.entries(mergedScores).filter(([_,v])=>v.length>0).map(([pl,v])=>({player:pl,count:v.length,values:v.sort((a,b)=>a-b).join(', ')})).sort((a,b)=>b.count-a.count);
+    const scoreBody=document.getElementById(`${p}-scores-body`);
+    const buildScore=r=>`<td>${r.player}</td><td>${r.count}</td><td>${r.values}</td>`;
+    colorizeTop3(scoreBody,scoreRows,buildScore);
+    makeSortable(`${p}-scores-table`,scoreRows,()=>colorizeTop3(scoreBody,scoreRows,buildScore));
+    document.getElementById(`${p}-scores-sum`).textContent=`Suma rzutów 170+: ${totalScores}`;
+
+    const allPlayers=new Set([...Object.keys(mergedMax),...Object.keys(mergedHigh),...Object.keys(mergedFast),...Object.keys(mergedScores)]);
+    const tricksRows=[];
+    allPlayers.forEach(pl=>{
+        const max=mergedMax[pl]?.length||0,score170=mergedScores[pl]?.length||0,high=mergedHigh[pl]?.length||0,fast=mergedFast[pl]?.length||0;
+        const total=max+score170+high+fast;
+        if(total>0) tricksRows.push({player:pl,matches:mergedMatches.get(pl)?.size||0,total,max,score170,high,fast});
     });
-    document.getElementById('fast-legs-matches').textContent=`Liczba rozegranych meczów: ${fastMatches.size}`;
-    document.getElementById('fast-legs-sum').textContent=`Suma wszystkich szybkich lotek: ${totalFast}`;
-    const fastRows=Object.entries(fastStats).filter(([_,vals])=>vals.length>0).map(([p,vals])=>({player:p,count:vals.length,values:vals.sort((a,b)=>a-b).join(', ')})).sort((a,b)=>b.count-a.count);
-    const fastBody=document.getElementById('fast-legs-body');
-    const buildFastRow=r=>`<td>${r.player}</td><td>${r.count}</td><td>${r.values}</td>`;
-    colorizeTop3(fastBody,fastRows,buildFastRow);
-    makeSortable('fast-legs-table',fastRows,()=>colorizeTop3(fastBody,fastRows,buildFastRow));
+    tricksRows.sort((a,b)=>b.total-a.total);
+    const tricksBody=document.getElementById(`${p}-tricks-body`);
+    const buildTrick=r=>`<td>${r.player}</td><td>${r.matches}</td><td>${r.total}</td><td>${r.max}</td><td>${r.score170}</td><td>${r.high}</td><td>${r.fast}</td>`;
+    colorizeTop3(tricksBody,tricksRows,buildTrick);
+    makeSortable(`${p}-tricks-table`,tricksRows,()=>colorizeTop3(tricksBody,tricksRows,buildTrick));
+    document.getElementById(`${p}-all-matches`).textContent=`Mecze (obie ligi): ${mergedMatchIDs.size}`;
+    document.getElementById(`${p}-all-tricks`).textContent=`Suma wybryków: ${tricksRows.reduce((a,b)=>a+b.total,0)}`;
 
-    // HIGH SCORES 170–179
-    let totalHighScores=0;
-    const highScoreMatches=new Set();
-    highScoresData.forEach(m=>{
-        allMatchIDs.add(m.tmid);
-        const scores=m.scores||{};
-        for(const [p,list] of Object.entries(scores)){
-            if(!highScoresStats[p]) highScoresStats[p]=[];
-            const filtered=list.filter(v=>v>=170 && v<180);
-            highScoresStats[p].push(...filtered);
-            totalHighScores+=filtered.length;
-            if(!allMatches.has(p)) allMatches.set(p,new Set());
-            allMatches.get(p).add(m.tmid);
-        }
-        highScoreMatches.add(m.tmid);
-    });
-    document.getElementById('high-scores-matches').textContent=`Liczba rozegranych meczów: ${highScoreMatches.size}`;
-    document.getElementById('high-scores-sum').textContent=`Suma wszystkich rzutów 170+: ${totalHighScores}`;
-    const highScoreRows=Object.entries(highScoresStats).filter(([_,vals])=>vals.length>0).map(([p,vals])=>({player:p,count:vals.length,values:vals.sort((a,b)=>a-b).join(', ')})).sort((a,b)=>b.count-a.count);
-    const highScoreBody=document.getElementById('high-scores-body');
-    const buildHighScoreRow=r=>`<td>${r.player}</td><td>${r.count}</td><td>${r.values}</td>`;
-    colorizeTop3(highScoreBody,highScoreRows,buildHighScoreRow);
-    makeSortable('high-scores-table',highScoreRows,()=>colorizeTop3(highScoreBody,highScoreRows,buildHighScoreRow));
-
-    // WYBRYKI (zbiorcza tabela)
-    const allPlayers = new Set([...Object.keys(maxStats), ...Object.keys(highStats), ...Object.keys(fastStats), ...Object.keys(highScoresStats)]);
-    const rows = [];
-    allPlayers.forEach(p => {
-        const max = maxStats[p]?.length || 0;
-        const score170 = highScoresStats[p]?.length || 0;
-        const high = highStats[p]?.length || 0;
-        const fast = fastStats[p]?.length || 0;
-        const total = max + score170 + high + fast;
-        if (total > 0) {
-            const matches = allMatches.get(p)?.size || 0;
-            rows.push({ player: p, matches, total, max, score170, high, fast });
-        }
-    });
-    rows.sort((a,b)=>b.total - a.total);
-    const tbody=document.getElementById('tricks-body');
-    const buildRow=r=>`<td>${r.player}</td><td>${r.matches}</td><td>${r.total}</td><td>${r.max}</td><td>${r.score170}</td><td>${r.high}</td><td>${r.fast}</td>`;
-    colorizeTop3(tbody,rows,buildRow);
-    makeSortable('tricks-table',rows,()=>colorizeTop3(tbody,rows,buildRow));
-
-    document.getElementById('all-tricks-summary').textContent=`Suma wszystkich wybryków: ${rows.reduce((a,b)=>a+b.total,0)}`;
-    document.getElementById('all-matches-summary').textContent=`Liczba rozegranych meczów (łącznie): ${allMatchIDs.size}`;
-}).catch(err=>{
-    console.error('Błąd wczytywania danych:',err);
-});
+}).catch(err => console.error('Błąd:', err));
 </script>
 </body>
 </html>
