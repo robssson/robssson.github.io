@@ -185,18 +185,11 @@ function buildLeagueHTML(prefix, containerId) {
 function loadLeague(prefix, containerId) {
     buildLeagueHTML(prefix, containerId);
 
-    // Mapowanie prefix -> folder na GitHubie
-    const folderMap = {
-        'liga1': '1liga',
-        'liga2': '2liga'
-    };
-    const folder = folderMap[prefix] || prefix;
-
     return Promise.all([
-        fetch(`output/${folder}/${prefix}_max.json`).then(r=>r.json()),
-        fetch(`output/${folder}/${prefix}_high_finishes.json`).then(r=>r.json()),
-        fetch(`output/${folder}/${prefix}_fast_legs.json`).then(r=>r.json()),
-        fetch(`output/${folder}/${prefix}_high_scores.json`).then(r=>r.json())
+        fetch(`output/${prefix}/${prefix}_max.json`).then(r=>r.json()),
+        fetch(`output/${prefix}/${prefix}_high_finishes.json`).then(r=>r.json()),
+        fetch(`output/${prefix}/${prefix}_fast_legs.json`).then(r=>r.json()),
+        fetch(`output/${prefix}/${prefix}_high_scores.json`).then(r=>r.json())
     ]).then(([maxData, highData, fastData, scoresData]) => {
         const maxStats={}, highStats={}, fastStats={}, scoresStats={};
         const allMatches=new Map();
