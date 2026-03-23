@@ -50,7 +50,7 @@
         </li>
         <li class="nav-item" role="presentation">
             <button class="nav-link" id="all-tab" data-bs-toggle="tab" data-bs-target="#all" type="button" role="tab">
-                📊 Obie Ligi
+                📊 I & II Liga
             </button>
         </li>
     </ul>
@@ -67,9 +67,9 @@
             <h2>🥈 II Liga — Statystyki</h2>
             <div id="liga2-content"></div>
         </div>
-        <!-- OBIE LIGI -->
+        <!-- I & II Liga -->
         <div class="tab-pane fade" id="all" role="tabpanel">
-            <h2>📊 Obie Ligi — Łączne Statystyki</h2>
+            <h2>📊 I & II Liga — Łączne Statystyki</h2>
             <div id="all-content"></div>
         </div>
     </div>
@@ -290,12 +290,12 @@ function loadLeague(prefix, containerId) {
     });
 }
 
-// Ładuj obie ligi
+// Ładuj I & II Liga
 Promise.all([
     loadLeague('liga1', 'liga1-content'),
     loadLeague('liga2', 'liga2-content')
 ]).then(([data1, data2]) => {
-    // OBIE LIGI — łączne statystyki
+    // I & II Liga — łączne statystyki
     buildLeagueHTML('all', 'all-content');
 
     const mergedMax={}, mergedHigh={}, mergedFast={}, mergedScores={};
@@ -373,7 +373,7 @@ Promise.all([
     const buildTrick=r=>`<td>${r.player}</td><td>${r.matches}</td><td>${r.total}</td><td>${r.max}</td><td>${r.score170}</td><td>${r.high}</td><td>${r.fast}</td>`;
     colorizeTop3(tricksBody,tricksRows,buildTrick);
     makeSortable(`${p}-tricks-table`,tricksRows,()=>colorizeTop3(tricksBody,tricksRows,buildTrick));
-    document.getElementById(`${p}-all-matches`).textContent=`Mecze (obie ligi): ${mergedMatchIDs.size}`;
+    document.getElementById(`${p}-all-matches`).textContent=`Mecze (I & II Liga): ${mergedMatchIDs.size}`;
     document.getElementById(`${p}-all-tricks`).textContent=`Suma wybryków: ${tricksRows.reduce((a,b)=>a+b.total,0)}`;
 
 }).catch(err => console.error('Błąd:', err));
