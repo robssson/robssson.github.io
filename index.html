@@ -249,7 +249,7 @@ function loadLeague(prefix, containerId) {
         makeSortable(`${prefix}-max-table`,maxRows,()=>colorizeTop3(maxBody,maxRows,buildMax));
         document.getElementById(`${prefix}-max-sum`).textContent=`Suma 180: ${totalMax}`;
 
-        const highRows=Object.entries(highStats).filter(([_,v])=>v.length>0).map(([p,v])=>({player:p,count:v.length,values:v.sort((a,b)=>a-b).join(', ')})).sort((a,b)=>b.count-a.count);
+        const highRows=Object.entries(highStats).filter(([_,v])=>v.length>0).map(([p,v])=>({player:p,count:v.length,maxValue:Math.max(...v),values:v.sort((a,b)=>b-a).join(', ')})).sort((a,b)=>b.count-a.count || b.maxValue-a.maxValue);
         const highBody=document.getElementById(`${prefix}-high-body`);
         const buildHigh=r=>`<td>${r.player}</td><td>${r.count}</td><td>${r.values}</td>`;
         colorizeTop3(highBody,highRows,buildHigh);
@@ -340,7 +340,7 @@ Promise.all([
     makeSortable(`${p}-max-table`,maxRows,()=>colorizeTop3(maxBody,maxRows,buildMax));
     document.getElementById(`${p}-max-sum`).textContent=`Suma 180: ${totalMax}`;
 
-    const highRows=Object.entries(mergedHigh).filter(([_,v])=>v.length>0).map(([pl,v])=>({player:pl,count:v.length,values:v.sort((a,b)=>a-b).join(', ')})).sort((a,b)=>b.count-a.count);
+    const highRows=Object.entries(mergedHigh).filter(([_,v])=>v.length>0).map(([pl,v])=>({player:pl,count:v.length,maxValue:Math.max(...v),values:v.sort((a,b)=>b-a).join(', ')})).sort((a,b)=>b.count-a.count || b.maxValue-a.maxValue);
     const highBody=document.getElementById(`${p}-high-body`);
     const buildHigh=r=>`<td>${r.player}</td><td>${r.count}</td><td>${r.values}</td>`;
     colorizeTop3(highBody,highRows,buildHigh);
