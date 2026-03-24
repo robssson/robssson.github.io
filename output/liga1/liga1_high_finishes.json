@@ -1,5 +1,349 @@
 [
   {
+    "tmid": "t_L01x_7216_lg_0_qvgm_FIpX_Ps7G",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Hubert Sułek",
+    "player2": "Jarosław Gryga",
+    "score": "7:2",
+    "high_finishes_count": {
+      "Hubert Sułek": 0,
+      "Jarosław Gryga": 1
+    },
+    "high_finishes": {
+      "Hubert Sułek": [],
+      "Jarosław Gryga": [
+        100
+      ]
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_bm59_Lb3M_lqW0",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Piotr Gryga",
+    "player2": "Tomasz Radecki",
+    "score": "7:1",
+    "high_finishes_count": {
+      "Piotr Gryga": 0,
+      "Tomasz Radecki": 0
+    },
+    "high_finishes": {
+      "Piotr Gryga": [],
+      "Tomasz Radecki": []
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_3yd8_FIpX_NI31",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Jarosław Gryga",
+    "player2": "Franciszek Kukiełka",
+    "score": "0:7",
+    "high_finishes_count": {
+      "Jarosław Gryga": 0,
+      "Franciszek Kukiełka": 0
+    },
+    "high_finishes": {
+      "Jarosław Gryga": [],
+      "Franciszek Kukiełka": []
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_bmn7_Ps7G_nfsZ",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Tomek Krzysztof Miedziany",
+    "player2": "Hubert Sułek",
+    "score": "1:7",
+    "high_finishes_count": {
+      "Tomek Krzysztof Miedziany": 0,
+      "Hubert Sułek": 0
+    },
+    "high_finishes": {
+      "Tomek Krzysztof Miedziany": [],
+      "Hubert Sułek": []
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_ks1m_cgMn_lqW0",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Waldemar Kopacz",
+    "player2": "Piotr Gryga",
+    "score": "6:6",
+    "high_finishes_count": {
+      "Waldemar Kopacz": 0,
+      "Piotr Gryga": 0
+    },
+    "high_finishes": {
+      "Waldemar Kopacz": [],
+      "Piotr Gryga": []
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_ncb5_Lb3M_QTu0",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Tomasz Radecki",
+    "player2": "Rafał Zahora",
+    "score": "6:6",
+    "high_finishes_count": {
+      "Tomasz Radecki": 0,
+      "Rafał Zahora": 0
+    },
+    "high_finishes": {
+      "Tomasz Radecki": [],
+      "Rafał Zahora": []
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_a5a4_cgMn_nfsZ",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Waldemar Kopacz",
+    "player2": "Tomek Krzysztof Miedziany",
+    "score": "7:3",
+    "high_finishes_count": {
+      "Waldemar Kopacz": 0,
+      "Tomek Krzysztof Miedziany": 0
+    },
+    "high_finishes": {
+      "Waldemar Kopacz": [],
+      "Tomek Krzysztof Miedziany": []
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_0zns_NI31_SGEg",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Krystian Sułek",
+    "player2": "Franciszek Kukiełka",
+    "score": "4:7",
+    "high_finishes_count": {
+      "Krystian Sułek": 1,
+      "Franciszek Kukiełka": 1
+    },
+    "high_finishes": {
+      "Krystian Sułek": [
+        102
+      ],
+      "Franciszek Kukiełka": [
+        108
+      ]
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_i6bg_FIpX_e2ky",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Mateusz Pięta",
+    "player2": "Jarosław Gryga",
+    "score": "7:3",
+    "high_finishes_count": {
+      "Mateusz Pięta": 0,
+      "Jarosław Gryga": 0
+    },
+    "high_finishes": {
+      "Mateusz Pięta": [],
+      "Jarosław Gryga": []
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_iaty_Ps7G_lqW0",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Hubert Sułek",
+    "player2": "Piotr Gryga",
+    "score": "3:7",
+    "high_finishes_count": {
+      "Hubert Sułek": 1,
+      "Piotr Gryga": 0
+    },
+    "high_finishes": {
+      "Hubert Sułek": [
+        106
+      ],
+      "Piotr Gryga": []
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_vayk_QTu0_gnnU",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Rafał Zahora",
+    "player2": "Julian Samek",
+    "score": "5:7",
+    "high_finishes_count": {
+      "Rafał Zahora": 0,
+      "Julian Samek": 0
+    },
+    "high_finishes": {
+      "Rafał Zahora": [],
+      "Julian Samek": []
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_itm7_NI31_cgMn",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Franciszek Kukiełka",
+    "player2": "Waldemar Kopacz",
+    "score": "2:7",
+    "high_finishes_count": {
+      "Franciszek Kukiełka": 0,
+      "Waldemar Kopacz": 0
+    },
+    "high_finishes": {
+      "Franciszek Kukiełka": [],
+      "Waldemar Kopacz": []
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_al2m_1GlY_Ps7G",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Szymon Put",
+    "player2": "Hubert Sułek",
+    "score": "0:7",
+    "high_finishes_count": {
+      "Szymon Put": 0,
+      "Hubert Sułek": 0
+    },
+    "high_finishes": {
+      "Szymon Put": [],
+      "Hubert Sułek": []
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_j51p_Lb3M_SGEg",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Krystian Sułek",
+    "player2": "Tomasz Radecki",
+    "score": "7:4",
+    "high_finishes_count": {
+      "Krystian Sułek": 0,
+      "Tomasz Radecki": 0
+    },
+    "high_finishes": {
+      "Krystian Sułek": [],
+      "Tomasz Radecki": []
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_1ah4_e2ky_nfsZ",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Tomek Krzysztof Miedziany",
+    "player2": "Mateusz Pięta",
+    "score": "7:3",
+    "high_finishes_count": {
+      "Tomek Krzysztof Miedziany": 0,
+      "Mateusz Pięta": 0
+    },
+    "high_finishes": {
+      "Tomek Krzysztof Miedziany": [],
+      "Mateusz Pięta": []
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_132e_NI31_QTu0",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Franciszek Kukiełka",
+    "player2": "Rafał Zahora",
+    "score": "7:2",
+    "high_finishes_count": {
+      "Franciszek Kukiełka": 1,
+      "Rafał Zahora": 0
+    },
+    "high_finishes": {
+      "Franciszek Kukiełka": [
+        108
+      ],
+      "Rafał Zahora": []
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_66y4_Bl04_gnnU",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Julian Samek",
+    "player2": "Tomi Tomasz",
+    "score": "7:2",
+    "high_finishes_count": {
+      "Julian Samek": 0,
+      "Tomi Tomasz": 0
+    },
+    "high_finishes": {
+      "Julian Samek": [],
+      "Tomi Tomasz": []
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_glk7_1GlY_e2ky",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Mateusz Pięta",
+    "player2": "Szymon Put",
+    "score": "7:0",
+    "high_finishes_count": {
+      "Mateusz Pięta": 1,
+      "Szymon Put": 0
+    },
+    "high_finishes": {
+      "Mateusz Pięta": [
+        137
+      ],
+      "Szymon Put": []
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_dljg_Lb3M_Ps7G",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Hubert Sułek",
+    "player2": "Tomasz Radecki",
+    "score": "7:2",
+    "high_finishes_count": {
+      "Hubert Sułek": 1,
+      "Tomasz Radecki": 0
+    },
+    "high_finishes": {
+      "Hubert Sułek": [
+        116
+      ],
+      "Tomasz Radecki": []
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_k41d_SGEg_cgMn",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Waldemar Kopacz",
+    "player2": "Krystian Sułek",
+    "score": "7:4",
+    "high_finishes_count": {
+      "Waldemar Kopacz": 0,
+      "Krystian Sułek": 0
+    },
+    "high_finishes": {
+      "Waldemar Kopacz": [],
+      "Krystian Sułek": []
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_g8do_1GlY_Bl04",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Szymon Put",
+    "player2": "Tomi Tomasz",
+    "score": "0:7",
+    "high_finishes_count": {
+      "Szymon Put": 0,
+      "Tomi Tomasz": 0
+    },
+    "high_finishes": {
+      "Szymon Put": [],
+      "Tomi Tomasz": []
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_uzjh_NI31_gnnU",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Julian Samek",
+    "player2": "Franciszek Kukiełka",
+    "score": "6:6",
+    "high_finishes_count": {
+      "Julian Samek": 0,
+      "Franciszek Kukiełka": 0
+    },
+    "high_finishes": {
+      "Julian Samek": [],
+      "Franciszek Kukiełka": []
+    }
+  },
+  {
     "tmid": "t_L01x_7216_lg_0_3cro_1GlY_FIpX",
     "title": "Tomi Dart Club Wiosna 2026 1 Liga",
     "player1": "Jarosław Gryga",
