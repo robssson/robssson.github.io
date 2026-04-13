@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🎯 Turnieje — Tomi Dart Club</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAWIGACJA -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">🎯 Tomi Dart Club</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">🏠 Strona główna</a></li>
+                <li class="nav-item"><a class="nav-link" href="liga.html">🏆 Liga</a></li>
+                <li class="nav-item"><a class="nav-link active" href="turnieje.html">🎯 Turnieje</a></li>
+                <li class="nav-item"><a class="nav-link" href="ranking.html">📊 Ranking</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container mt-4">
+    <h1>🎯 Turnieje</h1>
+
+    <!-- NADCHODZĄCE -->
+    <h2 class="section-title mt-5">📅 Nadchodzące turnieje</h2>
+    <div class="row g-4 mb-5">
+        <div class="col-md-6">
+            <div class="tournament-card">
+                <span class="tournament-date">3 maja 2026</span>
+                <h5 class="mt-2">🎯 Turniej Majówkowy</h5>
+                <p>Format: Single Elimination, 501 Best of 5</p>
+                <p>Wpisowe: 20 zł | Pula nagród: do ustalenia</p>
+                <span class="badge bg-success tournament-badge">Zapisy otwarte</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- ARCHIWUM -->
+    <h2 class="section-title">🏆 Archiwum turniejów</h2>
+    <div class="row g-4" id="tournaments-archive">
+
+        <!-- TURNIEJ 1 — przykład -->
+        <div class="col-md-6">
+            <div class="tournament-card">
+                <span class="tournament-date">15 marca 2026</span>
+                <h5 class="mt-2">🎯 Turniej Otwarcia Sezonu</h5>
+                <p>Format: Double Elimination, 501 Best of 3</p>
+                <p>Uczestników: 16</p>
+                <table class="table table-bordered table-sm mt-3">
+                    <thead class="table-dark">
+                        <tr><th>Miejsce</th><th>Zawodnik</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr class="first-place"><td>🥇 1</td><td>-</td></tr>
+                        <tr class="second-place"><td>🥈 2</td><td>-</td></tr>
+                        <tr class="third-place"><td>🥉 3</td><td>-</td></tr>
+                        <tr><td>4</td><td>-</td></tr>
+                    </tbody>
+                </table>
+                <h6 class="mt-3">Wybryki turniejowe:</h6>
+                <ul>
+                    <li>180: - </li>
+                    <li>Najwyższe zakończenie: -</li>
+                    <li>Najszybszy leg: -</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- TURNIEJ 2 — kopiuj ten blok dla kolejnych -->
+        <!--
+        <div class="col-md-6">
+            <div class="tournament-card">
+                <span class="tournament-date">DATA</span>
+                <h5 class="mt-2">🎯 NAZWA</h5>
+                ...
+            </div>
+        </div>
+        -->
+
+    </div>
+</div>
+
+<footer class="bg-dark text-white text-center py-4 mt-5">
+    <div class="container">
+        <p class="mb-1">🎯 Tomi Dart Club © 2026</p>
+        <p class="mb-0 text-muted small">tomidartclub.pl</p>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

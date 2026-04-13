@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🏆 Liga — Tomi Dart Club</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAWIGACJA -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">🎯 Tomi Dart Club</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">🏠 Strona główna</a></li>
+                <li class="nav-item"><a class="nav-link active" href="liga.html">🏆 Liga</a></li>
+                <li class="nav-item"><a class="nav-link" href="turnieje.html">🎯 Turnieje</a></li>
+                <li class="nav-item"><a class="nav-link" href="ranking.html">📊 Ranking</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container mt-4">
+    <h1>🏆 Liga Wiosna 2026</h1>
+
+    <!-- ZAKŁADKI LIG — identyczne jak wcześniej -->
+    <ul class="nav nav-tabs justify-content-center mb-4" id="leagueTabs" role="tablist">
+        <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="liga1-tab" data-bs-toggle="tab" data-bs-target="#liga1" type="button" role="tab">🥇 I Liga</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="liga2-tab" data-bs-toggle="tab" data-bs-target="#liga2" type="button" role="tab">🥈 II Liga</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="all-tab" data-bs-toggle="tab" data-bs-target="#all" type="button" role="tab">📊 I & II Liga</button>
+        </li>
+    </ul>
+
+    <div class="tab-content" id="leagueTabContent">
+        <div class="tab-pane fade show active" id="liga1" role="tabpanel">
+            <h2>🥇 I Liga — Statystyki</h2>
+            <div id="liga1-content"></div>
+        </div>
+        <div class="tab-pane fade" id="liga2" role="tabpanel">
+            <h2>🥈 II Liga — Statystyki</h2>
+            <div id="liga2-content"></div>
+        </div>
+        <div class="tab-pane fade" id="all" role="tabpanel">
+            <h2>📊 I & II Liga — Łączne Statystyki</h2>
+            <div id="all-content"></div>
+        </div>
+    </div>
+</div>
+
+<footer class="bg-dark text-white text-center py-4">
+    <div class="container">
+        <p class="mb-1">🎯 Tomi Dart Club © 2026</p>
+        <p class="mb-0 text-muted small">tomidartclub.pl</p>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+// === WKLEJ TUTAJ CAŁY JAVASCRIPT Z OBECNEGO index.html ===
+// (funkcje: makeSortable, colorizeTop3, buildLeagueHTML, loadLeague, Promise.all)
+// Dokładnie ten sam kod JS który masz teraz — bez zmian
+</script>
+</body>
+</html>

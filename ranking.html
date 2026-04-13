@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>📊 Ranking — Tomi Dart Club</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAWIGACJA -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">🎯 Tomi Dart Club</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">🏠 Strona główna</a></li>
+                <li class="nav-item"><a class="nav-link" href="liga.html">🏆 Liga</a></li>
+                <li class="nav-item"><a class="nav-link" href="turnieje.html">🎯 Turnieje</a></li>
+                <li class="nav-item"><a class="nav-link active" href="ranking.html">📊 Ranking</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container mt-4">
+    <h1>📊 Ranking Ogólny — Sezon Wiosna 2026</h1>
+    <p class="text-center text-muted">Punkty z ligi + turniejów. Aktualizowany po każdej kolejce i turnieju.</p>
+
+    <div class="table-container">
+        <table class="table table-bordered table-hover" id="ranking-table">
+            <thead class="table-dark">
+                <tr>
+                    <th>#</th>
+                    <th class="sortable" data-key="player">Zawodnik</th>
+                    <th class="sortable" data-key="liga_pts">Pkt Liga</th>
+                    <th class="sortable" data-key="turniej_pts">Pkt Turnieje</th>
+                    <th class="sortable" data-key="total_pts">Suma Pkt</th>
+                    <th class="sortable" data-key="total_180">180s</th>
+                    <th class="sortable" data-key="total_high">Wys. zakończenia</th>
+                    <th class="sortable" data-key="total_fast">Szybkie lotki</th>
+                </tr>
+            </thead>
+            <tbody id="ranking-body">
+                <tr><td colspan="8" class="text-center text-muted">Ładowanie danych...</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="alert alert-info mt-4">
+        <strong>Jak liczymy punkty?</strong>
+        <ul class="mb-0 mt-2">
+            <li><strong>Liga:</strong> 180 = 3 pkt, 170+ = 2 pkt, Wysokie zakończenie = 2 pkt, Szybki leg = 1 pkt</li>
+            <li><strong>Turniej:</strong> 1. miejsce = 10 pkt, 2. = 7 pkt, 3. = 5 pkt, 4. = 3 pkt, udział = 1 pkt</li>
+        </ul>
+    </div>
+</div>
+
+<footer class="bg-dark text-white text-center py-4 mt-5">
+    <div class="container">
+        <p class="mb-1">🎯 Tomi Dart Club © 2026</p>
+        <p class="mb-0 text-muted small">tomidartclub.pl</p>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+// Załaduj dane z obu lig i oblicz ranking
+Promise.all([
+    fetch('output/liga1/liga1_max.json').then(r=>r.json()),
+    fetch('output/liga2/liga2_max.json').then(r=>r.json()),
+    fetch('output/liga1/liga1_high_finishes.json').then(r=>r.json()),
+    fetch('output/liga2/liga2_high_finishes.json').then(r=>r.json()),
+    fetch('output/liga1/liga1_fast_legs.json').then(r=>r.json()),
+    fetch('output/liga2/liga2_fast_legs.json').then(r=>r.json()),
+    fetch('output/liga1/liga1_high_scores.json').then(r=>r.json()),
+    fetch('output/liga2/liga2_high_scores.json').then(r=>r.json())
+]).then(([max1,max2,high1,high2,fast1,fast2,scores1,scores2]) => {
+    const players = {};
+
+    function ensure(name) {
+        if(!players[name]) players[name] = { player:name, liga_pts:0, turniej_pts:0, total_pts:0, total_180:0, total_high:0, total_fast:0, total_170:0 };
+    }
+
+    // 180s — 3 pkt each
+    [max1,max2].forEach(data => {
+        data.forEach(m => {
+            for(const [p,list] of Object.entries(m.maxes||{})) {
+                ensure(p);
+                players[p].total_180 += list.length;
+                players[p].liga_pts += list.length * 3;
+            }
+        });
+    });
+
+    // High finishes — 2 pkt each
+    [high1,high2].forEach(data => {
+        data.forEach(m => {
+            for(const [p,list] of Object.entries(m.high_finishes||{})) {
+                ensure(p);
+                players[p].total_high += list.length;
+                players[p].liga_pts += list.length * 2;
+            }
+        });
+    });
+
+    // Fast legs — 1 pkt each
+    [fast1,fast2].forEach(data => {
+        data.forEach(m => {
+            for(const [p,list] of Object.entries(m.fast_legs||{})) {
+                ensure(p);
+                players[p].total_fast += list.length;
+                players[p].liga_pts += list.length * 1;
+            }
+        });
+    });
+
+    // 170+ scores — 2 pkt each
+    [scores1,scores2].forEach(data => {
+        data.forEach(m => {
+            for(const [p,list] of Object.entries(m.scores||{})) {
+                ensure(p);
+                const filtered = list.filter(v => v >= 170 && v < 180);
+                players[p].total_170 += filtered.length;
+                players[p].liga_pts += filtered.length * 2;
+            }
+        });
+    });
+
+    // Oblicz total
+    Object.values(players).forEach(p => {
+        p.total_pts = p.liga_pts + p.turniej_pts;
+    });
+
+    // Sortuj i renderuj
+    const rows = Object.values(players).sort((a,b) => b.total_pts - a.total_pts);
+    const tbody = document.getElementById('ranking-body');
+    tbody.innerHTML = '';
+    rows.forEach((r, i) => {
+        const tr = document.createElement('tr');
+        if(i===0) tr.classList.add('first-place');
+        else if(i===1) tr.classList.add('second-place');
+        else if(i===2) tr.classList.add('third-place');
+        tr.innerHTML = `
+            <td>${i+1}</td>
+            <td>${r.player}</td>
+            <td>${r.liga_pts}</td>
+            <td>${r.turniej_pts}</td>
+            <td><strong>${r.total_pts}</strong></td>
+            <td>${r.total_180}</td>
+            <td>${r.total_high}</td>
+            <td>${r.total_fast}</td>
+        `;
+        tbody.appendChild(tr);
+    });
+}).catch(err => console.error('Ranking error:', err));
+</script>
+</body>
+</html>
