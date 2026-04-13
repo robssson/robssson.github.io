@@ -113,7 +113,14 @@ h1, h2, h3 { color: #2c3e50; }
 /* === TABELE (liga, turnieje) === */
 .summary { text-align: center; font-weight: bold; margin-bottom: 10px; color: #34495e; }
 table th, table td { text-align: center; cursor: pointer; }
-.table-container { overflow-x: auto; margin-bottom: 50px; }
+.table-container {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin-bottom: 50px;
+}
+.table-container table {
+    min-width: 600px;
+}
 tr.first-place > td { background-color: #ffd700 !important; color: #000 !important; }
 tr.second-place > td { background-color: #c0c0c0 !important; color: #000 !important; }
 tr.third-place > td { background-color: #cd7f32 !important; color: #fff !important; }
@@ -207,9 +214,79 @@ footer .small {
     .hero-section { min-height: 250px; }
     .hero-section h1 { font-size: 2em; }
     .stat-number { font-size: 1.8em; }
-    .sponsors-grid { gap: 15px; }
-    .sponsor-card img { max-width: 120px; max-height: 70px; }
-    .partners-label { font-size: 1.1em; }
-    .partner-link { font-size: 1em; padding: 8px 14px; }
-    .partner-logo { width: 40px; height: 40px; }
+
+    /* PARTNERZY - na mobile w kolumnie */
+    .partners-bar .container {
+        flex-direction: column !important;
+        gap: 10px !important;
+    }
+    .partners-label {
+        font-size: 1.1em;
+        margin-bottom: 5px;
+    }
+    .partner-link {
+        font-size: 0.9em;
+        padding: 6px 12px;
+        width: 100%;
+        justify-content: center;
+    }
+    .partner-logo {
+        width: 35px;
+        height: 35px;
+    }
+
+    /* HERO PRZYCISKI - na mobile w kolumnie */
+    .hero-btn {
+        min-width: 180px;
+        font-size: 1em;
+        padding: 10px 20px !important;
+    }
+    .hero-separator {
+        display: none !important;
+    }
+
+    /* STATYSTYKI */
+    .stat-card {
+        padding: 15px 10px;
+    }
+    .stat-player {
+        font-size: 0.75em;
+    }
+
+    /* WYDARZENIA */
+    .event-card {
+        padding: 15px;
+    }
+
+    /* TABELE - scroll horyzontalny */
+    .table-container {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-section h1 {
+        font-size: 1.6em;
+    }
+    .hero-section .lead {
+        font-size: 1em;
+    }
+    .partners-label {
+        font-size: 1em;
+    }
+    .partner-link {
+        font-size: 0.85em;
+        padding: 5px 10px;
+    }
+    .partner-logo {
+        width: 30px;
+        height: 30px;
+    }
+    .stat-number {
+        font-size: 1.5em;
+    }
+    .section-title {
+        font-size: 1.2em;
+    }
 }
