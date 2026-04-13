@@ -51,9 +51,10 @@
         <div class="container py-5">
             <h1 class="display-3 fw-bold">🎯 Tomi Dart Club 🎯</h1>
             <p class="lead fs-4">Liga Wiosna 2026</p>
-            <div class="d-flex justify-content-center gap-3 mt-4">
-                <a href="liga.html" class="btn btn-warning btn-lg fw-bold">🏆 Tabela Ligowa</a>
-                <a href="turnieje.html" class="btn btn-outline-light btn-lg fw-bold">🎯 Turnieje</a>
+            <div class="d-flex justify-content-center gap-4 mt-4 flex-wrap">
+                <a href="liga.html" class="btn btn-warning btn-lg fw-bold px-5 py-3 hero-btn">🏆 Tabela Ligowa</a>
+                <span class="hero-separator d-none d-md-flex align-items-center text-muted">|</span>
+                <a href="turnieje.html" class="btn btn-outline-light btn-lg fw-bold px-5 py-3 hero-btn">🎯 Turnieje</a>
             </div>
         </div>
     </div>
@@ -61,29 +62,23 @@
 
 <!-- SZYBKIE STATYSTYKI -->
 <section class="container my-5">
-    <div class="row g-4 text-center">
-        <div class="col-6 col-md-3">
+    <div class="row g-4 text-center justify-content-center">
+        <div class="col-6 col-md-4">
             <div class="stat-card">
                 <div class="stat-number" id="stat-players">-</div>
                 <div class="stat-label">Zawodników</div>
             </div>
         </div>
-        <div class="col-6 col-md-3">
+        <div class="col-6 col-md-4">
             <div class="stat-card">
                 <div class="stat-number" id="stat-matches">-</div>
                 <div class="stat-label">Meczy</div>
             </div>
         </div>
-        <div class="col-6 col-md-3">
+        <div class="col-6 col-md-4">
             <div class="stat-card">
                 <div class="stat-number" id="stat-180s">-</div>
                 <div class="stat-label">Maxów (180)</div>
-            </div>
-        </div>
-        <div class="col-6 col-md-3">
-            <div class="stat-card">
-                <div class="stat-number" id="stat-tournaments">-</div>
-                <div class="stat-label">Turniejów</div>
             </div>
         </div>
     </div>
@@ -104,7 +99,7 @@
         <div class="col-md-4">
             <div class="event-card">
                 <div class="event-date">20 KWI 2026</div>
-                <h5>🏆 Liga I — Kolejka 4</h5>
+                <h5>🏆 Liga I - Kolejka 4</h5>
                 <p class="text-muted">Poniedziałek, godz. 17:00</p>
             </div>
         </div>
@@ -159,7 +154,6 @@ Promise.all([
     document.getElementById('stat-players').textContent = allPlayers.size;
     document.getElementById('stat-matches').textContent = allMatchIDs.size;
     document.getElementById('stat-180s').textContent = total180;
-    document.getElementById('stat-tournaments').textContent = '0';
 }).catch(err => console.error('Stats error:', err));
 </script>
 </body>
