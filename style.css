@@ -58,6 +58,13 @@ h1, h2, h3 { color: #2c3e50; }
 .stat-card:hover { transform: translateY(-3px); }
 .stat-number { font-size: 2.5em; font-weight: 800; color: #e74c3c; }
 .stat-label { font-size: 0.95em; color: #666; font-weight: 600; }
+.stat-player {
+    font-size: 0.85em;
+    color: #f0c040;
+    font-weight: 700;
+    margin-top: 5px;
+    font-style: italic;
+}
 
 /* === SEKCJE === */
 .section-title {

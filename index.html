@@ -36,9 +36,6 @@
         <a href="https://www.facebook.com/pomodorobrzesko/" target="_blank" rel="noopener" class="partner-link">
             <img src="sponsors/pomodoro.jpg" alt="Pomodoro" class="partner-logo"> Pomodoro
         </a>
-        <a href="https://www.facebook.com/p/Aesthetic-Body-Gym-Jadowniki-61556673007542/" target="_blank" rel="noopener" class="partner-link">
-            <img src="sponsors/aesthetic.jpg" alt="Aesthetic Body Gym" class="partner-logo"> Aesthetic Body Gym
-        </a>
         <a href="https://www.facebook.com/p/KingCars-wypo%C5%BCyczalniaimport-samochod%C3%B3w-100086957464318/" target="_blank" rel="noopener" class="partner-link">
             <img src="sponsors/king_cars.jpg" alt="KingCars" class="partner-logo"> KingCars
         </a>
@@ -80,6 +77,20 @@
             <div class="stat-card">
                 <div class="stat-number" id="stat-180s">-</div>
                 <div class="stat-label">Maxów (180)</div>
+            </div>
+        </div>
+        <div class="col-6 col-md-4">
+            <div class="stat-card">
+                <div class="stat-number" id="stat-high-finish">-</div>
+                <div class="stat-label">🎯 Najwyższe zakończenie</div>
+                <div class="stat-player" id="stat-high-finish-player"></div>
+            </div>
+        </div>
+        <div class="col-6 col-md-4">
+            <div class="stat-card">
+                <div class="stat-number" id="stat-fast-leg">-</div>
+                <div class="stat-label">⚡ Najszybszy leg (rzuty)</div>
+                <div class="stat-player" id="stat-fast-leg-player"></div>
             </div>
         </div>
     </div>
@@ -129,11 +140,15 @@ Promise.all([
     fetch('output/liga1/liga1_max.json').then(r=>r.json()),
     fetch('output/liga2/liga2_max.json').then(r=>r.json()),
     fetch('output/liga1/liga1_high_finishes.json').then(r=>r.json()),
-    fetch('output/liga2/liga2_high_finishes.json').then(r=>r.json())
-]).then(([max1, max2, high1, high2]) => {
+    fetch('output/liga2/liga2_high_finishes.json').then(r=>r.json()),
+    fetch('output/liga1/liga1_fast_legs.json').then(r=>r.json()),
+    fetch('output/liga2/liga2_fast_legs.json').then(r=>r.json())
+]).then(([max1, max2, high1, high2, fast1, fast2]) => {
     const allPlayers = new Set();
     const allMatchIDs = new Set();
     let total180 = 0;
+    let bestFinish = 0, bestFinishPlayer = '';
+    let fastestLeg = Infinity, fastestLegPlayer = '';
 
     [max1, max2].forEach(data => {
         data.forEach(m => {
@@ -147,8 +162,22 @@ Promise.all([
 
     [high1, high2].forEach(data => {
         data.forEach(m => {
-            for(const [p] of Object.entries(m.high_finishes||{})) {
+            for(const [p, list] of Object.entries(m.high_finishes||{})) {
                 allPlayers.add(p);
+                list.forEach(v => {
+                    if(v > bestFinish) { bestFinish = v; bestFinishPlayer = p; }
+                });
+            }
+        });
+    });
+
+    [fast1, fast2].forEach(data => {
+        data.forEach(m => {
+            for(const [p, list] of Object.entries(m.fast_legs||{})) {
+                allPlayers.add(p);
+                list.forEach(v => {
+                    if(v < fastestLeg) { fastestLeg = v; fastestLegPlayer = p; }
+                });
             }
         });
     });
@@ -156,6 +185,10 @@ Promise.all([
     document.getElementById('stat-players').textContent = allPlayers.size;
     document.getElementById('stat-matches').textContent = allMatchIDs.size;
     document.getElementById('stat-180s').textContent = total180;
+    document.getElementById('stat-high-finish').textContent = bestFinish > 0 ? bestFinish : '-';
+    document.getElementById('stat-high-finish-player').textContent = bestFinishPlayer ? bestFinishPlayer : '';
+    document.getElementById('stat-fast-leg').textContent = fastestLeg < Infinity ? fastestLeg : '-';
+    document.getElementById('stat-fast-leg-player').textContent = fastestLegPlayer ? fastestLegPlayer : '';
 }).catch(err => console.error('Stats error:', err));
 </script>
 </body>
