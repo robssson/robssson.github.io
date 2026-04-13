@@ -219,15 +219,21 @@ footer .small {
     .partners-bar .container {
         flex-direction: column !important;
         gap: 10px !important;
+        align-items: center !important;
     }
     .partners-label {
         font-size: 1.1em;
-        margin-bottom: 5px;
+        margin-bottom: 10px;
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 8px;
+        border-bottom: 1px solid rgba(240, 192, 64, 0.3);
     }
     .partner-link {
         font-size: 0.9em;
-        padding: 6px 12px;
-        width: 100%;
+        padding: 8px 16px;
+        width: 90%;
         justify-content: center;
     }
     .partner-logo {
