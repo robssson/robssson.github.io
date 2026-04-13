@@ -102,6 +102,45 @@ th.sorted-desc::after { content: '⬇️'; color: #007bff; }
 /* === FOOTER === */
 footer { margin-top: 50px; }
 
+/* === PASEK PARTNERÓW */
+.partners-bar {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    border-bottom: 2px solid #f0c040;
+}
+
+.partners-label {
+    color: #f0c040;
+    font-weight: bold;
+    font-size: 0.95em;
+}
+
+.partner-link {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #e0e0e0;
+    text-decoration: none;
+    font-size: 0.85em;
+    padding: 4px 10px;
+    border-radius: 20px;
+    background: rgba(255,255,255,0.05);
+    transition: all 0.3s ease;
+}
+
+.partner-link:hover {
+    background: rgba(240, 192, 64, 0.2);
+    color: #f0c040;
+    transform: scale(1.05);
+}
+
+.partner-logo {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid #f0c040;
+}
+
 /* === RESPONSIVE === */
 @media (max-width: 768px) {
     .hero-section { min-height: 250px; }
