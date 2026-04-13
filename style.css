@@ -165,7 +165,8 @@ footer .small {
 .partners-bar {
     background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
     border-bottom: 3px solid #f0c040;
-    padding: 14px 0;
+    padding: 10px 0;
+    overflow: hidden;
 }
 
 .partners-label {
@@ -178,36 +179,60 @@ footer .small {
     margin-bottom: 8px;
 }
 
+.partners-scroll {
+    overflow: hidden;
+    position: relative;
+    mask-image: linear-gradient(to right, transparent, black 5%, black 95%, transparent);
+    -webkit-mask-image: linear-gradient(to right, transparent, black 5%, black 95%, transparent);
+}
+
+.partners-track {
+    display: flex;
+    gap: 20px;
+    width: max-content;
+    animation: scrollPartners 30s linear infinite;
+}
+
+.partners-track:hover {
+    animation-play-state: paused;
+}
+
+@keyframes scrollPartners {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
+
 .partner-link {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
     color: #ffffff;
     text-decoration: none;
-    font-size: 1.15em;
+    font-size: 0.95em;
     font-weight: 700;
-    padding: 10px 20px;
-    border-radius: 30px;
-    background: rgba(255,255,255,0.1);
-    border: 2px solid rgba(240, 192, 64, 0.4);
+    padding: 8px 16px;
+    border-radius: 25px;
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(240, 192, 64, 0.3);
+    white-space: nowrap;
+    flex-shrink: 0;
     transition: all 0.3s ease;
 }
 
 .partner-link:hover {
-    background: rgba(240, 192, 64, 0.3);
+    background: rgba(240, 192, 64, 0.25);
     color: #f0c040;
-    transform: scale(1.1);
     border-color: #f0c040;
     box-shadow: 0 0 15px rgba(240, 192, 64, 0.3);
 }
 
 .partner-logo {
-    width: 50px;
-    height: 50px;
+    width: 36px;
+    height: 36px;
     border-radius: 50%;
     object-fit: cover;
     border: 2px solid #f0c040;
-    box-shadow: 0 0 12px rgba(240, 192, 64, 0.5);
+    box-shadow: 0 0 8px rgba(240, 192, 64, 0.4);
 }
 
 /* === RESPONSIVE === */
@@ -269,6 +294,23 @@ footer .small {
     .table-container {
         overflow-x: auto;
         -webkit-overflow-scrolling: touch;
+    }
+
+    .partners-track {
+        animation-duration: 20s;
+        gap: 15px;
+    }
+    .partner-link {
+        font-size: 0.85em;
+        padding: 6px 12px;
+    }
+    .partner-logo {
+        width: 30px;
+        height: 30px;
+    }
+    .partners-label {
+        font-size: 1em;
+        margin-bottom: 6px;
     }
 }
 
