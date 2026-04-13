@@ -1,0 +1,112 @@
+/* === OGÓLNE === */
+body { background-color: #f9f9f9; }
+h1, h2, h3 { color: #2c3e50; }
+
+/* === NAWIGACJA === */
+.navbar-brand { font-size: 1.4em; }
+
+/* === HERO === */
+.hero-section {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+    min-height: 350px;
+    display: flex;
+    align-items: center;
+}
+.hero-overlay { width: 100%; }
+
+/* === STATYSTYKI === */
+.stat-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 25px 15px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    transition: transform 0.2s;
+}
+.stat-card:hover { transform: translateY(-3px); }
+.stat-number { font-size: 2.5em; font-weight: 800; color: #e74c3c; }
+.stat-label { font-size: 0.95em; color: #666; font-weight: 600; }
+
+/* === SEKCJE === */
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+/* === WYDARZENIA === */
+.event-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    border-left: 4px solid #3498db;
+    transition: transform 0.2s;
+}
+.event-card:hover { transform: translateY(-3px); }
+.event-date {
+    font-size: 0.85em;
+    font-weight: 700;
+    color: #3498db;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+/* === WYNIKI === */
+.result-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+/* === SPONSORZY === */
+.sponsors-section { text-align: center; padding: 20px; background: #fff; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+.sponsors-section h4 { color: #2c3e50; margin-bottom: 20px; font-weight: bold; }
+.sponsors-grid { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 30px; }
+.sponsor-card { display: flex; flex-direction: column; align-items: center; text-decoration: none; color: #2c3e50; transition: transform 0.2s; padding: 15px; border-radius: 10px; }
+.sponsor-card:hover { transform: scale(1.05); box-shadow: 0 4px 15px rgba(0,0,0,0.12); background: #f8f9fa; }
+.sponsor-card img { max-width: 160px; max-height: 100px; object-fit: contain; margin-bottom: 10px; border-radius: 6px; }
+.sponsor-card span { font-size: 0.9em; font-weight: 600; }
+.sponsor-card .fb-icon { font-size: 0.75em; color: #1877f2; margin-top: 4px; }
+
+/* === TABELE (liga, turnieje) === */
+.summary { text-align: center; font-weight: bold; margin-bottom: 10px; color: #34495e; }
+table th, table td { text-align: center; cursor: pointer; }
+.table-container { overflow-x: auto; margin-bottom: 50px; }
+tr.first-place > td { background-color: #ffd700 !important; color: #000 !important; }
+tr.second-place > td { background-color: #c0c0c0 !important; color: #000 !important; }
+tr.third-place > td { background-color: #cd7f32 !important; color: #fff !important; }
+tr.first-place:hover > td { background-color: #ffea70 !important; }
+tr.second-place:hover > td { background-color: #e0e0e0 !important; }
+tr.third-place:hover > td { background-color: #d89454 !important; }
+table.table-hover tbody tr:hover:not(.first-place):not(.second-place):not(.third-place) td { background-color: #f0f0f0 !important; }
+th.sortable::after { content: '⇅'; font-size: 0.8em; margin-left: 5px; color: #999; }
+th.sorted-asc::after { content: '⬆️'; color: #007bff; }
+th.sorted-desc::after { content: '⬇️'; color: #007bff; }
+
+/* === TURNIEJ KARTY === */
+.tournament-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    border-top: 4px solid #e74c3c;
+    transition: transform 0.2s;
+}
+.tournament-card:hover { transform: translateY(-3px); }
+.tournament-card h5 { color: #2c3e50; font-weight: 700; }
+.tournament-date { color: #e74c3c; font-weight: 700; font-size: 0.85em; text-transform: uppercase; }
+.tournament-badge { font-size: 0.8em; }
+
+/* === FOOTER === */
+footer { margin-top: 50px; }
+
+/* === RESPONSIVE === */
+@media (max-width: 768px) {
+    .hero-section { min-height: 250px; }
+    .hero-section h1 { font-size: 2em; }
+    .stat-number { font-size: 1.8em; }
+    .sponsors-grid { gap: 15px; }
+    .sponsor-card img { max-width: 120px; max-height: 70px; }
+}
