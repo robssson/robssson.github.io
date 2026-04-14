@@ -513,3 +513,50 @@ footer .small { color: #9e9e9e !important; }
     .partner-logo { width: 26px; height: 26px; }
     .partners-track { animation-duration: 15s; gap: 10px; }
 }
+
+/* === LATAJĄCY SZERSZEŃ 🐝 === */
+.bee {
+    position: fixed;
+    font-size: 2em;
+    z-index: 9999;
+    pointer-events: none;
+    filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));
+    transition: transform 0.1s;
+}
+
+@keyframes beeFly {
+    0%   { top: 20%; left: -5%; transform: rotate(10deg) scaleX(1); }
+    10%  { top: 15%; left: 10%; transform: rotate(-5deg) scaleX(1); }
+    20%  { top: 30%; left: 25%; transform: rotate(8deg) scaleX(1); }
+    30%  { top: 10%; left: 45%; transform: rotate(-10deg) scaleX(1); }
+    40%  { top: 35%; left: 60%; transform: rotate(5deg) scaleX(1); }
+    50%  { top: 20%; left: 80%; transform: rotate(-8deg) scaleX(1); }
+    55%  { top: 25%; left: 90%; transform: rotate(0deg) scaleX(1); }
+    60%  { top: 25%; left: 90%; transform: rotate(0deg) scaleX(-1); }
+    65%  { top: 40%; left: 75%; transform: rotate(10deg) scaleX(-1); }
+    70%  { top: 15%; left: 55%; transform: rotate(-5deg) scaleX(-1); }
+    75%  { top: 45%; left: 35%; transform: rotate(8deg) scaleX(-1); }
+    80%  { top: 10%; left: 20%; transform: rotate(-10deg) scaleX(-1); }
+    90%  { top: 30%; left: 5%; transform: rotate(5deg) scaleX(-1); }
+    95%  { top: 20%; left: -3%; transform: rotate(0deg) scaleX(-1); }
+    100% { top: 20%; left: -3%; transform: rotate(0deg) scaleX(1); }
+}
+
+.bee {
+    animation: beeFly 20s ease-in-out infinite;
+}
+
+.bee-wing {
+    display: inline-block;
+    animation: beeWing 0.15s ease-in-out infinite alternate;
+}
+
+@keyframes beeWing {
+    0%   { transform: translateY(0px); }
+    100% { transform: translateY(-2px); }
+}
+
+/* Na mobile mniejszy */
+@media (max-width: 768px) {
+    .bee { font-size: 1.4em; }
+}
