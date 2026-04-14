@@ -228,6 +228,26 @@ footer .small { color: #9e9e9e !important; }
     box-shadow: 0 0 8px rgba(240, 192, 64, 0.4);
 }
 
+/* === CTA PARTNERZY === */
+.partners-cta {
+    color: #adb5bd;
+    font-size: 0.8em;
+    padding-top: 6px;
+    border-top: 1px solid rgba(240, 192, 64, 0.15);
+}
+
+.partners-cta a {
+    color: #f0c040;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.partners-cta a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
 /* === RESPONSIVE === */
 @media (max-width: 768px) {
     .hero-section { min-height: 250px; }
