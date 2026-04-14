@@ -200,6 +200,9 @@
     let dirX = Math.random() > 0.5 ? 1 : -1;
     let dirY = 1;
     let wobble = 0;
+    let isResting = false;
+    let nextRestTime = 5000 + Math.random() * 5000; // 5-10s
+    let startTime = Date.now();
 
     const messages = [
         "Bzzzz! Nie trafiłeś! 🎯😂",
@@ -218,21 +221,103 @@
         "TOOOOOOMIII!!!"
     ];
 
+    const logoMessages = [
+        "TOMIIIIIIIII! 🐝🎯",
+        "Bzzzz... najlepszy klub! 🏆",
+        "Tu jest mój dom! 🍯",
+        "TOOOOOOMIII!!! 🐝💛",
+        "Szerszeń lubi tu siedzieć! 😎",
+        "TOMI DART CLUB NAJLEPSZY! 🏆🐝",
+        "Chwila przerwy... TOMIII! 🐝",
+        "Bzzzz... kocham to logo! 💛"
+    ];
+
     bee.style.pointerEvents = 'auto';
     bee.style.cursor = 'pointer';
 
     bee.addEventListener('click', function(e) {
         const msg = messages[Math.floor(Math.random() * messages.length)];
+        showPopup(msg, e.clientX, e.clientY);
+    });
+
+    function showPopup(msg, px, py) {
         const popup = document.createElement('div');
         popup.className = 'bee-popup';
         popup.textContent = msg;
-        popup.style.left = e.clientX + 'px';
-        popup.style.top = e.clientY + 'px';
+        popup.style.left = px + 'px';
+        popup.style.top = py + 'px';
         document.body.appendChild(popup);
         setTimeout(() => popup.remove(), 2500);
-    });
+    }
+
+    function flyToLogo(callback) {
+        const logo = document.querySelector('.hero-logo');
+        if (!logo) { callback(); return; }
+
+        const rect = logo.getBoundingClientRect();
+        const targetX = rect.left + rect.width / 2 - 10;
+        const targetY = rect.top - 15;
+
+        isResting = true;
+
+        const flyDuration = 1500;
+        const startX = x;
+        const startY = y;
+        const flyStart = Date.now();
+
+        function animateFly() {
+            const elapsed = Date.now() - flyStart;
+            const progress = Math.min(elapsed / flyDuration, 1);
+            const ease = 1 - Math.pow(1 - progress, 3);
+            
+            x = startX + (targetX - startX) * ease;
+            y = startY + (targetY - startY) * ease + Math.sin(progress * Math.PI * 4) * 15;
+            
+            bee.style.left = x + 'px';
+            bee.style.top = y + 'px';
+            bee.style.transform = targetX > startX ? 'scaleX(1)' : 'scaleX(-1)';
+
+            if (progress < 1) {
+                requestAnimationFrame(animateFly);
+            } else {
+                bee.style.left = targetX + 'px';
+                bee.style.top = targetY + 'px';
+                bee.style.transition = 'transform 0.3s';
+                bee.style.transform = 'scaleX(1) rotate(-15deg)';
+                
+                setTimeout(() => {
+                    const msg = logoMessages[Math.floor(Math.random() * logoMessages.length)];
+                    showPopup(msg, targetX, targetY);
+                }, 500);
+
+                const restDuration = 2000 + Math.random() * 1500; // 2-3.5s odpoczynku
+                setTimeout(() => {
+                    bee.style.transition = '';
+                    bee.style.transform = 'scaleX(1)';
+                    x = targetX;
+                    y = targetY;
+                    isResting = false;
+                    nextRestTime = 5000 + Math.random() * 5000; // 5-10s do następnego
+                    startTime = Date.now();
+                    callback();
+                }, restDuration);
+            }
+        }
+        animateFly();
+    }
 
     function moveBee() {
+        if (isResting) {
+            requestAnimationFrame(moveBee);
+            return;
+        }
+
+        if (Date.now() - startTime > nextRestTime) {
+            flyToLogo(() => {});
+            requestAnimationFrame(moveBee);
+            return;
+        }
+
         wobble += 0.05;
         if (Math.random() < 0.02) dirX *= -1;
         if (Math.random() < 0.03) dirY *= -1;
