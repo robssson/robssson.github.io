@@ -588,28 +588,35 @@ footer .small { color: #9e9e9e !important; }
 }
 
 /* === LOGO W NAWIGACJI === */
-.brand-logo {
-    width: 38px;
-    height: 38px;
+/* USUNIĘTE — logo przeniesione do hero */
+
+/* === LOGO W HERO === */
+.hero-logo {
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     object-fit: cover;
-    margin-right: 8px;
-    vertical-align: middle;
-    border: 2px solid #f0c040;
-    box-shadow: 0 0 10px rgba(240, 192, 64, 0.4);
-    max-width: 38px !important;
-    max-height: 38px !important;
-    min-width: 38px;
-    min-height: 38px;
+    border: 4px solid #f0c040;
+    box-shadow: 0 0 30px rgba(240, 192, 64, 0.6), 0 0 60px rgba(240, 192, 64, 0.2);
+    margin-bottom: 20px;
+    animation: logoGlow 3s ease-in-out infinite alternate;
+}
+
+@keyframes logoGlow {
+    0% { box-shadow: 0 0 30px rgba(240, 192, 64, 0.6), 0 0 60px rgba(240, 192, 64, 0.2); }
+    100% { box-shadow: 0 0 40px rgba(240, 192, 64, 0.8), 0 0 80px rgba(240, 192, 64, 0.4); }
 }
 
 @media (max-width: 768px) {
-    .brand-logo {
-        width: 30px !important;
-        height: 30px !important;
-        max-width: 30px !important;
-        max-height: 30px !important;
-        min-width: 30px;
-        min-height: 30px;
+    .hero-logo {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-logo {
+        width: 80px;
+        height: 80px;
     }
 }
