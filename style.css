@@ -597,11 +597,19 @@ footer .small { color: #9e9e9e !important; }
     vertical-align: middle;
     border: 2px solid #f0c040;
     box-shadow: 0 0 10px rgba(240, 192, 64, 0.4);
+    max-width: 38px !important;
+    max-height: 38px !important;
+    min-width: 38px;
+    min-height: 38px;
 }
 
 @media (max-width: 768px) {
     .brand-logo {
-        width: 30px;
-        height: 30px;
+        width: 30px !important;
+        height: 30px !important;
+        max-width: 30px !important;
+        max-height: 30px !important;
+        min-width: 30px;
+        min-height: 30px;
     }
 }
