@@ -193,17 +193,20 @@
 <script>
 (function() {
     const bee = document.getElementById('bee');
-    let x = Math.random() * window.innerWidth;
-    let y = Math.random() * window.innerHeight * 0.5;
-    let vx = 1.5 + Math.random();
-    let vy = 0.8 + Math.random();
-    let dirX = Math.random() > 0.5 ? 1 : -1;
+    let x = Math.random() * window.innerWidth * 0.5 + 100;
+    let y = 100 + Math.random() * 150;
+    let vx = 0.6 + Math.random() * 0.4;
+    let vy = 0.4 + Math.random() * 0.3;
+    let dirX = 1;
     let dirY = 1;
     let wobble = 0;
     let isResting = false;
     let isFlyingToLogo = false;
     let nextRestTime = 5000 + Math.random() * 5000;
     let startTime = Date.now();
+
+    // Losowe zmiany prędkości (naturalniejszy lot)
+    let speedChangeTimer = 0;
 
     const messages = [
         "Bzzzz! Nie trafiłeś! 🎯😂",
@@ -256,7 +259,6 @@
         const logo = document.querySelector('.hero-logo');
         if (!logo) return null;
         const rect = logo.getBoundingClientRect();
-        // Pozycja FIXED (viewport) — bee jest position:fixed
         return {
             x: rect.left + rect.width / 2 - 10,
             y: rect.top - 5
@@ -269,38 +271,43 @@
 
         isFlyingToLogo = true;
 
-        const flyDuration = 1200;
+        const flyDuration = 1800;
         const startX = x;
         const startY = y;
-        const targetX = logoPos.x;
-        const targetY = logoPos.y;
         const flyStart = Date.now();
 
+        // Losowy punkt kontrolny dla krzywej Beziera (naturalny łuk)
+        const cpX = (startX + logoPos.x) / 2 + (Math.random() - 0.5) * 200;
+        const cpY = Math.min(startY, logoPos.y) - 50 - Math.random() * 100;
+
         function animateFly() {
-            // Przelicz pozycję logo w locie (user może scrollować)
             const currentLogoPos = getLogoPosition();
-            const curTargetX = currentLogoPos ? currentLogoPos.x : targetX;
-            const curTargetY = currentLogoPos ? currentLogoPos.y : targetY;
+            const targetX = currentLogoPos ? currentLogoPos.x : logoPos.x;
+            const targetY = currentLogoPos ? currentLogoPos.y : logoPos.y;
 
             const elapsed = Date.now() - flyStart;
-            const progress = Math.min(elapsed / flyDuration, 1);
-            const ease = 1 - Math.pow(1 - progress, 3);
+            const t = Math.min(elapsed / flyDuration, 1);
+            // Easing
+            const ease = t < 0.5 ? 2 * t * t : -1 + (4 - 2 * t) * t;
 
-            x = startX + (curTargetX - startX) * ease;
-            y = startY + (curTargetY - startY) * ease + Math.sin(progress * Math.PI * 3) * 10;
+            // Krzywa Beziera kwadratowa
+            const oneMinT = 1 - ease;
+            x = oneMinT * oneMinT * startX + 2 * oneMinT * ease * cpX + ease * ease * targetX;
+            y = oneMinT * oneMinT * startY + 2 * oneMinT * ease * cpY + ease * ease * targetY;
 
             bee.style.left = x + 'px';
             bee.style.top = y + 'px';
-            bee.style.transform = curTargetX > startX ? 'scaleX(1)' : 'scaleX(-1)';
 
-            if (progress < 1) {
+            // Obrót w kierunku lotu
+            const prevX = x;
+            bee.style.transform = targetX > startX ? 'scaleX(1)' : 'scaleX(-1)';
+
+            if (t < 1) {
                 requestAnimationFrame(animateFly);
             } else {
-                // Dotarł — siada na logo
                 isFlyingToLogo = false;
                 isResting = true;
 
-                // Ustaw dokładnie na logo
                 const finalPos = getLogoPosition();
                 if (finalPos) {
                     x = finalPos.x;
@@ -311,13 +318,11 @@
                 bee.style.transition = 'transform 0.3s';
                 bee.style.transform = 'scaleX(1) rotate(-15deg)';
 
-                // Krzyk
                 setTimeout(() => {
                     const msg = logoMessages[Math.floor(Math.random() * logoMessages.length)];
                     showPopup(msg, x, y);
                 }, 400);
 
-                // Odpoczywa 2-3.5s, potem odlatuje
                 const restDuration = 2000 + Math.random() * 1500;
                 setTimeout(() => {
                     bee.style.transition = '';
@@ -325,6 +330,11 @@
                     isResting = false;
                     nextRestTime = 5000 + Math.random() * 5000;
                     startTime = Date.now();
+                    // Nowa losowa prędkość po odpoczynku
+                    vx = 0.5 + Math.random() * 0.5;
+                    vy = 0.3 + Math.random() * 0.3;
+                    dirX = Math.random() > 0.5 ? 1 : -1;
+                    dirY = Math.random() > 0.5 ? 1 : -1;
                 }, restDuration);
             }
         }
@@ -332,37 +342,53 @@
     }
 
     function moveBee() {
-        if (isResting || isFlyingToLogo) {
-            // Podczas odpoczynku na logo — śledź pozycję logo (scroll)
-            if (isResting) {
-                const logoPos = getLogoPosition();
-                if (logoPos) {
-                    x = logoPos.x;
-                    y = logoPos.y;
-                    bee.style.left = x + 'px';
-                    bee.style.top = y + 'px';
-                }
+        if (isResting) {
+            const logoPos = getLogoPosition();
+            if (logoPos) {
+                x = logoPos.x;
+                y = logoPos.y;
+                bee.style.left = x + 'px';
+                bee.style.top = y + 'px';
             }
             requestAnimationFrame(moveBee);
             return;
         }
 
-        // Czas lecieć do logo?
+        if (isFlyingToLogo) {
+            requestAnimationFrame(moveBee);
+            return;
+        }
+
         if (Date.now() - startTime > nextRestTime) {
             flyToLogo();
             requestAnimationFrame(moveBee);
             return;
         }
 
-        wobble += 0.05;
-        if (Math.random() < 0.02) dirX *= -1;
-        if (Math.random() < 0.03) dirY *= -1;
-        x += vx * dirX + Math.sin(wobble) * 2;
-        y += vy * dirY + Math.cos(wobble * 1.3) * 1.5;
-        if (x > window.innerWidth - 40) { x = window.innerWidth - 40; dirX = -1; }
-        if (x < -20) { x = -20; dirX = 1; }
-        if (y > window.innerHeight * 0.6) { y = window.innerHeight * 0.6; dirY = -1; }
-        if (y < 20) { y = 20; dirY = 1; }
+        wobble += 0.03;
+        speedChangeTimer++;
+
+        // Co ~120 klatek losowo zmień kierunek/prędkość (naturalniejsze)
+        if (speedChangeTimer > 80 + Math.random() * 80) {
+            speedChangeTimer = 0;
+            if (Math.random() < 0.4) dirX *= -1;
+            if (Math.random() < 0.3) dirY *= -1;
+            vx = 0.4 + Math.random() * 0.6;
+            vy = 0.3 + Math.random() * 0.4;
+        }
+
+        // Ruch z delikatnym falowaniem
+        x += vx * dirX + Math.sin(wobble) * 0.8;
+        y += vy * dirY + Math.cos(wobble * 0.7) * 0.6 + Math.sin(wobble * 1.5) * 0.3;
+
+        // Miękkie odbijanie od krawędzi
+        const margin = 30;
+        const maxY = window.innerHeight * 0.55;
+        if (x > window.innerWidth - margin) { dirX = -1; x = window.innerWidth - margin; }
+        if (x < margin) { dirX = 1; x = margin; }
+        if (y > maxY) { dirY = -1; y = maxY; }
+        if (y < 60) { dirY = 1; y = 60; }
+
         bee.style.left = x + 'px';
         bee.style.top = y + 'px';
         bee.style.transform = dirX < 0 ? 'scaleX(-1)' : 'scaleX(1)';
@@ -377,7 +403,7 @@
 Promise.all([
     fetch('output/liga1/liga1_max.json').then(r=>r.json()),
     fetch('output/liga2/liga2_max.json').then(r=>r.json()),
-    fetch('output/liga1/liga1_high_finishes.json').then r=>r.json()),
+    fetch('output/liga1/liga1_high_finishes.json').then(r=>r.json()),
     fetch('output/liga2/liga2_high_finishes.json').then(r=>r.json()),
     fetch('output/liga1/liga1_fast_legs.json').then(r=>r.json()),
     fetch('output/liga2/liga2_fast_legs.json').then(r=>r.json())
