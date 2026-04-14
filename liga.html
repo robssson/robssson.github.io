@@ -450,13 +450,21 @@ Promise.all([
 </script>
 
 <!-- LATAJĄCY SZERSZEŃ 🐝 -->
-<div class="bee" id="bee" title="Bzzzz! 🐝">
+<div class="bee" id="bee" title="Bzzzz! 🐝" style="display:none;">
     <span class="bee-wing">🐝</span>
 </div>
 
 <script>
 (function() {
+    // ============================================
+    // 🐝 PRZEŁĄCZNIK: true = pszczółka ON, false = OFF
+    const BEE_ENABLED = false;
+    // ============================================
+    if (!BEE_ENABLED) return;
+
     const bee = document.getElementById('bee');
+    bee.style.display = 'block';
+
     let x = Math.random() * window.innerWidth;
     let y = Math.random() * window.innerHeight * 0.5;
     let vx = 1.5 + Math.random();
