@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>📺 Stream — Tomi Dart Club</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAWIGACJA -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">🎯 Tomi Dart Club</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">🏠 Strona główna</a></li>
+                <li class="nav-item"><a class="nav-link" href="liga.html">🏆 Liga</a></li>
+                <li class="nav-item"><a class="nav-link" href="turnieje.html">🎯 Turnieje</a></li>
+                <li class="nav-item"><a class="nav-link active" href="stream.html">📺 Stream</a></li>
+                <li class="nav-item"><a class="nav-link" href="onas.html">📖 O nas</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- NASI PARTNERZY - PASEK POD NAWIGACJĄ -->
+<section class="partners-bar">
+    <div class="container">
+        <div class="partners-label text-center">🤝 Nasi Partnerzy</div>
+        <div class="partners-scroll">
+            <div class="partners-track">
+                <a href="https://www.facebook.com/profile.php?id=61560172326594" target="_blank" rel="noopener" class="partner-link">
+                    <img src="sponsors/hefa.jpg" alt="HEFA" class="partner-logo"> HEFA
+                </a>
+                <a href="https://www.facebook.com/pomodorobrzesko/" target="_blank" rel="noopener" class="partner-link">
+                    <img src="sponsors/pomodoro.jpg" alt="Pomodoro" class="partner-logo"> Pomodoro
+                </a>
+                <a href="https://www.facebook.com/p/Aesthetic-Body-Gym-Jadowniki-61556673007542/" target="_blank" rel="noopener" class="partner-link">
+                    <img src="sponsors/aesthetic.jpg" alt="Aesthetic Body Gym" class="partner-logo"> Aesthetic Body Gym
+                </a>
+                <a href="https://www.facebook.com/p/KingCars-wypo%C5%BCyczalniaimport-samochod%C3%B3w-100086957464318/" target="_blank" rel="noopener" class="partner-link">
+                    <img src="sponsors/king_cars.jpg" alt="KingCars" class="partner-logo"> KingCars
+                </a>
+                <a href="https://www.facebook.com/p/Limaro-Budownictwo-61564581636883/" target="_blank" rel="noopener" class="partner-link">
+                    <img src="sponsors/limaro.jpg" alt="Limaro Budownictwo" class="partner-logo"> Limaro Budownictwo
+                </a>
+                <a href="https://www.facebook.com/p/Fox-Band-61555865010867/" target="_blank" rel="noopener" class="partner-link">
+                    <img src="sponsors/fox.jpg" alt="Fox Band" class="partner-logo"> Fox Band
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=61572904703446" target="_blank" rel="noopener" class="partner-link">
+                    <img src="sponsors/ww.jpg" alt="WW Car Detailing" class="partner-logo"> WW Car Detailing
+                </a>
+                <!-- DUPLIKAT dla płynnej pętli -->
+                <a href="https://www.facebook.com/profile.php?id=61560172326594" target="_blank" rel="noopener" class="partner-link">
+                    <img src="sponsors/hefa.jpg" alt="HEFA" class="partner-logo"> HEFA
+                </a>
+                <a href="https://www.facebook.com/pomodorobrzesko/" target="_blank" rel="noopener" class="partner-link">
+                    <img src="sponsors/pomodoro.jpg" alt="Pomodoro" class="partner-logo"> Pomodoro
+                </a>
+                <a href="https://www.facebook.com/p/Aesthetic-Body-Gym-Jadowniki-61556673007542/" target="_blank" rel="noopener" class="partner-link">
+                    <img src="sponsors/aesthetic.jpg" alt="Aesthetic Body Gym" class="partner-logo"> Aesthetic Body Gym
+                </a>
+                <a href="https://www.facebook.com/p/KingCars-wypo%C5%BCyczalniaimport-samochod%C3%B3w-100086957464318/" target="_blank" rel="noopener" class="partner-link">
+                    <img src="sponsors/king_cars.jpg" alt="KingCars" class="partner-logo"> KingCars
+                </a>
+                <a href="https://www.facebook.com/p/Limaro-Budownictwo-61564581636883/" target="_blank" rel="noopener" class="partner-link">
+                    <img src="sponsors/limaro.jpg" alt="Limaro Budownictwo" class="partner-logo"> Limaro Budownictwo
+                </a>
+                <a href="https://www.facebook.com/p/Fox-Band-61555865010867/" target="_blank" rel="noopener" class="partner-link">
+                    <img src="sponsors/fox.jpg" alt="Fox Band" class="partner-logo"> Fox Band
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=61572904703446" target="_blank" rel="noopener" class="partner-link">
+                    <img src="sponsors/ww.jpg" alt="WW Car Detailing" class="partner-logo"> WW Car Detailing
+                </a>
+            </div>
+        </div>
+        <div class="partners-cta text-center mt-2">
+            Chcesz zostać partnerem? 
+            <a href="https://www.facebook.com/profile.php?id=61578721925565" target="_blank" rel="noopener">Napisz do nas na Facebooku! 💬</a>
+        </div>
+    </div>
+</section>
+
+<!-- STREAM HERO -->
+<section class="hero-section text-center text-white">
+    <div class="hero-overlay">
+        <div class="container py-5">
+            <h1 class="display-3 fw-bold">📺 Transmisja na żywo</h1>
+            <p class="lead fs-4">Oglądaj rozgrywki Tomi Dart Club online!</p>
+        </div>
+    </div>
+</section>
+
+<!-- AKTUALNY STREAM -->
+<section class="container my-5">
+    <h2 class="section-title">🔴 Transmisja na żywo</h2>
+
+    <!-- STATUS: LIVE -->
+    <div id="stream-live" class="stream-container">
+        <div class="stream-status-bar live">
+            <span class="stream-dot"></span> NA ŻYWO
+        </div>
+        <div class="ratio ratio-16x9">
+            <!--
+                JAK DODAĆ STREAM:
+                1. Wejdź na YouTube i skopiuj link do streamu/filmu
+                2. Zamień "watch?v=" na "embed/" w linku
+                3. Np. https://www.youtube.com/watch?v=ABC123 
+                   → https://www.youtube.com/embed/ABC123
+                4. Wklej link poniżej w src=""
+            -->
+            <iframe 
+                id="stream-iframe"
+                src="" 
+                title="Tomi Dart Club — Stream" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen>
+            </iframe>
+        </div>
+        <div class="stream-info mt-3">
+            <h4 id="stream-title">Liga I — Kolejka 4</h4>
+            <p class="text-muted" id="stream-date">20 kwietnia 2026, godz. 17:00</p>
+        </div>
+    </div>
+
+    <!-- STATUS: OFFLINE -->
+    <div id="stream-offline" class="stream-offline-box text-center">
+        <div class="stream-status-bar offline">
+            <span class="stream-dot-off"></span> OFFLINE
+        </div>
+        <div class="stream-offline-content">
+            <div class="stream-offline-icon">📺</div>
+            <h3>Aktualnie brak transmisji</h3>
+            <p class="text-muted">Następna transmisja zostanie ogłoszona na naszym Facebooku.</p>
+            <a href="https://www.facebook.com/profile.php?id=61578721925565" target="_blank" rel="noopener" class="btn btn-warning fw-bold mt-3">
+                📩 Śledź nas na Facebooku
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- HARMONOGRAM -->
+<section class="bg-light py-5">
+    <div class="container">
+        <h2 class="section-title">📅 Planowane transmisje</h2>
+        <div class="row g-4 justify-content-center">
+            <div class="col-md-4">
+                <div class="event-card">
+                    <div class="event-date">20 KWI 2026</div>
+                    <h5>🏆 Liga I — Kolejka 4</h5>
+                    <p class="text-muted">Poniedziałek, godz. 17:00</p>
+                    <span class="badge bg-warning text-dark">Planowana transmisja</span>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="event-card">
+                    <div class="event-date">23 KWI 2026</div>
+                    <h5>🎯 Turniej Open 5/10</h5>
+                    <p class="text-muted">Czwartek, godz. 18:30</p>
+                    <span class="badge bg-secondary">Do potwierdzenia</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ARCHIWUM STREAMÓW -->
+<section class="container my-5">
+    <h2 class="section-title">🎬 Archiwum transmisji</h2>
+    <div class="row g-4" id="stream-archive">
+        
+        <!-- 
+            SZABLON — skopiuj i wypełnij dla każdego nagrania:
+            Zamień VIDEO_ID na ID filmu z YouTube
+            Np. dla https://www.youtube.com/watch?v=ABC123 → VIDEO_ID = ABC123
+        -->
+        <!--
+        <div class="col-md-6">
+            <div class="stream-archive-card">
+                <div class="ratio ratio-16x9">
+                    <iframe src="https://www.youtube.com/embed/VIDEO_ID" title="Nazwa" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="stream-archive-info">
+                    <h5>🏆 Liga I — Kolejka 3</h5>
+                    <p class="text-muted small">13 kwietnia 2026</p>
+                </div>
+            </div>
+        </div>
+        -->
+
+        <div class="col-12 text-center">
+            <p class="text-muted">Archiwum transmisji pojawi się wkrótce! 🎬</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-dark text-white text-center py-4 mt-5">
+    <div class="container">
+        <p class="mb-1">🎯 Tomi Dart Club © 2026</p>
+        <p class="mb-1 text-muted small">tomidartclub.pl</p>
+        <p class="mb-0 text-muted small">Autor strony: Tomasz Radecki</p>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+// === KONFIGURACJA STREAMU ===
+// Ustaw isLive = true i wpisz URL gdy stream jest aktywny
+// Ustaw isLive = false gdy nie ma streamu
+
+const streamConfig = {
+    isLive: false,
+    // Wklej embed URL streamu, np.: "https://www.youtube.com/embed/VIDEO_ID?autoplay=1"
+    embedUrl: "",
+    title: "Liga I — Kolejka 4",
+    date: "20 kwietnia 2026, godz. 17:00"
+};
+
+// === LOGIKA ===
+const liveBox = document.getElementById('stream-live');
+const offlineBox = document.getElementById('stream-offline');
+
+if (streamConfig.isLive && streamConfig.embedUrl) {
+    liveBox.style.display = 'block';
+    offlineBox.style.display = 'none';
+    document.getElementById('stream-iframe').src = streamConfig.embedUrl;
+    document.getElementById('stream-title').textContent = streamConfig.title;
+    document.getElementById('stream-date').textContent = streamConfig.date;
+} else {
+    liveBox.style.display = 'none';
+    offlineBox.style.display = 'block';
+}
+</script>
+</body>
+</html>
