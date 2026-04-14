@@ -586,3 +586,22 @@ footer .small { color: #9e9e9e !important; }
     80% { opacity: 1; transform: translate(-50%, -160%) scale(1); }
     100% { opacity: 0; transform: translate(-50%, -200%) scale(0.8); }
 }
+
+/* === LOGO W NAWIGACJI === */
+.brand-logo {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 8px;
+    vertical-align: middle;
+    border: 2px solid #f0c040;
+    box-shadow: 0 0 10px rgba(240, 192, 64, 0.4);
+}
+
+@media (max-width: 768px) {
+    .brand-logo {
+        width: 30px;
+        height: 30px;
+    }
+}
