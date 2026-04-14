@@ -206,6 +206,73 @@
     </div>
 </section>
 
+<!-- LATAJĄCY SZERSZEŃ 🐝 -->
+<div class="bee" id="bee" title="Bzzzz! 🐝">
+    <span class="bee-wing">🐝</span>
+</div>
+
+<script>
+(function() {
+    const bee = document.getElementById('bee');
+    let x = Math.random() * window.innerWidth;
+    let y = Math.random() * window.innerHeight * 0.5;
+    let vx = 1.5 + Math.random();
+    let vy = 0.8 + Math.random();
+    let dirX = Math.random() > 0.5 ? 1 : -1;
+    let dirY = 1;
+    let wobble = 0;
+
+    const messages = [
+        "Bzzzz! Nie trafiłeś! 🎯😂",
+        "Hej! Rzucaj lotkami, nie w mnie! 🐝",
+        "Auć! To bolało bardziej niż 26 punktów! 😤",
+        "Szerszeń 1 — Ty 0! 🏆",
+        "Nawet w bullseye byś nie trafił! 🎯",
+        "Leci się tu, leci... a Ty klikasz! 😒",
+        "180! A nie, to tylko ja! 🐝💨",
+        "Double 20? Ja wolę double miód! 🍯",
+        "Szerszeń jest szybszy niż Twoje lotki! ⚡",
+        "Kliknij jeszcze raz, a użądlę! 😈",
+        "GAME SHOT! ...a nie, uciekłem! 🐝💨",
+        "Trafienie w szerszenia = bonus 500 pkt! (żartuję) 😄",
+        "Dart level: szerszeń hunter 🏹",
+        "Może zamiast mnie, trafisz w tablicę? 🎯",
+        "Bzzz... to mój turniej, nie Twój! 🏆🐝"
+    ];
+
+    bee.style.pointerEvents = 'auto';
+    bee.style.cursor = 'pointer';
+
+    bee.addEventListener('click', function(e) {
+        const msg = messages[Math.floor(Math.random() * messages.length)];
+        const popup = document.createElement('div');
+        popup.className = 'bee-popup';
+        popup.textContent = msg;
+        popup.style.left = e.clientX + 'px';
+        popup.style.top = e.clientY + 'px';
+        document.body.appendChild(popup);
+        setTimeout(() => popup.remove(), 2500);
+    });
+
+    function moveBee() {
+        wobble += 0.05;
+        if (Math.random() < 0.02) dirX *= -1;
+        if (Math.random() < 0.03) dirY *= -1;
+        x += vx * dirX + Math.sin(wobble) * 2;
+        y += vy * dirY + Math.cos(wobble * 1.3) * 1.5;
+        if (x > window.innerWidth - 40) { x = window.innerWidth - 40; dirX = -1; }
+        if (x < -20) { x = -20; dirX = 1; }
+        if (y > window.innerHeight * 0.6) { y = window.innerHeight * 0.6; dirY = -1; }
+        if (y < 20) { y = 20; dirY = 1; }
+        bee.style.left = x + 'px';
+        bee.style.top = y + 'px';
+        bee.style.transform = dirX < 0 ? 'scaleX(-1)' : 'scaleX(1)';
+        requestAnimationFrame(moveBee);
+    }
+    moveBee();
+})();
+</script>
+
 <!-- FOOTER -->
 <footer class="bg-dark text-white text-center py-4 mt-5">
     <div class="container">
