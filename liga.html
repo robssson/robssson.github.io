@@ -408,6 +408,12 @@ Promise.all([
         d.allMatchIDs.forEach(id => mergedMatchIDs.add(id));
     });
 
+    // OBLICZ TOTALE z merged danych
+    const totalMax = Object.values(mergedMax).reduce((s,v) => s + v.length, 0);
+    const totalHigh = Object.values(mergedHigh).reduce((s,v) => s + v.length, 0);
+    const totalFast = Object.values(mergedFast).reduce((s,v) => s + v.length, 0);
+    const totalScores = Object.values(mergedScores).reduce((s,v) => s + v.length, 0);
+
     // NOWE: helper do wyświetlania badge'a ligi
     function leagueBadge(player) {
         const leagues = playerLeague[player] ? [...playerLeague[player]] : [];
