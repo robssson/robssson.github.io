@@ -696,3 +696,13 @@ footer .small { color: #9e9e9e !important; }
     transform: scale(1.08);
     box-shadow: 0 0 40px rgba(255, 0, 0, 0.7);
 }
+
+.yt-hero-btn {
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.5);
+    animation: ytGlow 2s ease-in-out infinite;
+}
+
+@keyframes ytGlow {
+    0%, 100% { box-shadow: 0 0 15px rgba(255, 0, 0, 0.5); }
+    50% { box-shadow: 0 0 30px rgba(255, 0, 0, 0.8); }
+}
