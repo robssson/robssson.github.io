@@ -647,3 +647,52 @@ footer .small { color: #9e9e9e !important; }
 #toggleArchiveBtn:active {
     transform: scale(0.98);
 }
+
+/* YOUTUBE SECTION */
+.youtube-section {
+    background: linear-gradient(135deg, #1a1a2e 0%, #c0392b 50%, #1a1a2e 100%);
+    position: relative;
+    overflow: hidden;
+}
+
+.youtube-section::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at center, rgba(255,0,0,0.15) 0%, transparent 70%);
+    animation: ytPulse 3s ease-in-out infinite;
+}
+
+@keyframes ytPulse {
+    0%, 100% { opacity: 0.5; }
+    50% { opacity: 1; }
+}
+
+.youtube-card {
+    max-width: 700px;
+    position: relative;
+    z-index: 1;
+}
+
+.youtube-icon {
+    font-size: 4rem;
+    margin-bottom: 0.5rem;
+    animation: ytBounce 2s ease-in-out infinite;
+}
+
+@keyframes ytBounce {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.15); }
+}
+
+.youtube-btn {
+    font-size: 1.3rem;
+    border-radius: 50px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.4);
+}
+
+.youtube-btn:hover {
+    transform: scale(1.08);
+    box-shadow: 0 0 40px rgba(255, 0, 0, 0.7);
+}
