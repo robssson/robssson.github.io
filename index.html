@@ -132,15 +132,8 @@
     <div class="row g-4">
         <div class="col-md-4">
             <div class="event-card">
-                <div class="event-date">27 KWI 2026</div>
-                <h5>🏆 Liga II - Kolejka 4</h5>
-                <p class="text-muted">Poniedziałek, godz. 17:00</p>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="event-card">
                 <div class="event-date">30 KWI 2026</div>
-                <h5>🎯 Turniej Szerszeń Cup 2 z 4</h5>
+                <h5>🎯 Tomi Dart Club Wiosna 2026 Szerszeń Cup 2/4</h5>
                 <p class="text-muted">Czwartek, godz. 18:30</p>
                 <span class="badge bg-success">Zapisy otwarte</span>
             </div>
@@ -150,6 +143,13 @@
                 <div class="event-date">4 MAJ 2026</div>
                 <h5>🏆 Liga I - Kolejka 5</h5>
                 <p class="text-muted">Poniedziałek, godz. 17:00</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="event-card">
+                <div class="event-date">7 MAJ 2026</div>
+                <h5>🎯 Tomi Dart Club Wiosna 2026 Open 6/10</h5>
+                <p class="text-muted">Czwartek, godz. 18:30</p>
             </div>
         </div>
     </div>
@@ -205,7 +205,7 @@
             <div class="modal-body text-center py-4">
                 <div style="font-size:3rem">🏆</div>
                 <h3 class="fw-bold mt-2 text-warning">Szerszeń Cup 2 z 4</h3>
-                <p class="fs-5 mt-3">📅 <strong>30 Kwietnia 2026</strong> (Środa)</p>
+                <p class="fs-5 mt-3">📅 <strong>30 Kwietnia 2026</strong> (Czwartek)</p>
                 <p class="fs-5">⏰ Godz. <strong>18:30</strong></p>
                 <p class="fs-5">📍 Tomi Dart Club, Nowy Wiśnicz</p>
                 <hr class="border-warning">
@@ -443,18 +443,69 @@
 <script>
 // Pokaż modal turnieju - raz na sesję
 (function() {
-    const tournamentDate = new Date('2026-04-30');
-    const now = new Date();
-    const shown = sessionStorage.getItem('tournamentModalShown');
+    const tournaments = [
+        {
+            name: "Tomi Dart Club Wiosna 2026 Szerszeń Cup 2/4",
+            date: "2026-04-30",
+            day: "Czwartek",
+            time: "18:30",
+            location: "Tomi Dart Club, Nowy Wiśnicz",
+            fee: "20 zł",
+            format: "501 DO",
+            signups: true
+        },
+        {
+            name: "Tomi Dart Club Wiosna 2026 Superpuchar 3/4",
+            date: "2026-05-07",
+            day: "Czwartek",
+            time: "18:30",
+            location: "Tomi Dart Club, Nowy Wiśnicz",
+            fee: "20 zł",
+            format: "501 DO",
+            signups: false
+        },
+        {
+            name: "Tomi Dart Club Wiosna 2026 Open 6/10",
+            date: "2026-05-14",
+            day: "Czwartek",
+            time: "18:30",
+            location: "Tomi Dart Club, Nowy Wiśnicz",
+            fee: "10 zł",
+            format: "501 DO",
+            signups: false
+        }
+    ];
 
-    // Pokaż tylko jeśli turniej jeszcze nie minął i nie pokazano w tej sesji
-    if (!shown && now <= tournamentDate) {
-        setTimeout(() => {
-            const modal = new bootstrap.Modal(document.getElementById('tournamentModal'));
-            modal.show();
-            sessionStorage.setItem('tournamentModalShown', 'true');
-        }, 1500);
-    }
+    const now = new Date();
+    // Znajdź najbliższy turniej który jeszcze nie minął
+    const next = tournaments.find(t => new Date(t.date + 'T23:59:59') >= now);
+
+    if (!next) return; // Brak nadchodzących turniejów
+
+    const shown = sessionStorage.getItem('tournamentModalShown_' + next.date);
+    if (shown) return;
+
+    // Wypełnij modal danymi
+    const dateObj = new Date(next.date);
+    const months = ['Stycznia','Lutego','Marca','Kwietnia','Maja','Czerwca','Lipca','Sierpnia','Września','Października','Listopada','Grudnia'];
+    const dateStr = `${dateObj.getDate()} ${months[dateObj.getMonth()]} ${dateObj.getFullYear()}`;
+
+    document.querySelector('#tournamentModal .modal-body').innerHTML = `
+        <div style="font-size:3rem">🏆</div>
+        <h3 class="fw-bold mt-2 text-warning">${next.name}</h3>
+        <p class="fs-5 mt-3">📅 <strong>${dateStr}</strong> (${next.day})</p>
+        <p class="fs-5">⏰ Godz. <strong>${next.time}</strong></p>
+        <p class="fs-5">📍 ${next.location}</p>
+        <hr class="border-warning">
+        <p class="text-muted">Wpisowe: ${next.fee} · Format: ${next.format}</p>
+        ${next.signups ? '<span class="badge bg-success fs-6 px-3 py-2 mt-2">✅ Zapisy otwarte!</span>' : '<span class="badge bg-secondary fs-6 px-3 py-2 mt-2">⏳ Zapisy wkrótce</span>'}
+    `;
+
+    setTimeout(() => {
+        const modal = new bootstrap.Modal(document.getElementById('tournamentModal'));
+        modal.show();
+        sessionStorage.setItem('tournamentModalShown_' + next.date, 'true');
+    }, 1500);
 })();
 </script>
 
