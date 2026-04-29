@@ -194,6 +194,32 @@
     </div>
 </section>
 
+<!-- MODAL - NADCHODZĄCY TURNIEJ -->
+<div class="modal fade" id="tournamentModal" tabindex="-1" aria-labelledby="tournamentModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content bg-dark text-white border-warning">
+            <div class="modal-header border-warning">
+                <h5 class="modal-title fw-bold" id="tournamentModalLabel">🎯 Nadchodzący turniej!</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Zamknij"></button>
+            </div>
+            <div class="modal-body text-center py-4">
+                <div style="font-size:3rem">🏆</div>
+                <h3 class="fw-bold mt-2 text-warning">Szerszeń Cup 2 z 4</h3>
+                <p class="fs-5 mt-3">📅 <strong>30 Kwietnia 2026</strong> (Środa)</p>
+                <p class="fs-5">⏰ Godz. <strong>18:30</strong></p>
+                <p class="fs-5">📍 Tomi Dart Club, Brzesko</p>
+                <hr class="border-warning">
+                <p class="text-muted">Wpisowe: 20 zł · Format: 501 DO</p>
+                <span class="badge bg-success fs-6 px-3 py-2 mt-2">✅ Zapisy otwarte!</span>
+            </div>
+            <div class="modal-footer border-warning justify-content-center">
+                <a href="turnieje.html" class="btn btn-warning fw-bold px-4">🎯 Zobacz turnieje</a>
+                <button type="button" class="btn btn-outline-light px-4" data-bs-dismiss="modal">Zamknij</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 <!-- FOOTER -->
 <footer class="bg-dark text-white text-center py-4 mt-5">
     <div class="container">
@@ -413,6 +439,25 @@
 </script>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+// Pokaż modal turnieju - raz na sesję
+(function() {
+    const tournamentDate = new Date('2026-04-30');
+    const now = new Date();
+    const shown = sessionStorage.getItem('tournamentModalShown');
+
+    // Pokaż tylko jeśli turniej jeszcze nie minął i nie pokazano w tej sesji
+    if (!shown && now <= tournamentDate) {
+        setTimeout(() => {
+            const modal = new bootstrap.Modal(document.getElementById('tournamentModal'));
+            modal.show();
+            sessionStorage.setItem('tournamentModalShown', 'true');
+        }, 1500);
+    }
+})();
+</script>
+
 <script>
 Promise.all([
     fetch('output/liga1/liga1_max.json').then(r=>r.json()),
