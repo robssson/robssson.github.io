@@ -526,8 +526,8 @@ Promise.all([
     const allPlayers = new Set();
     const allMatchIDs = new Set();
     let total180 = 0;
-    let bestFinish = 0, bestFinishPlayer = '';
-    let fastestLeg = Infinity, fastestLegPlayer = '';
+    let bestFinish = 0, bestFinishPlayers = [];
+    let fastestLeg = Infinity, fastestLegPlayers = [];
 
     [max1, max2].forEach(data => {
         data.forEach(m => {
@@ -544,7 +544,8 @@ Promise.all([
             for(const [p, list] of Object.entries(m.high_finishes||{})) {
                 allPlayers.add(p);
                 list.forEach(v => {
-                    if(v > bestFinish) { bestFinish = v; bestFinishPlayer = p; }
+                    if(v > bestFinish) { bestFinish = v; bestFinishPlayers = [p]; }
+                    else if(v === bestFinish && !bestFinishPlayers.includes(p)) { bestFinishPlayers.push(p); }
                 });
             }
         });
@@ -555,7 +556,8 @@ Promise.all([
             for(const [p, list] of Object.entries(m.fast_legs||{})) {
                 allPlayers.add(p);
                 list.forEach(v => {
-                    if(v < fastestLeg) { fastestLeg = v; fastestLegPlayer = p; }
+                    if(v < fastestLeg) { fastestLeg = v; fastestLegPlayers = [p]; }
+                    else if(v === fastestLeg && !fastestLegPlayers.includes(p)) { fastestLegPlayers.push(p); }
                 });
             }
         });
@@ -565,9 +567,9 @@ Promise.all([
     document.getElementById('stat-matches').textContent = allMatchIDs.size;
     document.getElementById('stat-180s').textContent = total180;
     document.getElementById('stat-high-finish').textContent = bestFinish > 0 ? bestFinish : '-';
-    document.getElementById('stat-high-finish-player').textContent = bestFinishPlayer ? bestFinishPlayer : '';
+    document.getElementById('stat-high-finish-player').textContent = bestFinishPlayers.length ? bestFinishPlayers.join(' & ') : '';
     document.getElementById('stat-fast-leg').textContent = fastestLeg < Infinity ? fastestLeg : '-';
-    document.getElementById('stat-fast-leg-player').textContent = fastestLegPlayer ? fastestLegPlayer : '';
+    document.getElementById('stat-fast-leg-player').textContent = fastestLegPlayers.length ? fastestLegPlayers.join(' & ') : '';
 }).catch(err => console.error('Stats error:', err));
 </script>
 </body>
