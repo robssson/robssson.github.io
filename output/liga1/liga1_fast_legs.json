@@ -1,5 +1,232 @@
 [
   {
+    "tmid": "t_L01x_7216_lg_0_djzl_lqW0_nfsZ",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Tomek Krzysztof Miedziany",
+    "player2": "Piotr Gryga",
+    "score": "5:7",
+    "fast_legs_count": {
+      "Tomek Krzysztof Miedziany": 0,
+      "Piotr Gryga": 1
+    },
+    "fast_legs": {
+      "Tomek Krzysztof Miedziany": [],
+      "Piotr Gryga": [
+        18
+      ]
+    },
+    "average": {
+      "Tomek Krzysztof Miedziany": 54.34256055363322,
+      "Piotr Gryga": 60.47959183673469
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_r5vt_QTu0_e2ky",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Rafał Zahora",
+    "player2": "Mateusz Pięta",
+    "score": "1:7",
+    "fast_legs_count": {
+      "Rafał Zahora": 0,
+      "Mateusz Pięta": 2
+    },
+    "fast_legs": {
+      "Rafał Zahora": [],
+      "Mateusz Pięta": [
+        14,
+        17
+      ]
+    },
+    "average": {
+      "Rafał Zahora": 53.09844559585492,
+      "Mateusz Pięta": 60.2713567839196
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_9lq8_1GlY_QTu0",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Szymon Put",
+    "player2": "Rafał Zahora",
+    "score": "7:5",
+    "fast_legs_count": {
+      "Szymon Put": 0,
+      "Rafał Zahora": 0
+    },
+    "fast_legs": {
+      "Szymon Put": [],
+      "Rafał Zahora": []
+    },
+    "average": {
+      "Szymon Put": 43.44274809160305,
+      "Rafał Zahora": 43.857868020304565
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_tvyn_FIpX_nfsZ",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Tomek Krzysztof Miedziany",
+    "player2": "Jarosław Gryga",
+    "score": "6:6",
+    "fast_legs_count": {
+      "Tomek Krzysztof Miedziany": 0,
+      "Jarosław Gryga": 0
+    },
+    "fast_legs": {
+      "Tomek Krzysztof Miedziany": [],
+      "Jarosław Gryga": []
+    },
+    "average": {
+      "Tomek Krzysztof Miedziany": 53.405660377358494,
+      "Jarosław Gryga": 52.7625
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_zwyo_QTu0_lqW0",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Rafał Zahora",
+    "player2": "Piotr Gryga",
+    "score": "1:7",
+    "fast_legs_count": {
+      "Rafał Zahora": 0,
+      "Piotr Gryga": 0
+    },
+    "fast_legs": {
+      "Rafał Zahora": [],
+      "Piotr Gryga": []
+    },
+    "average": {
+      "Rafał Zahora": 55.25133689839572,
+      "Piotr Gryga": 61.670103092783506
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_zron_1GlY_gnnU",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Szymon Put",
+    "player2": "Julian Samek",
+    "score": "2:7",
+    "fast_legs_count": {
+      "Szymon Put": 0,
+      "Julian Samek": 0
+    },
+    "fast_legs": {
+      "Szymon Put": [],
+      "Julian Samek": []
+    },
+    "average": {
+      "Szymon Put": 47.950413223140494,
+      "Julian Samek": 55.123456790123456
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_ijnp_FIpX_e2ky",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Jarosław Gryga",
+    "player2": "Mateusz Pięta",
+    "score": "3:7",
+    "fast_legs_count": {
+      "Jarosław Gryga": 0,
+      "Mateusz Pięta": 4
+    },
+    "fast_legs": {
+      "Jarosław Gryga": [],
+      "Mateusz Pięta": [
+        15,
+        16,
+        17,
+        17
+      ]
+    },
+    "average": {
+      "Jarosław Gryga": 62.121212121212125,
+      "Mateusz Pięta": 72.73134328358209
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_nqqu_QTu0_gnnU",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Julian Samek",
+    "player2": "Rafał Zahora",
+    "score": "7:2",
+    "fast_legs_count": {
+      "Julian Samek": 1,
+      "Rafał Zahora": 0
+    },
+    "fast_legs": {
+      "Julian Samek": [
+        15
+      ],
+      "Rafał Zahora": []
+    },
+    "average": {
+      "Julian Samek": 51.99183673469388,
+      "Rafał Zahora": 46.3941908713693
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_spi9_1GlY_e2ky",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Szymon Put",
+    "player2": "Mateusz Pięta",
+    "score": "0:7",
+    "fast_legs_count": {
+      "Szymon Put": 0,
+      "Mateusz Pięta": 2
+    },
+    "fast_legs": {
+      "Szymon Put": [],
+      "Mateusz Pięta": [
+        17,
+        18
+      ]
+    },
+    "average": {
+      "Szymon Put": 49.3859649122807,
+      "Mateusz Pięta": 60.46551724137931
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_1nzt_FIpX_gnnU",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Julian Samek",
+    "player2": "Jarosław Gryga",
+    "score": "7:2",
+    "fast_legs_count": {
+      "Julian Samek": 0,
+      "Jarosław Gryga": 0
+    },
+    "fast_legs": {
+      "Julian Samek": [],
+      "Jarosław Gryga": []
+    },
+    "average": {
+      "Julian Samek": 55.65822784810127,
+      "Jarosław Gryga": 51.0
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_4sil_1GlY_lqW0",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Piotr Gryga",
+    "player2": "Szymon Put",
+    "score": "7:0",
+    "fast_legs_count": {
+      "Piotr Gryga": 2,
+      "Szymon Put": 0
+    },
+    "fast_legs": {
+      "Piotr Gryga": [
+        17,
+        18
+      ],
+      "Szymon Put": []
+    },
+    "average": {
+      "Piotr Gryga": 68.31818181818181,
+      "Szymon Put": 44.673469387755105
+    }
+  },
+  {
     "tmid": "t_L01x_7216_lg_0_lbnk_FIpX_QTu0",
     "title": "Tomi Dart Club Wiosna 2026 1 Liga",
     "player1": "Jarosław Gryga",
