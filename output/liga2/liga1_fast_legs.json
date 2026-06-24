@@ -1,0 +1,2866 @@
+[
+  {
+    "tmid": "t_L01x_7216_lg_0_6jzf_QTu0_SGEg",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Krystian Sułek",
+    "player2": "Rafał Zahora",
+    "score": "3:7",
+    "fast_legs_count": {
+      "Krystian Sułek": 0,
+      "Rafał Zahora": 0
+    },
+    "fast_legs": {
+      "Krystian Sułek": [],
+      "Rafał Zahora": []
+    },
+    "average": {
+      "Krystian Sułek": 44.1,
+      "Rafał Zahora": 45.25961538461539
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_j1ve_Ps7G_QTu0",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Rafał Zahora",
+    "player2": "Hubert Sułek",
+    "score": "0:7",
+    "fast_legs_count": {
+      "Rafał Zahora": 0,
+      "Hubert Sułek": 0
+    },
+    "fast_legs": {
+      "Rafał Zahora": [],
+      "Hubert Sułek": []
+    },
+    "average": {
+      "Rafał Zahora": 41.39705882352941,
+      "Hubert Sułek": 51.07281553398058
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_4v0i_QTu0_SGEg",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Rafał Zahora",
+    "player2": "Krystian Sułek",
+    "score": "3:7",
+    "fast_legs_count": {
+      "Rafał Zahora": 0,
+      "Krystian Sułek": 0
+    },
+    "fast_legs": {
+      "Rafał Zahora": [],
+      "Krystian Sułek": []
+    },
+    "average": {
+      "Rafał Zahora": 44.13738019169329,
+      "Krystian Sułek": 46.79233226837061
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_24km_Bl04_cgMn",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Waldemar Kopacz",
+    "player2": "Tomi Tomasz",
+    "score": "7:0",
+    "fast_legs_count": {
+      "Waldemar Kopacz": 0,
+      "Tomi Tomasz": 0
+    },
+    "fast_legs": {
+      "Waldemar Kopacz": [],
+      "Tomi Tomasz": []
+    },
+    "average": {
+      "Waldemar Kopacz": 61.526315789473685,
+      "Tomi Tomasz": 51.57142857142857
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_8xs6_Bl04_SGEg",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Krystian Sułek",
+    "player2": "Tomi Tomasz",
+    "score": "6:6",
+    "fast_legs_count": {
+      "Krystian Sułek": 0,
+      "Tomi Tomasz": 0
+    },
+    "fast_legs": {
+      "Krystian Sułek": [],
+      "Tomi Tomasz": []
+    },
+    "average": {
+      "Krystian Sułek": 49.76271186440678,
+      "Tomi Tomasz": 48.288951841359776
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_zov7_e2ky_gnnU",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Mateusz Pięta",
+    "player2": "Julian Samek",
+    "score": "7:0",
+    "fast_legs_count": {
+      "Mateusz Pięta": 0,
+      "Julian Samek": 0
+    },
+    "fast_legs": {
+      "Mateusz Pięta": [],
+      "Julian Samek": []
+    },
+    "average": {
+      "Mateusz Pięta": 58.12707182320442,
+      "Julian Samek": 47.71186440677966
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_1kpo_1GlY_nfsZ",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Szymon Put",
+    "player2": "Tomek Krzysztof Miedziany",
+    "score": "1:7",
+    "fast_legs_count": {
+      "Szymon Put": 0,
+      "Tomek Krzysztof Miedziany": 0
+    },
+    "fast_legs": {
+      "Szymon Put": [],
+      "Tomek Krzysztof Miedziany": []
+    },
+    "average": {
+      "Szymon Put": 42.22784810126582,
+      "Tomek Krzysztof Miedziany": 50.18410041841004
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_7c0f_Bl04_e2ky",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Tomi Tomasz",
+    "player2": "Mateusz Pięta",
+    "score": "3:7",
+    "fast_legs_count": {
+      "Tomi Tomasz": 1,
+      "Mateusz Pięta": 0
+    },
+    "fast_legs": {
+      "Tomi Tomasz": [
+        18
+      ],
+      "Mateusz Pięta": []
+    },
+    "average": {
+      "Tomi Tomasz": 50.988461538461536,
+      "Mateusz Pięta": 54.95038167938932
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_zzpk_cgMn_gnnU",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Waldemar Kopacz",
+    "player2": "Julian Samek",
+    "score": "4:7",
+    "fast_legs_count": {
+      "Waldemar Kopacz": 0,
+      "Julian Samek": 0
+    },
+    "fast_legs": {
+      "Waldemar Kopacz": [],
+      "Julian Samek": []
+    },
+    "average": {
+      "Waldemar Kopacz": 52.62244897959184,
+      "Julian Samek": 53.50337837837838
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_tiwh_SGEg_nfsZ",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Krystian Sułek",
+    "player2": "Tomek Krzysztof Miedziany",
+    "score": "4:7",
+    "fast_legs_count": {
+      "Krystian Sułek": 0,
+      "Tomek Krzysztof Miedziany": 0
+    },
+    "fast_legs": {
+      "Krystian Sułek": [],
+      "Tomek Krzysztof Miedziany": []
+    },
+    "average": {
+      "Krystian Sułek": 47.22608695652174,
+      "Tomek Krzysztof Miedziany": 45.6551724137931
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_le4a_1GlY_Bl04",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Tomi Tomasz",
+    "player2": "Szymon Put",
+    "score": "7:4",
+    "fast_legs_count": {
+      "Tomi Tomasz": 0,
+      "Szymon Put": 0
+    },
+    "fast_legs": {
+      "Tomi Tomasz": [],
+      "Szymon Put": []
+    },
+    "average": {
+      "Tomi Tomasz": 47.55780346820809,
+      "Szymon Put": 42.869565217391305
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_x8ip_NI31_gnnU",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Franciszek Kukiełka",
+    "player2": "Julian Samek",
+    "score": "7:0",
+    "fast_legs_count": {
+      "Franciszek Kukiełka": 1,
+      "Julian Samek": 0
+    },
+    "fast_legs": {
+      "Franciszek Kukiełka": [
+        16
+      ],
+      "Julian Samek": []
+    },
+    "average": {
+      "Franciszek Kukiełka": 63.763636363636365,
+      "Julian Samek": 47.648148148148145
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_rm4c_gnnU_nfsZ",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Julian Samek",
+    "player2": "Tomek Krzysztof Miedziany",
+    "score": "3:7",
+    "fast_legs_count": {
+      "Julian Samek": 0,
+      "Tomek Krzysztof Miedziany": 0
+    },
+    "fast_legs": {
+      "Julian Samek": [],
+      "Tomek Krzysztof Miedziany": []
+    },
+    "average": {
+      "Julian Samek": 48.05154639175258,
+      "Tomek Krzysztof Miedziany": 50.623728813559325
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_25gl_Bl04_cgMn",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Tomi Tomasz",
+    "player2": "Waldemar Kopacz",
+    "score": "4:7",
+    "fast_legs_count": {
+      "Tomi Tomasz": 0,
+      "Waldemar Kopacz": 1
+    },
+    "fast_legs": {
+      "Tomi Tomasz": [],
+      "Waldemar Kopacz": [
+        16
+      ]
+    },
+    "average": {
+      "Tomi Tomasz": 49.46511627906977,
+      "Waldemar Kopacz": 54.129139072847686
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_3mu8_SGEg_e2ky",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Mateusz Pięta",
+    "player2": "Krystian Sułek",
+    "score": "7:3",
+    "fast_legs_count": {
+      "Mateusz Pięta": 0,
+      "Krystian Sułek": 0
+    },
+    "fast_legs": {
+      "Mateusz Pięta": [],
+      "Krystian Sułek": []
+    },
+    "average": {
+      "Mateusz Pięta": 49.90169491525424,
+      "Krystian Sułek": 48.889655172413796
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_ucui_1GlY_NI31",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Franciszek Kukiełka",
+    "player2": "Szymon Put",
+    "score": "7:1",
+    "fast_legs_count": {
+      "Franciszek Kukiełka": 0,
+      "Szymon Put": 0
+    },
+    "fast_legs": {
+      "Franciszek Kukiełka": [],
+      "Szymon Put": []
+    },
+    "average": {
+      "Franciszek Kukiełka": 60.63636363636363,
+      "Szymon Put": 46.31818181818182
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_lasw_1GlY_cgMn",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Szymon Put",
+    "player2": "Waldemar Kopacz",
+    "score": "1:7",
+    "fast_legs_count": {
+      "Szymon Put": 0,
+      "Waldemar Kopacz": 0
+    },
+    "fast_legs": {
+      "Szymon Put": [],
+      "Waldemar Kopacz": []
+    },
+    "average": {
+      "Szymon Put": 48.12,
+      "Waldemar Kopacz": 57.2807881773399
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_33qg_NI31_e2ky",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Mateusz Pięta",
+    "player2": "Franciszek Kukiełka",
+    "score": "7:4",
+    "fast_legs_count": {
+      "Mateusz Pięta": 2,
+      "Franciszek Kukiełka": 0
+    },
+    "fast_legs": {
+      "Mateusz Pięta": [
+        17,
+        17
+      ],
+      "Franciszek Kukiełka": []
+    },
+    "average": {
+      "Mateusz Pięta": 64.11290322580645,
+      "Franciszek Kukiełka": 61.34016393442623
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_lx44_Bl04_nfsZ",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Tomek Krzysztof Miedziany",
+    "player2": "Tomi Tomasz",
+    "score": "5:7",
+    "fast_legs_count": {
+      "Tomek Krzysztof Miedziany": 0,
+      "Tomi Tomasz": 0
+    },
+    "fast_legs": {
+      "Tomek Krzysztof Miedziany": [],
+      "Tomi Tomasz": []
+    },
+    "average": {
+      "Tomek Krzysztof Miedziany": 50.98203592814371,
+      "Tomi Tomasz": 48.46987951807229
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_djzl_lqW0_nfsZ",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Tomek Krzysztof Miedziany",
+    "player2": "Piotr Gryga",
+    "score": "5:7",
+    "fast_legs_count": {
+      "Tomek Krzysztof Miedziany": 0,
+      "Piotr Gryga": 1
+    },
+    "fast_legs": {
+      "Tomek Krzysztof Miedziany": [],
+      "Piotr Gryga": [
+        18
+      ]
+    },
+    "average": {
+      "Tomek Krzysztof Miedziany": 54.34256055363322,
+      "Piotr Gryga": 60.47959183673469
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_r5vt_QTu0_e2ky",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Rafał Zahora",
+    "player2": "Mateusz Pięta",
+    "score": "1:7",
+    "fast_legs_count": {
+      "Rafał Zahora": 0,
+      "Mateusz Pięta": 2
+    },
+    "fast_legs": {
+      "Rafał Zahora": [],
+      "Mateusz Pięta": [
+        14,
+        17
+      ]
+    },
+    "average": {
+      "Rafał Zahora": 53.09844559585492,
+      "Mateusz Pięta": 60.2713567839196
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_9lq8_1GlY_QTu0",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Szymon Put",
+    "player2": "Rafał Zahora",
+    "score": "7:5",
+    "fast_legs_count": {
+      "Szymon Put": 0,
+      "Rafał Zahora": 0
+    },
+    "fast_legs": {
+      "Szymon Put": [],
+      "Rafał Zahora": []
+    },
+    "average": {
+      "Szymon Put": 43.44274809160305,
+      "Rafał Zahora": 43.857868020304565
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_tvyn_FIpX_nfsZ",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Tomek Krzysztof Miedziany",
+    "player2": "Jarosław Gryga",
+    "score": "6:6",
+    "fast_legs_count": {
+      "Tomek Krzysztof Miedziany": 0,
+      "Jarosław Gryga": 0
+    },
+    "fast_legs": {
+      "Tomek Krzysztof Miedziany": [],
+      "Jarosław Gryga": []
+    },
+    "average": {
+      "Tomek Krzysztof Miedziany": 53.405660377358494,
+      "Jarosław Gryga": 52.7625
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_zwyo_QTu0_lqW0",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Rafał Zahora",
+    "player2": "Piotr Gryga",
+    "score": "1:7",
+    "fast_legs_count": {
+      "Rafał Zahora": 0,
+      "Piotr Gryga": 0
+    },
+    "fast_legs": {
+      "Rafał Zahora": [],
+      "Piotr Gryga": []
+    },
+    "average": {
+      "Rafał Zahora": 55.25133689839572,
+      "Piotr Gryga": 61.670103092783506
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_zron_1GlY_gnnU",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Szymon Put",
+    "player2": "Julian Samek",
+    "score": "2:7",
+    "fast_legs_count": {
+      "Szymon Put": 0,
+      "Julian Samek": 0
+    },
+    "fast_legs": {
+      "Szymon Put": [],
+      "Julian Samek": []
+    },
+    "average": {
+      "Szymon Put": 47.950413223140494,
+      "Julian Samek": 55.123456790123456
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_ijnp_FIpX_e2ky",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Jarosław Gryga",
+    "player2": "Mateusz Pięta",
+    "score": "3:7",
+    "fast_legs_count": {
+      "Jarosław Gryga": 0,
+      "Mateusz Pięta": 4
+    },
+    "fast_legs": {
+      "Jarosław Gryga": [],
+      "Mateusz Pięta": [
+        15,
+        16,
+        17,
+        17
+      ]
+    },
+    "average": {
+      "Jarosław Gryga": 62.121212121212125,
+      "Mateusz Pięta": 72.73134328358209
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_nqqu_QTu0_gnnU",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Julian Samek",
+    "player2": "Rafał Zahora",
+    "score": "7:2",
+    "fast_legs_count": {
+      "Julian Samek": 1,
+      "Rafał Zahora": 0
+    },
+    "fast_legs": {
+      "Julian Samek": [
+        15
+      ],
+      "Rafał Zahora": []
+    },
+    "average": {
+      "Julian Samek": 51.99183673469388,
+      "Rafał Zahora": 46.3941908713693
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_spi9_1GlY_e2ky",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Szymon Put",
+    "player2": "Mateusz Pięta",
+    "score": "0:7",
+    "fast_legs_count": {
+      "Szymon Put": 0,
+      "Mateusz Pięta": 2
+    },
+    "fast_legs": {
+      "Szymon Put": [],
+      "Mateusz Pięta": [
+        17,
+        18
+      ]
+    },
+    "average": {
+      "Szymon Put": 49.3859649122807,
+      "Mateusz Pięta": 60.46551724137931
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_1nzt_FIpX_gnnU",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Julian Samek",
+    "player2": "Jarosław Gryga",
+    "score": "7:2",
+    "fast_legs_count": {
+      "Julian Samek": 0,
+      "Jarosław Gryga": 0
+    },
+    "fast_legs": {
+      "Julian Samek": [],
+      "Jarosław Gryga": []
+    },
+    "average": {
+      "Julian Samek": 55.65822784810127,
+      "Jarosław Gryga": 51.0
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_4sil_1GlY_lqW0",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Piotr Gryga",
+    "player2": "Szymon Put",
+    "score": "7:0",
+    "fast_legs_count": {
+      "Piotr Gryga": 2,
+      "Szymon Put": 0
+    },
+    "fast_legs": {
+      "Piotr Gryga": [
+        17,
+        18
+      ],
+      "Szymon Put": []
+    },
+    "average": {
+      "Piotr Gryga": 68.31818181818181,
+      "Szymon Put": 44.673469387755105
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_lbnk_FIpX_QTu0",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Jarosław Gryga",
+    "player2": "Rafał Zahora",
+    "score": "7:4",
+    "fast_legs_count": {
+      "Jarosław Gryga": 0,
+      "Rafał Zahora": 0
+    },
+    "fast_legs": {
+      "Jarosław Gryga": [],
+      "Rafał Zahora": []
+    },
+    "average": {
+      "Jarosław Gryga": 52.90196078431372,
+      "Rafał Zahora": 49.29568106312292
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_2ezf_QTu0_lqW0",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Piotr Gryga",
+    "player2": "Rafał Zahora",
+    "score": "7:1",
+    "fast_legs_count": {
+      "Piotr Gryga": 0,
+      "Rafał Zahora": 0
+    },
+    "fast_legs": {
+      "Piotr Gryga": [],
+      "Rafał Zahora": []
+    },
+    "average": {
+      "Piotr Gryga": 56.51428571428571,
+      "Rafał Zahora": 51.146341463414636
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_y8p3_FIpX_cgMn",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Waldemar Kopacz",
+    "player2": "Jarosław Gryga",
+    "score": "7:2",
+    "fast_legs_count": {
+      "Waldemar Kopacz": 1,
+      "Jarosław Gryga": 0
+    },
+    "fast_legs": {
+      "Waldemar Kopacz": [
+        15
+      ],
+      "Jarosław Gryga": []
+    },
+    "average": {
+      "Waldemar Kopacz": 58.31739130434783,
+      "Jarosław Gryga": 52.86666666666667
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_vkqr_SGEg_cgMn",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Krystian Sułek",
+    "player2": "Waldemar Kopacz",
+    "score": "2:7",
+    "fast_legs_count": {
+      "Krystian Sułek": 0,
+      "Waldemar Kopacz": 1
+    },
+    "fast_legs": {
+      "Krystian Sułek": [],
+      "Waldemar Kopacz": [
+        14
+      ]
+    },
+    "average": {
+      "Krystian Sułek": 49.731277533039645,
+      "Waldemar Kopacz": 58.81057268722467
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_fnv7_Lb3M_QTu0",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Rafał Zahora",
+    "player2": "Tomasz Radecki",
+    "score": "7:3",
+    "fast_legs_count": {
+      "Rafał Zahora": 0,
+      "Tomasz Radecki": 0
+    },
+    "fast_legs": {
+      "Rafał Zahora": [],
+      "Tomasz Radecki": []
+    },
+    "average": {
+      "Rafał Zahora": 43.73394495412844,
+      "Tomasz Radecki": 42.03703703703704
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_gv63_Ps7G_gnnU",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Julian Samek",
+    "player2": "Hubert Sułek",
+    "score": "5:7",
+    "fast_legs_count": {
+      "Julian Samek": 0,
+      "Hubert Sułek": 0
+    },
+    "fast_legs": {
+      "Julian Samek": [],
+      "Hubert Sułek": []
+    },
+    "average": {
+      "Julian Samek": 52.43396226415094,
+      "Hubert Sułek": 54.81730769230769
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_fzqc_NI31_QTu0",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Rafał Zahora",
+    "player2": "Franciszek Kukiełka",
+    "score": "2:7",
+    "fast_legs_count": {
+      "Rafał Zahora": 0,
+      "Franciszek Kukiełka": 0
+    },
+    "fast_legs": {
+      "Rafał Zahora": [],
+      "Franciszek Kukiełka": []
+    },
+    "average": {
+      "Rafał Zahora": 48.39622641509434,
+      "Franciszek Kukiełka": 50.864150943396226
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_eg9x_Lb3M_nfsZ",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Tomek Krzysztof Miedziany",
+    "player2": "Tomasz Radecki",
+    "score": "7:0",
+    "fast_legs_count": {
+      "Tomek Krzysztof Miedziany": 0,
+      "Tomasz Radecki": 0
+    },
+    "fast_legs": {
+      "Tomek Krzysztof Miedziany": [],
+      "Tomasz Radecki": []
+    },
+    "average": {
+      "Tomek Krzysztof Miedziany": 50.58173076923077,
+      "Tomasz Radecki": 48.338235294117645
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_zdd2_FIpX_SGEg",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Krystian Sułek",
+    "player2": "Jarosław Gryga",
+    "score": "7:3",
+    "fast_legs_count": {
+      "Krystian Sułek": 0,
+      "Jarosław Gryga": 0
+    },
+    "fast_legs": {
+      "Krystian Sułek": [],
+      "Jarosław Gryga": []
+    },
+    "average": {
+      "Krystian Sułek": 50.03030303030303,
+      "Jarosław Gryga": 42.946308724832214
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_88e4_gnnU_lqW0",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Julian Samek",
+    "player2": "Piotr Gryga",
+    "score": "4:7",
+    "fast_legs_count": {
+      "Julian Samek": 1,
+      "Piotr Gryga": 0
+    },
+    "fast_legs": {
+      "Julian Samek": [
+        12
+      ],
+      "Piotr Gryga": []
+    },
+    "average": {
+      "Julian Samek": 52.15384615384615,
+      "Piotr Gryga": 52.255102040816325
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_skgm_QTu0_cgMn",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Waldemar Kopacz",
+    "player2": "Rafał Zahora",
+    "score": "7:0",
+    "fast_legs_count": {
+      "Waldemar Kopacz": 0,
+      "Rafał Zahora": 0
+    },
+    "fast_legs": {
+      "Waldemar Kopacz": [],
+      "Rafał Zahora": []
+    },
+    "average": {
+      "Waldemar Kopacz": 63.37951807228916,
+      "Rafał Zahora": 49.943396226415096
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_jmwn_Lb3M_Ps7G",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Tomasz Radecki",
+    "player2": "Hubert Sułek",
+    "score": "0:7",
+    "fast_legs_count": {
+      "Tomasz Radecki": 0,
+      "Hubert Sułek": 0
+    },
+    "fast_legs": {
+      "Tomasz Radecki": [],
+      "Hubert Sułek": []
+    },
+    "average": {
+      "Tomasz Radecki": 45.8,
+      "Hubert Sułek": 53.10606060606061
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_g1oj_SGEg_gnnU",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Julian Samek",
+    "player2": "Krystian Sułek",
+    "score": "2:7",
+    "fast_legs_count": {
+      "Julian Samek": 0,
+      "Krystian Sułek": 0
+    },
+    "fast_legs": {
+      "Julian Samek": [],
+      "Krystian Sułek": []
+    },
+    "average": {
+      "Julian Samek": 59.37931034482759,
+      "Krystian Sułek": 63.029556650246306
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_d1ky_NI31_nfsZ",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Tomek Krzysztof Miedziany",
+    "player2": "Franciszek Kukiełka",
+    "score": "7:5",
+    "fast_legs_count": {
+      "Tomek Krzysztof Miedziany": 0,
+      "Franciszek Kukiełka": 1
+    },
+    "fast_legs": {
+      "Tomek Krzysztof Miedziany": [],
+      "Franciszek Kukiełka": [
+        15
+      ]
+    },
+    "average": {
+      "Tomek Krzysztof Miedziany": 51.47076923076923,
+      "Franciszek Kukiełka": 53.53560371517028
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_3d59_Ps7G_cgMn",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Hubert Sułek",
+    "player2": "Waldemar Kopacz",
+    "score": "3:7",
+    "fast_legs_count": {
+      "Hubert Sułek": 0,
+      "Waldemar Kopacz": 0
+    },
+    "fast_legs": {
+      "Hubert Sułek": [],
+      "Waldemar Kopacz": []
+    },
+    "average": {
+      "Hubert Sułek": 58.2027027027027,
+      "Waldemar Kopacz": 63.30263157894737
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_7pzh_Lb3M_SGEg",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Tomasz Radecki",
+    "player2": "Krystian Sułek",
+    "score": "4:7",
+    "fast_legs_count": {
+      "Tomasz Radecki": 0,
+      "Krystian Sułek": 0
+    },
+    "fast_legs": {
+      "Tomasz Radecki": [],
+      "Krystian Sułek": []
+    },
+    "average": {
+      "Tomasz Radecki": 48.25167785234899,
+      "Krystian Sułek": 55.016949152542374
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_1hf8_gnnU_nfsZ",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Tomek Krzysztof Miedziany",
+    "player2": "Julian Samek",
+    "score": "6:6",
+    "fast_legs_count": {
+      "Tomek Krzysztof Miedziany": 0,
+      "Julian Samek": 0
+    },
+    "fast_legs": {
+      "Tomek Krzysztof Miedziany": [],
+      "Julian Samek": []
+    },
+    "average": {
+      "Tomek Krzysztof Miedziany": 54.25796178343949,
+      "Julian Samek": 52.3035143769968
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_066k_NI31_Ps7G",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Franciszek Kukiełka",
+    "player2": "Hubert Sułek",
+    "score": "3:7",
+    "fast_legs_count": {
+      "Franciszek Kukiełka": 0,
+      "Hubert Sułek": 0
+    },
+    "fast_legs": {
+      "Franciszek Kukiełka": [],
+      "Hubert Sułek": []
+    },
+    "average": {
+      "Franciszek Kukiełka": 52.848837209302324,
+      "Hubert Sułek": 56.69649805447471
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_7s02_Lb3M_e2ky",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Tomasz Radecki",
+    "player2": "Mateusz Pięta",
+    "score": "1:7",
+    "fast_legs_count": {
+      "Tomasz Radecki": 0,
+      "Mateusz Pięta": 0
+    },
+    "fast_legs": {
+      "Tomasz Radecki": [],
+      "Mateusz Pięta": []
+    },
+    "average": {
+      "Tomasz Radecki": 53.558375634517766,
+      "Mateusz Pięta": 56.18316831683168
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_nd9r_FIpX_SGEg",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Jarosław Gryga",
+    "player2": "Krystian Sułek",
+    "score": "7:5",
+    "fast_legs_count": {
+      "Jarosław Gryga": 0,
+      "Krystian Sułek": 0
+    },
+    "fast_legs": {
+      "Jarosław Gryga": [],
+      "Krystian Sułek": []
+    },
+    "average": {
+      "Jarosław Gryga": 48.60989010989011,
+      "Krystian Sułek": 47.46666666666667
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_houx_1GlY_NI31",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Szymon Put",
+    "player2": "Franciszek Kukiełka",
+    "score": "1:7",
+    "fast_legs_count": {
+      "Szymon Put": 0,
+      "Franciszek Kukiełka": 0
+    },
+    "fast_legs": {
+      "Szymon Put": [],
+      "Franciszek Kukiełka": []
+    },
+    "average": {
+      "Szymon Put": 40.51304347826087,
+      "Franciszek Kukiełka": 50.97446808510638
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_es3d_e2ky_lqW0",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Piotr Gryga",
+    "player2": "Mateusz Pięta",
+    "score": "7:3",
+    "fast_legs_count": {
+      "Piotr Gryga": 0,
+      "Mateusz Pięta": 0
+    },
+    "fast_legs": {
+      "Piotr Gryga": [],
+      "Mateusz Pięta": []
+    },
+    "average": {
+      "Piotr Gryga": 62.379746835443036,
+      "Mateusz Pięta": 55.25847457627118
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_07tr_1GlY_Lb3M",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Szymon Put",
+    "player2": "Tomasz Radecki",
+    "score": "1:7",
+    "fast_legs_count": {
+      "Szymon Put": 0,
+      "Tomasz Radecki": 0
+    },
+    "fast_legs": {
+      "Szymon Put": [],
+      "Tomasz Radecki": []
+    },
+    "average": {
+      "Szymon Put": 34.18050541516246,
+      "Tomasz Radecki": 42.381625441696116
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_geig_Bl04_nfsZ",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Tomi Tomasz",
+    "player2": "Tomek Krzysztof Miedziany",
+    "score": "6:6",
+    "fast_legs_count": {
+      "Tomi Tomasz": 1,
+      "Tomek Krzysztof Miedziany": 0
+    },
+    "fast_legs": {
+      "Tomi Tomasz": [
+        18
+      ],
+      "Tomek Krzysztof Miedziany": []
+    },
+    "average": {
+      "Tomi Tomasz": 49.51714285714286,
+      "Tomek Krzysztof Miedziany": 48.64222873900293
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_j5eq_FIpX_Ps7G",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Jarosław Gryga",
+    "player2": "Hubert Sułek",
+    "score": "4:7",
+    "fast_legs_count": {
+      "Jarosław Gryga": 1,
+      "Hubert Sułek": 1
+    },
+    "fast_legs": {
+      "Jarosław Gryga": [
+        18
+      ],
+      "Hubert Sułek": [
+        16
+      ]
+    },
+    "average": {
+      "Jarosław Gryga": 54.06521739130435,
+      "Hubert Sułek": 57.21897810218978
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_syh4_NI31_SGEg",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Franciszek Kukiełka",
+    "player2": "Krystian Sułek",
+    "score": "7:0",
+    "fast_legs_count": {
+      "Franciszek Kukiełka": 1,
+      "Krystian Sułek": 0
+    },
+    "fast_legs": {
+      "Franciszek Kukiełka": [
+        15
+      ],
+      "Krystian Sułek": []
+    },
+    "average": {
+      "Franciszek Kukiełka": 61.88823529411765,
+      "Krystian Sułek": 52.345454545454544
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_iaof_1GlY_lqW0",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Szymon Put",
+    "player2": "Piotr Gryga",
+    "score": "0:7",
+    "fast_legs_count": {
+      "Szymon Put": 0,
+      "Piotr Gryga": 1
+    },
+    "fast_legs": {
+      "Szymon Put": [],
+      "Piotr Gryga": [
+        17
+      ]
+    },
+    "average": {
+      "Szymon Put": 40.11864406779661,
+      "Piotr Gryga": 59.10674157303371
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_3dcl_cgMn_e2ky",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Mateusz Pięta",
+    "player2": "Waldemar Kopacz",
+    "score": "4:7",
+    "fast_legs_count": {
+      "Mateusz Pięta": 2,
+      "Waldemar Kopacz": 0
+    },
+    "fast_legs": {
+      "Mateusz Pięta": [
+        16,
+        18
+      ],
+      "Waldemar Kopacz": []
+    },
+    "average": {
+      "Mateusz Pięta": 59.72941176470588,
+      "Waldemar Kopacz": 60.07086614173228
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_3cwv_Ps7G_nfsZ",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Hubert Sułek",
+    "player2": "Tomek Krzysztof Miedziany",
+    "score": "7:4",
+    "fast_legs_count": {
+      "Hubert Sułek": 0,
+      "Tomek Krzysztof Miedziany": 0
+    },
+    "fast_legs": {
+      "Hubert Sułek": [],
+      "Tomek Krzysztof Miedziany": []
+    },
+    "average": {
+      "Hubert Sułek": 56.822916666666664,
+      "Tomek Krzysztof Miedziany": 54.07394366197183
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_6zup_SGEg_lqW0",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Piotr Gryga",
+    "player2": "Krystian Sułek",
+    "score": "7:0",
+    "fast_legs_count": {
+      "Piotr Gryga": 0,
+      "Krystian Sułek": 0
+    },
+    "fast_legs": {
+      "Piotr Gryga": [],
+      "Krystian Sułek": []
+    },
+    "average": {
+      "Piotr Gryga": 58.77653631284916,
+      "Krystian Sułek": 50.87719298245614
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_28nu_Lb3M_NI31",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Tomasz Radecki",
+    "player2": "Franciszek Kukiełka",
+    "score": "7:3",
+    "fast_legs_count": {
+      "Tomasz Radecki": 0,
+      "Franciszek Kukiełka": 0
+    },
+    "fast_legs": {
+      "Tomasz Radecki": [],
+      "Franciszek Kukiełka": []
+    },
+    "average": {
+      "Tomasz Radecki": 57.61904761904762,
+      "Franciszek Kukiełka": 53.54581673306773
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_04ue_Bl04_FIpX",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Tomi Tomasz",
+    "player2": "Jarosław Gryga",
+    "score": "7:2",
+    "fast_legs_count": {
+      "Tomi Tomasz": 0,
+      "Jarosław Gryga": 0
+    },
+    "fast_legs": {
+      "Tomi Tomasz": [],
+      "Jarosław Gryga": []
+    },
+    "average": {
+      "Tomi Tomasz": 51.23529411764706,
+      "Jarosław Gryga": 50.66015625
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_h4z4_cgMn_nfsZ",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Tomek Krzysztof Miedziany",
+    "player2": "Waldemar Kopacz",
+    "score": "3:7",
+    "fast_legs_count": {
+      "Tomek Krzysztof Miedziany": 0,
+      "Waldemar Kopacz": 0
+    },
+    "fast_legs": {
+      "Tomek Krzysztof Miedziany": [],
+      "Waldemar Kopacz": []
+    },
+    "average": {
+      "Tomek Krzysztof Miedziany": 52.53138075313807,
+      "Waldemar Kopacz": 60.19672131147541
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_33hm_Ps7G_SGEg",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Hubert Sułek",
+    "player2": "Krystian Sułek",
+    "score": "7:3",
+    "fast_legs_count": {
+      "Hubert Sułek": 0,
+      "Krystian Sułek": 0
+    },
+    "fast_legs": {
+      "Hubert Sułek": [],
+      "Krystian Sułek": []
+    },
+    "average": {
+      "Hubert Sułek": 54.67164179104478,
+      "Krystian Sułek": 49.44981412639405
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_c4jb_FIpX_lqW0",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Jarosław Gryga",
+    "player2": "Piotr Gryga",
+    "score": "2:7",
+    "fast_legs_count": {
+      "Jarosław Gryga": 0,
+      "Piotr Gryga": 1
+    },
+    "fast_legs": {
+      "Jarosław Gryga": [],
+      "Piotr Gryga": [
+        14
+      ]
+    },
+    "average": {
+      "Jarosław Gryga": 44.60091743119266,
+      "Piotr Gryga": 61.755760368663594
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_17oy_Bl04_NI31",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Franciszek Kukiełka",
+    "player2": "Tomi Tomasz",
+    "score": "7:4",
+    "fast_legs_count": {
+      "Franciszek Kukiełka": 0,
+      "Tomi Tomasz": 0
+    },
+    "fast_legs": {
+      "Franciszek Kukiełka": [],
+      "Tomi Tomasz": []
+    },
+    "average": {
+      "Franciszek Kukiełka": 52.256493506493506,
+      "Tomi Tomasz": 50.225806451612904
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_m3wb_Bl04_QTu0",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Tomi Tomasz",
+    "player2": "Rafał Zahora",
+    "score": "7:4",
+    "fast_legs_count": {
+      "Tomi Tomasz": 0,
+      "Rafał Zahora": 0
+    },
+    "fast_legs": {
+      "Tomi Tomasz": [],
+      "Rafał Zahora": []
+    },
+    "average": {
+      "Tomi Tomasz": 51.54716981132076,
+      "Rafał Zahora": 45.714285714285715
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_01uf_1GlY_FIpX",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Szymon Put",
+    "player2": "Jarosław Gryga",
+    "score": "1:7",
+    "fast_legs_count": {
+      "Szymon Put": 0,
+      "Jarosław Gryga": 0
+    },
+    "fast_legs": {
+      "Szymon Put": [],
+      "Jarosław Gryga": []
+    },
+    "average": {
+      "Szymon Put": 40.88284518828452,
+      "Jarosław Gryga": 47.74074074074074
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_mker_NI31_lqW0",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Franciszek Kukiełka",
+    "player2": "Piotr Gryga",
+    "score": "5:7",
+    "fast_legs_count": {
+      "Franciszek Kukiełka": 0,
+      "Piotr Gryga": 0
+    },
+    "fast_legs": {
+      "Franciszek Kukiełka": [],
+      "Piotr Gryga": []
+    },
+    "average": {
+      "Franciszek Kukiełka": 59.04498269896194,
+      "Piotr Gryga": 59.80276816608997
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_dlkm_NI31_cgMn",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Waldemar Kopacz",
+    "player2": "Franciszek Kukiełka",
+    "score": "7:4",
+    "fast_legs_count": {
+      "Waldemar Kopacz": 2,
+      "Franciszek Kukiełka": 1
+    },
+    "fast_legs": {
+      "Waldemar Kopacz": [
+        16,
+        18
+      ],
+      "Franciszek Kukiełka": [
+        18
+      ]
+    },
+    "average": {
+      "Waldemar Kopacz": 61.30384615384615,
+      "Franciszek Kukiełka": 56.26744186046512
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_yiuv_FIpX_Lb3M",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Jarosław Gryga",
+    "player2": "Tomasz Radecki",
+    "score": "7:1",
+    "fast_legs_count": {
+      "Jarosław Gryga": 1,
+      "Tomasz Radecki": 0
+    },
+    "fast_legs": {
+      "Jarosław Gryga": [
+        18
+      ],
+      "Tomasz Radecki": []
+    },
+    "average": {
+      "Jarosław Gryga": 55.76303317535545,
+      "Tomasz Radecki": 47.142857142857146
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_r8es_Ps7G_e2ky",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Mateusz Pięta",
+    "player2": "Hubert Sułek",
+    "score": "4:7",
+    "fast_legs_count": {
+      "Mateusz Pięta": 0,
+      "Hubert Sułek": 0
+    },
+    "fast_legs": {
+      "Mateusz Pięta": [],
+      "Hubert Sułek": []
+    },
+    "average": {
+      "Mateusz Pięta": 58.924528301886795,
+      "Hubert Sułek": 58.701149425287355
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_9wfw_Bl04_lqW0",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Piotr Gryga",
+    "player2": "Tomi Tomasz",
+    "score": "6:6",
+    "fast_legs_count": {
+      "Piotr Gryga": 0,
+      "Tomi Tomasz": 0
+    },
+    "fast_legs": {
+      "Piotr Gryga": [],
+      "Tomi Tomasz": []
+    },
+    "average": {
+      "Piotr Gryga": 54.762057877813504,
+      "Tomi Tomasz": 55.21935483870968
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_0tsh_1GlY_QTu0",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Rafał Zahora",
+    "player2": "Szymon Put",
+    "score": "7:5",
+    "fast_legs_count": {
+      "Rafał Zahora": 0,
+      "Szymon Put": 0
+    },
+    "fast_legs": {
+      "Rafał Zahora": [],
+      "Szymon Put": []
+    },
+    "average": {
+      "Rafał Zahora": 42.342042755344416,
+      "Szymon Put": 41.11217183770883
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_zy25_Lb3M_gnnU",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Julian Samek",
+    "player2": "Tomasz Radecki",
+    "score": "7:2",
+    "fast_legs_count": {
+      "Julian Samek": 0,
+      "Tomasz Radecki": 0
+    },
+    "fast_legs": {
+      "Julian Samek": [],
+      "Tomasz Radecki": []
+    },
+    "average": {
+      "Julian Samek": 51.19391634980989,
+      "Tomasz Radecki": 48.86381322957198
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_o42l_1GlY_cgMn",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Waldemar Kopacz",
+    "player2": "Szymon Put",
+    "score": "7:0",
+    "fast_legs_count": {
+      "Waldemar Kopacz": 0,
+      "Szymon Put": 0
+    },
+    "fast_legs": {
+      "Waldemar Kopacz": [],
+      "Szymon Put": []
+    },
+    "average": {
+      "Waldemar Kopacz": 61.88823529411765,
+      "Szymon Put": 37.8
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_ygzh_Ps7G_QTu0",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Hubert Sułek",
+    "player2": "Rafał Zahora",
+    "score": "7:3",
+    "fast_legs_count": {
+      "Hubert Sułek": 1,
+      "Rafał Zahora": 0
+    },
+    "fast_legs": {
+      "Hubert Sułek": [
+        18
+      ],
+      "Rafał Zahora": []
+    },
+    "average": {
+      "Hubert Sułek": 64.62445414847161,
+      "Rafał Zahora": 53.346666666666664
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_v3m5_FIpX_NI31",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Franciszek Kukiełka",
+    "player2": "Jarosław Gryga",
+    "score": "7:4",
+    "fast_legs_count": {
+      "Franciszek Kukiełka": 0,
+      "Jarosław Gryga": 0
+    },
+    "fast_legs": {
+      "Franciszek Kukiełka": [],
+      "Jarosław Gryga": []
+    },
+    "average": {
+      "Franciszek Kukiełka": 59.32222222222222,
+      "Jarosław Gryga": 51.31578947368421
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_xkvr_Bl04_e2ky",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Mateusz Pięta",
+    "player2": "Tomi Tomasz",
+    "score": "6:6",
+    "fast_legs_count": {
+      "Mateusz Pięta": 1,
+      "Tomi Tomasz": 1
+    },
+    "fast_legs": {
+      "Mateusz Pięta": [
+        14
+      ],
+      "Tomi Tomasz": [
+        18
+      ]
+    },
+    "average": {
+      "Mateusz Pięta": 56.38235294117647,
+      "Tomi Tomasz": 55.386138613861384
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_187q_Lb3M_cgMn",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Tomasz Radecki",
+    "player2": "Waldemar Kopacz",
+    "score": "0:7",
+    "fast_legs_count": {
+      "Tomasz Radecki": 0,
+      "Waldemar Kopacz": 0
+    },
+    "fast_legs": {
+      "Tomasz Radecki": [],
+      "Waldemar Kopacz": []
+    },
+    "average": {
+      "Tomasz Radecki": 42.285714285714285,
+      "Waldemar Kopacz": 49.62735849056604
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_saqo_gnnU_lqW0",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Piotr Gryga",
+    "player2": "Julian Samek",
+    "score": "7:2",
+    "fast_legs_count": {
+      "Piotr Gryga": 0,
+      "Julian Samek": 0
+    },
+    "fast_legs": {
+      "Piotr Gryga": [],
+      "Julian Samek": []
+    },
+    "average": {
+      "Piotr Gryga": 60.87671232876713,
+      "Julian Samek": 56.083333333333336
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_6fd5_Bl04_FIpX",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Jarosław Gryga",
+    "player2": "Tomi Tomasz",
+    "score": "1:7",
+    "fast_legs_count": {
+      "Jarosław Gryga": 0,
+      "Tomi Tomasz": 0
+    },
+    "fast_legs": {
+      "Jarosław Gryga": [],
+      "Tomi Tomasz": []
+    },
+    "average": {
+      "Jarosław Gryga": 40.5450643776824,
+      "Tomi Tomasz": 48.64016736401673
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_8hwa_NI31_Ps7G",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Hubert Sułek",
+    "player2": "Franciszek Kukiełka",
+    "score": "3:7",
+    "fast_legs_count": {
+      "Hubert Sułek": 0,
+      "Franciszek Kukiełka": 0
+    },
+    "fast_legs": {
+      "Hubert Sułek": [],
+      "Franciszek Kukiełka": []
+    },
+    "average": {
+      "Hubert Sułek": 55.30952380952381,
+      "Franciszek Kukiełka": 57.355731225296445
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_ovp9_Lb3M_lqW0",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Tomasz Radecki",
+    "player2": "Piotr Gryga",
+    "score": "0:7",
+    "fast_legs_count": {
+      "Tomasz Radecki": 0,
+      "Piotr Gryga": 0
+    },
+    "fast_legs": {
+      "Tomasz Radecki": [],
+      "Piotr Gryga": []
+    },
+    "average": {
+      "Tomasz Radecki": 44.10344827586207,
+      "Piotr Gryga": 60.46551724137931
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_3ujh_cgMn_gnnU",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Julian Samek",
+    "player2": "Waldemar Kopacz",
+    "score": "0:7",
+    "fast_legs_count": {
+      "Julian Samek": 0,
+      "Waldemar Kopacz": 1
+    },
+    "fast_legs": {
+      "Julian Samek": [],
+      "Waldemar Kopacz": [
+        18
+      ]
+    },
+    "average": {
+      "Julian Samek": 60.666666666666664,
+      "Waldemar Kopacz": 68.31818181818181
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_3oo5_Bl04_Ps7G",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Tomi Tomasz",
+    "player2": "Hubert Sułek",
+    "score": "4:7",
+    "fast_legs_count": {
+      "Tomi Tomasz": 0,
+      "Hubert Sułek": 1
+    },
+    "fast_legs": {
+      "Tomi Tomasz": [],
+      "Hubert Sułek": [
+        17
+      ]
+    },
+    "average": {
+      "Tomi Tomasz": 59.03305785123967,
+      "Hubert Sułek": 66.82377049180327
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_o3zq_e2ky_gnnU",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Julian Samek",
+    "player2": "Mateusz Pięta",
+    "score": "2:7",
+    "fast_legs_count": {
+      "Julian Samek": 0,
+      "Mateusz Pięta": 0
+    },
+    "fast_legs": {
+      "Julian Samek": [],
+      "Mateusz Pięta": []
+    },
+    "average": {
+      "Julian Samek": 56.148648648648646,
+      "Mateusz Pięta": 57.093333333333334
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_4o31_Lb3M_NI31",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Franciszek Kukiełka",
+    "player2": "Tomasz Radecki",
+    "score": "7:0",
+    "fast_legs_count": {
+      "Franciszek Kukiełka": 0,
+      "Tomasz Radecki": 0
+    },
+    "fast_legs": {
+      "Franciszek Kukiełka": [],
+      "Tomasz Radecki": []
+    },
+    "average": {
+      "Franciszek Kukiełka": 46.14473684210526,
+      "Tomasz Radecki": 41.8
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_ul6r_e2ky_nfsZ",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Mateusz Pięta",
+    "player2": "Tomek Krzysztof Miedziany",
+    "score": "7:3",
+    "fast_legs_count": {
+      "Mateusz Pięta": 1,
+      "Tomek Krzysztof Miedziany": 0
+    },
+    "fast_legs": {
+      "Mateusz Pięta": [
+        18
+      ],
+      "Tomek Krzysztof Miedziany": []
+    },
+    "average": {
+      "Mateusz Pięta": 63.55506607929515,
+      "Tomek Krzysztof Miedziany": 53.67420814479638
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_phs7_Ps7G_lqW0",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Piotr Gryga",
+    "player2": "Hubert Sułek",
+    "score": "7:1",
+    "fast_legs_count": {
+      "Piotr Gryga": 3,
+      "Hubert Sułek": 1
+    },
+    "fast_legs": {
+      "Piotr Gryga": [
+        14,
+        14,
+        18
+      ],
+      "Hubert Sułek": [
+        16
+      ]
+    },
+    "average": {
+      "Piotr Gryga": 77.84210526315789,
+      "Hubert Sułek": 63.186206896551724
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_volz_FIpX_Lb3M",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Tomasz Radecki",
+    "player2": "Jarosław Gryga",
+    "score": "3:7",
+    "fast_legs_count": {
+      "Tomasz Radecki": 0,
+      "Jarosław Gryga": 0
+    },
+    "fast_legs": {
+      "Tomasz Radecki": [],
+      "Jarosław Gryga": []
+    },
+    "average": {
+      "Tomasz Radecki": 42.585798816568044,
+      "Jarosław Gryga": 43.720588235294116
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_b88h_Bl04_SGEg",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Tomi Tomasz",
+    "player2": "Krystian Sułek",
+    "score": "6:6",
+    "fast_legs_count": {
+      "Tomi Tomasz": 0,
+      "Krystian Sułek": 0
+    },
+    "fast_legs": {
+      "Tomi Tomasz": [],
+      "Krystian Sułek": []
+    },
+    "average": {
+      "Tomi Tomasz": 47.13202247191011,
+      "Krystian Sułek": 49.19491525423729
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_uxsh_SGEg_lqW0",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Krystian Sułek",
+    "player2": "Piotr Gryga",
+    "score": "0:7",
+    "fast_legs_count": {
+      "Krystian Sułek": 0,
+      "Piotr Gryga": 1
+    },
+    "fast_legs": {
+      "Krystian Sułek": [],
+      "Piotr Gryga": [
+        17
+      ]
+    },
+    "average": {
+      "Krystian Sułek": 53.509803921568626,
+      "Piotr Gryga": 67.87741935483871
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_6fsi_cgMn_e2ky",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Waldemar Kopacz",
+    "player2": "Mateusz Pięta",
+    "score": "6:6",
+    "fast_legs_count": {
+      "Waldemar Kopacz": 0,
+      "Mateusz Pięta": 1
+    },
+    "fast_legs": {
+      "Waldemar Kopacz": [],
+      "Mateusz Pięta": [
+        15
+      ]
+    },
+    "average": {
+      "Waldemar Kopacz": 60.26470588235294,
+      "Mateusz Pięta": 59.88086642599278
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_0ozc_Bl04_Ps7G",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Hubert Sułek",
+    "player2": "Tomi Tomasz",
+    "score": "6:6",
+    "fast_legs_count": {
+      "Hubert Sułek": 1,
+      "Tomi Tomasz": 0
+    },
+    "fast_legs": {
+      "Hubert Sułek": [
+        18
+      ],
+      "Tomi Tomasz": []
+    },
+    "average": {
+      "Hubert Sułek": 54.1747572815534,
+      "Tomi Tomasz": 55.0
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_h4ih_FIpX_nfsZ",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Jarosław Gryga",
+    "player2": "Tomek Krzysztof Miedziany",
+    "score": "6:6",
+    "fast_legs_count": {
+      "Jarosław Gryga": 0,
+      "Tomek Krzysztof Miedziany": 1
+    },
+    "fast_legs": {
+      "Jarosław Gryga": [],
+      "Tomek Krzysztof Miedziany": [
+        16
+      ]
+    },
+    "average": {
+      "Jarosław Gryga": 47.97256097560975,
+      "Tomek Krzysztof Miedziany": 51.45592705167173
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_j4hk_e2ky_lqW0",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Mateusz Pięta",
+    "player2": "Piotr Gryga",
+    "score": "2:7",
+    "fast_legs_count": {
+      "Mateusz Pięta": 0,
+      "Piotr Gryga": 2
+    },
+    "fast_legs": {
+      "Mateusz Pięta": [],
+      "Piotr Gryga": [
+        17,
+        18
+      ]
+    },
+    "average": {
+      "Mateusz Pięta": 60.71641791044776,
+      "Piotr Gryga": 66.375
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_acr5_FIpX_cgMn",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Jarosław Gryga",
+    "player2": "Waldemar Kopacz",
+    "score": "0:7",
+    "fast_legs_count": {
+      "Jarosław Gryga": 0,
+      "Waldemar Kopacz": 2
+    },
+    "fast_legs": {
+      "Jarosław Gryga": [],
+      "Waldemar Kopacz": [
+        16,
+        18
+      ]
+    },
+    "average": {
+      "Jarosław Gryga": 39.87719298245614,
+      "Waldemar Kopacz": 62.25443786982248
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_idit_lqW0_nfsZ",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Piotr Gryga",
+    "player2": "Tomek Krzysztof Miedziany",
+    "score": "7:0",
+    "fast_legs_count": {
+      "Piotr Gryga": 0,
+      "Tomek Krzysztof Miedziany": 0
+    },
+    "fast_legs": {
+      "Piotr Gryga": [],
+      "Tomek Krzysztof Miedziany": []
+    },
+    "average": {
+      "Piotr Gryga": 68.31818181818181,
+      "Tomek Krzysztof Miedziany": 56.76
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_et18_Bl04_Lb3M",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Tomi Tomasz",
+    "player2": "Tomasz Radecki",
+    "score": "7:3",
+    "fast_legs_count": {
+      "Tomi Tomasz": 0,
+      "Tomasz Radecki": 0
+    },
+    "fast_legs": {
+      "Tomi Tomasz": [],
+      "Tomasz Radecki": []
+    },
+    "average": {
+      "Tomi Tomasz": 42.42857142857143,
+      "Tomasz Radecki": 38.85302593659942
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_pqte_Ps7G_SGEg",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Krystian Sułek",
+    "player2": "Hubert Sułek",
+    "score": "3:7",
+    "fast_legs_count": {
+      "Krystian Sułek": 0,
+      "Hubert Sułek": 0
+    },
+    "fast_legs": {
+      "Krystian Sułek": [],
+      "Hubert Sułek": []
+    },
+    "average": {
+      "Krystian Sułek": 52.2289156626506,
+      "Hubert Sułek": 58.056
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_qvgm_FIpX_Ps7G",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Hubert Sułek",
+    "player2": "Jarosław Gryga",
+    "score": "7:2",
+    "fast_legs_count": {
+      "Hubert Sułek": 2,
+      "Jarosław Gryga": 0
+    },
+    "fast_legs": {
+      "Hubert Sułek": [
+        17,
+        17
+      ],
+      "Jarosław Gryga": []
+    },
+    "average": {
+      "Hubert Sułek": 65.52475247524752,
+      "Jarosław Gryga": 52.92537313432836
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_bm59_Lb3M_lqW0",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Piotr Gryga",
+    "player2": "Tomasz Radecki",
+    "score": "7:1",
+    "fast_legs_count": {
+      "Piotr Gryga": 1,
+      "Tomasz Radecki": 0
+    },
+    "fast_legs": {
+      "Piotr Gryga": [
+        17
+      ],
+      "Tomasz Radecki": []
+    },
+    "average": {
+      "Piotr Gryga": 64.38709677419355,
+      "Tomasz Radecki": 48.89325842696629
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_3yd8_FIpX_NI31",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Jarosław Gryga",
+    "player2": "Franciszek Kukiełka",
+    "score": "0:7",
+    "fast_legs_count": {
+      "Jarosław Gryga": 0,
+      "Franciszek Kukiełka": 0
+    },
+    "fast_legs": {
+      "Jarosław Gryga": [],
+      "Franciszek Kukiełka": []
+    },
+    "average": {
+      "Jarosław Gryga": 48.682539682539684,
+      "Franciszek Kukiełka": 55.962765957446805
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_bmn7_Ps7G_nfsZ",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Tomek Krzysztof Miedziany",
+    "player2": "Hubert Sułek",
+    "score": "1:7",
+    "fast_legs_count": {
+      "Tomek Krzysztof Miedziany": 0,
+      "Hubert Sułek": 0
+    },
+    "fast_legs": {
+      "Tomek Krzysztof Miedziany": [],
+      "Hubert Sułek": []
+    },
+    "average": {
+      "Tomek Krzysztof Miedziany": 56.25773195876289,
+      "Hubert Sułek": 61.63076923076923
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_ks1m_cgMn_lqW0",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Waldemar Kopacz",
+    "player2": "Piotr Gryga",
+    "score": "6:6",
+    "fast_legs_count": {
+      "Waldemar Kopacz": 1,
+      "Piotr Gryga": 1
+    },
+    "fast_legs": {
+      "Waldemar Kopacz": [
+        18
+      ],
+      "Piotr Gryga": [
+        17
+      ]
+    },
+    "average": {
+      "Waldemar Kopacz": 64.14942528735632,
+      "Piotr Gryga": 65.58461538461539
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_ncb5_Lb3M_QTu0",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Tomasz Radecki",
+    "player2": "Rafał Zahora",
+    "score": "6:6",
+    "fast_legs_count": {
+      "Tomasz Radecki": 0,
+      "Rafał Zahora": 0
+    },
+    "fast_legs": {
+      "Tomasz Radecki": [],
+      "Rafał Zahora": []
+    },
+    "average": {
+      "Tomasz Radecki": 44.145077720207254,
+      "Rafał Zahora": 44.774025974025975
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_a5a4_cgMn_nfsZ",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Waldemar Kopacz",
+    "player2": "Tomek Krzysztof Miedziany",
+    "score": "7:3",
+    "fast_legs_count": {
+      "Waldemar Kopacz": 0,
+      "Tomek Krzysztof Miedziany": 0
+    },
+    "fast_legs": {
+      "Waldemar Kopacz": [],
+      "Tomek Krzysztof Miedziany": []
+    },
+    "average": {
+      "Waldemar Kopacz": 59.64344262295082,
+      "Tomek Krzysztof Miedziany": 54.85537190082645
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_0zns_NI31_SGEg",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Krystian Sułek",
+    "player2": "Franciszek Kukiełka",
+    "score": "4:7",
+    "fast_legs_count": {
+      "Krystian Sułek": 1,
+      "Franciszek Kukiełka": 1
+    },
+    "fast_legs": {
+      "Krystian Sułek": [
+        18
+      ],
+      "Franciszek Kukiełka": [
+        18
+      ]
+    },
+    "average": {
+      "Krystian Sułek": 57.11538461538461,
+      "Franciszek Kukiełka": 61.88803088803089
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_i6bg_FIpX_e2ky",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Mateusz Pięta",
+    "player2": "Jarosław Gryga",
+    "score": "7:3",
+    "fast_legs_count": {
+      "Mateusz Pięta": 0,
+      "Jarosław Gryga": 0
+    },
+    "fast_legs": {
+      "Mateusz Pięta": [],
+      "Jarosław Gryga": []
+    },
+    "average": {
+      "Mateusz Pięta": 47.96153846153846,
+      "Jarosław Gryga": 44.57556270096463
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_iaty_Ps7G_lqW0",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Hubert Sułek",
+    "player2": "Piotr Gryga",
+    "score": "3:7",
+    "fast_legs_count": {
+      "Hubert Sułek": 1,
+      "Piotr Gryga": 1
+    },
+    "fast_legs": {
+      "Hubert Sułek": [
+        18
+      ],
+      "Piotr Gryga": [
+        18
+      ]
+    },
+    "average": {
+      "Hubert Sułek": 63.99512195121951,
+      "Piotr Gryga": 66.82608695652173
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_vayk_QTu0_gnnU",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Rafał Zahora",
+    "player2": "Julian Samek",
+    "score": "5:7",
+    "fast_legs_count": {
+      "Rafał Zahora": 0,
+      "Julian Samek": 0
+    },
+    "fast_legs": {
+      "Rafał Zahora": [],
+      "Julian Samek": []
+    },
+    "average": {
+      "Rafał Zahora": 49.47800586510264,
+      "Julian Samek": 49.98542274052478
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_itm7_NI31_cgMn",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Franciszek Kukiełka",
+    "player2": "Waldemar Kopacz",
+    "score": "2:7",
+    "fast_legs_count": {
+      "Franciszek Kukiełka": 0,
+      "Waldemar Kopacz": 1
+    },
+    "fast_legs": {
+      "Franciszek Kukiełka": [],
+      "Waldemar Kopacz": [
+        18
+      ]
+    },
+    "average": {
+      "Franciszek Kukiełka": 60.118811881188115,
+      "Waldemar Kopacz": 62.326829268292684
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_al2m_1GlY_Ps7G",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Szymon Put",
+    "player2": "Hubert Sułek",
+    "score": "0:7",
+    "fast_legs_count": {
+      "Szymon Put": 0,
+      "Hubert Sułek": 0
+    },
+    "fast_legs": {
+      "Szymon Put": [],
+      "Hubert Sułek": []
+    },
+    "average": {
+      "Szymon Put": 38.46774193548387,
+      "Hubert Sułek": 57.17934782608695
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_j51p_Lb3M_SGEg",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Krystian Sułek",
+    "player2": "Tomasz Radecki",
+    "score": "7:4",
+    "fast_legs_count": {
+      "Krystian Sułek": 0,
+      "Tomasz Radecki": 1
+    },
+    "fast_legs": {
+      "Krystian Sułek": [],
+      "Tomasz Radecki": [
+        16
+      ]
+    },
+    "average": {
+      "Krystian Sułek": 48.1588785046729,
+      "Tomasz Radecki": 46.134375
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_1ah4_e2ky_nfsZ",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Tomek Krzysztof Miedziany",
+    "player2": "Mateusz Pięta",
+    "score": "7:3",
+    "fast_legs_count": {
+      "Tomek Krzysztof Miedziany": 0,
+      "Mateusz Pięta": 0
+    },
+    "fast_legs": {
+      "Tomek Krzysztof Miedziany": [],
+      "Mateusz Pięta": []
+    },
+    "average": {
+      "Tomek Krzysztof Miedziany": 54.481751824817515,
+      "Mateusz Pięta": 51.69485294117647
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_132e_NI31_QTu0",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Franciszek Kukiełka",
+    "player2": "Rafał Zahora",
+    "score": "7:2",
+    "fast_legs_count": {
+      "Franciszek Kukiełka": 1,
+      "Rafał Zahora": 0
+    },
+    "fast_legs": {
+      "Franciszek Kukiełka": [
+        17
+      ],
+      "Rafał Zahora": []
+    },
+    "average": {
+      "Franciszek Kukiełka": 57.89224137931034,
+      "Rafał Zahora": 51.262008733624455
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_66y4_Bl04_gnnU",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Julian Samek",
+    "player2": "Tomi Tomasz",
+    "score": "7:2",
+    "fast_legs_count": {
+      "Julian Samek": 0,
+      "Tomi Tomasz": 0
+    },
+    "fast_legs": {
+      "Julian Samek": [],
+      "Tomi Tomasz": []
+    },
+    "average": {
+      "Julian Samek": 47.438162544169614,
+      "Tomi Tomasz": 45.75
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_glk7_1GlY_e2ky",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Mateusz Pięta",
+    "player2": "Szymon Put",
+    "score": "7:0",
+    "fast_legs_count": {
+      "Mateusz Pięta": 1,
+      "Szymon Put": 0
+    },
+    "fast_legs": {
+      "Mateusz Pięta": [
+        16
+      ],
+      "Szymon Put": []
+    },
+    "average": {
+      "Mateusz Pięta": 59.77840909090909,
+      "Szymon Put": 49.12280701754386
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_dljg_Lb3M_Ps7G",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Hubert Sułek",
+    "player2": "Tomasz Radecki",
+    "score": "7:2",
+    "fast_legs_count": {
+      "Hubert Sułek": 0,
+      "Tomasz Radecki": 0
+    },
+    "fast_legs": {
+      "Hubert Sułek": [],
+      "Tomasz Radecki": []
+    },
+    "average": {
+      "Hubert Sułek": 54.79338842975206,
+      "Tomasz Radecki": 49.263829787234044
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_k41d_SGEg_cgMn",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Waldemar Kopacz",
+    "player2": "Krystian Sułek",
+    "score": "7:4",
+    "fast_legs_count": {
+      "Waldemar Kopacz": 0,
+      "Krystian Sułek": 0
+    },
+    "fast_legs": {
+      "Waldemar Kopacz": [],
+      "Krystian Sułek": []
+    },
+    "average": {
+      "Waldemar Kopacz": 58.57414448669201,
+      "Krystian Sułek": 54.68441064638783
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_g8do_1GlY_Bl04",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Szymon Put",
+    "player2": "Tomi Tomasz",
+    "score": "0:7",
+    "fast_legs_count": {
+      "Szymon Put": 0,
+      "Tomi Tomasz": 0
+    },
+    "fast_legs": {
+      "Szymon Put": [],
+      "Tomi Tomasz": []
+    },
+    "average": {
+      "Szymon Put": 39.65432098765432,
+      "Tomi Tomasz": 43.2962962962963
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_uzjh_NI31_gnnU",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Julian Samek",
+    "player2": "Franciszek Kukiełka",
+    "score": "6:6",
+    "fast_legs_count": {
+      "Julian Samek": 0,
+      "Franciszek Kukiełka": 0
+    },
+    "fast_legs": {
+      "Julian Samek": [],
+      "Franciszek Kukiełka": []
+    },
+    "average": {
+      "Julian Samek": 53.3046357615894,
+      "Franciszek Kukiełka": 55.43092105263158
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_3cro_1GlY_FIpX",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Jarosław Gryga",
+    "player2": "Szymon Put",
+    "score": "7:3",
+    "fast_legs_count": {
+      "Jarosław Gryga": 1,
+      "Szymon Put": 0
+    },
+    "fast_legs": {
+      "Jarosław Gryga": [
+        16
+      ],
+      "Szymon Put": []
+    },
+    "average": {
+      "Jarosław Gryga": 50.265517241379314,
+      "Szymon Put": 45.95876288659794
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_0i7q_NI31_lqW0",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Piotr Gryga",
+    "player2": "Franciszek Kukiełka",
+    "score": "7:4",
+    "fast_legs_count": {
+      "Piotr Gryga": 1,
+      "Franciszek Kukiełka": 0
+    },
+    "fast_legs": {
+      "Piotr Gryga": [
+        16
+      ],
+      "Franciszek Kukiełka": []
+    },
+    "average": {
+      "Piotr Gryga": 67.1375,
+      "Franciszek Kukiełka": 61.55042016806723
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_54tg_1GlY_Lb3M",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Tomasz Radecki",
+    "player2": "Szymon Put",
+    "score": "6:6",
+    "fast_legs_count": {
+      "Tomasz Radecki": 0,
+      "Szymon Put": 0
+    },
+    "fast_legs": {
+      "Tomasz Radecki": [],
+      "Szymon Put": []
+    },
+    "average": {
+      "Tomasz Radecki": 44.24202127659574,
+      "Szymon Put": 44.992105263157896
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_uz69_Bl04_lqW0",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Tomi Tomasz",
+    "player2": "Piotr Gryga",
+    "score": "2:7",
+    "fast_legs_count": {
+      "Tomi Tomasz": 0,
+      "Piotr Gryga": 0
+    },
+    "fast_legs": {
+      "Tomi Tomasz": [],
+      "Piotr Gryga": []
+    },
+    "average": {
+      "Tomi Tomasz": 50.138888888888886,
+      "Piotr Gryga": 61.82790697674419
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_3gma_FIpX_QTu0",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Rafał Zahora",
+    "player2": "Jarosław Gryga",
+    "score": "3:7",
+    "fast_legs_count": {
+      "Rafał Zahora": 0,
+      "Jarosław Gryga": 0
+    },
+    "fast_legs": {
+      "Rafał Zahora": [],
+      "Jarosław Gryga": []
+    },
+    "average": {
+      "Rafał Zahora": 45.226618705035975,
+      "Jarosław Gryga": 52.68345323741007
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_jl87_Lb3M_nfsZ",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Tomasz Radecki",
+    "player2": "Tomek Krzysztof Miedziany",
+    "score": "7:3",
+    "fast_legs_count": {
+      "Tomasz Radecki": 0,
+      "Tomek Krzysztof Miedziany": 0
+    },
+    "fast_legs": {
+      "Tomasz Radecki": [],
+      "Tomek Krzysztof Miedziany": []
+    },
+    "average": {
+      "Tomasz Radecki": 55.026923076923076,
+      "Tomek Krzysztof Miedziany": 54.24609375
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_hkvc_NI31_e2ky",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Franciszek Kukiełka",
+    "player2": "Mateusz Pięta",
+    "score": "6:6",
+    "fast_legs_count": {
+      "Franciszek Kukiełka": 0,
+      "Mateusz Pięta": 0
+    },
+    "fast_legs": {
+      "Franciszek Kukiełka": [],
+      "Mateusz Pięta": []
+    },
+    "average": {
+      "Franciszek Kukiełka": 52.73040752351097,
+      "Mateusz Pięta": 54.73566878980892
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_p56t_1GlY_SGEg",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Szymon Put",
+    "player2": "Krystian Sułek",
+    "score": "5:7",
+    "fast_legs_count": {
+      "Szymon Put": 0,
+      "Krystian Sułek": 0
+    },
+    "fast_legs": {
+      "Szymon Put": [],
+      "Krystian Sułek": []
+    },
+    "average": {
+      "Szymon Put": 43.9,
+      "Krystian Sułek": 47.47790055248619
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_jbck_Lb3M_cgMn",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Waldemar Kopacz",
+    "player2": "Tomasz Radecki",
+    "score": "7:1",
+    "fast_legs_count": {
+      "Waldemar Kopacz": 0,
+      "Tomasz Radecki": 0
+    },
+    "fast_legs": {
+      "Waldemar Kopacz": [],
+      "Tomasz Radecki": []
+    },
+    "average": {
+      "Waldemar Kopacz": 63.41489361702128,
+      "Tomasz Radecki": 53.950276243093924
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_pxrz_NI31_nfsZ",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Franciszek Kukiełka",
+    "player2": "Tomek Krzysztof Miedziany",
+    "score": "7:1",
+    "fast_legs_count": {
+      "Franciszek Kukiełka": 0,
+      "Tomek Krzysztof Miedziany": 0
+    },
+    "fast_legs": {
+      "Franciszek Kukiełka": [],
+      "Tomek Krzysztof Miedziany": []
+    },
+    "average": {
+      "Franciszek Kukiełka": 56.0,
+      "Tomek Krzysztof Miedziany": 49.72906403940887
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_1leg_Bl04_QTu0",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Rafał Zahora",
+    "player2": "Tomi Tomasz",
+    "score": "3:7",
+    "fast_legs_count": {
+      "Rafał Zahora": 0,
+      "Tomi Tomasz": 0
+    },
+    "fast_legs": {
+      "Rafał Zahora": [],
+      "Tomi Tomasz": []
+    },
+    "average": {
+      "Rafał Zahora": 47.85099337748344,
+      "Tomi Tomasz": 48.59405940594059
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_pqfn_FIpX_lqW0",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Piotr Gryga",
+    "player2": "Jarosław Gryga",
+    "score": "7:3",
+    "fast_legs_count": {
+      "Piotr Gryga": 1,
+      "Jarosław Gryga": 0
+    },
+    "fast_legs": {
+      "Piotr Gryga": [
+        18
+      ],
+      "Jarosław Gryga": []
+    },
+    "average": {
+      "Piotr Gryga": 57.19844357976654,
+      "Jarosław Gryga": 48.607142857142854
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_b2xm_Ps7G_e2ky",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Hubert Sułek",
+    "player2": "Mateusz Pięta",
+    "score": "7:5",
+    "fast_legs_count": {
+      "Hubert Sułek": 2,
+      "Mateusz Pięta": 0
+    },
+    "fast_legs": {
+      "Hubert Sułek": [
+        17,
+        18
+      ],
+      "Mateusz Pięta": []
+    },
+    "average": {
+      "Hubert Sułek": 57.23076923076923,
+      "Mateusz Pięta": 52.842443729903536
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_smxr_Lb3M_gnnU",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Tomasz Radecki",
+    "player2": "Julian Samek",
+    "score": "4:7",
+    "fast_legs_count": {
+      "Tomasz Radecki": 0,
+      "Julian Samek": 0
+    },
+    "fast_legs": {
+      "Tomasz Radecki": [],
+      "Julian Samek": []
+    },
+    "average": {
+      "Tomasz Radecki": 45.575851393188856,
+      "Julian Samek": 49.65137614678899
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_scsn_QTu0_cgMn",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Rafał Zahora",
+    "player2": "Waldemar Kopacz",
+    "score": "2:7",
+    "fast_legs_count": {
+      "Rafał Zahora": 0,
+      "Waldemar Kopacz": 0
+    },
+    "fast_legs": {
+      "Rafał Zahora": [],
+      "Waldemar Kopacz": []
+    },
+    "average": {
+      "Rafał Zahora": 49.98717948717949,
+      "Waldemar Kopacz": 57.063559322033896
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_tpxu_Ps7G_gnnU",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Hubert Sułek",
+    "player2": "Julian Samek",
+    "score": "7:2",
+    "fast_legs_count": {
+      "Hubert Sułek": 1,
+      "Julian Samek": 0
+    },
+    "fast_legs": {
+      "Hubert Sułek": [
+        18
+      ],
+      "Julian Samek": []
+    },
+    "average": {
+      "Hubert Sułek": 62.50471698113208,
+      "Julian Samek": 57.62068965517241
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_qhxh_SGEg_nfsZ",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Tomek Krzysztof Miedziany",
+    "player2": "Krystian Sułek",
+    "score": "6:6",
+    "fast_legs_count": {
+      "Tomek Krzysztof Miedziany": 0,
+      "Krystian Sułek": 0
+    },
+    "fast_legs": {
+      "Tomek Krzysztof Miedziany": [],
+      "Krystian Sułek": []
+    },
+    "average": {
+      "Tomek Krzysztof Miedziany": 47.28857142857143,
+      "Krystian Sułek": 50.42045454545455
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_kw87_Lb3M_e2ky",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Mateusz Pięta",
+    "player2": "Tomasz Radecki",
+    "score": "7:1",
+    "fast_legs_count": {
+      "Mateusz Pięta": 0,
+      "Tomasz Radecki": 0
+    },
+    "fast_legs": {
+      "Mateusz Pięta": [],
+      "Tomasz Radecki": []
+    },
+    "average": {
+      "Mateusz Pięta": 54.140845070422536,
+      "Tomasz Radecki": 49.614285714285714
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_bnsn_Bl04_NI31",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Tomi Tomasz",
+    "player2": "Franciszek Kukiełka",
+    "score": "2:7",
+    "fast_legs_count": {
+      "Tomi Tomasz": 0,
+      "Franciszek Kukiełka": 0
+    },
+    "fast_legs": {
+      "Tomi Tomasz": [],
+      "Franciszek Kukiełka": []
+    },
+    "average": {
+      "Tomi Tomasz": 51.41150442477876,
+      "Franciszek Kukiełka": 57.404347826086955
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_ftie_SGEg_gnnU",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Krystian Sułek",
+    "player2": "Julian Samek",
+    "score": "1:7",
+    "fast_legs_count": {
+      "Krystian Sułek": 0,
+      "Julian Samek": 0
+    },
+    "fast_legs": {
+      "Krystian Sułek": [],
+      "Julian Samek": []
+    },
+    "average": {
+      "Krystian Sułek": 47.97222222222222,
+      "Julian Samek": 53.03225806451613
+    }
+  },
+  {
+    "tmid": "t_L01x_7216_lg_0_48f6_Ps7G_cgMn",
+    "title": "Tomi Dart Club Wiosna 2026 1 Liga",
+    "player1": "Waldemar Kopacz",
+    "player2": "Hubert Sułek",
+    "score": "6:6",
+    "fast_legs_count": {
+      "Waldemar Kopacz": 0,
+      "Hubert Sułek": 2
+    },
+    "fast_legs": {
+      "Waldemar Kopacz": [],
+      "Hubert Sułek": [
+        16,
+        17
+      ]
+    },
+    "average": {
+      "Waldemar Kopacz": 59.75912408759124,
+      "Hubert Sułek": 64.53846153846153
+    }
+  }
+]
