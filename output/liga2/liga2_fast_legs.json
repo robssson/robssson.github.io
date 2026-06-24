@@ -1,5 +1,157 @@
 [
   {
+    "tmid": "t_2y14_1402_lg_0_eyge_Choh_PF2B",
+    "title": "Tomi Dart Club Wiosna 2026 Liga 2",
+    "player1": "Lukasz Konieczny",
+    "player2": "Michał Kural Siupa",
+    "score": "7:1",
+    "fast_legs_count": {
+      "Lukasz Konieczny": 0,
+      "Michał Kural Siupa": 0
+    },
+    "fast_legs": {
+      "Lukasz Konieczny": [],
+      "Michał Kural Siupa": []
+    },
+    "average": {
+      "Lukasz Konieczny": 52.25217391304348,
+      "Michał Kural Siupa": 41.11453744493392
+    }
+  },
+  {
+    "tmid": "t_2y14_1402_lg_0_wlxb_LPSX_PF2B",
+    "title": "Tomi Dart Club Wiosna 2026 Liga 2",
+    "player1": "Lukasz Konieczny",
+    "player2": "Michał Kowalinski",
+    "score": "7:0",
+    "fast_legs_count": {
+      "Lukasz Konieczny": 0,
+      "Michał Kowalinski": 0
+    },
+    "fast_legs": {
+      "Lukasz Konieczny": [],
+      "Michał Kowalinski": []
+    },
+    "average": {
+      "Lukasz Konieczny": 57.80769230769231,
+      "Michał Kowalinski": 44.813559322033896
+    }
+  },
+  {
+    "tmid": "t_2y14_1402_lg_0_odes_Choh_tJLk",
+    "title": "Tomi Dart Club Wiosna 2026 Liga 2",
+    "player1": "Michał Kural Siupa",
+    "player2": "Jakub Tota",
+    "score": "5:7",
+    "fast_legs_count": {
+      "Michał Kural Siupa": 0,
+      "Jakub Tota": 0
+    },
+    "fast_legs": {
+      "Michał Kural Siupa": [],
+      "Jakub Tota": []
+    },
+    "average": {
+      "Michał Kural Siupa": 43.07035175879397,
+      "Jakub Tota": 41.895261845386536
+    }
+  },
+  {
+    "tmid": "t_2y14_1402_lg_0_du0t_LPSX_miWE",
+    "title": "Tomi Dart Club Wiosna 2026 Liga 2",
+    "player1": "Michał Kowalinski",
+    "player2": "Tomasz Pilecki",
+    "score": "3:7",
+    "fast_legs_count": {
+      "Michał Kowalinski": 0,
+      "Tomasz Pilecki": 0
+    },
+    "fast_legs": {
+      "Michał Kowalinski": [],
+      "Tomasz Pilecki": []
+    },
+    "average": {
+      "Michał Kowalinski": 40.315186246418335,
+      "Tomasz Pilecki": 42.205714285714286
+    }
+  },
+  {
+    "tmid": "t_2y14_1402_lg_0_mp2g_Choh_LSHl",
+    "title": "Tomi Dart Club Wiosna 2026 Liga 2",
+    "player1": "Wiktor Święch",
+    "player2": "Michał Kural Siupa",
+    "score": "7:2",
+    "fast_legs_count": {
+      "Wiktor Święch": 0,
+      "Michał Kural Siupa": 0
+    },
+    "fast_legs": {
+      "Wiktor Święch": [],
+      "Michał Kural Siupa": []
+    },
+    "average": {
+      "Wiktor Święch": 52.51778656126482,
+      "Michał Kural Siupa": 46.62450592885376
+    }
+  },
+  {
+    "tmid": "t_2y14_1402_lg_0_cu0g_Vsaa_miWE",
+    "title": "Tomi Dart Club Wiosna 2026 Liga 2",
+    "player1": "Tomasz Pilecki",
+    "player2": "Mariusz Kania Hefa",
+    "score": "3:7",
+    "fast_legs_count": {
+      "Tomasz Pilecki": 0,
+      "Mariusz Kania Hefa": 0
+    },
+    "fast_legs": {
+      "Tomasz Pilecki": [],
+      "Mariusz Kania Hefa": []
+    },
+    "average": {
+      "Tomasz Pilecki": 52.1,
+      "Mariusz Kania Hefa": 52.747252747252745
+    }
+  },
+  {
+    "tmid": "t_2y14_1402_lg_0_8c7b_LPSX_LSHl",
+    "title": "Tomi Dart Club Wiosna 2026 Liga 2",
+    "player1": "Wiktor Święch",
+    "player2": "Michał Kowalinski",
+    "score": "7:2",
+    "fast_legs_count": {
+      "Wiktor Święch": 0,
+      "Michał Kowalinski": 0
+    },
+    "fast_legs": {
+      "Wiktor Święch": [],
+      "Michał Kowalinski": []
+    },
+    "average": {
+      "Wiktor Święch": 52.55859375,
+      "Michał Kowalinski": 43.00790513833992
+    }
+  },
+  {
+    "tmid": "t_2y14_1402_lg_0_w3za_Choh_Vsaa",
+    "title": "Tomi Dart Club Wiosna 2026 Liga 2",
+    "player1": "Mariusz Kania Hefa",
+    "player2": "Michał Kural Siupa",
+    "score": "7:2",
+    "fast_legs_count": {
+      "Mariusz Kania Hefa": 0,
+      "Michał Kural Siupa": 0
+    },
+    "fast_legs": {
+      "Mariusz Kania Hefa": [],
+      "Michał Kural Siupa": []
+    },
+    "average": {
+      "Mariusz Kania Hefa": 47.776595744680854,
+      "Michał Kural Siupa": 42.44404332129964
+    }
+  },
+  {
     "tmid": "t_2y14_1402_lg_0_k9ax_Choh_miWE",
     "title": "Tomi Dart Club Wiosna 2026 Liga 2",
     "player1": "Tomasz Pilecki",
