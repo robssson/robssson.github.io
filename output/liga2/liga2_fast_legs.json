@@ -1,5 +1,159 @@
 [
   {
+    "tmid": "t_2y14_1402_lg_0_4pit_dqJQ_tJLk",
+    "title": "Tomi Dart Club Wiosna 2026 Liga 2",
+    "player1": "Jakub Tota",
+    "player2": "Daniel Czernecki",
+    "score": "2:7",
+    "fast_legs_count": {
+      "Jakub Tota": 0,
+      "Daniel Czernecki": 1
+    },
+    "fast_legs": {
+      "Jakub Tota": [],
+      "Daniel Czernecki": [
+        15
+      ]
+    },
+    "average": {
+      "Jakub Tota": 45.275862068965516,
+      "Daniel Czernecki": 50.954372623574145
+    }
+  },
+  {
+    "tmid": "t_2y14_1402_lg_0_1mnl_Choh_tJLk",
+    "title": "Tomi Dart Club Wiosna 2026 Liga 2",
+    "player1": "Jakub Tota",
+    "player2": "Michał Kural Siupa",
+    "score": "6:6",
+    "fast_legs_count": {
+      "Jakub Tota": 0,
+      "Michał Kural Siupa": 0
+    },
+    "fast_legs": {
+      "Jakub Tota": [],
+      "Michał Kural Siupa": []
+    },
+    "average": {
+      "Jakub Tota": 41.16,
+      "Michał Kural Siupa": 40.721311475409834
+    }
+  },
+  {
+    "tmid": "t_2y14_1402_lg_0_vjvb_LSHl_h6XQ",
+    "title": "Tomi Dart Club Wiosna 2026 Liga 2",
+    "player1": "Wiktor Święch",
+    "player2": "Grzegorz Kulig",
+    "score": "6:6",
+    "fast_legs_count": {
+      "Wiktor Święch": 0,
+      "Grzegorz Kulig": 0
+    },
+    "fast_legs": {
+      "Wiktor Święch": [],
+      "Grzegorz Kulig": []
+    },
+    "average": {
+      "Wiktor Święch": 47.631147540983605,
+      "Grzegorz Kulig": 45.442622950819676
+    }
+  },
+  {
+    "tmid": "t_2y14_1402_lg_0_5woc_LPSX_tJLk",
+    "title": "Tomi Dart Club Wiosna 2026 Liga 2",
+    "player1": "Michał Kowalinski",
+    "player2": "Jakub Tota",
+    "score": "6:6",
+    "fast_legs_count": {
+      "Michał Kowalinski": 0,
+      "Jakub Tota": 0
+    },
+    "fast_legs": {
+      "Michał Kowalinski": [],
+      "Jakub Tota": []
+    },
+    "average": {
+      "Michał Kowalinski": 42.92530120481928,
+      "Jakub Tota": 39.95652173913044
+    }
+  },
+  {
+    "tmid": "t_2y14_1402_lg_0_1hhk_Choh_LSHl",
+    "title": "Tomi Dart Club Wiosna 2026 Liga 2",
+    "player1": "Michał Kural Siupa",
+    "player2": "Wiktor Święch",
+    "score": "2:7",
+    "fast_legs_count": {
+      "Michał Kural Siupa": 0,
+      "Wiktor Święch": 0
+    },
+    "fast_legs": {
+      "Michał Kural Siupa": [],
+      "Wiktor Święch": []
+    },
+    "average": {
+      "Michał Kural Siupa": 42.768953068592054,
+      "Wiktor Święch": 47.903914590747334
+    }
+  },
+  {
+    "tmid": "t_2y14_1402_lg_0_vo7j_4pj3_h6XQ",
+    "title": "Tomi Dart Club Wiosna 2026 Liga 2",
+    "player1": "Grzegorz Kulig",
+    "player2": "Mariusz Olchawa Mario",
+    "score": "4:7",
+    "fast_legs_count": {
+      "Grzegorz Kulig": 0,
+      "Mariusz Olchawa Mario": 0
+    },
+    "fast_legs": {
+      "Grzegorz Kulig": [],
+      "Mariusz Olchawa Mario": []
+    },
+    "average": {
+      "Grzegorz Kulig": 44.42406876790831,
+      "Mariusz Olchawa Mario": 46.14244186046512
+    }
+  },
+  {
+    "tmid": "t_2y14_1402_lg_0_9fqi_PF2B_dqJQ",
+    "title": "Tomi Dart Club Wiosna 2026 Liga 2",
+    "player1": "Daniel Czernecki",
+    "player2": "Lukasz Konieczny",
+    "score": "3:7",
+    "fast_legs_count": {
+      "Daniel Czernecki": 0,
+      "Lukasz Konieczny": 0
+    },
+    "fast_legs": {
+      "Daniel Czernecki": [],
+      "Lukasz Konieczny": []
+    },
+    "average": {
+      "Daniel Czernecki": 51.05725190839695,
+      "Lukasz Konieczny": 57.02290076335878
+    }
+  },
+  {
+    "tmid": "t_2y14_1402_lg_0_kevy_PF2B_dqJQ",
+    "title": "Tomi Dart Club Wiosna 2026 Liga 2",
+    "player1": "Lukasz Konieczny",
+    "player2": "Daniel Czernecki",
+    "score": "6:6",
+    "fast_legs_count": {
+      "Lukasz Konieczny": 0,
+      "Daniel Czernecki": 0
+    },
+    "fast_legs": {
+      "Lukasz Konieczny": [],
+      "Daniel Czernecki": []
+    },
+    "average": {
+      "Lukasz Konieczny": 56.350819672131145,
+      "Daniel Czernecki": 54.20388349514563
+    }
+  },
+  {
     "tmid": "t_2y14_1402_lg_0_eyge_Choh_PF2B",
     "title": "Tomi Dart Club Wiosna 2026 Liga 2",
     "player1": "Lukasz Konieczny",
