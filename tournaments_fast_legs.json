@@ -2244,19 +2244,19 @@
     "category": "szerszen_cup",
     "title": "Tomi Dart Club Wiosna 2026 Szerszeń Cup 3/4 Top 8",
     "player1": "Waldemar Kopacz",
-    "player2": "Piotrek Gryga",
+    "player2": "Piotr Gryga",
     "score": "3:1",
     "fast_legs_count": {
       "Waldemar Kopacz": 0,
-      "Piotrek Gryga": 0
+      "Piotr Gryga": 0
     },
     "fast_legs": {
       "Waldemar Kopacz": [],
-      "Piotrek Gryga": []
+      "Piotr Gryga": []
     },
     "average": {
       "Waldemar Kopacz": 61.66,
-      "Piotrek Gryga": 55.64
+      "Piotr Gryga": 55.64
     }
   },
   {
@@ -2411,19 +2411,19 @@
     "tournament": "Szerszeń Cup III",
     "category": "szerszen_cup",
     "title": "Tomi Dart Club Wiosna 2026 Szerszeń Cup 3/4 Group 1",
-    "player1": "Piotrek Gryga",
+    "player1": "Piotr Gryga",
     "player2": "Tomasz Pilecki",
     "score": "3:2",
     "fast_legs_count": {
-      "Piotrek Gryga": 0,
+      "Piotr Gryga": 0,
       "Tomasz Pilecki": 0
     },
     "fast_legs": {
-      "Piotrek Gryga": [],
+      "Piotr Gryga": [],
       "Tomasz Pilecki": []
     },
     "average": {
-      "Piotrek Gryga": 54.83,
+      "Piotr Gryga": 54.83,
       "Tomasz Pilecki": 51.82
     }
   },
@@ -2559,19 +2559,19 @@
     "category": "szerszen_cup",
     "title": "Tomi Dart Club Wiosna 2026 Szerszeń Cup 3/4 Group 1",
     "player1": "Jarosław Gryga",
-    "player2": "Piotrek Gryga",
+    "player2": "Piotr Gryga",
     "score": "3:0",
     "fast_legs_count": {
       "Jarosław Gryga": 0,
-      "Piotrek Gryga": 0
+      "Piotr Gryga": 0
     },
     "fast_legs": {
       "Jarosław Gryga": [],
-      "Piotrek Gryga": []
+      "Piotr Gryga": []
     },
     "average": {
       "Jarosław Gryga": 48.48,
-      "Piotrek Gryga": 45.53
+      "Piotr Gryga": 45.53
     }
   },
   {
@@ -2726,21 +2726,21 @@
     "tournament": "Szerszeń Cup III",
     "category": "szerszen_cup",
     "title": "Tomi Dart Club Wiosna 2026 Szerszeń Cup 3/4 Group 1",
-    "player1": "Piotrek Gryga",
+    "player1": "Piotr Gryga",
     "player2": "Jakub Lipka",
     "score": "3:2",
     "fast_legs_count": {
-      "Piotrek Gryga": 1,
+      "Piotr Gryga": 1,
       "Jakub Lipka": 0
     },
     "fast_legs": {
-      "Piotrek Gryga": [
+      "Piotr Gryga": [
         17
       ],
       "Jakub Lipka": []
     },
     "average": {
-      "Piotrek Gryga": 66.8,
+      "Piotr Gryga": 66.8,
       "Jakub Lipka": 61.58
     }
   },
@@ -2792,19 +2792,19 @@
     "category": "szerszen_cup",
     "title": "Tomi Dart Club Wiosna 2026 Szerszeń Cup 3/4 Group 1",
     "player1": "Hubert Sułek",
-    "player2": "Piotrek Gryga",
+    "player2": "Piotr Gryga",
     "score": "1:3",
     "fast_legs_count": {
       "Hubert Sułek": 0,
-      "Piotrek Gryga": 0
+      "Piotr Gryga": 0
     },
     "fast_legs": {
       "Hubert Sułek": [],
-      "Piotrek Gryga": []
+      "Piotr Gryga": []
     },
     "average": {
       "Hubert Sułek": 61.55,
-      "Piotrek Gryga": 62.81
+      "Piotr Gryga": 62.81
     }
   },
   {
@@ -3744,21 +3744,21 @@
     "tournament": "Superpuchar Klubu 1z4",
     "category": "superpuchar",
     "title": "Tomi Dart Club Wiosna 2026 Superpuchar Klubu 1z4 Final",
-    "player1": "Tomek Krzysztof Miedziany",
+    "player1": "Tomasz Krzysztof",
     "player2": "Krystian Sułek",
     "score": "4:3",
     "fast_legs_count": {
-      "Tomek Krzysztof Miedziany": 1,
+      "Tomasz Krzysztof": 1,
       "Krystian Sułek": 0
     },
     "fast_legs": {
-      "Tomek Krzysztof Miedziany": [
+      "Tomasz Krzysztof": [
         15
       ],
       "Krystian Sułek": []
     },
     "average": {
-      "Tomek Krzysztof Miedziany": 59.06,
+      "Tomasz Krzysztof": 59.06,
       "Krystian Sułek": 54.26
     }
   },
@@ -3809,19 +3809,19 @@
     "tournament": "Superpuchar Klubu 1z4",
     "category": "superpuchar",
     "title": "Tomi Dart Club Wiosna 2026 Superpuchar Klubu 1z4 Semi-final",
-    "player1": "Tomek Krzysztof Miedziany",
+    "player1": "Tomasz Krzysztof",
     "player2": "Waldemar Kopacz",
     "score": "4:1",
     "fast_legs_count": {
-      "Tomek Krzysztof Miedziany": 0,
+      "Tomasz Krzysztof": 0,
       "Waldemar Kopacz": 0
     },
     "fast_legs": {
-      "Tomek Krzysztof Miedziany": [],
+      "Tomasz Krzysztof": [],
       "Waldemar Kopacz": []
     },
     "average": {
-      "Tomek Krzysztof Miedziany": 62.67,
+      "Tomasz Krzysztof": 62.67,
       "Waldemar Kopacz": 55.79
     }
   },
@@ -3851,19 +3851,19 @@
     "tournament": "Superpuchar Klubu 1z4",
     "category": "superpuchar",
     "title": "Tomi Dart Club Wiosna 2026 Superpuchar Klubu 1z4 Top 8",
-    "player1": "Tomek Krzysztof Miedziany",
+    "player1": "Tomasz Krzysztof",
     "player2": "Piotr Gryga",
     "score": "4:2",
     "fast_legs_count": {
-      "Tomek Krzysztof Miedziany": 0,
+      "Tomasz Krzysztof": 0,
       "Piotr Gryga": 0
     },
     "fast_legs": {
-      "Tomek Krzysztof Miedziany": [],
+      "Tomasz Krzysztof": [],
       "Piotr Gryga": []
     },
     "average": {
-      "Tomek Krzysztof Miedziany": 52.53,
+      "Tomasz Krzysztof": 52.53,
       "Piotr Gryga": 56.94
     }
   },
@@ -3915,21 +3915,21 @@
     "category": "superpuchar",
     "title": "Tomi Dart Club Wiosna 2026 Superpuchar Klubu 1z4 Group 1",
     "player1": "Tomasz Pilecki",
-    "player2": "Tomek Krzysztof Miedziany",
+    "player2": "Tomasz Krzysztof",
     "score": "1:4",
     "fast_legs_count": {
       "Tomasz Pilecki": 0,
-      "Tomek Krzysztof Miedziany": 1
+      "Tomasz Krzysztof": 1
     },
     "fast_legs": {
       "Tomasz Pilecki": [],
-      "Tomek Krzysztof Miedziany": [
+      "Tomasz Krzysztof": [
         18
       ]
     },
     "average": {
       "Tomasz Pilecki": 51.98,
-      "Tomek Krzysztof Miedziany": 60.12
+      "Tomasz Krzysztof": 60.12
     }
   },
   {
@@ -4217,19 +4217,19 @@
     "category": "superpuchar",
     "title": "Tomi Dart Club Wiosna 2026 Superpuchar Klubu 1z4 Group 1",
     "player1": "Daniel Czernecki",
-    "player2": "Tomek Krzysztof Miedziany",
+    "player2": "Tomasz Krzysztof",
     "score": "3:4",
     "fast_legs_count": {
       "Daniel Czernecki": 0,
-      "Tomek Krzysztof Miedziany": 0
+      "Tomasz Krzysztof": 0
     },
     "fast_legs": {
       "Daniel Czernecki": [],
-      "Tomek Krzysztof Miedziany": []
+      "Tomasz Krzysztof": []
     },
     "average": {
       "Daniel Czernecki": 48.13,
-      "Tomek Krzysztof Miedziany": 48.42
+      "Tomasz Krzysztof": 48.42
     }
   },
   {
@@ -4324,19 +4324,19 @@
     "tournament": "Superpuchar Klubu 1z4",
     "category": "superpuchar",
     "title": "Tomi Dart Club Wiosna 2026 Superpuchar Klubu 1z4 Group 1",
-    "player1": "Tomek Krzysztof Miedziany",
+    "player1": "Tomasz Krzysztof",
     "player2": "Krystian Krzywy",
     "score": "4:2",
     "fast_legs_count": {
-      "Tomek Krzysztof Miedziany": 0,
+      "Tomasz Krzysztof": 0,
       "Krystian Krzywy": 0
     },
     "fast_legs": {
-      "Tomek Krzysztof Miedziany": [],
+      "Tomasz Krzysztof": [],
       "Krystian Krzywy": []
     },
     "average": {
-      "Tomek Krzysztof Miedziany": 56.15,
+      "Tomasz Krzysztof": 56.15,
       "Krystian Krzywy": 53.47
     }
   },
@@ -10550,21 +10550,21 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 5/ DI/DO Final",
     "player1": "Mateusz Pięta",
-    "player2": "Piotrek Gryga",
+    "player2": "Piotr Gryga",
     "score": "4:3",
     "fast_legs_count": {
       "Mateusz Pięta": 1,
-      "Piotrek Gryga": 0
+      "Piotr Gryga": 0
     },
     "fast_legs": {
       "Mateusz Pięta": [
         17
       ],
-      "Piotrek Gryga": []
+      "Piotr Gryga": []
     },
     "average": {
       "Mateusz Pięta": 63.45,
-      "Piotrek Gryga": 57.52
+      "Piotr Gryga": 57.52
     }
   },
   {
@@ -10594,21 +10594,21 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 5/ DI/DO Semi-final",
     "player1": "Waldemar Kopacz",
-    "player2": "Piotrek Gryga",
+    "player2": "Piotr Gryga",
     "score": "0:3",
     "fast_legs_count": {
       "Waldemar Kopacz": 0,
-      "Piotrek Gryga": 1
+      "Piotr Gryga": 1
     },
     "fast_legs": {
       "Waldemar Kopacz": [],
-      "Piotrek Gryga": [
+      "Piotr Gryga": [
         18
       ]
     },
     "average": {
       "Waldemar Kopacz": 50.24,
-      "Piotrek Gryga": 68.32
+      "Piotr Gryga": 68.32
     }
   },
   {
@@ -10659,19 +10659,19 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 5/ DI/DO Top 8",
     "player1": "Adrian Ochel",
-    "player2": "Piotrek Gryga",
+    "player2": "Piotr Gryga",
     "score": "1:3",
     "fast_legs_count": {
       "Adrian Ochel": 0,
-      "Piotrek Gryga": 0
+      "Piotr Gryga": 0
     },
     "fast_legs": {
       "Adrian Ochel": [],
-      "Piotrek Gryga": []
+      "Piotr Gryga": []
     },
     "average": {
       "Adrian Ochel": 38.87,
-      "Piotrek Gryga": 51.86
+      "Piotr Gryga": 51.86
     }
   },
   {
@@ -10784,19 +10784,19 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 5/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 5/ DI/DO Group 1",
-    "player1": "Piotrek Gryga",
+    "player1": "Piotr Gryga",
     "player2": "Jarosław Gryga",
     "score": "3:1",
     "fast_legs_count": {
-      "Piotrek Gryga": 0,
+      "Piotr Gryga": 0,
       "Jarosław Gryga": 0
     },
     "fast_legs": {
-      "Piotrek Gryga": [],
+      "Piotr Gryga": [],
       "Jarosław Gryga": []
     },
     "average": {
-      "Piotrek Gryga": 43.27,
+      "Piotr Gryga": 43.27,
       "Jarosław Gryga": 47.92
     }
   },
@@ -10932,19 +10932,19 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 5/ DI/DO Group 1",
     "player1": "Hubert Sułek",
-    "player2": "Piotrek Gryga",
+    "player2": "Piotr Gryga",
     "score": "0:3",
     "fast_legs_count": {
       "Hubert Sułek": 0,
-      "Piotrek Gryga": 0
+      "Piotr Gryga": 0
     },
     "fast_legs": {
       "Hubert Sułek": [],
-      "Piotrek Gryga": []
+      "Piotr Gryga": []
     },
     "average": {
       "Hubert Sułek": 61.76,
-      "Piotrek Gryga": 67.3
+      "Piotr Gryga": 67.3
     }
   },
   {
@@ -11036,19 +11036,19 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 5/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 5/ DI/DO Group 1",
-    "player1": "Piotrek Gryga",
+    "player1": "Piotr Gryga",
     "player2": "Waldemar Kopacz",
     "score": "1:3",
     "fast_legs_count": {
-      "Piotrek Gryga": 0,
+      "Piotr Gryga": 0,
       "Waldemar Kopacz": 0
     },
     "fast_legs": {
-      "Piotrek Gryga": [],
+      "Piotr Gryga": [],
       "Waldemar Kopacz": []
     },
     "average": {
-      "Piotrek Gryga": 46.54,
+      "Piotr Gryga": 46.54,
       "Waldemar Kopacz": 50.47
     }
   },
@@ -11121,22 +11121,22 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 5/ DI/DO Group 1",
     "player1": "Mateusz Pięta",
-    "player2": "Piotrek Gryga",
+    "player2": "Piotr Gryga",
     "score": "2:3",
     "fast_legs_count": {
       "Mateusz Pięta": 2,
-      "Piotrek Gryga": 0
+      "Piotr Gryga": 0
     },
     "fast_legs": {
       "Mateusz Pięta": [
         18,
         18
       ],
-      "Piotrek Gryga": []
+      "Piotr Gryga": []
     },
     "average": {
       "Mateusz Pięta": 69.6,
-      "Piotrek Gryga": 63.63
+      "Piotr Gryga": 63.63
     }
   },
   {
