@@ -1796,17 +1796,17 @@
     "category": "szerszen_cup",
     "title": "Tomi Dart Club Wiosna 2026 Szerszeń Cup 3/4 Top 8",
     "player1": "Waldemar Kopacz",
-    "player2": "Piotrek Gryga",
+    "player2": "Piotr Gryga",
     "score": "3:1",
     "scores_count": {
       "Waldemar Kopacz": 1,
-      "Piotrek Gryga": 0
+      "Piotr Gryga": 0
     },
     "scores": {
       "Waldemar Kopacz": [
         177
       ],
-      "Piotrek Gryga": []
+      "Piotr Gryga": []
     }
   },
   {
@@ -1933,15 +1933,15 @@
     "tournament": "Szerszeń Cup III",
     "category": "szerszen_cup",
     "title": "Tomi Dart Club Wiosna 2026 Szerszeń Cup 3/4 Group 1",
-    "player1": "Piotrek Gryga",
+    "player1": "Piotr Gryga",
     "player2": "Tomasz Pilecki",
     "score": "3:2",
     "scores_count": {
-      "Piotrek Gryga": 0,
+      "Piotr Gryga": 0,
       "Tomasz Pilecki": 0
     },
     "scores": {
-      "Piotrek Gryga": [],
+      "Piotr Gryga": [],
       "Tomasz Pilecki": []
     }
   },
@@ -2053,15 +2053,15 @@
     "category": "szerszen_cup",
     "title": "Tomi Dart Club Wiosna 2026 Szerszeń Cup 3/4 Group 1",
     "player1": "Jarosław Gryga",
-    "player2": "Piotrek Gryga",
+    "player2": "Piotr Gryga",
     "score": "3:0",
     "scores_count": {
       "Jarosław Gryga": 0,
-      "Piotrek Gryga": 0
+      "Piotr Gryga": 0
     },
     "scores": {
       "Jarosław Gryga": [],
-      "Piotrek Gryga": []
+      "Piotr Gryga": []
     }
   },
   {
@@ -2188,15 +2188,15 @@
     "tournament": "Szerszeń Cup III",
     "category": "szerszen_cup",
     "title": "Tomi Dart Club Wiosna 2026 Szerszeń Cup 3/4 Group 1",
-    "player1": "Piotrek Gryga",
+    "player1": "Piotr Gryga",
     "player2": "Jakub Lipka",
     "score": "3:2",
     "scores_count": {
-      "Piotrek Gryga": 0,
+      "Piotr Gryga": 0,
       "Jakub Lipka": 0
     },
     "scores": {
-      "Piotrek Gryga": [],
+      "Piotr Gryga": [],
       "Jakub Lipka": []
     }
   },
@@ -2240,15 +2240,15 @@
     "category": "szerszen_cup",
     "title": "Tomi Dart Club Wiosna 2026 Szerszeń Cup 3/4 Group 1",
     "player1": "Hubert Sułek",
-    "player2": "Piotrek Gryga",
+    "player2": "Piotr Gryga",
     "score": "1:3",
     "scores_count": {
       "Hubert Sułek": 0,
-      "Piotrek Gryga": 0
+      "Piotr Gryga": 0
     },
     "scores": {
       "Hubert Sułek": [],
-      "Piotrek Gryga": []
+      "Piotr Gryga": []
     }
   },
   {
@@ -2564,15 +2564,15 @@
     "tournament": "Szerszeń Cup IV",
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Group 2",
-    "player1": "Tomi",
+    "player1": "Tomi Tomasz",
     "player2": "Dominik",
     "score": "3:0",
     "scores_count": {
-      "Tomi": 0,
+      "Tomi Tomasz": 0,
       "Dominik": 0
     },
     "scores": {
-      "Tomi": [],
+      "Tomi Tomasz": [],
       "Dominik": []
     }
   },
@@ -2667,15 +2667,15 @@
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Group 2",
     "player1": "Tomasz Pilecki",
-    "player2": "Tomi",
+    "player2": "Tomi Tomasz",
     "score": "3:1",
     "scores_count": {
       "Tomasz Pilecki": 0,
-      "Tomi": 0
+      "Tomi Tomasz": 0
     },
     "scores": {
       "Tomasz Pilecki": [],
-      "Tomi": []
+      "Tomi Tomasz": []
     }
   },
   {
@@ -2768,15 +2768,15 @@
     "tournament": "Szerszeń Cup IV",
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Group 2",
-    "player1": "Tomi",
+    "player1": "Tomi Tomasz",
     "player2": "Lipka",
     "score": "3:2",
     "scores_count": {
-      "Tomi": 0,
+      "Tomi Tomasz": 0,
       "Lipka": 0
     },
     "scores": {
-      "Tomi": [],
+      "Tomi Tomasz": [],
       "Lipka": []
     }
   },
@@ -2854,15 +2854,15 @@
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Group 2",
     "player1": "Jarosław Gryga",
-    "player2": "Tomi",
+    "player2": "Tomi Tomasz",
     "score": "3:2",
     "scores_count": {
       "Jarosław Gryga": 0,
-      "Tomi": 0
+      "Tomi Tomasz": 0
     },
     "scores": {
       "Jarosław Gryga": [],
-      "Tomi": []
+      "Tomi Tomasz": []
     }
   },
   {
@@ -7377,15 +7377,15 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 3/10 Top 8",
     "player1": "Mateusz Pięta",
-    "player2": "Tomi",
+    "player2": "Tomi Tomasz",
     "score": "4:1",
     "scores_count": {
       "Mateusz Pięta": 0,
-      "Tomi": 0
+      "Tomi Tomasz": 0
     },
     "scores": {
       "Mateusz Pięta": [],
-      "Tomi": []
+      "Tomi Tomasz": []
     }
   },
   {
@@ -7529,15 +7529,15 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 3/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 3/10 Group 2",
-    "player1": "Tomi",
+    "player1": "Tomi Tomasz",
     "player2": "Tomek P",
     "score": "0:3",
     "scores_count": {
-      "Tomi": 0,
+      "Tomi Tomasz": 0,
       "Tomek P": 0
     },
     "scores": {
-      "Tomi": [],
+      "Tomi Tomasz": [],
       "Tomek P": []
     }
   },
@@ -7597,15 +7597,15 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 3/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 3/10 Group 2",
-    "player1": "Tomi",
+    "player1": "Tomi Tomasz",
     "player2": "Krystian Sułek",
     "score": "3:1",
     "scores_count": {
-      "Tomi": 0,
+      "Tomi Tomasz": 0,
       "Krystian Sułek": 0
     },
     "scores": {
-      "Tomi": [],
+      "Tomi Tomasz": [],
       "Krystian Sułek": []
     }
   },
@@ -7631,15 +7631,15 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 3/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 3/10 Group 2",
-    "player1": "Tomi",
+    "player1": "Tomi Tomasz",
     "player2": "Adrian Ochel",
     "score": "2:3",
     "scores_count": {
-      "Tomi": 0,
+      "Tomi Tomasz": 0,
       "Adrian Ochel": 0
     },
     "scores": {
-      "Tomi": [],
+      "Tomi Tomasz": [],
       "Adrian Ochel": []
     }
   },
@@ -7767,15 +7767,15 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 3/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 3/10 Group 2",
-    "player1": "Tomi",
+    "player1": "Tomi Tomasz",
     "player2": "Maciek",
     "score": "2:3",
     "scores_count": {
-      "Tomi": 1,
+      "Tomi Tomasz": 1,
       "Maciek": 0
     },
     "scores": {
-      "Tomi": [
+      "Tomi Tomasz": [
         171
       ],
       "Maciek": []
@@ -8454,15 +8454,15 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 5/ DI/DO Final",
     "player1": "Mateusz Pięta",
-    "player2": "Piotrek Gryga",
+    "player2": "Piotr Gryga",
     "score": "4:3",
     "scores_count": {
       "Mateusz Pięta": 0,
-      "Piotrek Gryga": 0
+      "Piotr Gryga": 0
     },
     "scores": {
       "Mateusz Pięta": [],
-      "Piotrek Gryga": []
+      "Piotr Gryga": []
     }
   },
   {
@@ -8488,15 +8488,15 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 5/ DI/DO Semi-final",
     "player1": "Waldemar Kopacz",
-    "player2": "Piotrek Gryga",
+    "player2": "Piotr Gryga",
     "score": "0:3",
     "scores_count": {
       "Waldemar Kopacz": 0,
-      "Piotrek Gryga": 0
+      "Piotr Gryga": 0
     },
     "scores": {
       "Waldemar Kopacz": [],
-      "Piotrek Gryga": []
+      "Piotr Gryga": []
     }
   },
   {
@@ -8539,15 +8539,15 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 5/ DI/DO Top 8",
     "player1": "Adrian Ochel",
-    "player2": "Piotrek Gryga",
+    "player2": "Piotr Gryga",
     "score": "1:3",
     "scores_count": {
       "Adrian Ochel": 0,
-      "Piotrek Gryga": 0
+      "Piotr Gryga": 0
     },
     "scores": {
       "Adrian Ochel": [],
-      "Piotrek Gryga": []
+      "Piotr Gryga": []
     }
   },
   {
@@ -8640,15 +8640,15 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 5/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 5/ DI/DO Group 1",
-    "player1": "Piotrek Gryga",
+    "player1": "Piotr Gryga",
     "player2": "Jarosław Gryga",
     "score": "3:1",
     "scores_count": {
-      "Piotrek Gryga": 0,
+      "Piotr Gryga": 0,
       "Jarosław Gryga": 0
     },
     "scores": {
-      "Piotrek Gryga": [],
+      "Piotr Gryga": [],
       "Jarosław Gryga": []
     }
   },
@@ -8760,15 +8760,15 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 5/ DI/DO Group 1",
     "player1": "Hubert Sułek",
-    "player2": "Piotrek Gryga",
+    "player2": "Piotr Gryga",
     "score": "0:3",
     "scores_count": {
       "Hubert Sułek": 0,
-      "Piotrek Gryga": 0
+      "Piotr Gryga": 0
     },
     "scores": {
       "Hubert Sułek": [],
-      "Piotrek Gryga": []
+      "Piotr Gryga": []
     }
   },
   {
@@ -8844,15 +8844,15 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 5/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 5/ DI/DO Group 1",
-    "player1": "Piotrek Gryga",
+    "player1": "Piotr Gryga",
     "player2": "Waldemar Kopacz",
     "score": "1:3",
     "scores_count": {
-      "Piotrek Gryga": 0,
+      "Piotr Gryga": 0,
       "Waldemar Kopacz": 0
     },
     "scores": {
-      "Piotrek Gryga": [],
+      "Piotr Gryga": [],
       "Waldemar Kopacz": []
     }
   },
@@ -8913,15 +8913,15 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 5/ DI/DO Group 1",
     "player1": "Mateusz Pięta",
-    "player2": "Piotrek Gryga",
+    "player2": "Piotr Gryga",
     "score": "2:3",
     "scores_count": {
       "Mateusz Pięta": 0,
-      "Piotrek Gryga": 0
+      "Piotr Gryga": 0
     },
     "scores": {
       "Mateusz Pięta": [],
-      "Piotrek Gryga": []
+      "Piotr Gryga": []
     }
   },
   {
@@ -10428,15 +10428,15 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 3rd place match",
     "player1": "Waldemar Kopacz",
-    "player2": "Tomi",
+    "player2": "Tomi Tomasz",
     "score": "3:1",
     "scores_count": {
       "Waldemar Kopacz": 0,
-      "Tomi": 0
+      "Tomi Tomasz": 0
     },
     "scores": {
       "Waldemar Kopacz": [],
-      "Tomi": []
+      "Tomi Tomasz": []
     }
   },
   {
@@ -10445,15 +10445,15 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Semi-final",
     "player1": "Jarosław Gryga",
-    "player2": "Tomi",
+    "player2": "Tomi Tomasz",
     "score": "3:1",
     "scores_count": {
       "Jarosław Gryga": 0,
-      "Tomi": 1
+      "Tomi Tomasz": 1
     },
     "scores": {
       "Jarosław Gryga": [],
-      "Tomi": [
+      "Tomi Tomasz": [
         171
       ]
     }
@@ -10533,15 +10533,15 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Top 8",
-    "player1": "Tomi",
+    "player1": "Tomi Tomasz",
     "player2": "Mariusz Olchawa",
     "score": "3:2",
     "scores_count": {
-      "Tomi": 0,
+      "Tomi Tomasz": 0,
       "Mariusz Olchawa": 0
     },
     "scores": {
-      "Tomi": [],
+      "Tomi Tomasz": [],
       "Mariusz Olchawa": []
     }
   },
@@ -10584,15 +10584,15 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Top 16",
-    "player1": "Tomi",
+    "player1": "Tomi Tomasz",
     "player2": "Wojtek",
     "score": "3:2",
     "scores_count": {
-      "Tomi": 0,
+      "Tomi Tomasz": 0,
       "Wojtek": 0
     },
     "scores": {
-      "Tomi": [],
+      "Tomi Tomasz": [],
       "Wojtek": []
     }
   },
@@ -10773,15 +10773,15 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Group 3",
-    "player1": "Tomi",
+    "player1": "Tomi Tomasz",
     "player2": "Wiktor",
     "score": "3:1",
     "scores_count": {
-      "Tomi": 0,
+      "Tomi Tomasz": 0,
       "Wiktor": 0
     },
     "scores": {
-      "Tomi": [],
+      "Tomi Tomasz": [],
       "Wiktor": []
     }
   },
@@ -11030,15 +11030,15 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Group 3",
-    "player1": "Tomi",
+    "player1": "Tomi Tomasz",
     "player2": "Maciek",
     "score": "3:1",
     "scores_count": {
-      "Tomi": 0,
+      "Tomi Tomasz": 0,
       "Maciek": 0
     },
     "scores": {
-      "Tomi": [],
+      "Tomi Tomasz": [],
       "Maciek": []
     }
   },
@@ -11303,15 +11303,15 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Group 3",
     "player1": "Michał K",
-    "player2": "Tomi",
+    "player2": "Tomi Tomasz",
     "score": "0:3",
     "scores_count": {
       "Michał K": 0,
-      "Tomi": 0
+      "Tomi Tomasz": 0
     },
     "scores": {
       "Michał K": [],
-      "Tomi": []
+      "Tomi Tomasz": []
     }
   },
   {
@@ -11541,15 +11541,15 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Group 1",
     "player1": "Lipka",
-    "player2": "Tomi",
+    "player2": "Tomi Tomasz",
     "score": "3:0",
     "scores_count": {
       "Lipka": 0,
-      "Tomi": 0
+      "Tomi Tomasz": 0
     },
     "scores": {
       "Lipka": [],
-      "Tomi": []
+      "Tomi Tomasz": []
     }
   },
   {
@@ -11626,15 +11626,15 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Group 1",
     "player1": "Waldemar Kopacz",
-    "player2": "Tomi",
+    "player2": "Tomi Tomasz",
     "score": "3:0",
     "scores_count": {
       "Waldemar Kopacz": 0,
-      "Tomi": 0
+      "Tomi Tomasz": 0
     },
     "scores": {
       "Waldemar Kopacz": [],
-      "Tomi": []
+      "Tomi Tomasz": []
     }
   },
   {
@@ -11798,15 +11798,15 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Group 1",
     "player1": "Krystian Sułek",
-    "player2": "Tomi",
+    "player2": "Tomi Tomasz",
     "score": "2:3",
     "scores_count": {
       "Krystian Sułek": 0,
-      "Tomi": 0
+      "Tomi Tomasz": 0
     },
     "scores": {
       "Krystian Sułek": [],
-      "Tomi": []
+      "Tomi Tomasz": []
     }
   },
   {
@@ -11951,15 +11951,15 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Group 1",
     "player1": "Mariusz Olchawa",
-    "player2": "Tomi",
+    "player2": "Tomi Tomasz",
     "score": "0:3",
     "scores_count": {
       "Mariusz Olchawa": 0,
-      "Tomi": 0
+      "Tomi Tomasz": 0
     },
     "scores": {
       "Mariusz Olchawa": [],
-      "Tomi": []
+      "Tomi Tomasz": []
     }
   },
   {
