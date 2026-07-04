@@ -315,14 +315,7 @@ function renderTournamentStats(prefix, containerId, maxData, highData, fastData,
 
     // Badge kategorii — tylko w zakładce "Wszystkie turnieje"
     function catBadge(player) {
-        if (categoryFilter) return ''; // ukryj w zakładkach kategoriach
-        const cats = playerCategory[player] ? [...playerCategory[player]] : [];
-        return cats.map(c => {
-            if (c === 'szerszen_cup') return '<span class="badge bg-warning text-dark ms-1">🐝 Szerszeń Cup</span>';
-            if (c === 'superpuchar')  return '<span class="badge bg-info text-dark ms-1">🥇 Superpuchar</span>';
-            if (c === 'open')         return '<span class="badge bg-success ms-1">🎯 Open</span>';
-            return '';
-        }).join('');
+        return '';
     }
 
     // --- MAXY ---
