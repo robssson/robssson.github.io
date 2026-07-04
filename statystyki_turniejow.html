@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>📊 Statystyki Turniejowe — Tomi Dart Club</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+    .container h1 {
+        color: #f0c040;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .container h2 { color: #e0e0e0; }
+    .container h3 { color: #ffc107; }
+</style>
+</head>
+<body>
+
+<!-- NAWIGACJA -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">🎯 Tomi Dart Club</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">🏠 Strona główna</a></li>
+                <li class="nav-item"><a class="nav-link" href="liga.html">🏆 Liga</a></li>
+                <li class="nav-item"><a class="nav-link" href="turnieje.html">🎯 Turnieje</a></li>
+                <li class="nav-item"><a class="nav-link active" href="statystyki_turniejow.html">📊 Stat. Turniejów</a></li>
+                <li class="nav-item"><a class="nav-link" href="stream.html">📺 Stream</a></li>
+                <li class="nav-item"><a class="nav-link" href="onas.html">📖 O nas</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- NASI PARTNERZY -->
+<section class="partners-bar">
+    <div class="container">
+        <div class="partners-label text-center">🤝 Nasi Partnerzy</div>
+        <div class="partners-scroll">
+            <div class="partners-track">
+                <a href="https://www.facebook.com/profile.php?id=61560172326594" target="_blank" rel="noopener" class="partner-link"><img src="sponsors/hefa.jpg" alt="HEFA" class="partner-logo"> HEFA</a>
+                <a href="https://www.facebook.com/pomodorobrzesko/" target="_blank" rel="noopener" class="partner-link"><img src="sponsors/pomodoro.jpg" alt="Pomodoro" class="partner-logo"> Pomodoro</a>
+                <a href="https://www.facebook.com/rosso21bochnia?locale=pl_PL" target="_blank" rel="noopener" class="partner-link"><img src="sponsors/rosso.jpg" alt="Rosso 21" class="partner-logo"> ROSSO 21 · Bochnia</a>
+                <a href="https://www.facebook.com/p/Aesthetic-Body-Gym-Jadowniki-61556673007542/" target="_blank" rel="noopener" class="partner-link"><img src="sponsors/aesthetic.jpg" alt="Aesthetic Body Gym" class="partner-logo"> Aesthetic Body Gym</a>
+                <a href="https://www.facebook.com/p/KingCars-wypo%C5%BCyczalniaimport-samochod%C3%B3w-100086957464318/" target="_blank" rel="noopener" class="partner-link"><img src="sponsors/king_cars.jpg" alt="KingCars" class="partner-logo"> KingCars</a>
+                <a href="https://www.facebook.com/p/Limaro-Budownictwo-61564581636883/" target="_blank" rel="noopener" class="partner-link"><img src="sponsors/limaro.jpg" alt="Limaro Budownictwo" class="partner-logo"> Limaro Budownictwo</a>
+                <a href="https://www.facebook.com/p/Fox-Band-61555865010867/" target="_blank" rel="noopener" class="partner-link"><img src="sponsors/fox.jpg" alt="Fox Band" class="partner-logo"> Fox Band</a>
+                <a href="https://www.facebook.com/profile.php?id=61572904703446" target="_blank" rel="noopener" class="partner-link"><img src="sponsors/ww.jpg" alt="WW Car Detailing" class="partner-logo"> WW Car Detailing</a>
+                <!-- DUPLIKAT dla płynnej pętli -->
+                <a href="https://www.facebook.com/profile.php?id=61560172326594" target="_blank" rel="noopener" class="partner-link"><img src="sponsors/hefa.jpg" alt="HEFA" class="partner-logo"> HEFA</a>
+                <a href="https://www.facebook.com/pomodorobrzesko/" target="_blank" rel="noopener" class="partner-link"><img src="sponsors/pomodoro.jpg" alt="Pomodoro" class="partner-logo"> Pomodoro</a>
+                <a href="https://www.facebook.com/rosso21bochnia?locale=pl_PL" target="_blank" rel="noopener" class="partner-link"><img src="sponsors/rosso.jpg" alt="Rosso 21" class="partner-logo"> ROSSO 21 · Bochnia</a>
+                <a href="https://www.facebook.com/p/Aesthetic-Body-Gym-Jadowniki-61556673007542/" target="_blank" rel="noopener" class="partner-link"><img src="sponsors/aesthetic.jpg" alt="Aesthetic Body Gym" class="partner-logo"> Aesthetic Body Gym</a>
+                <a href="https://www.facebook.com/p/KingCars-wypo%C5%BCyczalniaimport-samochod%C3%B3w-100086957464318/" target="_blank" rel="noopener" class="partner-link"><img src="sponsors/king_cars.jpg" alt="KingCars" class="partner-logo"> KingCars</a>
+                <a href="https://www.facebook.com/p/Limaro-Budownictwo-61564581636883/" target="_blank" rel="noopener" class="partner-link"><img src="sponsors/limaro.jpg" alt="Limaro Budownictwo" class="partner-logo"> Limaro Budownictwo</a>
+                <a href="https://www.facebook.com/p/Fox-Band-61555865010867/" target="_blank" rel="noopener" class="partner-link"><img src="sponsors/fox.jpg" alt="Fox Band" class="partner-logo"> Fox Band</a>
+                <a href="https://www.facebook.com/profile.php?id=61572904703446" target="_blank" rel="noopener" class="partner-link"><img src="sponsors/ww.jpg" alt="WW Car Detailing" class="partner-logo"> WW Car Detailing</a>
+            </div>
+        </div>
+        <div class="partners-cta text-center mt-2">
+            Chcesz zostać partnerem?
+            <a href="https://www.facebook.com/profile.php?id=61578721925565" target="_blank" rel="noopener">Napisz do nas na Facebooku! 💬</a>
+        </div>
+    </div>
+</section>
+
+<div class="container mt-4">
+    <h1>📊 Statystyki Turniejowe — Wiosna 2026</h1>
+
+    <ul class="nav nav-tabs justify-content-center mb-4" id="tournamentTabs" role="tablist">
+        <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="all-tab" data-bs-toggle="tab" data-bs-target="#tab-all" type="button" role="tab">🏆 Wszystkie turnieje</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="szerszen-tab" data-bs-toggle="tab" data-bs-target="#tab-szerszen" type="button" role="tab">🐝 Szerszeń Cup</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="superpuchar-tab" data-bs-toggle="tab" data-bs-target="#tab-superpuchar" type="button" role="tab">🥇 Superpuchar Klubu</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="open-tab" data-bs-toggle="tab" data-bs-target="#tab-open" type="button" role="tab">🎯 Openy</button>
+        </li>
+    </ul>
+
+    <div class="tab-content" id="tournamentTabsContent">
+        <div class="tab-pane fade show active" id="tab-all" role="tabpanel">
+            <div id="all-content"></div>
+        </div>
+        <div class="tab-pane fade" id="tab-szerszen" role="tabpanel">
+            <div id="szerszen-content"></div>
+        </div>
+        <div class="tab-pane fade" id="tab-superpuchar" role="tabpanel">
+            <div id="superpuchar-content"></div>
+        </div>
+        <div class="tab-pane fade" id="tab-open" role="tabpanel">
+            <div id="open-content"></div>
+        </div>
+    </div>
+</div>
+
+<footer class="bg-dark text-white text-center py-4 mt-5">
+    <div class="container">
+        <p class="mb-1">🎯 Tomi Dart Club © 2026</p>
+        <p class="mb-1 text-muted small">tomidartclub.pl</p>
+        <p class="mb-0 text-muted small">Autor strony: Tomasz Radecki</p>
+    </div>
+</footer>
+
+<!-- LATAJĄCY SZERSZEŃ -->
+<div class="bee" id="bee" title="Bzzzz! 🐝" style="display:none;">
+    <span class="bee-wing">🐝</span>
+</div>
+<script>
+(function() {
+    const BEE_ENABLED = false;
+    if (!BEE_ENABLED) return;
+    // ... bee code
+})();
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+
+// ============================================================
+// HELPERY (identyczne jak liga.html)
+// ============================================================
+
+function makeSortable(tableId, rowsData, buildRow) {
+    const headers = document.querySelectorAll(`#${tableId} th.sortable`);
+    headers.forEach(th => {
+        let asc = false;
+        th.addEventListener('click', () => {
+            headers.forEach(h => h.classList.remove('sorted-asc','sorted-desc'));
+            const key = th.dataset.key;
+            rowsData.sort((a,b) => {
+                let va=a[key], vb=b[key];
+                if(!isNaN(va) && !isNaN(vb)) return asc ? va - vb : vb - va;
+                if(typeof va==='string') va=va.toLowerCase();
+                if(typeof vb==='string') vb=vb.toLowerCase();
+                if(va<vb) return asc?-1:1;
+                if(va>vb) return asc?1:-1;
+                return 0;
+            });
+            th.classList.add(asc?'sorted-asc':'sorted-desc');
+            asc=!asc;
+            buildRow();
+        });
+    });
+}
+
+function colorizeTop3(tbody, rows, buildFn) {
+    tbody.innerHTML = '';
+    rows.forEach((r,i) => {
+        const tr = document.createElement('tr');
+        if(i===0) tr.classList.add('first-place');
+        else if(i===1) tr.classList.add('second-place');
+        else if(i===2) tr.classList.add('third-place');
+        tr.innerHTML = buildFn(r);
+        tbody.appendChild(tr);
+    });
+}
+
+// ============================================================
+// BUDOWANIE HTML TABELEK
+// ============================================================
+
+function buildStatsHTML(prefix, containerId) {
+    document.getElementById(containerId).innerHTML = `
+        <h3>💪 Podsumowanie wybryków</h3>
+        <p id="${prefix}-all-matches" class="summary"></p>
+        <p id="${prefix}-all-tricks" class="summary"></p>
+        <div class="table-container">
+            <table class="table table-bordered table-hover" id="${prefix}-tricks-table">
+                <thead class="table-dark"><tr>
+                    <th data-key="player" class="sortable">Zawodnik</th>
+                    <th data-key="matches" class="sortable">Mecze</th>
+                    <th data-key="total" class="sortable">Suma wybryków</th>
+                    <th data-key="max" class="sortable">180</th>
+                    <th data-key="score170" class="sortable">170+</th>
+                    <th data-key="high" class="sortable">Wys. zakończenia</th>
+                    <th data-key="fast" class="sortable">Szybkie lotki</th>
+                </tr></thead>
+                <tbody id="${prefix}-tricks-body"></tbody>
+            </table>
+        </div>
+        <h3>💥 Maxy (180)</h3>
+        <p id="${prefix}-max-sum" class="summary"></p>
+        <div class="table-container">
+            <table class="table table-bordered table-hover" id="${prefix}-max-table">
+                <thead class="table-dark"><tr>
+                    <th data-key="player" class="sortable">Zawodnik</th>
+                    <th data-key="count" class="sortable">Liczba 180</th>
+                </tr></thead>
+                <tbody id="${prefix}-max-body"></tbody>
+            </table>
+        </div>
+        <h3>🔥 Rzuty 170+</h3>
+        <p id="${prefix}-scores-sum" class="summary"></p>
+        <div class="table-container">
+            <table class="table table-bordered table-hover" id="${prefix}-scores-table">
+                <thead class="table-dark"><tr>
+                    <th data-key="player" class="sortable">Zawodnik</th>
+                    <th data-key="count" class="sortable">Liczba</th>
+                    <th data-key="values">Wyniki</th>
+                </tr></thead>
+                <tbody id="${prefix}-scores-body"></tbody>
+            </table>
+        </div>
+        <h3>🎯 Wysokie zakończenia (>=100)</h3>
+        <p id="${prefix}-high-sum" class="summary"></p>
+        <div class="table-container">
+            <table class="table table-bordered table-hover" id="${prefix}-high-table">
+                <thead class="table-dark"><tr>
+                    <th data-key="player" class="sortable">Zawodnik</th>
+                    <th data-key="count" class="sortable">Liczba</th>
+                    <th data-key="values">Wartości</th>
+                </tr></thead>
+                <tbody id="${prefix}-high-body"></tbody>
+            </table>
+        </div>
+        <h3>⚡ Szybkie lotki (<=18)</h3>
+        <p id="${prefix}-fast-sum" class="summary"></p>
+        <div class="table-container">
+            <table class="table table-bordered table-hover" id="${prefix}-fast-table">
+                <thead class="table-dark"><tr>
+                    <th data-key="player" class="sortable">Zawodnik</th>
+                    <th data-key="count" class="sortable">Liczba</th>
+                    <th data-key="values">Legi</th>
+                </tr></thead>
+                <tbody id="${prefix}-fast-body"></tbody>
+            </table>
+        </div>
+    `;
+}
+
+// ============================================================
+// RENDEROWANIE STATYSTYK — z opcjonalnym filtrem kategorii
+// ============================================================
+
+function renderTournamentStats(prefix, containerId, maxData, highData, fastData, scoresData, categoryFilter) {
+    buildStatsHTML(prefix, containerId);
+
+    const filterFn = categoryFilter ? m => m.category === categoryFilter : () => true;
+
+    const fMax    = maxData.filter(filterFn);
+    const fHigh   = highData.filter(filterFn);
+    const fFast   = fastData.filter(filterFn);
+    const fScores = scoresData.filter(filterFn);
+
+    const maxStats={}, highStats={}, fastStats={}, scoresStats={};
+    const allMatches=new Map();
+    const allMatchIDs=new Set();
+    const playerCategory={};
+    let totalMax=0, totalHigh=0, totalFast=0, totalScores=0;
+
+    fMax.forEach(m => {
+        allMatchIDs.add(m.tmid);
+        for(const [p,list] of Object.entries(m.maxes||{})) {
+            if(!maxStats[p]) maxStats[p]=[];
+            maxStats[p].push(...list);
+            totalMax+=list.length;
+            if(!allMatches.has(p)) allMatches.set(p,new Set());
+            allMatches.get(p).add(m.tmid);
+            if(!playerCategory[p]) playerCategory[p]=new Set();
+            playerCategory[p].add(m.category);
+        }
+    });
+
+    fHigh.forEach(m => {
+        allMatchIDs.add(m.tmid);
+        for(const [p,list] of Object.entries(m.high_finishes||{})) {
+            if(!highStats[p]) highStats[p]=[];
+            highStats[p].push(...list);
+            totalHigh+=list.length;
+            if(!allMatches.has(p)) allMatches.set(p,new Set());
+            allMatches.get(p).add(m.tmid);
+            if(!playerCategory[p]) playerCategory[p]=new Set();
+            playerCategory[p].add(m.category);
+        }
+    });
+
+    fFast.forEach(m => {
+        allMatchIDs.add(m.tmid);
+        for(const [p,list] of Object.entries(m.fast_legs||{})) {
+            if(!fastStats[p]) fastStats[p]=[];
+            fastStats[p].push(...list);
+            totalFast+=list.length;
+            if(!allMatches.has(p)) allMatches.set(p,new Set());
+            allMatches.get(p).add(m.tmid);
+            if(!playerCategory[p]) playerCategory[p]=new Set();
+            playerCategory[p].add(m.category);
+        }
+    });
+
+    fScores.forEach(m => {
+        allMatchIDs.add(m.tmid);
+        for(const [p,list] of Object.entries(m.scores||{})) {
+            if(!scoresStats[p]) scoresStats[p]=[];
+            const filtered=list.filter(v=>v>=170&&v<180);
+            scoresStats[p].push(...filtered);
+            totalScores+=filtered.length;
+            if(!allMatches.has(p)) allMatches.set(p,new Set());
+            allMatches.get(p).add(m.tmid);
+            if(!playerCategory[p]) playerCategory[p]=new Set();
+            playerCategory[p].add(m.category);
+        }
+    });
+
+    // Badge kategorii — tylko w zakładce "Wszystkie turnieje"
+    function catBadge(player) {
+        if (categoryFilter) return ''; // ukryj w zakładkach kategoriach
+        const cats = playerCategory[player] ? [...playerCategory[player]] : [];
+        return cats.map(c => {
+            if (c === 'szerszen_cup') return '<span class="badge bg-warning text-dark ms-1">🐝 Szerszeń Cup</span>';
+            if (c === 'superpuchar')  return '<span class="badge bg-info text-dark ms-1">🥇 Superpuchar</span>';
+            if (c === 'open')         return '<span class="badge bg-success ms-1">🎯 Open</span>';
+            return '';
+        }).join('');
+    }
+
+    // --- MAXY ---
+    const maxRows = Object.entries(maxStats).filter(([_,v])=>v.length>0)
+        .map(([p,v])=>({player:p,count:v.length}))
+        .sort((a,b)=>b.count-a.count);
+    const maxBody = document.getElementById(`${prefix}-max-body`);
+    const buildMax = r => `<td>${r.player}${catBadge(r.player)}</td><td>${r.count}</td>`;
+    colorizeTop3(maxBody,maxRows,buildMax);
+    makeSortable(`${prefix}-max-table`,maxRows,()=>colorizeTop3(maxBody,maxRows,buildMax));
+    document.getElementById(`${prefix}-max-sum`).textContent = `Suma 180: ${totalMax}`;
+
+    // --- HIGH FINISHES ---
+    const highRows = Object.entries(highStats).filter(([_,v])=>v.length>0)
+        .map(([p,v])=>({player:p,count:v.length,maxValue:Math.max(...v),values:v.sort((a,b)=>b-a).join(', ')}))
+        .sort((a,b)=>b.count-a.count||b.maxValue-a.maxValue);
+    const highBody = document.getElementById(`${prefix}-high-body`);
+    const buildHigh = r => `<td>${r.player}${catBadge(r.player)}</td><td>${r.count}</td><td>${r.values}</td>`;
+    colorizeTop3(highBody,highRows,buildHigh);
+    makeSortable(`${prefix}-high-table`,highRows,()=>colorizeTop3(highBody,highRows,buildHigh));
+    document.getElementById(`${prefix}-high-sum`).textContent = `Suma wysokich zakończeń: ${totalHigh}`;
+
+    // --- FAST LEGS ---
+    const fastRows = Object.entries(fastStats).filter(([_,v])=>v.length>0)
+        .map(([p,v])=>({player:p,count:v.length,values:v.sort((a,b)=>a-b).join(', ')}))
+        .sort((a,b)=>b.count-a.count);
+    const fastBody = document.getElementById(`${prefix}-fast-body`);
+    const buildFast = r => `<td>${r.player}${catBadge(r.player)}</td><td>${r.count}</td><td>${r.values}</td>`;
+    colorizeTop3(fastBody,fastRows,buildFast);
+    makeSortable(`${prefix}-fast-table`,fastRows,()=>colorizeTop3(fastBody,fastRows,buildFast));
+    document.getElementById(`${prefix}-fast-sum`).textContent = `Suma szybkich lotek: ${totalFast}`;
+
+    // --- HIGH SCORES ---
+    const scoreRows = Object.entries(scoresStats).filter(([_,v])=>v.length>0)
+        .map(([p,v])=>({player:p,count:v.length,values:v.sort((a,b)=>a-b).join(', ')}))
+        .sort((a,b)=>b.count-a.count);
+    const scoreBody = document.getElementById(`${prefix}-scores-body`);
+    const buildScore = r => `<td>${r.player}${catBadge(r.player)}</td><td>${r.count}</td><td>${r.values}</td>`;
+    colorizeTop3(scoreBody,scoreRows,buildScore);
+    makeSortable(`${prefix}-scores-table`,scoreRows,()=>colorizeTop3(scoreBody,scoreRows,buildScore));
+    document.getElementById(`${prefix}-scores-sum`).textContent = `Suma rzutów 170+: ${totalScores}`;
+
+    // --- WYBRYKI ---
+    const allPlayers = new Set([
+        ...Object.keys(maxStats),...Object.keys(highStats),
+        ...Object.keys(fastStats),...Object.keys(scoresStats)
+    ]);
+    const tricksRows = [];
+    allPlayers.forEach(p => {
+        const max=maxStats[p]?.length||0, score170=scoresStats[p]?.length||0,
+              high=highStats[p]?.length||0, fast=fastStats[p]?.length||0;
+        const total=max+score170+high+fast;
+        if(total>0) tricksRows.push({player:p,matches:allMatches.get(p)?.size||0,total,max,score170,high,fast});
+    });
+    tricksRows.sort((a,b)=>b.total-a.total);
+    const tricksBody = document.getElementById(`${prefix}-tricks-body`);
+    const buildTrick = r => `<td>${r.player}${catBadge(r.player)}</td><td>${r.matches}</td><td>${r.total}</td><td>${r.max}</td><td>${r.score170}</td><td>${r.high}</td><td>${r.fast}</td>`;
+    colorizeTop3(tricksBody,tricksRows,buildTrick);
+    makeSortable(`${prefix}-tricks-table`,tricksRows,()=>colorizeTop3(tricksBody,tricksRows,buildTrick));
+    document.getElementById(`${prefix}-all-matches`).textContent = `Mecze: ${allMatchIDs.size}`;
+    document.getElementById(`${prefix}-all-tricks`).textContent  = `Suma wybryków: ${tricksRows.reduce((a,b)=>a+b.total,0)}`;
+}
+
+// ============================================================
+// ŁADUJ RAZ — renderuj dla wszystkich zakładek
+// ============================================================
+
+Promise.all([
+    fetch('output/tournaments/tournaments_max.json').then(r=>r.json()),
+    fetch('output/tournaments/tournaments_high_finishes.json').then(r=>r.json()),
+    fetch('output/tournaments/tournaments_fast_legs.json').then(r=>r.json()),
+    fetch('output/tournaments/tournaments_high_scores.json').then(r=>r.json())
+]).then(([maxData, highData, fastData, scoresData]) => {
+    renderTournamentStats('all',         'all-content',         maxData, highData, fastData, scoresData, null);
+    renderTournamentStats('szerszen',    'szerszen-content',    maxData, highData, fastData, scoresData, 'szerszen_cup');
+    renderTournamentStats('superpuchar', 'superpuchar-content', maxData, highData, fastData, scoresData, 'superpuchar');
+    renderTournamentStats('open',        'open-content',        maxData, highData, fastData, scoresData, 'open');
+}).catch(err => console.error('Błąd ładowania danych turniejów:', err));
+</script>
+
+</body>
+</html>
