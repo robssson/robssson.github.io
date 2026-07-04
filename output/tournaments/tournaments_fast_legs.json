@@ -3064,19 +3064,19 @@
     "tournament": "Szerszeń Cup IV",
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Top 8",
-    "player1": "Jarek",
+    "player1": "Jarosław Gryga",
     "player2": "Mateusz Pięta",
     "score": "1:3",
     "fast_legs_count": {
-      "Jarek": 0,
+      "Jarosław Gryga": 0,
       "Mateusz Pięta": 0
     },
     "fast_legs": {
-      "Jarek": [],
+      "Jarosław Gryga": [],
       "Mateusz Pięta": []
     },
     "average": {
-      "Jarek": 50.43,
+      "Jarosław Gryga": 50.43,
       "Mateusz Pięta": 56.6
     }
   },
@@ -3234,19 +3234,19 @@
     "tournament": "Szerszeń Cup IV",
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Group 2",
-    "player1": "Jarek",
+    "player1": "Jarosław Gryga",
     "player2": "Lipka",
     "score": "0:3",
     "fast_legs_count": {
-      "Jarek": 0,
+      "Jarosław Gryga": 0,
       "Lipka": 0
     },
     "fast_legs": {
-      "Jarek": [],
+      "Jarosław Gryga": [],
       "Lipka": []
     },
     "average": {
-      "Jarek": 48.07,
+      "Jarosław Gryga": 48.07,
       "Lipka": 54.33
     }
   },
@@ -3362,19 +3362,19 @@
     "tournament": "Szerszeń Cup IV",
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Group 2",
-    "player1": "Jarek",
+    "player1": "Jarosław Gryga",
     "player2": "Dominik",
     "score": "3:0",
     "fast_legs_count": {
-      "Jarek": 0,
+      "Jarosław Gryga": 0,
       "Dominik": 0
     },
     "fast_legs": {
-      "Jarek": [],
+      "Jarosław Gryga": [],
       "Dominik": []
     },
     "average": {
-      "Jarek": 39.08,
+      "Jarosław Gryga": 39.08,
       "Dominik": 37.95
     }
   },
@@ -3553,19 +3553,19 @@
     "tournament": "Szerszeń Cup IV",
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Group 2",
-    "player1": "Jarek",
+    "player1": "Jarosław Gryga",
     "player2": "Tomi",
     "score": "3:2",
     "fast_legs_count": {
-      "Jarek": 0,
+      "Jarosław Gryga": 0,
       "Tomi": 0
     },
     "fast_legs": {
-      "Jarek": [],
+      "Jarosław Gryga": [],
       "Tomi": []
     },
     "average": {
-      "Jarek": 48.45,
+      "Jarosław Gryga": 48.45,
       "Tomi": 44.96
     }
   },
@@ -3660,19 +3660,19 @@
     "tournament": "Szerszeń Cup IV",
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Group 2",
-    "player1": "Jarek",
+    "player1": "Jarosław Gryga",
     "player2": "Tomasz Pilecki",
     "score": "3:2",
     "fast_legs_count": {
-      "Jarek": 0,
+      "Jarosław Gryga": 0,
       "Tomasz Pilecki": 0
     },
     "fast_legs": {
-      "Jarek": [],
+      "Jarosław Gryga": [],
       "Tomasz Pilecki": []
     },
     "average": {
-      "Jarek": 43.88,
+      "Jarosław Gryga": 43.88,
       "Tomasz Pilecki": 48.06
     }
   },
@@ -9350,21 +9350,21 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 3/10 Group 2",
     "player1": "Adrian Ochel",
-    "player2": "Krystian S",
+    "player2": "Krystian Sułek",
     "score": "3:1",
     "fast_legs_count": {
       "Adrian Ochel": 1,
-      "Krystian S": 0
+      "Krystian Sułek": 0
     },
     "fast_legs": {
       "Adrian Ochel": [
         15
       ],
-      "Krystian S": []
+      "Krystian Sułek": []
     },
     "average": {
       "Adrian Ochel": 53.61,
-      "Krystian S": 47.13
+      "Krystian Sułek": 47.13
     }
   },
   {
@@ -9478,21 +9478,21 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 3/10 Group 2",
     "player1": "Tomi",
-    "player2": "Krystian S",
+    "player2": "Krystian Sułek",
     "score": "3:1",
     "fast_legs_count": {
       "Tomi": 1,
-      "Krystian S": 0
+      "Krystian Sułek": 0
     },
     "fast_legs": {
       "Tomi": [
         18
       ],
-      "Krystian S": []
+      "Krystian Sułek": []
     },
     "average": {
       "Tomi": 51.44,
-      "Krystian S": 49.22
+      "Krystian Sułek": 49.22
     }
   },
   {
@@ -9585,19 +9585,19 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 3/10 Group 2",
     "player1": "Maciek",
-    "player2": "Krystian S",
+    "player2": "Krystian Sułek",
     "score": "3:0",
     "fast_legs_count": {
       "Maciek": 0,
-      "Krystian S": 0
+      "Krystian Sułek": 0
     },
     "fast_legs": {
       "Maciek": [],
-      "Krystian S": []
+      "Krystian Sułek": []
     },
     "average": {
       "Maciek": 55.67,
-      "Krystian S": 51.58
+      "Krystian Sułek": 51.58
     }
   },
   {
@@ -9668,19 +9668,19 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 3/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 3/10 Group 2",
-    "player1": "Krystian S",
+    "player1": "Krystian Sułek",
     "player2": "Tomek P",
     "score": "1:3",
     "fast_legs_count": {
-      "Krystian S": 0,
+      "Krystian Sułek": 0,
       "Tomek P": 0
     },
     "fast_legs": {
-      "Krystian S": [],
+      "Krystian Sułek": [],
       "Tomek P": []
     },
     "average": {
-      "Krystian S": 47.16,
+      "Krystian Sułek": 47.16,
       "Tomek P": 45.76
     }
   },
@@ -13338,19 +13338,19 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Group 1",
-    "player1": "Krystian S",
+    "player1": "Krystian Sułek",
     "player2": "Tomek P",
     "score": "3:1",
     "fast_legs_count": {
-      "Krystian S": 0,
+      "Krystian Sułek": 0,
       "Tomek P": 0
     },
     "fast_legs": {
-      "Krystian S": [],
+      "Krystian Sułek": [],
       "Tomek P": []
     },
     "average": {
-      "Krystian S": 45.19,
+      "Krystian Sułek": 45.19,
       "Tomek P": 43.11
     }
   },
@@ -13489,19 +13489,19 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Group 1",
-    "player1": "Krystian S",
+    "player1": "Krystian Sułek",
     "player2": "Franciszek Kukiełka",
     "score": "0:3",
     "fast_legs_count": {
-      "Krystian S": 0,
+      "Krystian Sułek": 0,
       "Franciszek Kukiełka": 0
     },
     "fast_legs": {
-      "Krystian S": [],
+      "Krystian Sułek": [],
       "Franciszek Kukiełka": []
     },
     "average": {
-      "Krystian S": 41.72,
+      "Krystian Sułek": 41.72,
       "Franciszek Kukiełka": 49.55
     }
   },
@@ -13808,19 +13808,19 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Group 1",
-    "player1": "Krystian S",
+    "player1": "Krystian Sułek",
     "player2": "Mateusz Pięta",
     "score": "1:3",
     "fast_legs_count": {
-      "Krystian S": 0,
+      "Krystian Sułek": 0,
       "Mateusz Pięta": 0
     },
     "fast_legs": {
-      "Krystian S": [],
+      "Krystian Sułek": [],
       "Mateusz Pięta": []
     },
     "average": {
-      "Krystian S": 52.04,
+      "Krystian Sułek": 52.04,
       "Mateusz Pięta": 56.6
     }
   },
@@ -14084,19 +14084,19 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Group 1",
     "player1": "Hubert Sułek",
-    "player2": "Krystian S",
+    "player2": "Krystian Sułek",
     "score": "3:0",
     "fast_legs_count": {
       "Hubert Sułek": 0,
-      "Krystian S": 0
+      "Krystian Sułek": 0
     },
     "fast_legs": {
       "Hubert Sułek": [],
-      "Krystian S": []
+      "Krystian Sułek": []
     },
     "average": {
       "Hubert Sułek": 52.43,
-      "Krystian S": 46.54
+      "Krystian Sułek": 46.54
     }
   },
   {

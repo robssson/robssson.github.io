@@ -2476,15 +2476,15 @@
     "tournament": "Szerszeń Cup IV",
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Top 8",
-    "player1": "Jarek",
+    "player1": "Jarosław Gryga",
     "player2": "Mateusz Pięta",
     "score": "1:3",
     "max_count": {
-      "Jarek": 0,
+      "Jarosław Gryga": 0,
       "Mateusz Pięta": 0
     },
     "maxes": {
-      "Jarek": [],
+      "Jarosław Gryga": [],
       "Mateusz Pięta": []
     }
   },
@@ -2612,15 +2612,15 @@
     "tournament": "Szerszeń Cup IV",
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Group 2",
-    "player1": "Jarek",
+    "player1": "Jarosław Gryga",
     "player2": "Lipka",
     "score": "0:3",
     "max_count": {
-      "Jarek": 0,
+      "Jarosław Gryga": 0,
       "Lipka": 0
     },
     "maxes": {
-      "Jarek": [],
+      "Jarosław Gryga": [],
       "Lipka": []
     }
   },
@@ -2721,15 +2721,15 @@
     "tournament": "Szerszeń Cup IV",
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Group 2",
-    "player1": "Jarek",
+    "player1": "Jarosław Gryga",
     "player2": "Dominik",
     "score": "3:0",
     "max_count": {
-      "Jarek": 0,
+      "Jarosław Gryga": 0,
       "Dominik": 0
     },
     "maxes": {
-      "Jarek": [],
+      "Jarosław Gryga": [],
       "Dominik": []
     }
   },
@@ -2879,15 +2879,15 @@
     "tournament": "Szerszeń Cup IV",
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Group 2",
-    "player1": "Jarek",
+    "player1": "Jarosław Gryga",
     "player2": "Tomi",
     "score": "3:2",
     "max_count": {
-      "Jarek": 0,
+      "Jarosław Gryga": 0,
       "Tomi": 0
     },
     "maxes": {
-      "Jarek": [],
+      "Jarosław Gryga": [],
       "Tomi": []
     }
   },
@@ -2966,15 +2966,15 @@
     "tournament": "Szerszeń Cup IV",
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Group 2",
-    "player1": "Jarek",
+    "player1": "Jarosław Gryga",
     "player2": "Tomasz Pilecki",
     "score": "3:2",
     "max_count": {
-      "Jarek": 0,
+      "Jarosław Gryga": 0,
       "Tomasz Pilecki": 0
     },
     "maxes": {
-      "Jarek": [],
+      "Jarosław Gryga": [],
       "Tomasz Pilecki": []
     }
   },
@@ -7568,18 +7568,18 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 3/10 Group 2",
     "player1": "Adrian Ochel",
-    "player2": "Krystian S",
+    "player2": "Krystian Sułek",
     "score": "3:1",
     "max_count": {
       "Adrian Ochel": 2,
-      "Krystian S": 0
+      "Krystian Sułek": 0
     },
     "maxes": {
       "Adrian Ochel": [
         180,
         180
       ],
-      "Krystian S": []
+      "Krystian Sułek": []
     }
   },
   {
@@ -7675,15 +7675,15 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 3/10 Group 2",
     "player1": "Tomi",
-    "player2": "Krystian S",
+    "player2": "Krystian Sułek",
     "score": "3:1",
     "max_count": {
       "Tomi": 0,
-      "Krystian S": 0
+      "Krystian Sułek": 0
     },
     "maxes": {
       "Tomi": [],
-      "Krystian S": []
+      "Krystian Sułek": []
     }
   },
   {
@@ -7760,15 +7760,15 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 3/10 Group 2",
     "player1": "Maciek",
-    "player2": "Krystian S",
+    "player2": "Krystian Sułek",
     "score": "3:0",
     "max_count": {
       "Maciek": 0,
-      "Krystian S": 0
+      "Krystian Sułek": 0
     },
     "maxes": {
       "Maciek": [],
-      "Krystian S": []
+      "Krystian Sułek": []
     }
   },
   {
@@ -7829,15 +7829,15 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 3/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 3/10 Group 2",
-    "player1": "Krystian S",
+    "player1": "Krystian Sułek",
     "player2": "Tomek P",
     "score": "1:3",
     "max_count": {
-      "Krystian S": 1,
+      "Krystian Sułek": 1,
       "Tomek P": 0
     },
     "maxes": {
-      "Krystian S": [
+      "Krystian Sułek": [
         180
       ],
       "Tomek P": []
@@ -10534,15 +10534,15 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Final",
     "player1": "Mateusz Pięta",
-    "player2": "Jarek",
+    "player2": "Jarosław Gryga",
     "score": "3:1",
     "max_count": {
       "Mateusz Pięta": 0,
-      "Jarek": 0
+      "Jarosław Gryga": 0
     },
     "maxes": {
       "Mateusz Pięta": [],
-      "Jarek": []
+      "Jarosław Gryga": []
     }
   },
   {
@@ -10567,15 +10567,15 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Semi-final",
-    "player1": "Jarek",
+    "player1": "Jarosław Gryga",
     "player2": "Tomi",
     "score": "3:1",
     "max_count": {
-      "Jarek": 0,
+      "Jarosław Gryga": 0,
       "Tomi": 0
     },
     "maxes": {
-      "Jarek": [],
+      "Jarosław Gryga": [],
       "Tomi": []
     }
   },
@@ -10606,15 +10606,15 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Top 8",
     "player1": "Julian Samek",
-    "player2": "Jarek",
+    "player2": "Jarosław Gryga",
     "score": "0:3",
     "max_count": {
       "Julian Samek": 0,
-      "Jarek": 0
+      "Jarosław Gryga": 0
     },
     "maxes": {
       "Julian Samek": [],
-      "Jarek": []
+      "Jarosław Gryga": []
     }
   },
   {
@@ -10674,15 +10674,15 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Top 16",
     "player1": "Adrian Ochel",
-    "player2": "Jarek",
+    "player2": "Jarosław Gryga",
     "score": "2:3",
     "max_count": {
       "Adrian Ochel": 0,
-      "Jarek": 0
+      "Jarosław Gryga": 0
     },
     "maxes": {
       "Adrian Ochel": [],
-      "Jarek": []
+      "Jarosław Gryga": []
     }
   },
   {
@@ -10809,15 +10809,15 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Group 1",
-    "player1": "Krystian S",
+    "player1": "Krystian Sułek",
     "player2": "Tomek P",
     "score": "3:1",
     "max_count": {
-      "Krystian S": 0,
+      "Krystian Sułek": 0,
       "Tomek P": 0
     },
     "maxes": {
-      "Krystian S": [],
+      "Krystian Sułek": [],
       "Tomek P": []
     }
   },
@@ -10879,15 +10879,15 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Group 5",
-    "player1": "Jarek",
+    "player1": "Jarosław Gryga",
     "player2": "Leszek Puchowski",
     "score": "1:3",
     "max_count": {
-      "Jarek": 0,
+      "Jarosław Gryga": 0,
       "Leszek Puchowski": 0
     },
     "maxes": {
-      "Jarek": [],
+      "Jarosław Gryga": [],
       "Leszek Puchowski": []
     }
   },
@@ -10930,15 +10930,15 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Group 1",
-    "player1": "Krystian S",
+    "player1": "Krystian Sułek",
     "player2": "Franciszek Kukiełka",
     "score": "0:3",
     "max_count": {
-      "Krystian S": 0,
+      "Krystian Sułek": 0,
       "Franciszek Kukiełka": 0
     },
     "maxes": {
-      "Krystian S": [],
+      "Krystian Sułek": [],
       "Franciszek Kukiełka": []
     }
   },
@@ -11066,15 +11066,15 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Group 5",
-    "player1": "Jarek",
+    "player1": "Jarosław Gryga",
     "player2": "Piotr Gryga",
     "score": "3:1",
     "max_count": {
-      "Jarek": 1,
+      "Jarosław Gryga": 1,
       "Piotr Gryga": 0
     },
     "maxes": {
-      "Jarek": [
+      "Jarosław Gryga": [
         180
       ],
       "Piotr Gryga": []
@@ -11189,15 +11189,15 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Group 1",
-    "player1": "Krystian S",
+    "player1": "Krystian Sułek",
     "player2": "Mateusz Pięta",
     "score": "1:3",
     "max_count": {
-      "Krystian S": 0,
+      "Krystian Sułek": 0,
       "Mateusz Pięta": 1
     },
     "maxes": {
-      "Krystian S": [],
+      "Krystian Sułek": [],
       "Mateusz Pięta": [
         180
       ]
@@ -11384,15 +11384,15 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Group 5",
     "player1": "Krystian K",
-    "player2": "Jarek",
+    "player2": "Jarosław Gryga",
     "score": "2:3",
     "max_count": {
       "Krystian K": 0,
-      "Jarek": 0
+      "Jarosław Gryga": 0
     },
     "maxes": {
       "Krystian K": [],
-      "Jarek": []
+      "Jarosław Gryga": []
     }
   },
   {
@@ -11418,15 +11418,15 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Group 1",
     "player1": "Hubert Sułek",
-    "player2": "Krystian S",
+    "player2": "Krystian Sułek",
     "score": "3:0",
     "max_count": {
       "Hubert Sułek": 0,
-      "Krystian S": 0
+      "Krystian Sułek": 0
     },
     "maxes": {
       "Hubert Sułek": [],
-      "Krystian S": []
+      "Krystian Sułek": []
     }
   },
   {
@@ -11469,15 +11469,15 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 3rd place match",
     "player1": "Waldemar Kopacz",
-    "player2": "Jarek",
+    "player2": "Jarosław Gryga",
     "score": "3:1",
     "max_count": {
       "Waldemar Kopacz": 0,
-      "Jarek": 0
+      "Jarosław Gryga": 0
     },
     "maxes": {
       "Waldemar Kopacz": [],
-      "Jarek": []
+      "Jarosław Gryga": []
     }
   },
   {
@@ -11519,15 +11519,15 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 9/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Semi-final",
-    "player1": "Jarek",
+    "player1": "Jarosław Gryga",
     "player2": "Lipka",
     "score": "0:3",
     "max_count": {
-      "Jarek": 0,
+      "Jarosław Gryga": 0,
       "Lipka": 0
     },
     "maxes": {
-      "Jarek": [],
+      "Jarosław Gryga": [],
       "Lipka": []
     }
   },
@@ -11553,15 +11553,15 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 9/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Top 8",
-    "player1": "Jarek",
+    "player1": "Jarosław Gryga",
     "player2": "Wojtek",
     "score": "3:0",
     "max_count": {
-      "Jarek": 0,
+      "Jarosław Gryga": 0,
       "Wojtek": 0
     },
     "maxes": {
-      "Jarek": [],
+      "Jarosław Gryga": [],
       "Wojtek": []
     }
   },
@@ -11621,15 +11621,15 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 9/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Group 2",
-    "player1": "Jarek",
+    "player1": "Jarosław Gryga",
     "player2": "Krystian Krzywy",
     "score": "1:3",
     "max_count": {
-      "Jarek": 0,
+      "Jarosław Gryga": 0,
       "Krystian Krzywy": 0
     },
     "maxes": {
-      "Jarek": [],
+      "Jarosław Gryga": [],
       "Krystian Krzywy": []
     }
   },
@@ -11658,15 +11658,15 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Group 2",
     "player1": "Piotr Gryga",
-    "player2": "Jarek",
+    "player2": "Jarosław Gryga",
     "score": "0:3",
     "max_count": {
       "Piotr Gryga": 0,
-      "Jarek": 0
+      "Jarosław Gryga": 0
     },
     "maxes": {
       "Piotr Gryga": [],
-      "Jarek": []
+      "Jarosław Gryga": []
     }
   },
   {
@@ -11902,15 +11902,15 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Group 2",
     "player1": "Maciek B",
-    "player2": "Jarek",
+    "player2": "Jarosław Gryga",
     "score": "0:3",
     "max_count": {
       "Maciek B": 0,
-      "Jarek": 0
+      "Jarosław Gryga": 0
     },
     "maxes": {
       "Maciek B": [],
-      "Jarek": []
+      "Jarosław Gryga": []
     }
   },
   {
@@ -12056,15 +12056,15 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 9/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Group 2",
-    "player1": "Jarek",
+    "player1": "Jarosław Gryga",
     "player2": "Tomasz Pilecki",
     "score": "3:2",
     "max_count": {
-      "Jarek": 0,
+      "Jarosław Gryga": 0,
       "Tomasz Pilecki": 0
     },
     "maxes": {
-      "Jarek": [],
+      "Jarosław Gryga": [],
       "Tomasz Pilecki": []
     }
   },
