@@ -2938,20 +2938,20 @@
     "tournament": "Szerszeń Cup IV",
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup 3rd place match",
-    "player1": "Leszek",
-    "player2": "Piotrek",
+    "player1": "Leszek Puchowski",
+    "player2": "Piotr Gryga",
     "score": "3:2",
     "fast_legs_count": {
-      "Leszek": 0,
-      "Piotrek": 0
+      "Leszek Puchowski": 0,
+      "Piotr Gryga": 0
     },
     "fast_legs": {
-      "Leszek": [],
-      "Piotrek": []
+      "Leszek Puchowski": [],
+      "Piotr Gryga": []
     },
     "average": {
-      "Leszek": 55.3,
-      "Piotrek": 58.87
+      "Leszek Puchowski": 55.3,
+      "Piotr Gryga": 58.87
     }
   },
   {
@@ -2959,20 +2959,20 @@
     "tournament": "Szerszeń Cup IV",
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Final",
-    "player1": "Mateusz",
-    "player2": "Waldemar",
+    "player1": "Mateusz Pięta",
+    "player2": "Waldemar Kopacz",
     "score": "3:4",
     "fast_legs_count": {
-      "Mateusz": 0,
-      "Waldemar": 0
+      "Mateusz Pięta": 0,
+      "Waldemar Kopacz": 0
     },
     "fast_legs": {
-      "Mateusz": [],
-      "Waldemar": []
+      "Mateusz Pięta": [],
+      "Waldemar Kopacz": []
     },
     "average": {
-      "Mateusz": 52.48,
-      "Waldemar": 51.51
+      "Mateusz Pięta": 52.48,
+      "Waldemar Kopacz": 51.51
     }
   },
   {
@@ -2980,20 +2980,20 @@
     "tournament": "Szerszeń Cup IV",
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Semi-final",
-    "player1": "Piotrek",
-    "player2": "Waldemar",
+    "player1": "Piotr Gryga",
+    "player2": "Waldemar Kopacz",
     "score": "0:3",
     "fast_legs_count": {
-      "Piotrek": 0,
-      "Waldemar": 0
+      "Piotr Gryga": 0,
+      "Waldemar Kopacz": 0
     },
     "fast_legs": {
-      "Piotrek": [],
-      "Waldemar": []
+      "Piotr Gryga": [],
+      "Waldemar Kopacz": []
     },
     "average": {
-      "Piotrek": 59.17,
-      "Waldemar": 59.33
+      "Piotr Gryga": 59.17,
+      "Waldemar Kopacz": 59.33
     }
   },
   {
@@ -3001,20 +3001,20 @@
     "tournament": "Szerszeń Cup IV",
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Semi-final",
-    "player1": "Leszek",
-    "player2": "Mateusz",
+    "player1": "Leszek Puchowski",
+    "player2": "Mateusz Pięta",
     "score": "2:3",
     "fast_legs_count": {
-      "Leszek": 0,
-      "Mateusz": 0
+      "Leszek Puchowski": 0,
+      "Mateusz Pięta": 0
     },
     "fast_legs": {
-      "Leszek": [],
-      "Mateusz": []
+      "Leszek Puchowski": [],
+      "Mateusz Pięta": []
     },
     "average": {
-      "Leszek": 46.91,
-      "Mateusz": 55.93
+      "Leszek Puchowski": 46.91,
+      "Mateusz Pięta": 55.93
     }
   },
   {
@@ -3023,19 +3023,19 @@
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Top 8",
     "player1": "Lipka",
-    "player2": "Piotrek",
+    "player2": "Piotr Gryga",
     "score": "0:3",
     "fast_legs_count": {
       "Lipka": 0,
-      "Piotrek": 0
+      "Piotr Gryga": 0
     },
     "fast_legs": {
       "Lipka": [],
-      "Piotrek": []
+      "Piotr Gryga": []
     },
     "average": {
       "Lipka": 57.13,
-      "Piotrek": 62.62
+      "Piotr Gryga": 62.62
     }
   },
   {
@@ -3043,20 +3043,20 @@
     "tournament": "Szerszeń Cup IV",
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Top 8",
-    "player1": "Leszek",
-    "player2": "Tomek. P",
+    "player1": "Leszek Puchowski",
+    "player2": "Tomasz Pilecki",
     "score": "3:0",
     "fast_legs_count": {
-      "Leszek": 0,
-      "Tomek. P": 0
+      "Leszek Puchowski": 0,
+      "Tomasz Pilecki": 0
     },
     "fast_legs": {
-      "Leszek": [],
-      "Tomek. P": []
+      "Leszek Puchowski": [],
+      "Tomasz Pilecki": []
     },
     "average": {
-      "Leszek": 38.49,
-      "Tomek. P": 38.13
+      "Leszek Puchowski": 38.49,
+      "Tomasz Pilecki": 38.13
     }
   },
   {
@@ -3065,19 +3065,19 @@
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Top 8",
     "player1": "Jarek",
-    "player2": "Mateusz",
+    "player2": "Mateusz Pięta",
     "score": "1:3",
     "fast_legs_count": {
       "Jarek": 0,
-      "Mateusz": 0
+      "Mateusz Pięta": 0
     },
     "fast_legs": {
       "Jarek": [],
-      "Mateusz": []
+      "Mateusz Pięta": []
     },
     "average": {
       "Jarek": 50.43,
-      "Mateusz": 56.6
+      "Mateusz Pięta": 56.6
     }
   },
   {
@@ -3085,20 +3085,20 @@
     "tournament": "Szerszeń Cup IV",
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Top 8",
-    "player1": "Waldemar",
-    "player2": "Daniel",
+    "player1": "Waldemar Kopacz",
+    "player2": "Daniel Czernecki",
     "score": "3:0",
     "fast_legs_count": {
-      "Waldemar": 0,
-      "Daniel": 0
+      "Waldemar Kopacz": 0,
+      "Daniel Czernecki": 0
     },
     "fast_legs": {
-      "Waldemar": [],
-      "Daniel": []
+      "Waldemar Kopacz": [],
+      "Daniel Czernecki": []
     },
     "average": {
-      "Waldemar": 53.05,
-      "Daniel": 45.81
+      "Waldemar Kopacz": 53.05,
+      "Daniel Czernecki": 45.81
     }
   },
   {
@@ -3106,22 +3106,22 @@
     "tournament": "Szerszeń Cup IV",
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Group 3",
-    "player1": "Mateusz",
-    "player2": "Piotrek",
+    "player1": "Mateusz Pięta",
+    "player2": "Piotr Gryga",
     "score": "3:0",
     "fast_legs_count": {
-      "Mateusz": 1,
-      "Piotrek": 0
+      "Mateusz Pięta": 1,
+      "Piotr Gryga": 0
     },
     "fast_legs": {
-      "Mateusz": [
+      "Mateusz Pięta": [
         17
       ],
-      "Piotrek": []
+      "Piotr Gryga": []
     },
     "average": {
-      "Mateusz": 61.77,
-      "Piotrek": 50.35
+      "Mateusz Pięta": 61.77,
+      "Piotr Gryga": 50.35
     }
   },
   {
@@ -3129,19 +3129,19 @@
     "tournament": "Szerszeń Cup IV",
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Group 2",
-    "player1": "Tomek. P",
+    "player1": "Tomasz Pilecki",
     "player2": "Lipka",
     "score": "0:3",
     "fast_legs_count": {
-      "Tomek. P": 0,
+      "Tomasz Pilecki": 0,
       "Lipka": 0
     },
     "fast_legs": {
-      "Tomek. P": [],
+      "Tomasz Pilecki": [],
       "Lipka": []
     },
     "average": {
-      "Tomek. P": 39.49,
+      "Tomasz Pilecki": 39.49,
       "Lipka": 40.99
     }
   },
@@ -3151,19 +3151,19 @@
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Group 1",
     "player1": "Krystian. K",
-    "player2": "Daniel",
+    "player2": "Daniel Czernecki",
     "score": "1:3",
     "fast_legs_count": {
       "Krystian. K": 0,
-      "Daniel": 0
+      "Daniel Czernecki": 0
     },
     "fast_legs": {
       "Krystian. K": [],
-      "Daniel": []
+      "Daniel Czernecki": []
     },
     "average": {
       "Krystian. K": 48.89,
-      "Daniel": 47.9
+      "Daniel Czernecki": 47.9
     }
   },
   {
@@ -3171,20 +3171,20 @@
     "tournament": "Szerszeń Cup IV",
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Group 3",
-    "player1": "Miedziany",
-    "player2": "Hubert",
+    "player1": "Tomasz Krzysztof",
+    "player2": "Hubert Sułek",
     "score": "1:3",
     "fast_legs_count": {
-      "Miedziany": 0,
-      "Hubert": 0
+      "Tomasz Krzysztof": 0,
+      "Hubert Sułek": 0
     },
     "fast_legs": {
-      "Miedziany": [],
-      "Hubert": []
+      "Tomasz Krzysztof": [],
+      "Hubert Sułek": []
     },
     "average": {
-      "Miedziany": 40.48,
-      "Hubert": 41.38
+      "Tomasz Krzysztof": 40.48,
+      "Hubert Sułek": 41.38
     }
   },
   {
@@ -3214,19 +3214,19 @@
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Group 1",
     "player1": "Maciek B",
-    "player2": "Leszek",
+    "player2": "Leszek Puchowski",
     "score": "2:3",
     "fast_legs_count": {
       "Maciek B": 0,
-      "Leszek": 0
+      "Leszek Puchowski": 0
     },
     "fast_legs": {
       "Maciek B": [],
-      "Leszek": []
+      "Leszek Puchowski": []
     },
     "average": {
       "Maciek B": 40.1,
-      "Leszek": 46.28
+      "Leszek Puchowski": 46.28
     }
   },
   {
@@ -3255,22 +3255,22 @@
     "tournament": "Szerszeń Cup IV",
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Group 3",
-    "player1": "Waldemar",
-    "player2": "Piotrek",
+    "player1": "Waldemar Kopacz",
+    "player2": "Piotr Gryga",
     "score": "2:3",
     "fast_legs_count": {
-      "Waldemar": 1,
-      "Piotrek": 0
+      "Waldemar Kopacz": 1,
+      "Piotr Gryga": 0
     },
     "fast_legs": {
-      "Waldemar": [
+      "Waldemar Kopacz": [
         14
       ],
-      "Piotrek": []
+      "Piotr Gryga": []
     },
     "average": {
-      "Waldemar": 57.73,
-      "Piotrek": 54.02
+      "Waldemar Kopacz": 57.73,
+      "Piotr Gryga": 54.02
     }
   },
   {
@@ -3278,20 +3278,20 @@
     "tournament": "Szerszeń Cup IV",
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Group 1",
-    "player1": "Grzegorz",
-    "player2": "Daniel",
+    "player1": "Grzegorz Kulig",
+    "player2": "Daniel Czernecki",
     "score": "2:3",
     "fast_legs_count": {
-      "Grzegorz": 0,
-      "Daniel": 0
+      "Grzegorz Kulig": 0,
+      "Daniel Czernecki": 0
     },
     "fast_legs": {
-      "Grzegorz": [],
-      "Daniel": []
+      "Grzegorz Kulig": [],
+      "Daniel Czernecki": []
     },
     "average": {
-      "Grzegorz": 46.86,
-      "Daniel": 48.59
+      "Grzegorz Kulig": 46.86,
+      "Daniel Czernecki": 48.59
     }
   },
   {
@@ -3299,20 +3299,20 @@
     "tournament": "Szerszeń Cup IV",
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Group 3",
-    "player1": "Mateusz",
-    "player2": "Miedziany",
+    "player1": "Mateusz Pięta",
+    "player2": "Tomasz Krzysztof",
     "score": "3:1",
     "fast_legs_count": {
-      "Mateusz": 0,
-      "Miedziany": 0
+      "Mateusz Pięta": 0,
+      "Tomasz Krzysztof": 0
     },
     "fast_legs": {
-      "Mateusz": [],
-      "Miedziany": []
+      "Mateusz Pięta": [],
+      "Tomasz Krzysztof": []
     },
     "average": {
-      "Mateusz": 56.55,
-      "Miedziany": 55.6
+      "Mateusz Pięta": 56.55,
+      "Tomasz Krzysztof": 55.6
     }
   },
   {
@@ -3320,19 +3320,19 @@
     "tournament": "Szerszeń Cup IV",
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Group 2",
-    "player1": "Tomek. P",
+    "player1": "Tomasz Pilecki",
     "player2": "Tomi",
     "score": "3:1",
     "fast_legs_count": {
-      "Tomek. P": 0,
+      "Tomasz Pilecki": 0,
       "Tomi": 0
     },
     "fast_legs": {
-      "Tomek. P": [],
+      "Tomasz Pilecki": [],
       "Tomi": []
     },
     "average": {
-      "Tomek. P": 46.92,
+      "Tomasz Pilecki": 46.92,
       "Tomi": 44.72
     }
   },
@@ -3383,22 +3383,22 @@
     "tournament": "Szerszeń Cup IV",
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Group 3",
-    "player1": "Waldemar",
-    "player2": "Hubert",
+    "player1": "Waldemar Kopacz",
+    "player2": "Hubert Sułek",
     "score": "3:0",
     "fast_legs_count": {
-      "Waldemar": 1,
-      "Hubert": 0
+      "Waldemar Kopacz": 1,
+      "Hubert Sułek": 0
     },
     "fast_legs": {
-      "Waldemar": [
+      "Waldemar Kopacz": [
         15
       ],
-      "Hubert": []
+      "Hubert Sułek": []
     },
     "average": {
-      "Waldemar": 72.73,
-      "Hubert": 48.1
+      "Waldemar Kopacz": 72.73,
+      "Hubert Sułek": 48.1
     }
   },
   {
@@ -3406,20 +3406,20 @@
     "tournament": "Szerszeń Cup IV",
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Group 1",
-    "player1": "Grzegorz",
-    "player2": "Leszek",
+    "player1": "Grzegorz Kulig",
+    "player2": "Leszek Puchowski",
     "score": "0:3",
     "fast_legs_count": {
-      "Grzegorz": 0,
-      "Leszek": 0
+      "Grzegorz Kulig": 0,
+      "Leszek Puchowski": 0
     },
     "fast_legs": {
-      "Grzegorz": [],
-      "Leszek": []
+      "Grzegorz Kulig": [],
+      "Leszek Puchowski": []
     },
     "average": {
-      "Grzegorz": 42.56,
-      "Leszek": 57.08
+      "Grzegorz Kulig": 42.56,
+      "Leszek Puchowski": 57.08
     }
   },
   {
@@ -3427,20 +3427,20 @@
     "tournament": "Szerszeń Cup IV",
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Group 3",
-    "player1": "Miedziany",
-    "player2": "Piotrek",
+    "player1": "Tomasz Krzysztof",
+    "player2": "Piotr Gryga",
     "score": "3:2",
     "fast_legs_count": {
-      "Miedziany": 0,
-      "Piotrek": 0
+      "Tomasz Krzysztof": 0,
+      "Piotr Gryga": 0
     },
     "fast_legs": {
-      "Miedziany": [],
-      "Piotrek": []
+      "Tomasz Krzysztof": [],
+      "Piotr Gryga": []
     },
     "average": {
-      "Miedziany": 56.95,
-      "Piotrek": 53.68
+      "Tomasz Krzysztof": 56.95,
+      "Piotr Gryga": 53.68
     }
   },
   {
@@ -3470,19 +3470,19 @@
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Group 1",
     "player1": "Maciek B",
-    "player2": "Daniel",
+    "player2": "Daniel Czernecki",
     "score": "1:3",
     "fast_legs_count": {
       "Maciek B": 0,
-      "Daniel": 0
+      "Daniel Czernecki": 0
     },
     "fast_legs": {
       "Maciek B": [],
-      "Daniel": []
+      "Daniel Czernecki": []
     },
     "average": {
       "Maciek B": 40.91,
-      "Daniel": 46.56
+      "Daniel Czernecki": 46.56
     }
   },
   {
@@ -3490,20 +3490,20 @@
     "tournament": "Szerszeń Cup IV",
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Group 3",
-    "player1": "Mateusz",
-    "player2": "Hubert",
+    "player1": "Mateusz Pięta",
+    "player2": "Hubert Sułek",
     "score": "3:0",
     "fast_legs_count": {
-      "Mateusz": 0,
-      "Hubert": 0
+      "Mateusz Pięta": 0,
+      "Hubert Sułek": 0
     },
     "fast_legs": {
-      "Mateusz": [],
-      "Hubert": []
+      "Mateusz Pięta": [],
+      "Hubert Sułek": []
     },
     "average": {
-      "Mateusz": 49.01,
-      "Hubert": 45.17
+      "Mateusz Pięta": 49.01,
+      "Hubert Sułek": 45.17
     }
   },
   {
@@ -3511,19 +3511,19 @@
     "tournament": "Szerszeń Cup IV",
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Group 2",
-    "player1": "Tomek. P",
+    "player1": "Tomasz Pilecki",
     "player2": "Dominik",
     "score": "3:0",
     "fast_legs_count": {
-      "Tomek. P": 0,
+      "Tomasz Pilecki": 0,
       "Dominik": 0
     },
     "fast_legs": {
-      "Tomek. P": [],
+      "Tomasz Pilecki": [],
       "Dominik": []
     },
     "average": {
-      "Tomek. P": 70.45,
+      "Tomasz Pilecki": 70.45,
       "Dominik": 36.95
     }
   },
@@ -3533,19 +3533,19 @@
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Group 1",
     "player1": "Krystian. K",
-    "player2": "Leszek",
+    "player2": "Leszek Puchowski",
     "score": "2:3",
     "fast_legs_count": {
       "Krystian. K": 0,
-      "Leszek": 0
+      "Leszek Puchowski": 0
     },
     "fast_legs": {
       "Krystian. K": [],
-      "Leszek": []
+      "Leszek Puchowski": []
     },
     "average": {
       "Krystian. K": 44.71,
-      "Leszek": 45.29
+      "Leszek Puchowski": 45.29
     }
   },
   {
@@ -3574,19 +3574,19 @@
     "tournament": "Szerszeń Cup IV",
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Group 1",
-    "player1": "Grzegorz",
+    "player1": "Grzegorz Kulig",
     "player2": "Maciek B",
     "score": "3:1",
     "fast_legs_count": {
-      "Grzegorz": 0,
+      "Grzegorz Kulig": 0,
       "Maciek B": 0
     },
     "fast_legs": {
-      "Grzegorz": [],
+      "Grzegorz Kulig": [],
       "Maciek B": []
     },
     "average": {
-      "Grzegorz": 42.02,
+      "Grzegorz Kulig": 42.02,
       "Maciek B": 39.26
     }
   },
@@ -3595,22 +3595,22 @@
     "tournament": "Szerszeń Cup IV",
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Group 3",
-    "player1": "Waldemar",
-    "player2": "Miedziany",
+    "player1": "Waldemar Kopacz",
+    "player2": "Tomasz Krzysztof",
     "score": "3:0",
     "fast_legs_count": {
-      "Waldemar": 1,
-      "Miedziany": 0
+      "Waldemar Kopacz": 1,
+      "Tomasz Krzysztof": 0
     },
     "fast_legs": {
-      "Waldemar": [
+      "Waldemar Kopacz": [
         18
       ],
-      "Miedziany": []
+      "Tomasz Krzysztof": []
     },
     "average": {
-      "Waldemar": 63.51,
-      "Miedziany": 43.5
+      "Waldemar Kopacz": 63.51,
+      "Tomasz Krzysztof": 43.5
     }
   },
   {
@@ -3618,20 +3618,20 @@
     "tournament": "Szerszeń Cup IV",
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Group 3",
-    "player1": "Hubert",
-    "player2": "Piotrek",
+    "player1": "Hubert Sułek",
+    "player2": "Piotr Gryga",
     "score": "2:3",
     "fast_legs_count": {
-      "Hubert": 0,
-      "Piotrek": 0
+      "Hubert Sułek": 0,
+      "Piotr Gryga": 0
     },
     "fast_legs": {
-      "Hubert": [],
-      "Piotrek": []
+      "Hubert Sułek": [],
+      "Piotr Gryga": []
     },
     "average": {
-      "Hubert": 38.6,
-      "Piotrek": 41.42
+      "Hubert Sułek": 38.6,
+      "Piotr Gryga": 41.42
     }
   },
   {
@@ -3639,19 +3639,19 @@
     "tournament": "Szerszeń Cup IV",
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Group 1",
-    "player1": "Grzegorz",
+    "player1": "Grzegorz Kulig",
     "player2": "Krystian. K",
     "score": "3:2",
     "fast_legs_count": {
-      "Grzegorz": 0,
+      "Grzegorz Kulig": 0,
       "Krystian. K": 0
     },
     "fast_legs": {
-      "Grzegorz": [],
+      "Grzegorz Kulig": [],
       "Krystian. K": []
     },
     "average": {
-      "Grzegorz": 44.91,
+      "Grzegorz Kulig": 44.91,
       "Krystian. K": 45.61
     }
   },
@@ -3661,19 +3661,19 @@
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Group 2",
     "player1": "Jarek",
-    "player2": "Tomek. P",
+    "player2": "Tomasz Pilecki",
     "score": "3:2",
     "fast_legs_count": {
       "Jarek": 0,
-      "Tomek. P": 0
+      "Tomasz Pilecki": 0
     },
     "fast_legs": {
       "Jarek": [],
-      "Tomek. P": []
+      "Tomasz Pilecki": []
     },
     "average": {
       "Jarek": 43.88,
-      "Tomek. P": 48.06
+      "Tomasz Pilecki": 48.06
     }
   },
   {
@@ -3681,20 +3681,20 @@
     "tournament": "Szerszeń Cup IV",
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Group 3",
-    "player1": "Waldemar",
-    "player2": "Mateusz",
+    "player1": "Waldemar Kopacz",
+    "player2": "Mateusz Pięta",
     "score": "3:1",
     "fast_legs_count": {
-      "Waldemar": 0,
-      "Mateusz": 0
+      "Waldemar Kopacz": 0,
+      "Mateusz Pięta": 0
     },
     "fast_legs": {
-      "Waldemar": [],
-      "Mateusz": []
+      "Waldemar Kopacz": [],
+      "Mateusz Pięta": []
     },
     "average": {
-      "Waldemar": 52.02,
-      "Mateusz": 54.94
+      "Waldemar Kopacz": 52.02,
+      "Mateusz Pięta": 54.94
     }
   },
   {
@@ -3702,20 +3702,20 @@
     "tournament": "Szerszeń Cup IV",
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Group 1",
-    "player1": "Leszek",
-    "player2": "Daniel",
+    "player1": "Leszek Puchowski",
+    "player2": "Daniel Czernecki",
     "score": "3:2",
     "fast_legs_count": {
-      "Leszek": 0,
-      "Daniel": 0
+      "Leszek Puchowski": 0,
+      "Daniel Czernecki": 0
     },
     "fast_legs": {
-      "Leszek": [],
-      "Daniel": []
+      "Leszek Puchowski": [],
+      "Daniel Czernecki": []
     },
     "average": {
-      "Leszek": 47.45,
-      "Daniel": 46.44
+      "Leszek Puchowski": 47.45,
+      "Daniel Czernecki": 46.44
     }
   },
   {
@@ -9116,20 +9116,20 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 3/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 3/10 3rd place match",
-    "player1": "Mariusz O",
-    "player2": "Adrian",
+    "player1": "Mariusz Olchawa",
+    "player2": "Adrian Ochel",
     "score": "1:4",
     "fast_legs_count": {
-      "Mariusz O": 0,
-      "Adrian": 0
+      "Mariusz Olchawa": 0,
+      "Adrian Ochel": 0
     },
     "fast_legs": {
-      "Mariusz O": [],
-      "Adrian": []
+      "Mariusz Olchawa": [],
+      "Adrian Ochel": []
     },
     "average": {
-      "Mariusz O": 46.32,
-      "Adrian": 48.53
+      "Mariusz Olchawa": 46.32,
+      "Adrian Ochel": 48.53
     }
   },
   {
@@ -9137,20 +9137,20 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 3/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 3/10 Final",
-    "player1": "Mateusz",
-    "player2": "Waldemar",
+    "player1": "Mateusz Pięta",
+    "player2": "Waldemar Kopacz",
     "score": "3:4",
     "fast_legs_count": {
-      "Mateusz": 0,
-      "Waldemar": 0
+      "Mateusz Pięta": 0,
+      "Waldemar Kopacz": 0
     },
     "fast_legs": {
-      "Mateusz": [],
-      "Waldemar": []
+      "Mateusz Pięta": [],
+      "Waldemar Kopacz": []
     },
     "average": {
-      "Mateusz": 53.49,
-      "Waldemar": 56.12
+      "Mateusz Pięta": 53.49,
+      "Waldemar Kopacz": 56.12
     }
   },
   {
@@ -9158,20 +9158,20 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 3/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 3/10 Semi-final",
-    "player1": "Mateusz",
-    "player2": "Mariusz O",
+    "player1": "Mateusz Pięta",
+    "player2": "Mariusz Olchawa",
     "score": "4:3",
     "fast_legs_count": {
-      "Mateusz": 0,
-      "Mariusz O": 0
+      "Mateusz Pięta": 0,
+      "Mariusz Olchawa": 0
     },
     "fast_legs": {
-      "Mateusz": [],
-      "Mariusz O": []
+      "Mateusz Pięta": [],
+      "Mariusz Olchawa": []
     },
     "average": {
-      "Mateusz": 49.28,
-      "Mariusz O": 47.24
+      "Mateusz Pięta": 49.28,
+      "Mariusz Olchawa": 47.24
     }
   },
   {
@@ -9179,20 +9179,20 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 3/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 3/10 Semi-final",
-    "player1": "Adrian",
-    "player2": "Waldemar",
+    "player1": "Adrian Ochel",
+    "player2": "Waldemar Kopacz",
     "score": "1:4",
     "fast_legs_count": {
-      "Adrian": 0,
-      "Waldemar": 0
+      "Adrian Ochel": 0,
+      "Waldemar Kopacz": 0
     },
     "fast_legs": {
-      "Adrian": [],
-      "Waldemar": []
+      "Adrian Ochel": [],
+      "Waldemar Kopacz": []
     },
     "average": {
-      "Adrian": 58.84,
-      "Waldemar": 59.64
+      "Adrian Ochel": 58.84,
+      "Waldemar Kopacz": 59.64
     }
   },
   {
@@ -9200,21 +9200,21 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 3/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 3/10 Top 8",
-    "player1": "Mateusz",
+    "player1": "Mateusz Pięta",
     "player2": "Tomi",
     "score": "4:1",
     "fast_legs_count": {
-      "Mateusz": 1,
+      "Mateusz Pięta": 1,
       "Tomi": 0
     },
     "fast_legs": {
-      "Mateusz": [
+      "Mateusz Pięta": [
         18
       ],
       "Tomi": []
     },
     "average": {
-      "Mateusz": 62.8,
+      "Mateusz Pięta": 62.8,
       "Tomi": 51.58
     }
   },
@@ -9224,19 +9224,19 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 3/10 Top 8",
     "player1": "Tomek P",
-    "player2": "Mariusz O",
+    "player2": "Mariusz Olchawa",
     "score": "2:4",
     "fast_legs_count": {
       "Tomek P": 0,
-      "Mariusz O": 0
+      "Mariusz Olchawa": 0
     },
     "fast_legs": {
       "Tomek P": [],
-      "Mariusz O": []
+      "Mariusz Olchawa": []
     },
     "average": {
       "Tomek P": 43.05,
-      "Mariusz O": 46.09
+      "Mariusz Olchawa": 46.09
     }
   },
   {
@@ -9244,19 +9244,19 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 3/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 3/10 Top 8",
-    "player1": "Adrian",
+    "player1": "Adrian Ochel",
     "player2": "Tomek R",
     "score": "4:3",
     "fast_legs_count": {
-      "Adrian": 0,
+      "Adrian Ochel": 0,
       "Tomek R": 0
     },
     "fast_legs": {
-      "Adrian": [],
+      "Adrian Ochel": [],
       "Tomek R": []
     },
     "average": {
-      "Adrian": 46.79,
+      "Adrian Ochel": 46.79,
       "Tomek R": 43.94
     }
   },
@@ -9265,19 +9265,19 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 3/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 3/10 Top 8",
-    "player1": "Waldemar",
+    "player1": "Waldemar Kopacz",
     "player2": "Maciek",
     "score": "4:0",
     "fast_legs_count": {
-      "Waldemar": 0,
+      "Waldemar Kopacz": 0,
       "Maciek": 0
     },
     "fast_legs": {
-      "Waldemar": [],
+      "Waldemar Kopacz": [],
       "Maciek": []
     },
     "average": {
-      "Waldemar": 57.81,
+      "Waldemar Kopacz": 57.81,
       "Maciek": 47.59
     }
   },
@@ -9286,20 +9286,20 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 3/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 3/10 Group 1",
-    "player1": "Mateusz",
-    "player2": "Mariusz O",
+    "player1": "Mateusz Pięta",
+    "player2": "Mariusz Olchawa",
     "score": "3:1",
     "fast_legs_count": {
-      "Mateusz": 0,
-      "Mariusz O": 0
+      "Mateusz Pięta": 0,
+      "Mariusz Olchawa": 0
     },
     "fast_legs": {
-      "Mateusz": [],
-      "Mariusz O": []
+      "Mateusz Pięta": [],
+      "Mariusz Olchawa": []
     },
     "average": {
-      "Mateusz": 45.85,
-      "Mariusz O": 42.87
+      "Mateusz Pięta": 45.85,
+      "Mariusz Olchawa": 42.87
     }
   },
   {
@@ -9307,19 +9307,19 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 3/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 3/10 Group 1",
-    "player1": "Waldemar",
+    "player1": "Waldemar Kopacz",
     "player2": "Tomek R",
     "score": "3:0",
     "fast_legs_count": {
-      "Waldemar": 0,
+      "Waldemar Kopacz": 0,
       "Tomek R": 0
     },
     "fast_legs": {
-      "Waldemar": [],
+      "Waldemar Kopacz": [],
       "Tomek R": []
     },
     "average": {
-      "Waldemar": 60.93,
+      "Waldemar Kopacz": 60.93,
       "Tomek R": 40.62
     }
   },
@@ -9328,19 +9328,19 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 3/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 3/10 Group 1",
-    "player1": "Mateusz",
+    "player1": "Mateusz Pięta",
     "player2": "Tomek R",
     "score": "3:1",
     "fast_legs_count": {
-      "Mateusz": 0,
+      "Mateusz Pięta": 0,
       "Tomek R": 0
     },
     "fast_legs": {
-      "Mateusz": [],
+      "Mateusz Pięta": [],
       "Tomek R": []
     },
     "average": {
-      "Mateusz": 45.85,
+      "Mateusz Pięta": 45.85,
       "Tomek R": 40.93
     }
   },
@@ -9349,21 +9349,21 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 3/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 3/10 Group 2",
-    "player1": "Adrian",
+    "player1": "Adrian Ochel",
     "player2": "Krystian S",
     "score": "3:1",
     "fast_legs_count": {
-      "Adrian": 1,
+      "Adrian Ochel": 1,
       "Krystian S": 0
     },
     "fast_legs": {
-      "Adrian": [
+      "Adrian Ochel": [
         15
       ],
       "Krystian S": []
     },
     "average": {
-      "Adrian": 53.61,
+      "Adrian Ochel": 53.61,
       "Krystian S": 47.13
     }
   },
@@ -9372,19 +9372,19 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 3/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 3/10 Group 1",
-    "player1": "Waldemar",
+    "player1": "Waldemar Kopacz",
     "player2": "Szymon P",
     "score": "3:2",
     "fast_legs_count": {
-      "Waldemar": 0,
+      "Waldemar Kopacz": 0,
       "Szymon P": 0
     },
     "fast_legs": {
-      "Waldemar": [],
+      "Waldemar Kopacz": [],
       "Szymon P": []
     },
     "average": {
-      "Waldemar": 53.85,
+      "Waldemar Kopacz": 53.85,
       "Szymon P": 47.57
     }
   },
@@ -9415,19 +9415,19 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 3/10 Group 2",
     "player1": "Maciek",
-    "player2": "Adrian",
+    "player2": "Adrian Ochel",
     "score": "0:3",
     "fast_legs_count": {
       "Maciek": 0,
-      "Adrian": 0
+      "Adrian Ochel": 0
     },
     "fast_legs": {
       "Maciek": [],
-      "Adrian": []
+      "Adrian Ochel": []
     },
     "average": {
       "Maciek": 45.52,
-      "Adrian": 53.68
+      "Adrian Ochel": 53.68
     }
   },
   {
@@ -9435,19 +9435,19 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 3/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 3/10 Group 1",
-    "player1": "Mateusz",
+    "player1": "Mateusz Pięta",
     "player2": "Szymon P",
     "score": "3:0",
     "fast_legs_count": {
-      "Mateusz": 0,
+      "Mateusz Pięta": 0,
       "Szymon P": 0
     },
     "fast_legs": {
-      "Mateusz": [],
+      "Mateusz Pięta": [],
       "Szymon P": []
     },
     "average": {
-      "Mateusz": 55.67,
+      "Mateusz Pięta": 55.67,
       "Szymon P": 42.63
     }
   },
@@ -9456,19 +9456,19 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 3/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 3/10 Group 1",
-    "player1": "Mariusz O",
+    "player1": "Mariusz Olchawa",
     "player2": "Tomek R",
     "score": "3:2",
     "fast_legs_count": {
-      "Mariusz O": 0,
+      "Mariusz Olchawa": 0,
       "Tomek R": 0
     },
     "fast_legs": {
-      "Mariusz O": [],
+      "Mariusz Olchawa": [],
       "Tomek R": []
     },
     "average": {
-      "Mariusz O": 41.78,
+      "Mariusz Olchawa": 41.78,
       "Tomek R": 40.11
     }
   },
@@ -9522,19 +9522,19 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 3/10 Group 2",
     "player1": "Tomi",
-    "player2": "Adrian",
+    "player2": "Adrian Ochel",
     "score": "2:3",
     "fast_legs_count": {
       "Tomi": 0,
-      "Adrian": 0
+      "Adrian Ochel": 0
     },
     "fast_legs": {
       "Tomi": [],
-      "Adrian": []
+      "Adrian Ochel": []
     },
     "average": {
       "Tomi": 49.48,
-      "Adrian": 50.74
+      "Adrian Ochel": 50.74
     }
   },
   {
@@ -9563,20 +9563,20 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 3/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 3/10 Group 1",
-    "player1": "Waldemar",
-    "player2": "Mariusz O",
+    "player1": "Waldemar Kopacz",
+    "player2": "Mariusz Olchawa",
     "score": "3:2",
     "fast_legs_count": {
-      "Waldemar": 0,
-      "Mariusz O": 0
+      "Waldemar Kopacz": 0,
+      "Mariusz Olchawa": 0
     },
     "fast_legs": {
-      "Waldemar": [],
-      "Mariusz O": []
+      "Waldemar Kopacz": [],
+      "Mariusz Olchawa": []
     },
     "average": {
-      "Waldemar": 57.24,
-      "Mariusz O": 56.09
+      "Waldemar Kopacz": 57.24,
+      "Mariusz Olchawa": 56.09
     }
   },
   {
@@ -9605,19 +9605,19 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 3/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 3/10 Group 2",
-    "player1": "Adrian",
+    "player1": "Adrian Ochel",
     "player2": "Tomek P",
     "score": "3:0",
     "fast_legs_count": {
-      "Adrian": 0,
+      "Adrian Ochel": 0,
       "Tomek P": 0
     },
     "fast_legs": {
-      "Adrian": [],
+      "Adrian Ochel": [],
       "Tomek P": []
     },
     "average": {
-      "Adrian": 52.43,
+      "Adrian Ochel": 52.43,
       "Tomek P": 48.3
     }
   },
@@ -9626,19 +9626,19 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 3/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 3/10 Group 1",
-    "player1": "Mariusz O",
+    "player1": "Mariusz Olchawa",
     "player2": "Szymon P",
     "score": "3:1",
     "fast_legs_count": {
-      "Mariusz O": 0,
+      "Mariusz Olchawa": 0,
       "Szymon P": 0
     },
     "fast_legs": {
-      "Mariusz O": [],
+      "Mariusz Olchawa": [],
       "Szymon P": []
     },
     "average": {
-      "Mariusz O": 39.92,
+      "Mariusz Olchawa": 39.92,
       "Szymon P": 35.59
     }
   },
@@ -9647,20 +9647,20 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 3/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 3/10 Group 1",
-    "player1": "Waldemar",
-    "player2": "Mateusz",
+    "player1": "Waldemar Kopacz",
+    "player2": "Mateusz Pięta",
     "score": "1:3",
     "fast_legs_count": {
-      "Waldemar": 0,
-      "Mateusz": 0
+      "Waldemar Kopacz": 0,
+      "Mateusz Pięta": 0
     },
     "fast_legs": {
-      "Waldemar": [],
-      "Mateusz": []
+      "Waldemar Kopacz": [],
+      "Mateusz Pięta": []
     },
     "average": {
-      "Waldemar": 52.33,
-      "Mateusz": 56.11
+      "Waldemar Kopacz": 52.33,
+      "Mateusz Pięta": 56.11
     }
   },
   {
@@ -12996,20 +12996,20 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Final",
-    "player1": "Mateusz",
-    "player2": "Jarek",
+    "player1": "Mateusz Pięta",
+    "player2": "Jarosław Gryga",
     "score": "3:1",
     "fast_legs_count": {
-      "Mateusz": 0,
-      "Jarek": 0
+      "Mateusz Pięta": 0,
+      "Jarosław Gryga": 0
     },
     "fast_legs": {
-      "Mateusz": [],
-      "Jarek": []
+      "Mateusz Pięta": [],
+      "Jarosław Gryga": []
     },
     "average": {
-      "Mateusz": 56.58,
-      "Jarek": 55.7
+      "Mateusz Pięta": 56.58,
+      "Jarosław Gryga": 55.7
     }
   },
   {
@@ -13017,19 +13017,19 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 3rd place match",
-    "player1": "Waldemar",
+    "player1": "Waldemar Kopacz",
     "player2": "Tomi",
     "score": "3:1",
     "fast_legs_count": {
-      "Waldemar": 0,
+      "Waldemar Kopacz": 0,
       "Tomi": 0
     },
     "fast_legs": {
-      "Waldemar": [],
+      "Waldemar Kopacz": [],
       "Tomi": []
     },
     "average": {
-      "Waldemar": 60.13,
+      "Waldemar Kopacz": 60.13,
       "Tomi": 52.03
     }
   },
@@ -13038,19 +13038,19 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Semi-final",
-    "player1": "Jarek",
+    "player1": "Jarosław Gryga",
     "player2": "Tomi",
     "score": "3:1",
     "fast_legs_count": {
-      "Jarek": 0,
+      "Jarosław Gryga": 0,
       "Tomi": 0
     },
     "fast_legs": {
-      "Jarek": [],
+      "Jarosław Gryga": [],
       "Tomi": []
     },
     "average": {
-      "Jarek": 50.46,
+      "Jarosław Gryga": 50.46,
       "Tomi": 50.92
     }
   },
@@ -13059,22 +13059,22 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Semi-final",
-    "player1": "Mateusz",
-    "player2": "Waldemar",
+    "player1": "Mateusz Pięta",
+    "player2": "Waldemar Kopacz",
     "score": "3:2",
     "fast_legs_count": {
-      "Mateusz": 0,
-      "Waldemar": 1
+      "Mateusz Pięta": 0,
+      "Waldemar Kopacz": 1
     },
     "fast_legs": {
-      "Mateusz": [],
-      "Waldemar": [
+      "Mateusz Pięta": [],
+      "Waldemar Kopacz": [
         16
       ]
     },
     "average": {
-      "Mateusz": 68.56,
-      "Waldemar": 70.66
+      "Mateusz Pięta": 68.56,
+      "Waldemar Kopacz": 70.66
     }
   },
   {
@@ -13082,20 +13082,20 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Top 8",
-    "player1": "Julian",
-    "player2": "Jarek",
+    "player1": "Julian Samek",
+    "player2": "Jarosław Gryga",
     "score": "0:3",
     "fast_legs_count": {
-      "Julian": 0,
-      "Jarek": 0
+      "Julian Samek": 0,
+      "Jarosław Gryga": 0
     },
     "fast_legs": {
-      "Julian": [],
-      "Jarek": []
+      "Julian Samek": [],
+      "Jarosław Gryga": []
     },
     "average": {
-      "Julian": 51.11,
-      "Jarek": 54.99
+      "Julian Samek": 51.11,
+      "Jarosław Gryga": 54.99
     }
   },
   {
@@ -13103,19 +13103,19 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Top 8",
-    "player1": "Mateusz",
+    "player1": "Mateusz Pięta",
     "player2": "Wiktor",
     "score": "3:1",
     "fast_legs_count": {
-      "Mateusz": 0,
+      "Mateusz Pięta": 0,
       "Wiktor": 0
     },
     "fast_legs": {
-      "Mateusz": [],
+      "Mateusz Pięta": [],
       "Wiktor": []
     },
     "average": {
-      "Mateusz": 55.51,
+      "Mateusz Pięta": 55.51,
       "Wiktor": 56.42
     }
   },
@@ -13124,20 +13124,20 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Top 8",
-    "player1": "Waldemar",
-    "player2": "Hubert",
+    "player1": "Waldemar Kopacz",
+    "player2": "Hubert Sułek",
     "score": "3:0",
     "fast_legs_count": {
-      "Waldemar": 0,
-      "Hubert": 0
+      "Waldemar Kopacz": 0,
+      "Hubert Sułek": 0
     },
     "fast_legs": {
-      "Waldemar": [],
-      "Hubert": []
+      "Waldemar Kopacz": [],
+      "Hubert Sułek": []
     },
     "average": {
-      "Waldemar": 53.68,
-      "Hubert": 46.31
+      "Waldemar Kopacz": 53.68,
+      "Hubert Sułek": 46.31
     }
   },
   {
@@ -13146,19 +13146,19 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Top 8",
     "player1": "Tomi",
-    "player2": "Mariusz O",
+    "player2": "Mariusz Olchawa",
     "score": "3:2",
     "fast_legs_count": {
       "Tomi": 0,
-      "Mariusz O": 0
+      "Mariusz Olchawa": 0
     },
     "fast_legs": {
       "Tomi": [],
-      "Mariusz O": []
+      "Mariusz Olchawa": []
     },
     "average": {
       "Tomi": 55.25,
-      "Mariusz O": 50.06
+      "Mariusz Olchawa": 50.06
     }
   },
   {
@@ -13166,20 +13166,20 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Top 16",
-    "player1": "Adrian",
-    "player2": "Jarek",
+    "player1": "Adrian Ochel",
+    "player2": "Jarosław Gryga",
     "score": "2:3",
     "fast_legs_count": {
-      "Adrian": 0,
-      "Jarek": 0
+      "Adrian Ochel": 0,
+      "Jarosław Gryga": 0
     },
     "fast_legs": {
-      "Adrian": [],
-      "Jarek": []
+      "Adrian Ochel": [],
+      "Jarosław Gryga": []
     },
     "average": {
-      "Adrian": 47.08,
-      "Jarek": 48.95
+      "Adrian Ochel": 47.08,
+      "Jarosław Gryga": 48.95
     }
   },
   {
@@ -13187,19 +13187,19 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Top 16",
-    "player1": "Julian",
+    "player1": "Julian Samek",
     "player2": "Krystian K",
     "score": "3:1",
     "fast_legs_count": {
-      "Julian": 0,
+      "Julian Samek": 0,
       "Krystian K": 0
     },
     "fast_legs": {
-      "Julian": [],
+      "Julian Samek": [],
       "Krystian K": []
     },
     "average": {
-      "Julian": 54.18,
+      "Julian Samek": 54.18,
       "Krystian K": 58.46
     }
   },
@@ -13229,20 +13229,20 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Top 16",
-    "player1": "Franek",
-    "player2": "Mariusz O",
+    "player1": "Franciszek Kukiełka",
+    "player2": "Mariusz Olchawa",
     "score": "1:3",
     "fast_legs_count": {
-      "Franek": 0,
-      "Mariusz O": 0
+      "Franciszek Kukiełka": 0,
+      "Mariusz Olchawa": 0
     },
     "fast_legs": {
-      "Franek": [],
-      "Mariusz O": []
+      "Franciszek Kukiełka": [],
+      "Mariusz Olchawa": []
     },
     "average": {
-      "Franek": 46.41,
-      "Mariusz O": 51.18
+      "Franciszek Kukiełka": 46.41,
+      "Mariusz Olchawa": 51.18
     }
   },
   {
@@ -13250,20 +13250,20 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Top 16",
-    "player1": "Mateusz",
-    "player2": "Leszek",
+    "player1": "Mateusz Pięta",
+    "player2": "Leszek Puchowski",
     "score": "3:2",
     "fast_legs_count": {
-      "Mateusz": 0,
-      "Leszek": 0
+      "Mateusz Pięta": 0,
+      "Leszek Puchowski": 0
     },
     "fast_legs": {
-      "Mateusz": [],
-      "Leszek": []
+      "Mateusz Pięta": [],
+      "Leszek Puchowski": []
     },
     "average": {
-      "Mateusz": 59.65,
-      "Leszek": 56.39
+      "Mateusz Pięta": 59.65,
+      "Leszek Puchowski": 56.39
     }
   },
   {
@@ -13292,21 +13292,21 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Top 16",
-    "player1": "Waldemar",
+    "player1": "Waldemar Kopacz",
     "player2": "Michał K",
     "score": "3:0",
     "fast_legs_count": {
-      "Waldemar": 1,
+      "Waldemar Kopacz": 1,
       "Michał K": 0
     },
     "fast_legs": {
-      "Waldemar": [
+      "Waldemar Kopacz": [
         18
       ],
       "Michał K": []
     },
     "average": {
-      "Waldemar": 57.08,
+      "Waldemar Kopacz": 57.08,
       "Michał K": 47.16
     }
   },
@@ -13315,22 +13315,22 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Top 16",
-    "player1": "Piotrek",
-    "player2": "Hubert",
+    "player1": "Piotr Gryga",
+    "player2": "Hubert Sułek",
     "score": "0:3",
     "fast_legs_count": {
-      "Piotrek": 0,
-      "Hubert": 1
+      "Piotr Gryga": 0,
+      "Hubert Sułek": 1
     },
     "fast_legs": {
-      "Piotrek": [],
-      "Hubert": [
+      "Piotr Gryga": [],
+      "Hubert Sułek": [
         18
       ]
     },
     "average": {
-      "Piotrek": 61.25,
-      "Hubert": 70.45
+      "Piotr Gryga": 61.25,
+      "Hubert Sułek": 70.45
     }
   },
   {
@@ -13359,21 +13359,21 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Group 4",
-    "player1": "Waldemar",
+    "player1": "Waldemar Kopacz",
     "player2": "Wojtek",
     "score": "3:0",
     "fast_legs_count": {
-      "Waldemar": 1,
+      "Waldemar Kopacz": 1,
       "Wojtek": 0
     },
     "fast_legs": {
-      "Waldemar": [
+      "Waldemar Kopacz": [
         18
       ],
       "Wojtek": []
     },
     "average": {
-      "Waldemar": 60.12,
+      "Waldemar Kopacz": 60.12,
       "Wojtek": 52.29
     }
   },
@@ -13382,22 +13382,22 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Group 1",
-    "player1": "Franek",
-    "player2": "Mateusz",
+    "player1": "Franciszek Kukiełka",
+    "player2": "Mateusz Pięta",
     "score": "1:3",
     "fast_legs_count": {
-      "Franek": 0,
-      "Mateusz": 1
+      "Franciszek Kukiełka": 0,
+      "Mateusz Pięta": 1
     },
     "fast_legs": {
-      "Franek": [],
-      "Mateusz": [
+      "Franciszek Kukiełka": [],
+      "Mateusz Pięta": [
         18
       ]
     },
     "average": {
-      "Franek": 55.6,
-      "Mateusz": 62.38
+      "Franciszek Kukiełka": 55.6,
+      "Mateusz Pięta": 62.38
     }
   },
   {
@@ -13406,19 +13406,19 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Group 2",
     "player1": "Tomek Miedziany",
-    "player2": "Mariusz O",
+    "player2": "Mariusz Olchawa",
     "score": "3:0",
     "fast_legs_count": {
       "Tomek Miedziany": 0,
-      "Mariusz O": 0
+      "Mariusz Olchawa": 0
     },
     "fast_legs": {
       "Tomek Miedziany": [],
-      "Mariusz O": []
+      "Mariusz Olchawa": []
     },
     "average": {
       "Tomek Miedziany": 57.08,
-      "Mariusz O": 45.63
+      "Mariusz Olchawa": 45.63
     }
   },
   {
@@ -13426,20 +13426,20 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Group 5",
-    "player1": "Jarek",
-    "player2": "Leszek",
+    "player1": "Jarosław Gryga",
+    "player2": "Leszek Puchowski",
     "score": "1:3",
     "fast_legs_count": {
-      "Jarek": 0,
-      "Leszek": 0
+      "Jarosław Gryga": 0,
+      "Leszek Puchowski": 0
     },
     "fast_legs": {
-      "Jarek": [],
-      "Leszek": []
+      "Jarosław Gryga": [],
+      "Leszek Puchowski": []
     },
     "average": {
-      "Jarek": 57.38,
-      "Leszek": 59.63
+      "Jarosław Gryga": 57.38,
+      "Leszek Puchowski": 59.63
     }
   },
   {
@@ -13490,19 +13490,19 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Group 1",
     "player1": "Krystian S",
-    "player2": "Franek",
+    "player2": "Franciszek Kukiełka",
     "score": "0:3",
     "fast_legs_count": {
       "Krystian S": 0,
-      "Franek": 0
+      "Franciszek Kukiełka": 0
     },
     "fast_legs": {
       "Krystian S": [],
-      "Franek": []
+      "Franciszek Kukiełka": []
     },
     "average": {
       "Krystian S": 41.72,
-      "Franek": 49.55
+      "Franciszek Kukiełka": 49.55
     }
   },
   {
@@ -13510,20 +13510,20 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Group 1",
-    "player1": "Hubert",
-    "player2": "Mateusz",
+    "player1": "Hubert Sułek",
+    "player2": "Mateusz Pięta",
     "score": "0:3",
     "fast_legs_count": {
-      "Hubert": 0,
-      "Mateusz": 0
+      "Hubert Sułek": 0,
+      "Mateusz Pięta": 0
     },
     "fast_legs": {
-      "Hubert": [],
-      "Mateusz": []
+      "Hubert Sułek": [],
+      "Mateusz Pięta": []
     },
     "average": {
-      "Hubert": 55.05,
-      "Mateusz": 70.45
+      "Hubert Sułek": 55.05,
+      "Mateusz Pięta": 70.45
     }
   },
   {
@@ -13532,21 +13532,21 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Group 5",
     "player1": "Krystian K",
-    "player2": "Piotrek",
+    "player2": "Piotr Gryga",
     "score": "0:3",
     "fast_legs_count": {
       "Krystian K": 0,
-      "Piotrek": 1
+      "Piotr Gryga": 1
     },
     "fast_legs": {
       "Krystian K": [],
-      "Piotrek": [
+      "Piotr Gryga": [
         18
       ]
     },
     "average": {
       "Krystian K": 48.15,
-      "Piotrek": 58.56
+      "Piotr Gryga": 58.56
     }
   },
   {
@@ -13554,20 +13554,20 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Group 2",
-    "player1": "Julian",
-    "player2": "Mariusz O",
+    "player1": "Julian Samek",
+    "player2": "Mariusz Olchawa",
     "score": "3:1",
     "fast_legs_count": {
-      "Julian": 0,
-      "Mariusz O": 0
+      "Julian Samek": 0,
+      "Mariusz Olchawa": 0
     },
     "fast_legs": {
-      "Julian": [],
-      "Mariusz O": []
+      "Julian Samek": [],
+      "Mariusz Olchawa": []
     },
     "average": {
-      "Julian": 51.28,
-      "Mariusz O": 47.7
+      "Julian Samek": 51.28,
+      "Mariusz Olchawa": 47.7
     }
   },
   {
@@ -13596,19 +13596,19 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Group 1",
-    "player1": "Franek",
+    "player1": "Franciszek Kukiełka",
     "player2": "Tomek P",
     "score": "3:2",
     "fast_legs_count": {
-      "Franek": 0,
+      "Franciszek Kukiełka": 0,
       "Tomek P": 0
     },
     "fast_legs": {
-      "Franek": [],
+      "Franciszek Kukiełka": [],
       "Tomek P": []
     },
     "average": {
-      "Franek": 56.52,
+      "Franciszek Kukiełka": 56.52,
       "Tomek P": 48.83
     }
   },
@@ -13617,19 +13617,19 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Group 2",
-    "player1": "Julian",
+    "player1": "Julian Samek",
     "player2": "Kasia",
     "score": "3:1",
     "fast_legs_count": {
-      "Julian": 0,
+      "Julian Samek": 0,
       "Kasia": 0
     },
     "fast_legs": {
-      "Julian": [],
+      "Julian Samek": [],
       "Kasia": []
     },
     "average": {
-      "Julian": 46.4,
+      "Julian Samek": 46.4,
       "Kasia": 38.47
     }
   },
@@ -13659,20 +13659,20 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Group 5",
-    "player1": "Jarek",
-    "player2": "Piotrek",
+    "player1": "Jarosław Gryga",
+    "player2": "Piotr Gryga",
     "score": "3:1",
     "fast_legs_count": {
-      "Jarek": 0,
-      "Piotrek": 0
+      "Jarosław Gryga": 0,
+      "Piotr Gryga": 0
     },
     "fast_legs": {
-      "Jarek": [],
-      "Piotrek": []
+      "Jarosław Gryga": [],
+      "Piotr Gryga": []
     },
     "average": {
-      "Jarek": 50.9,
-      "Piotrek": 49.13
+      "Jarosław Gryga": 50.9,
+      "Piotr Gryga": 49.13
     }
   },
   {
@@ -13680,20 +13680,20 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Group 4",
-    "player1": "Roman",
-    "player2": "Adrian",
+    "player1": "Roman Flasza",
+    "player2": "Adrian Ochel",
     "score": "2:3",
     "fast_legs_count": {
-      "Roman": 0,
-      "Adrian": 0
+      "Roman Flasza": 0,
+      "Adrian Ochel": 0
     },
     "fast_legs": {
-      "Roman": [],
-      "Adrian": []
+      "Roman Flasza": [],
+      "Adrian Ochel": []
     },
     "average": {
-      "Roman": 45.37,
-      "Adrian": 50.14
+      "Roman Flasza": 45.37,
+      "Adrian Ochel": 50.14
     }
   },
   {
@@ -13701,22 +13701,22 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Group 1",
-    "player1": "Hubert",
-    "player2": "Franek",
+    "player1": "Hubert Sułek",
+    "player2": "Franciszek Kukiełka",
     "score": "2:3",
     "fast_legs_count": {
-      "Hubert": 1,
-      "Franek": 0
+      "Hubert Sułek": 1,
+      "Franciszek Kukiełka": 0
     },
     "fast_legs": {
-      "Hubert": [
+      "Hubert Sułek": [
         17
       ],
-      "Franek": []
+      "Franciszek Kukiełka": []
     },
     "average": {
-      "Hubert": 50.79,
-      "Franek": 48.91
+      "Hubert Sułek": 50.79,
+      "Franciszek Kukiełka": 48.91
     }
   },
   {
@@ -13725,19 +13725,19 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Group 2",
     "player1": "Tomek G",
-    "player2": "Mariusz O",
+    "player2": "Mariusz Olchawa",
     "score": "1:3",
     "fast_legs_count": {
       "Tomek G": 0,
-      "Mariusz O": 0
+      "Mariusz Olchawa": 0
     },
     "fast_legs": {
       "Tomek G": [],
-      "Mariusz O": []
+      "Mariusz Olchawa": []
     },
     "average": {
       "Tomek G": 39.34,
-      "Mariusz O": 47.62
+      "Mariusz Olchawa": 47.62
     }
   },
   {
@@ -13745,20 +13745,20 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Group 4",
-    "player1": "Waldemar",
-    "player2": "Adrian",
+    "player1": "Waldemar Kopacz",
+    "player2": "Adrian Ochel",
     "score": "3:1",
     "fast_legs_count": {
-      "Waldemar": 0,
-      "Adrian": 0
+      "Waldemar Kopacz": 0,
+      "Adrian Ochel": 0
     },
     "fast_legs": {
-      "Waldemar": [],
-      "Adrian": []
+      "Waldemar Kopacz": [],
+      "Adrian Ochel": []
     },
     "average": {
-      "Waldemar": 59.29,
-      "Adrian": 55.4
+      "Waldemar Kopacz": 59.29,
+      "Adrian Ochel": 55.4
     }
   },
   {
@@ -13788,19 +13788,19 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Group 5",
     "player1": "Krystian K",
-    "player2": "Leszek",
+    "player2": "Leszek Puchowski",
     "score": "3:2",
     "fast_legs_count": {
       "Krystian K": 0,
-      "Leszek": 0
+      "Leszek Puchowski": 0
     },
     "fast_legs": {
       "Krystian K": [],
-      "Leszek": []
+      "Leszek Puchowski": []
     },
     "average": {
       "Krystian K": 49.03,
-      "Leszek": 52.2
+      "Leszek Puchowski": 52.2
     }
   },
   {
@@ -13809,19 +13809,19 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Group 1",
     "player1": "Krystian S",
-    "player2": "Mateusz",
+    "player2": "Mateusz Pięta",
     "score": "1:3",
     "fast_legs_count": {
       "Krystian S": 0,
-      "Mateusz": 0
+      "Mateusz Pięta": 0
     },
     "fast_legs": {
       "Krystian S": [],
-      "Mateusz": []
+      "Mateusz Pięta": []
     },
     "average": {
       "Krystian S": 52.04,
-      "Mateusz": 56.6
+      "Mateusz Pięta": 56.6
     }
   },
   {
@@ -13871,19 +13871,19 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Group 4",
-    "player1": "Roman",
+    "player1": "Roman Flasza",
     "player2": "Wojtek",
     "score": "2:3",
     "fast_legs_count": {
-      "Roman": 0,
+      "Roman Flasza": 0,
       "Wojtek": 0
     },
     "fast_legs": {
-      "Roman": [],
+      "Roman Flasza": [],
       "Wojtek": []
     },
     "average": {
-      "Roman": 37.05,
+      "Roman Flasza": 37.05,
       "Wojtek": 39.67
     }
   },
@@ -13892,21 +13892,21 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Group 2",
-    "player1": "Julian",
+    "player1": "Julian Samek",
     "player2": "Tomek Miedziany",
     "score": "3:0",
     "fast_legs_count": {
-      "Julian": 1,
+      "Julian Samek": 1,
       "Tomek Miedziany": 0
     },
     "fast_legs": {
-      "Julian": [
+      "Julian Samek": [
         17
       ],
       "Tomek Miedziany": []
     },
     "average": {
-      "Julian": 76.42,
+      "Julian Samek": 76.42,
       "Tomek Miedziany": 55.65
     }
   },
@@ -13915,19 +13915,19 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Group 1",
-    "player1": "Mateusz",
+    "player1": "Mateusz Pięta",
     "player2": "Tomek P",
     "score": "3:1",
     "fast_legs_count": {
-      "Mateusz": 0,
+      "Mateusz Pięta": 0,
       "Tomek P": 0
     },
     "fast_legs": {
-      "Mateusz": [],
+      "Mateusz Pięta": [],
       "Tomek P": []
     },
     "average": {
-      "Mateusz": 59.32,
+      "Mateusz Pięta": 59.32,
       "Tomek P": 53.67
     }
   },
@@ -13936,20 +13936,20 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Group 5",
-    "player1": "Leszek",
-    "player2": "Piotrek",
+    "player1": "Leszek Puchowski",
+    "player2": "Piotr Gryga",
     "score": "2:3",
     "fast_legs_count": {
-      "Leszek": 0,
-      "Piotrek": 0
+      "Leszek Puchowski": 0,
+      "Piotr Gryga": 0
     },
     "fast_legs": {
-      "Leszek": [],
-      "Piotrek": []
+      "Leszek Puchowski": [],
+      "Piotr Gryga": []
     },
     "average": {
-      "Leszek": 58.67,
-      "Piotrek": 60.69
+      "Leszek Puchowski": 58.67,
+      "Piotr Gryga": 60.69
     }
   },
   {
@@ -13958,19 +13958,19 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Group 4",
     "player1": "Wojtek",
-    "player2": "Adrian",
+    "player2": "Adrian Ochel",
     "score": "0:3",
     "fast_legs_count": {
       "Wojtek": 0,
-      "Adrian": 0
+      "Adrian Ochel": 0
     },
     "fast_legs": {
       "Wojtek": [],
-      "Adrian": []
+      "Adrian Ochel": []
     },
     "average": {
       "Wojtek": 41.55,
-      "Adrian": 47.46
+      "Adrian Ochel": 47.46
     }
   },
   {
@@ -13999,19 +13999,19 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Group 1",
-    "player1": "Hubert",
+    "player1": "Hubert Sułek",
     "player2": "Tomek P",
     "score": "3:1",
     "fast_legs_count": {
-      "Hubert": 0,
+      "Hubert Sułek": 0,
       "Tomek P": 0
     },
     "fast_legs": {
-      "Hubert": [],
+      "Hubert Sułek": [],
       "Tomek P": []
     },
     "average": {
-      "Hubert": 54.61,
+      "Hubert Sułek": 54.61,
       "Tomek P": 49.58
     }
   },
@@ -14021,19 +14021,19 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Group 2",
     "player1": "Kasia",
-    "player2": "Mariusz O",
+    "player2": "Mariusz Olchawa",
     "score": "0:3",
     "fast_legs_count": {
       "Kasia": 0,
-      "Mariusz O": 0
+      "Mariusz Olchawa": 0
     },
     "fast_legs": {
       "Kasia": [],
-      "Mariusz O": []
+      "Mariusz Olchawa": []
     },
     "average": {
       "Kasia": 34.06,
-      "Mariusz O": 40.62
+      "Mariusz Olchawa": 40.62
     }
   },
   {
@@ -14042,19 +14042,19 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Group 5",
     "player1": "Krystian K",
-    "player2": "Jarek",
+    "player2": "Jarosław Gryga",
     "score": "2:3",
     "fast_legs_count": {
       "Krystian K": 0,
-      "Jarek": 0
+      "Jarosław Gryga": 0
     },
     "fast_legs": {
       "Krystian K": [],
-      "Jarek": []
+      "Jarosław Gryga": []
     },
     "average": {
       "Krystian K": 46.79,
-      "Jarek": 51.94
+      "Jarosław Gryga": 51.94
     }
   },
   {
@@ -14062,19 +14062,19 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Group 2",
-    "player1": "Julian",
+    "player1": "Julian Samek",
     "player2": "Tomek G",
     "score": "3:0",
     "fast_legs_count": {
-      "Julian": 0,
+      "Julian Samek": 0,
       "Tomek G": 0
     },
     "fast_legs": {
-      "Julian": [],
+      "Julian Samek": [],
       "Tomek G": []
     },
     "average": {
-      "Julian": 60.12,
+      "Julian Samek": 60.12,
       "Tomek G": 46.56
     }
   },
@@ -14083,19 +14083,19 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Group 1",
-    "player1": "Hubert",
+    "player1": "Hubert Sułek",
     "player2": "Krystian S",
     "score": "3:0",
     "fast_legs_count": {
-      "Hubert": 0,
+      "Hubert Sułek": 0,
       "Krystian S": 0
     },
     "fast_legs": {
-      "Hubert": [],
+      "Hubert Sułek": [],
       "Krystian S": []
     },
     "average": {
-      "Hubert": 52.43,
+      "Hubert Sułek": 52.43,
       "Krystian S": 46.54
     }
   },
@@ -14125,20 +14125,20 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Group 4",
-    "player1": "Roman",
-    "player2": "Waldemar",
+    "player1": "Roman Flasza",
+    "player2": "Waldemar Kopacz",
     "score": "1:3",
     "fast_legs_count": {
-      "Roman": 0,
-      "Waldemar": 0
+      "Roman Flasza": 0,
+      "Waldemar Kopacz": 0
     },
     "fast_legs": {
-      "Roman": [],
-      "Waldemar": []
+      "Roman Flasza": [],
+      "Waldemar Kopacz": []
     },
     "average": {
-      "Roman": 41.43,
-      "Waldemar": 58.82
+      "Roman Flasza": 41.43,
+      "Waldemar Kopacz": 58.82
     }
   },
   {
@@ -14146,20 +14146,20 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 9/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 3rd place match",
-    "player1": "Waldemar",
-    "player2": "Jarek",
+    "player1": "Waldemar Kopacz",
+    "player2": "Jarosław Gryga",
     "score": "3:1",
     "fast_legs_count": {
-      "Waldemar": 0,
-      "Jarek": 0
+      "Waldemar Kopacz": 0,
+      "Jarosław Gryga": 0
     },
     "fast_legs": {
-      "Waldemar": [],
-      "Jarek": []
+      "Waldemar Kopacz": [],
+      "Jarosław Gryga": []
     },
     "average": {
-      "Waldemar": 65.97,
-      "Jarek": 54.77
+      "Waldemar Kopacz": 65.97,
+      "Jarosław Gryga": 54.77
     }
   },
   {
@@ -14167,19 +14167,19 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 9/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Final",
-    "player1": "Piotrek",
+    "player1": "Piotr Gryga",
     "player2": "Lipka",
     "score": "4:0",
     "fast_legs_count": {
-      "Piotrek": 0,
+      "Piotr Gryga": 0,
       "Lipka": 0
     },
     "fast_legs": {
-      "Piotrek": [],
+      "Piotr Gryga": [],
       "Lipka": []
     },
     "average": {
-      "Piotrek": 55.16,
+      "Piotr Gryga": 55.16,
       "Lipka": 51.74
     }
   },
@@ -14188,22 +14188,22 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 9/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Semi-final",
-    "player1": "Waldemar",
-    "player2": "Piotrek",
+    "player1": "Waldemar Kopacz",
+    "player2": "Piotr Gryga",
     "score": "2:3",
     "fast_legs_count": {
-      "Waldemar": 1,
-      "Piotrek": 0
+      "Waldemar Kopacz": 1,
+      "Piotr Gryga": 0
     },
     "fast_legs": {
-      "Waldemar": [
+      "Waldemar Kopacz": [
         18
       ],
-      "Piotrek": []
+      "Piotr Gryga": []
     },
     "average": {
-      "Waldemar": 57.49,
-      "Piotrek": 51.99
+      "Waldemar Kopacz": 57.49,
+      "Piotr Gryga": 51.99
     }
   },
   {
@@ -14211,19 +14211,19 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 9/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Semi-final",
-    "player1": "Jarek",
+    "player1": "Jarosław Gryga",
     "player2": "Lipka",
     "score": "0:3",
     "fast_legs_count": {
-      "Jarek": 0,
+      "Jarosław Gryga": 0,
       "Lipka": 0
     },
     "fast_legs": {
-      "Jarek": [],
+      "Jarosław Gryga": [],
       "Lipka": []
     },
     "average": {
-      "Jarek": 46.44,
+      "Jarosław Gryga": 46.44,
       "Lipka": 57.81
     }
   },
@@ -14232,20 +14232,20 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 9/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Top 8",
-    "player1": "Waldemar",
-    "player2": "Adrian",
+    "player1": "Waldemar Kopacz",
+    "player2": "Adrian Ochel",
     "score": "3:0",
     "fast_legs_count": {
-      "Waldemar": 0,
-      "Adrian": 0
+      "Waldemar Kopacz": 0,
+      "Adrian Ochel": 0
     },
     "fast_legs": {
-      "Waldemar": [],
-      "Adrian": []
+      "Waldemar Kopacz": [],
+      "Adrian Ochel": []
     },
     "average": {
-      "Waldemar": 53.68,
-      "Adrian": 47.29
+      "Waldemar Kopacz": 53.68,
+      "Adrian Ochel": 47.29
     }
   },
   {
@@ -14253,19 +14253,19 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 9/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Top 8",
-    "player1": "Jarek",
+    "player1": "Jarosław Gryga",
     "player2": "Wojtek",
     "score": "3:0",
     "fast_legs_count": {
-      "Jarek": 0,
+      "Jarosław Gryga": 0,
       "Wojtek": 0
     },
     "fast_legs": {
-      "Jarek": [],
+      "Jarosław Gryga": [],
       "Wojtek": []
     },
     "average": {
-      "Jarek": 46.48,
+      "Jarosław Gryga": 46.48,
       "Wojtek": 43.19
     }
   },
@@ -14274,20 +14274,20 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 9/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Top 8",
-    "player1": "Mateusz",
-    "player2": "Piotrek",
+    "player1": "Mateusz Pięta",
+    "player2": "Piotr Gryga",
     "score": "1:3",
     "fast_legs_count": {
-      "Mateusz": 0,
-      "Piotrek": 0
+      "Mateusz Pięta": 0,
+      "Piotr Gryga": 0
     },
     "fast_legs": {
-      "Mateusz": [],
-      "Piotrek": []
+      "Mateusz Pięta": [],
+      "Piotr Gryga": []
     },
     "average": {
-      "Mateusz": 54.88,
-      "Piotrek": 61.48
+      "Mateusz Pięta": 54.88,
+      "Piotr Gryga": 61.48
     }
   },
   {
@@ -14295,19 +14295,19 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 9/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Top 8",
-    "player1": "Miedziany",
+    "player1": "Tomasz Krzysztof",
     "player2": "Lipka",
     "score": "1:3",
     "fast_legs_count": {
-      "Miedziany": 0,
+      "Tomasz Krzysztof": 0,
       "Lipka": 0
     },
     "fast_legs": {
-      "Miedziany": [],
+      "Tomasz Krzysztof": [],
       "Lipka": []
     },
     "average": {
-      "Miedziany": 48.95,
+      "Tomasz Krzysztof": 48.95,
       "Lipka": 56.97
     }
   },
@@ -14316,22 +14316,22 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 9/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Group 2",
-    "player1": "Piotrek",
-    "player2": "Tomasz P",
+    "player1": "Piotr Gryga",
+    "player2": "Tomasz Pilecki",
     "score": "3:1",
     "fast_legs_count": {
-      "Piotrek": 1,
-      "Tomasz P": 0
+      "Piotr Gryga": 1,
+      "Tomasz Pilecki": 0
     },
     "fast_legs": {
-      "Piotrek": [
+      "Piotr Gryga": [
         17
       ],
-      "Tomasz P": []
+      "Tomasz Pilecki": []
     },
     "average": {
-      "Piotrek": 55.22,
-      "Tomasz P": 49.05
+      "Piotr Gryga": 55.22,
+      "Tomasz Pilecki": 49.05
     }
   },
   {
@@ -14339,19 +14339,19 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 9/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Group 2",
-    "player1": "Jarek",
+    "player1": "Jarosław Gryga",
     "player2": "Krystian Krzywy",
     "score": "1:3",
     "fast_legs_count": {
-      "Jarek": 0,
+      "Jarosław Gryga": 0,
       "Krystian Krzywy": 0
     },
     "fast_legs": {
-      "Jarek": [],
+      "Jarosław Gryga": [],
       "Krystian Krzywy": []
     },
     "average": {
-      "Jarek": 45.58,
+      "Jarosław Gryga": 45.58,
       "Krystian Krzywy": 55.11
     }
   },
@@ -14360,20 +14360,20 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 9/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Group 3",
-    "player1": "Roman",
-    "player2": "Adrian",
+    "player1": "Roman Flasza",
+    "player2": "Adrian Ochel",
     "score": "0:3",
     "fast_legs_count": {
-      "Roman": 0,
-      "Adrian": 0
+      "Roman Flasza": 0,
+      "Adrian Ochel": 0
     },
     "fast_legs": {
-      "Roman": [],
-      "Adrian": []
+      "Roman Flasza": [],
+      "Adrian Ochel": []
     },
     "average": {
-      "Roman": 48.72,
-      "Adrian": 57.81
+      "Roman Flasza": 48.72,
+      "Adrian Ochel": 57.81
     }
   },
   {
@@ -14381,20 +14381,20 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 9/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Group 2",
-    "player1": "Piotrek",
-    "player2": "Jarek",
+    "player1": "Piotr Gryga",
+    "player2": "Jarosław Gryga",
     "score": "0:3",
     "fast_legs_count": {
-      "Piotrek": 0,
-      "Jarek": 0
+      "Piotr Gryga": 0,
+      "Jarosław Gryga": 0
     },
     "fast_legs": {
-      "Piotrek": [],
-      "Jarek": []
+      "Piotr Gryga": [],
+      "Jarosław Gryga": []
     },
     "average": {
-      "Piotrek": 43.35,
-      "Jarek": 47.97
+      "Piotr Gryga": 43.35,
+      "Jarosław Gryga": 47.97
     }
   },
   {
@@ -14423,19 +14423,19 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 9/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Group 3",
-    "player1": "Miedziany",
+    "player1": "Tomasz Krzysztof",
     "player2": "Paweł Cefal",
     "score": "3:2",
     "fast_legs_count": {
-      "Miedziany": 0,
+      "Tomasz Krzysztof": 0,
       "Paweł Cefal": 0
     },
     "fast_legs": {
-      "Miedziany": [],
+      "Tomasz Krzysztof": [],
       "Paweł Cefal": []
     },
     "average": {
-      "Miedziany": 52.23,
+      "Tomasz Krzysztof": 52.23,
       "Paweł Cefal": 48.04
     }
   },
@@ -14444,22 +14444,22 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 9/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Group 4",
-    "player1": "Mateusz",
+    "player1": "Mateusz Pięta",
     "player2": "Wojtek",
     "score": "3:1",
     "fast_legs_count": {
-      "Mateusz": 2,
+      "Mateusz Pięta": 2,
       "Wojtek": 0
     },
     "fast_legs": {
-      "Mateusz": [
+      "Mateusz Pięta": [
         16,
         17
       ],
       "Wojtek": []
     },
     "average": {
-      "Mateusz": 56.91,
+      "Mateusz Pięta": 56.91,
       "Wojtek": 39.78
     }
   },
@@ -14490,19 +14490,19 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Group 1",
     "player1": "Krystian Sułek",
-    "player2": "Mariusz O",
+    "player2": "Mariusz Olchawa",
     "score": "1:3",
     "fast_legs_count": {
       "Krystian Sułek": 0,
-      "Mariusz O": 0
+      "Mariusz Olchawa": 0
     },
     "fast_legs": {
       "Krystian Sułek": [],
-      "Mariusz O": []
+      "Mariusz Olchawa": []
     },
     "average": {
       "Krystian Sułek": 51.14,
-      "Mariusz O": 53.03
+      "Mariusz Olchawa": 53.03
     }
   },
   {
@@ -14510,19 +14510,19 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 9/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Group 1",
-    "player1": "Waldemar",
+    "player1": "Waldemar Kopacz",
     "player2": "Tomi",
     "score": "3:0",
     "fast_legs_count": {
-      "Waldemar": 0,
+      "Waldemar Kopacz": 0,
       "Tomi": 0
     },
     "fast_legs": {
-      "Waldemar": [],
+      "Waldemar Kopacz": [],
       "Tomi": []
     },
     "average": {
-      "Waldemar": 57.81,
+      "Waldemar Kopacz": 57.81,
       "Tomi": 43.28
     }
   },
@@ -14531,19 +14531,19 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 9/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Group 4",
-    "player1": "Hubert",
+    "player1": "Hubert Sułek",
     "player2": "Dominik Cierniak",
     "score": "3:0",
     "fast_legs_count": {
-      "Hubert": 0,
+      "Hubert Sułek": 0,
       "Dominik Cierniak": 0
     },
     "fast_legs": {
-      "Hubert": [],
+      "Hubert Sułek": [],
       "Dominik Cierniak": []
     },
     "average": {
-      "Hubert": 47.46,
+      "Hubert Sułek": 47.46,
       "Dominik Cierniak": 41.2
     }
   },
@@ -14553,19 +14553,19 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Group 2",
     "player1": "Maciek B",
-    "player2": "Tomasz P",
+    "player2": "Tomasz Pilecki",
     "score": "0:3",
     "fast_legs_count": {
       "Maciek B": 0,
-      "Tomasz P": 0
+      "Tomasz Pilecki": 0
     },
     "fast_legs": {
       "Maciek B": [],
-      "Tomasz P": []
+      "Tomasz Pilecki": []
     },
     "average": {
       "Maciek B": 42.69,
-      "Tomasz P": 51.83
+      "Tomasz Pilecki": 51.83
     }
   },
   {
@@ -14594,19 +14594,19 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 9/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Group 3",
-    "player1": "Roman",
+    "player1": "Roman Flasza",
     "player2": "Paweł Cefal",
     "score": "0:3",
     "fast_legs_count": {
-      "Roman": 0,
+      "Roman Flasza": 0,
       "Paweł Cefal": 0
     },
     "fast_legs": {
-      "Roman": [],
+      "Roman Flasza": [],
       "Paweł Cefal": []
     },
     "average": {
-      "Roman": 39.05,
+      "Roman Flasza": 39.05,
       "Paweł Cefal": 38.87
     }
   },
@@ -14615,19 +14615,19 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 9/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Group 2",
-    "player1": "Piotrek",
+    "player1": "Piotr Gryga",
     "player2": "Krystian Krzywy",
     "score": "3:2",
     "fast_legs_count": {
-      "Piotrek": 0,
+      "Piotr Gryga": 0,
       "Krystian Krzywy": 0
     },
     "fast_legs": {
-      "Piotrek": [],
+      "Piotr Gryga": [],
       "Krystian Krzywy": []
     },
     "average": {
-      "Piotrek": 47.35,
+      "Piotr Gryga": 47.35,
       "Krystian Krzywy": 45.78
     }
   },
@@ -14636,19 +14636,19 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 9/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Group 4",
-    "player1": "Mateusz",
+    "player1": "Mateusz Pięta",
     "player2": "Dominik Cierniak",
     "score": "3:0",
     "fast_legs_count": {
-      "Mateusz": 0,
+      "Mateusz Pięta": 0,
       "Dominik Cierniak": 0
     },
     "fast_legs": {
-      "Mateusz": [],
+      "Mateusz Pięta": [],
       "Dominik Cierniak": []
     },
     "average": {
-      "Mateusz": 55.67,
+      "Mateusz Pięta": 55.67,
       "Dominik Cierniak": 45.74
     }
   },
@@ -14657,22 +14657,22 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 9/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Group 1",
-    "player1": "Waldemar",
-    "player2": "Mariusz O",
+    "player1": "Waldemar Kopacz",
+    "player2": "Mariusz Olchawa",
     "score": "3:1",
     "fast_legs_count": {
-      "Waldemar": 1,
-      "Mariusz O": 0
+      "Waldemar Kopacz": 1,
+      "Mariusz Olchawa": 0
     },
     "fast_legs": {
-      "Waldemar": [
+      "Waldemar Kopacz": [
         17
       ],
-      "Mariusz O": []
+      "Mariusz Olchawa": []
     },
     "average": {
-      "Waldemar": 65.13,
-      "Mariusz O": 56.32
+      "Waldemar Kopacz": 65.13,
+      "Mariusz Olchawa": 56.32
     }
   },
   {
@@ -14681,19 +14681,19 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Group 2",
     "player1": "Maciek B",
-    "player2": "Jarek",
+    "player2": "Jarosław Gryga",
     "score": "0:3",
     "fast_legs_count": {
       "Maciek B": 0,
-      "Jarek": 0
+      "Jarosław Gryga": 0
     },
     "fast_legs": {
       "Maciek B": [],
-      "Jarek": []
+      "Jarosław Gryga": []
     },
     "average": {
       "Maciek B": 46.93,
-      "Jarek": 53.05
+      "Jarosław Gryga": 53.05
     }
   },
   {
@@ -14701,20 +14701,20 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 9/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Group 3",
-    "player1": "Miedziany",
-    "player2": "Adrian",
+    "player1": "Tomasz Krzysztof",
+    "player2": "Adrian Ochel",
     "score": "3:2",
     "fast_legs_count": {
-      "Miedziany": 0,
-      "Adrian": 0
+      "Tomasz Krzysztof": 0,
+      "Adrian Ochel": 0
     },
     "fast_legs": {
-      "Miedziany": [],
-      "Adrian": []
+      "Tomasz Krzysztof": [],
+      "Adrian Ochel": []
     },
     "average": {
-      "Miedziany": 49.93,
-      "Adrian": 49.96
+      "Tomasz Krzysztof": 49.93,
+      "Adrian Ochel": 49.96
     }
   },
   {
@@ -14743,19 +14743,19 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 9/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Group 4",
-    "player1": "Hubert",
+    "player1": "Hubert Sułek",
     "player2": "Wojtek",
     "score": "2:3",
     "fast_legs_count": {
-      "Hubert": 0,
+      "Hubert Sułek": 0,
       "Wojtek": 0
     },
     "fast_legs": {
-      "Hubert": [],
+      "Hubert Sułek": [],
       "Wojtek": []
     },
     "average": {
-      "Hubert": 54.62,
+      "Hubert Sułek": 54.62,
       "Wojtek": 52.07
     }
   },
@@ -14765,19 +14765,19 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Group 1",
     "player1": "Lipka",
-    "player2": "Mariusz O",
+    "player2": "Mariusz Olchawa",
     "score": "1:3",
     "fast_legs_count": {
       "Lipka": 0,
-      "Mariusz O": 0
+      "Mariusz Olchawa": 0
     },
     "fast_legs": {
       "Lipka": [],
-      "Mariusz O": []
+      "Mariusz Olchawa": []
     },
     "average": {
       "Lipka": 54.06,
-      "Mariusz O": 57.23
+      "Mariusz Olchawa": 57.23
     }
   },
   {
@@ -14785,20 +14785,20 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 9/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Group 4",
-    "player1": "Hubert",
-    "player2": "Mateusz",
+    "player1": "Hubert Sułek",
+    "player2": "Mateusz Pięta",
     "score": "1:3",
     "fast_legs_count": {
-      "Hubert": 0,
-      "Mateusz": 0
+      "Hubert Sułek": 0,
+      "Mateusz Pięta": 0
     },
     "fast_legs": {
-      "Hubert": [],
-      "Mateusz": []
+      "Hubert Sułek": [],
+      "Mateusz Pięta": []
     },
     "average": {
-      "Hubert": 54.22,
-      "Mateusz": 63.16
+      "Hubert Sułek": 54.22,
+      "Mateusz Pięta": 63.16
     }
   },
   {
@@ -14807,19 +14807,19 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Group 2",
     "player1": "Maciek B",
-    "player2": "Piotrek",
+    "player2": "Piotr Gryga",
     "score": "0:3",
     "fast_legs_count": {
       "Maciek B": 0,
-      "Piotrek": 0
+      "Piotr Gryga": 0
     },
     "fast_legs": {
       "Maciek B": [],
-      "Piotrek": []
+      "Piotr Gryga": []
     },
     "average": {
       "Maciek B": 36.74,
-      "Piotrek": 54.33
+      "Piotr Gryga": 54.33
     }
   },
   {
@@ -14827,19 +14827,19 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 9/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Group 1",
-    "player1": "Waldemar",
+    "player1": "Waldemar Kopacz",
     "player2": "Krystian Sułek",
     "score": "3:0",
     "fast_legs_count": {
-      "Waldemar": 0,
+      "Waldemar Kopacz": 0,
       "Krystian Sułek": 0
     },
     "fast_legs": {
-      "Waldemar": [],
+      "Waldemar Kopacz": [],
       "Krystian Sułek": []
     },
     "average": {
-      "Waldemar": 60.93,
+      "Waldemar Kopacz": 60.93,
       "Krystian Sułek": 42.46
     }
   },
@@ -14848,20 +14848,20 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 9/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Group 3",
-    "player1": "Miedziany",
-    "player2": "Roman",
+    "player1": "Tomasz Krzysztof",
+    "player2": "Roman Flasza",
     "score": "3:1",
     "fast_legs_count": {
-      "Miedziany": 0,
-      "Roman": 0
+      "Tomasz Krzysztof": 0,
+      "Roman Flasza": 0
     },
     "fast_legs": {
-      "Miedziany": [],
-      "Roman": []
+      "Tomasz Krzysztof": [],
+      "Roman Flasza": []
     },
     "average": {
-      "Miedziany": 44.49,
-      "Roman": 39.91
+      "Tomasz Krzysztof": 44.49,
+      "Roman Flasza": 39.91
     }
   },
   {
@@ -14869,20 +14869,20 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 9/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Group 2",
-    "player1": "Jarek",
-    "player2": "Tomasz P",
+    "player1": "Jarosław Gryga",
+    "player2": "Tomasz Pilecki",
     "score": "3:2",
     "fast_legs_count": {
-      "Jarek": 0,
-      "Tomasz P": 0
+      "Jarosław Gryga": 0,
+      "Tomasz Pilecki": 0
     },
     "fast_legs": {
-      "Jarek": [],
-      "Tomasz P": []
+      "Jarosław Gryga": [],
+      "Tomasz Pilecki": []
     },
     "average": {
-      "Jarek": 53.28,
-      "Tomasz P": 52.84
+      "Jarosław Gryga": 53.28,
+      "Tomasz Pilecki": 52.84
     }
   },
   {
@@ -14890,19 +14890,19 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 9/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Group 1",
-    "player1": "Waldemar",
+    "player1": "Waldemar Kopacz",
     "player2": "Lipka",
     "score": "3:1",
     "fast_legs_count": {
-      "Waldemar": 0,
+      "Waldemar Kopacz": 0,
       "Lipka": 0
     },
     "fast_legs": {
-      "Waldemar": [],
+      "Waldemar Kopacz": [],
       "Lipka": []
     },
     "average": {
-      "Waldemar": 48.36,
+      "Waldemar Kopacz": 48.36,
       "Lipka": 42.69
     }
   },
@@ -14911,19 +14911,19 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 9/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Group 1",
-    "player1": "Mariusz O",
+    "player1": "Mariusz Olchawa",
     "player2": "Tomi",
     "score": "0:3",
     "fast_legs_count": {
-      "Mariusz O": 0,
+      "Mariusz Olchawa": 0,
       "Tomi": 0
     },
     "fast_legs": {
-      "Mariusz O": [],
+      "Mariusz Olchawa": [],
       "Tomi": []
     },
     "average": {
-      "Mariusz O": 38.34,
+      "Mariusz Olchawa": 38.34,
       "Tomi": 39.55
     }
   },
@@ -14933,19 +14933,19 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Group 2",
     "player1": "Krystian Krzywy",
-    "player2": "Tomasz P",
+    "player2": "Tomasz Pilecki",
     "score": "1:3",
     "fast_legs_count": {
       "Krystian Krzywy": 0,
-      "Tomasz P": 0
+      "Tomasz Pilecki": 0
     },
     "fast_legs": {
       "Krystian Krzywy": [],
-      "Tomasz P": []
+      "Tomasz Pilecki": []
     },
     "average": {
       "Krystian Krzywy": 47.16,
-      "Tomasz P": 48.1
+      "Tomasz Pilecki": 48.1
     }
   },
   {
@@ -14974,19 +14974,19 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 9/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Group 3",
-    "player1": "Adrian",
+    "player1": "Adrian Ochel",
     "player2": "Paweł Cefal",
     "score": "3:0",
     "fast_legs_count": {
-      "Adrian": 0,
+      "Adrian Ochel": 0,
       "Paweł Cefal": 0
     },
     "fast_legs": {
-      "Adrian": [],
+      "Adrian Ochel": [],
       "Paweł Cefal": []
     },
     "average": {
-      "Adrian": 43.24,
+      "Adrian Ochel": 43.24,
       "Paweł Cefal": 39.79
     }
   },

@@ -2379,16 +2379,16 @@
     "tournament": "Szerszeń Cup IV",
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup 3rd place match",
-    "player1": "Leszek",
-    "player2": "Piotrek",
+    "player1": "Leszek Puchowski",
+    "player2": "Piotr Gryga",
     "score": "3:2",
     "high_finishes_count": {
-      "Leszek": 0,
-      "Piotrek": 0
+      "Leszek Puchowski": 0,
+      "Piotr Gryga": 0
     },
     "high_finishes": {
-      "Leszek": [],
-      "Piotrek": []
+      "Leszek Puchowski": [],
+      "Piotr Gryga": []
     }
   },
   {
@@ -2396,18 +2396,18 @@
     "tournament": "Szerszeń Cup IV",
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Final",
-    "player1": "Mateusz",
-    "player2": "Waldemar",
+    "player1": "Mateusz Pięta",
+    "player2": "Waldemar Kopacz",
     "score": "3:4",
     "high_finishes_count": {
-      "Mateusz": 1,
-      "Waldemar": 0
+      "Mateusz Pięta": 1,
+      "Waldemar Kopacz": 0
     },
     "high_finishes": {
-      "Mateusz": [
+      "Mateusz Pięta": [
         108
       ],
-      "Waldemar": []
+      "Waldemar Kopacz": []
     }
   },
   {
@@ -2415,16 +2415,16 @@
     "tournament": "Szerszeń Cup IV",
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Semi-final",
-    "player1": "Piotrek",
-    "player2": "Waldemar",
+    "player1": "Piotr Gryga",
+    "player2": "Waldemar Kopacz",
     "score": "0:3",
     "high_finishes_count": {
-      "Piotrek": 0,
-      "Waldemar": 0
+      "Piotr Gryga": 0,
+      "Waldemar Kopacz": 0
     },
     "high_finishes": {
-      "Piotrek": [],
-      "Waldemar": []
+      "Piotr Gryga": [],
+      "Waldemar Kopacz": []
     }
   },
   {
@@ -2432,16 +2432,16 @@
     "tournament": "Szerszeń Cup IV",
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Semi-final",
-    "player1": "Leszek",
-    "player2": "Mateusz",
+    "player1": "Leszek Puchowski",
+    "player2": "Mateusz Pięta",
     "score": "2:3",
     "high_finishes_count": {
-      "Leszek": 0,
-      "Mateusz": 0
+      "Leszek Puchowski": 0,
+      "Mateusz Pięta": 0
     },
     "high_finishes": {
-      "Leszek": [],
-      "Mateusz": []
+      "Leszek Puchowski": [],
+      "Mateusz Pięta": []
     }
   },
   {
@@ -2450,15 +2450,15 @@
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Top 8",
     "player1": "Lipka",
-    "player2": "Piotrek",
+    "player2": "Piotr Gryga",
     "score": "0:3",
     "high_finishes_count": {
       "Lipka": 0,
-      "Piotrek": 0
+      "Piotr Gryga": 0
     },
     "high_finishes": {
       "Lipka": [],
-      "Piotrek": []
+      "Piotr Gryga": []
     }
   },
   {
@@ -2466,16 +2466,16 @@
     "tournament": "Szerszeń Cup IV",
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Top 8",
-    "player1": "Leszek",
-    "player2": "Tomek. P",
+    "player1": "Leszek Puchowski",
+    "player2": "Tomasz Pilecki",
     "score": "3:0",
     "high_finishes_count": {
-      "Leszek": 0,
-      "Tomek. P": 0
+      "Leszek Puchowski": 0,
+      "Tomasz Pilecki": 0
     },
     "high_finishes": {
-      "Leszek": [],
-      "Tomek. P": []
+      "Leszek Puchowski": [],
+      "Tomasz Pilecki": []
     }
   },
   {
@@ -2484,15 +2484,15 @@
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Top 8",
     "player1": "Jarek",
-    "player2": "Mateusz",
+    "player2": "Mateusz Pięta",
     "score": "1:3",
     "high_finishes_count": {
       "Jarek": 0,
-      "Mateusz": 0
+      "Mateusz Pięta": 0
     },
     "high_finishes": {
       "Jarek": [],
-      "Mateusz": []
+      "Mateusz Pięta": []
     }
   },
   {
@@ -2500,16 +2500,16 @@
     "tournament": "Szerszeń Cup IV",
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Top 8",
-    "player1": "Waldemar",
-    "player2": "Daniel",
+    "player1": "Waldemar Kopacz",
+    "player2": "Daniel Czernecki",
     "score": "3:0",
     "high_finishes_count": {
-      "Waldemar": 0,
-      "Daniel": 0
+      "Waldemar Kopacz": 0,
+      "Daniel Czernecki": 0
     },
     "high_finishes": {
-      "Waldemar": [],
-      "Daniel": []
+      "Waldemar Kopacz": [],
+      "Daniel Czernecki": []
     }
   },
   {
@@ -2517,16 +2517,16 @@
     "tournament": "Szerszeń Cup IV",
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Group 3",
-    "player1": "Mateusz",
-    "player2": "Piotrek",
+    "player1": "Mateusz Pięta",
+    "player2": "Piotr Gryga",
     "score": "3:0",
     "high_finishes_count": {
-      "Mateusz": 0,
-      "Piotrek": 0
+      "Mateusz Pięta": 0,
+      "Piotr Gryga": 0
     },
     "high_finishes": {
-      "Mateusz": [],
-      "Piotrek": []
+      "Mateusz Pięta": [],
+      "Piotr Gryga": []
     }
   },
   {
@@ -2534,15 +2534,15 @@
     "tournament": "Szerszeń Cup IV",
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Group 2",
-    "player1": "Tomek. P",
+    "player1": "Tomasz Pilecki",
     "player2": "Lipka",
     "score": "0:3",
     "high_finishes_count": {
-      "Tomek. P": 0,
+      "Tomasz Pilecki": 0,
       "Lipka": 0
     },
     "high_finishes": {
-      "Tomek. P": [],
+      "Tomasz Pilecki": [],
       "Lipka": []
     }
   },
@@ -2552,15 +2552,15 @@
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Group 1",
     "player1": "Krystian. K",
-    "player2": "Daniel",
+    "player2": "Daniel Czernecki",
     "score": "1:3",
     "high_finishes_count": {
       "Krystian. K": 0,
-      "Daniel": 0
+      "Daniel Czernecki": 0
     },
     "high_finishes": {
       "Krystian. K": [],
-      "Daniel": []
+      "Daniel Czernecki": []
     }
   },
   {
@@ -2568,16 +2568,16 @@
     "tournament": "Szerszeń Cup IV",
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Group 3",
-    "player1": "Miedziany",
-    "player2": "Hubert",
+    "player1": "Tomasz Krzysztof",
+    "player2": "Hubert Sułek",
     "score": "1:3",
     "high_finishes_count": {
-      "Miedziany": 0,
-      "Hubert": 0
+      "Tomasz Krzysztof": 0,
+      "Hubert Sułek": 0
     },
     "high_finishes": {
-      "Miedziany": [],
-      "Hubert": []
+      "Tomasz Krzysztof": [],
+      "Hubert Sułek": []
     }
   },
   {
@@ -2603,15 +2603,15 @@
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Group 1",
     "player1": "Maciek B",
-    "player2": "Leszek",
+    "player2": "Leszek Puchowski",
     "score": "2:3",
     "high_finishes_count": {
       "Maciek B": 0,
-      "Leszek": 0
+      "Leszek Puchowski": 0
     },
     "high_finishes": {
       "Maciek B": [],
-      "Leszek": []
+      "Leszek Puchowski": []
     }
   },
   {
@@ -2636,16 +2636,16 @@
     "tournament": "Szerszeń Cup IV",
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Group 3",
-    "player1": "Waldemar",
-    "player2": "Piotrek",
+    "player1": "Waldemar Kopacz",
+    "player2": "Piotr Gryga",
     "score": "2:3",
     "high_finishes_count": {
-      "Waldemar": 0,
-      "Piotrek": 0
+      "Waldemar Kopacz": 0,
+      "Piotr Gryga": 0
     },
     "high_finishes": {
-      "Waldemar": [],
-      "Piotrek": []
+      "Waldemar Kopacz": [],
+      "Piotr Gryga": []
     }
   },
   {
@@ -2653,16 +2653,16 @@
     "tournament": "Szerszeń Cup IV",
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Group 1",
-    "player1": "Grzegorz",
-    "player2": "Daniel",
+    "player1": "Grzegorz Kulig",
+    "player2": "Daniel Czernecki",
     "score": "2:3",
     "high_finishes_count": {
-      "Grzegorz": 0,
-      "Daniel": 0
+      "Grzegorz Kulig": 0,
+      "Daniel Czernecki": 0
     },
     "high_finishes": {
-      "Grzegorz": [],
-      "Daniel": []
+      "Grzegorz Kulig": [],
+      "Daniel Czernecki": []
     }
   },
   {
@@ -2670,16 +2670,16 @@
     "tournament": "Szerszeń Cup IV",
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Group 3",
-    "player1": "Mateusz",
-    "player2": "Miedziany",
+    "player1": "Mateusz Pięta",
+    "player2": "Tomasz Krzysztof",
     "score": "3:1",
     "high_finishes_count": {
-      "Mateusz": 0,
-      "Miedziany": 0
+      "Mateusz Pięta": 0,
+      "Tomasz Krzysztof": 0
     },
     "high_finishes": {
-      "Mateusz": [],
-      "Miedziany": []
+      "Mateusz Pięta": [],
+      "Tomasz Krzysztof": []
     }
   },
   {
@@ -2687,15 +2687,15 @@
     "tournament": "Szerszeń Cup IV",
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Group 2",
-    "player1": "Tomek. P",
+    "player1": "Tomasz Pilecki",
     "player2": "Tomi",
     "score": "3:1",
     "high_finishes_count": {
-      "Tomek. P": 0,
+      "Tomasz Pilecki": 0,
       "Tomi": 0
     },
     "high_finishes": {
-      "Tomek. P": [],
+      "Tomasz Pilecki": [],
       "Tomi": []
     }
   },
@@ -2738,16 +2738,16 @@
     "tournament": "Szerszeń Cup IV",
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Group 3",
-    "player1": "Waldemar",
-    "player2": "Hubert",
+    "player1": "Waldemar Kopacz",
+    "player2": "Hubert Sułek",
     "score": "3:0",
     "high_finishes_count": {
-      "Waldemar": 0,
-      "Hubert": 0
+      "Waldemar Kopacz": 0,
+      "Hubert Sułek": 0
     },
     "high_finishes": {
-      "Waldemar": [],
-      "Hubert": []
+      "Waldemar Kopacz": [],
+      "Hubert Sułek": []
     }
   },
   {
@@ -2755,16 +2755,16 @@
     "tournament": "Szerszeń Cup IV",
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Group 1",
-    "player1": "Grzegorz",
-    "player2": "Leszek",
+    "player1": "Grzegorz Kulig",
+    "player2": "Leszek Puchowski",
     "score": "0:3",
     "high_finishes_count": {
-      "Grzegorz": 0,
-      "Leszek": 0
+      "Grzegorz Kulig": 0,
+      "Leszek Puchowski": 0
     },
     "high_finishes": {
-      "Grzegorz": [],
-      "Leszek": []
+      "Grzegorz Kulig": [],
+      "Leszek Puchowski": []
     }
   },
   {
@@ -2772,16 +2772,16 @@
     "tournament": "Szerszeń Cup IV",
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Group 3",
-    "player1": "Miedziany",
-    "player2": "Piotrek",
+    "player1": "Tomasz Krzysztof",
+    "player2": "Piotr Gryga",
     "score": "3:2",
     "high_finishes_count": {
-      "Miedziany": 0,
-      "Piotrek": 0
+      "Tomasz Krzysztof": 0,
+      "Piotr Gryga": 0
     },
     "high_finishes": {
-      "Miedziany": [],
-      "Piotrek": []
+      "Tomasz Krzysztof": [],
+      "Piotr Gryga": []
     }
   },
   {
@@ -2807,15 +2807,15 @@
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Group 1",
     "player1": "Maciek B",
-    "player2": "Daniel",
+    "player2": "Daniel Czernecki",
     "score": "1:3",
     "high_finishes_count": {
       "Maciek B": 0,
-      "Daniel": 0
+      "Daniel Czernecki": 0
     },
     "high_finishes": {
       "Maciek B": [],
-      "Daniel": []
+      "Daniel Czernecki": []
     }
   },
   {
@@ -2823,16 +2823,16 @@
     "tournament": "Szerszeń Cup IV",
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Group 3",
-    "player1": "Mateusz",
-    "player2": "Hubert",
+    "player1": "Mateusz Pięta",
+    "player2": "Hubert Sułek",
     "score": "3:0",
     "high_finishes_count": {
-      "Mateusz": 0,
-      "Hubert": 0
+      "Mateusz Pięta": 0,
+      "Hubert Sułek": 0
     },
     "high_finishes": {
-      "Mateusz": [],
-      "Hubert": []
+      "Mateusz Pięta": [],
+      "Hubert Sułek": []
     }
   },
   {
@@ -2840,15 +2840,15 @@
     "tournament": "Szerszeń Cup IV",
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Group 2",
-    "player1": "Tomek. P",
+    "player1": "Tomasz Pilecki",
     "player2": "Dominik",
     "score": "3:0",
     "high_finishes_count": {
-      "Tomek. P": 0,
+      "Tomasz Pilecki": 0,
       "Dominik": 0
     },
     "high_finishes": {
-      "Tomek. P": [],
+      "Tomasz Pilecki": [],
       "Dominik": []
     }
   },
@@ -2858,15 +2858,15 @@
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Group 1",
     "player1": "Krystian. K",
-    "player2": "Leszek",
+    "player2": "Leszek Puchowski",
     "score": "2:3",
     "high_finishes_count": {
       "Krystian. K": 0,
-      "Leszek": 0
+      "Leszek Puchowski": 0
     },
     "high_finishes": {
       "Krystian. K": [],
-      "Leszek": []
+      "Leszek Puchowski": []
     }
   },
   {
@@ -2891,15 +2891,15 @@
     "tournament": "Szerszeń Cup IV",
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Group 1",
-    "player1": "Grzegorz",
+    "player1": "Grzegorz Kulig",
     "player2": "Maciek B",
     "score": "3:1",
     "high_finishes_count": {
-      "Grzegorz": 0,
+      "Grzegorz Kulig": 0,
       "Maciek B": 0
     },
     "high_finishes": {
-      "Grzegorz": [],
+      "Grzegorz Kulig": [],
       "Maciek B": []
     }
   },
@@ -2908,16 +2908,16 @@
     "tournament": "Szerszeń Cup IV",
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Group 3",
-    "player1": "Waldemar",
-    "player2": "Miedziany",
+    "player1": "Waldemar Kopacz",
+    "player2": "Tomasz Krzysztof",
     "score": "3:0",
     "high_finishes_count": {
-      "Waldemar": 0,
-      "Miedziany": 0
+      "Waldemar Kopacz": 0,
+      "Tomasz Krzysztof": 0
     },
     "high_finishes": {
-      "Waldemar": [],
-      "Miedziany": []
+      "Waldemar Kopacz": [],
+      "Tomasz Krzysztof": []
     }
   },
   {
@@ -2925,16 +2925,16 @@
     "tournament": "Szerszeń Cup IV",
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Group 3",
-    "player1": "Hubert",
-    "player2": "Piotrek",
+    "player1": "Hubert Sułek",
+    "player2": "Piotr Gryga",
     "score": "2:3",
     "high_finishes_count": {
-      "Hubert": 0,
-      "Piotrek": 0
+      "Hubert Sułek": 0,
+      "Piotr Gryga": 0
     },
     "high_finishes": {
-      "Hubert": [],
-      "Piotrek": []
+      "Hubert Sułek": [],
+      "Piotr Gryga": []
     }
   },
   {
@@ -2942,15 +2942,15 @@
     "tournament": "Szerszeń Cup IV",
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Group 1",
-    "player1": "Grzegorz",
+    "player1": "Grzegorz Kulig",
     "player2": "Krystian. K",
     "score": "3:2",
     "high_finishes_count": {
-      "Grzegorz": 1,
+      "Grzegorz Kulig": 1,
       "Krystian. K": 0
     },
     "high_finishes": {
-      "Grzegorz": [
+      "Grzegorz Kulig": [
         100
       ],
       "Krystian. K": []
@@ -2962,15 +2962,15 @@
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Group 2",
     "player1": "Jarek",
-    "player2": "Tomek. P",
+    "player2": "Tomasz Pilecki",
     "score": "3:2",
     "high_finishes_count": {
       "Jarek": 0,
-      "Tomek. P": 0
+      "Tomasz Pilecki": 0
     },
     "high_finishes": {
       "Jarek": [],
-      "Tomek. P": []
+      "Tomasz Pilecki": []
     }
   },
   {
@@ -2978,16 +2978,16 @@
     "tournament": "Szerszeń Cup IV",
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Group 3",
-    "player1": "Waldemar",
-    "player2": "Mateusz",
+    "player1": "Waldemar Kopacz",
+    "player2": "Mateusz Pięta",
     "score": "3:1",
     "high_finishes_count": {
-      "Waldemar": 0,
-      "Mateusz": 0
+      "Waldemar Kopacz": 0,
+      "Mateusz Pięta": 0
     },
     "high_finishes": {
-      "Waldemar": [],
-      "Mateusz": []
+      "Waldemar Kopacz": [],
+      "Mateusz Pięta": []
     }
   },
   {
@@ -2995,16 +2995,16 @@
     "tournament": "Szerszeń Cup IV",
     "category": "szerszen_cup",
     "title": "Tomi Dart Club 4 z 4 Szerszeń Cup Group 1",
-    "player1": "Leszek",
-    "player2": "Daniel",
+    "player1": "Leszek Puchowski",
+    "player2": "Daniel Czernecki",
     "score": "3:2",
     "high_finishes_count": {
-      "Leszek": 0,
-      "Daniel": 0
+      "Leszek Puchowski": 0,
+      "Daniel Czernecki": 0
     },
     "high_finishes": {
-      "Leszek": [],
-      "Daniel": []
+      "Leszek Puchowski": [],
+      "Daniel Czernecki": []
     }
   },
   {
@@ -7359,16 +7359,16 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 3/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 3/10 3rd place match",
-    "player1": "Mariusz O",
-    "player2": "Adrian",
+    "player1": "Mariusz Olchawa",
+    "player2": "Adrian Ochel",
     "score": "1:4",
     "high_finishes_count": {
-      "Mariusz O": 0,
-      "Adrian": 0
+      "Mariusz Olchawa": 0,
+      "Adrian Ochel": 0
     },
     "high_finishes": {
-      "Mariusz O": [],
-      "Adrian": []
+      "Mariusz Olchawa": [],
+      "Adrian Ochel": []
     }
   },
   {
@@ -7376,16 +7376,16 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 3/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 3/10 Final",
-    "player1": "Mateusz",
-    "player2": "Waldemar",
+    "player1": "Mateusz Pięta",
+    "player2": "Waldemar Kopacz",
     "score": "3:4",
     "high_finishes_count": {
-      "Mateusz": 0,
-      "Waldemar": 0
+      "Mateusz Pięta": 0,
+      "Waldemar Kopacz": 0
     },
     "high_finishes": {
-      "Mateusz": [],
-      "Waldemar": []
+      "Mateusz Pięta": [],
+      "Waldemar Kopacz": []
     }
   },
   {
@@ -7393,16 +7393,16 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 3/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 3/10 Semi-final",
-    "player1": "Mateusz",
-    "player2": "Mariusz O",
+    "player1": "Mateusz Pięta",
+    "player2": "Mariusz Olchawa",
     "score": "4:3",
     "high_finishes_count": {
-      "Mateusz": 0,
-      "Mariusz O": 0
+      "Mateusz Pięta": 0,
+      "Mariusz Olchawa": 0
     },
     "high_finishes": {
-      "Mateusz": [],
-      "Mariusz O": []
+      "Mateusz Pięta": [],
+      "Mariusz Olchawa": []
     }
   },
   {
@@ -7410,16 +7410,16 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 3/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 3/10 Semi-final",
-    "player1": "Adrian",
-    "player2": "Waldemar",
+    "player1": "Adrian Ochel",
+    "player2": "Waldemar Kopacz",
     "score": "1:4",
     "high_finishes_count": {
-      "Adrian": 0,
-      "Waldemar": 0
+      "Adrian Ochel": 0,
+      "Waldemar Kopacz": 0
     },
     "high_finishes": {
-      "Adrian": [],
-      "Waldemar": []
+      "Adrian Ochel": [],
+      "Waldemar Kopacz": []
     }
   },
   {
@@ -7427,15 +7427,15 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 3/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 3/10 Top 8",
-    "player1": "Mateusz",
+    "player1": "Mateusz Pięta",
     "player2": "Tomi",
     "score": "4:1",
     "high_finishes_count": {
-      "Mateusz": 0,
+      "Mateusz Pięta": 0,
       "Tomi": 0
     },
     "high_finishes": {
-      "Mateusz": [],
+      "Mateusz Pięta": [],
       "Tomi": []
     }
   },
@@ -7445,15 +7445,15 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 3/10 Top 8",
     "player1": "Tomek P",
-    "player2": "Mariusz O",
+    "player2": "Mariusz Olchawa",
     "score": "2:4",
     "high_finishes_count": {
       "Tomek P": 0,
-      "Mariusz O": 0
+      "Mariusz Olchawa": 0
     },
     "high_finishes": {
       "Tomek P": [],
-      "Mariusz O": []
+      "Mariusz Olchawa": []
     }
   },
   {
@@ -7461,15 +7461,15 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 3/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 3/10 Top 8",
-    "player1": "Adrian",
+    "player1": "Adrian Ochel",
     "player2": "Tomek R",
     "score": "4:3",
     "high_finishes_count": {
-      "Adrian": 0,
+      "Adrian Ochel": 0,
       "Tomek R": 0
     },
     "high_finishes": {
-      "Adrian": [],
+      "Adrian Ochel": [],
       "Tomek R": []
     }
   },
@@ -7478,15 +7478,15 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 3/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 3/10 Top 8",
-    "player1": "Waldemar",
+    "player1": "Waldemar Kopacz",
     "player2": "Maciek",
     "score": "4:0",
     "high_finishes_count": {
-      "Waldemar": 0,
+      "Waldemar Kopacz": 0,
       "Maciek": 0
     },
     "high_finishes": {
-      "Waldemar": [],
+      "Waldemar Kopacz": [],
       "Maciek": []
     }
   },
@@ -7495,16 +7495,16 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 3/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 3/10 Group 1",
-    "player1": "Mateusz",
-    "player2": "Mariusz O",
+    "player1": "Mateusz Pięta",
+    "player2": "Mariusz Olchawa",
     "score": "3:1",
     "high_finishes_count": {
-      "Mateusz": 0,
-      "Mariusz O": 0
+      "Mateusz Pięta": 0,
+      "Mariusz Olchawa": 0
     },
     "high_finishes": {
-      "Mateusz": [],
-      "Mariusz O": []
+      "Mateusz Pięta": [],
+      "Mariusz Olchawa": []
     }
   },
   {
@@ -7512,15 +7512,15 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 3/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 3/10 Group 1",
-    "player1": "Waldemar",
+    "player1": "Waldemar Kopacz",
     "player2": "Tomek R",
     "score": "3:0",
     "high_finishes_count": {
-      "Waldemar": 0,
+      "Waldemar Kopacz": 0,
       "Tomek R": 0
     },
     "high_finishes": {
-      "Waldemar": [],
+      "Waldemar Kopacz": [],
       "Tomek R": []
     }
   },
@@ -7529,15 +7529,15 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 3/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 3/10 Group 1",
-    "player1": "Mateusz",
+    "player1": "Mateusz Pięta",
     "player2": "Tomek R",
     "score": "3:1",
     "high_finishes_count": {
-      "Mateusz": 0,
+      "Mateusz Pięta": 0,
       "Tomek R": 0
     },
     "high_finishes": {
-      "Mateusz": [],
+      "Mateusz Pięta": [],
       "Tomek R": []
     }
   },
@@ -7546,15 +7546,15 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 3/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 3/10 Group 2",
-    "player1": "Adrian",
+    "player1": "Adrian Ochel",
     "player2": "Krystian S",
     "score": "3:1",
     "high_finishes_count": {
-      "Adrian": 0,
+      "Adrian Ochel": 0,
       "Krystian S": 0
     },
     "high_finishes": {
-      "Adrian": [],
+      "Adrian Ochel": [],
       "Krystian S": []
     }
   },
@@ -7563,15 +7563,15 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 3/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 3/10 Group 1",
-    "player1": "Waldemar",
+    "player1": "Waldemar Kopacz",
     "player2": "Szymon P",
     "score": "3:2",
     "high_finishes_count": {
-      "Waldemar": 0,
+      "Waldemar Kopacz": 0,
       "Szymon P": 0
     },
     "high_finishes": {
-      "Waldemar": [],
+      "Waldemar Kopacz": [],
       "Szymon P": []
     }
   },
@@ -7598,15 +7598,15 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 3/10 Group 2",
     "player1": "Maciek",
-    "player2": "Adrian",
+    "player2": "Adrian Ochel",
     "score": "0:3",
     "high_finishes_count": {
       "Maciek": 0,
-      "Adrian": 0
+      "Adrian Ochel": 0
     },
     "high_finishes": {
       "Maciek": [],
-      "Adrian": []
+      "Adrian Ochel": []
     }
   },
   {
@@ -7614,15 +7614,15 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 3/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 3/10 Group 1",
-    "player1": "Mateusz",
+    "player1": "Mateusz Pięta",
     "player2": "Szymon P",
     "score": "3:0",
     "high_finishes_count": {
-      "Mateusz": 0,
+      "Mateusz Pięta": 0,
       "Szymon P": 0
     },
     "high_finishes": {
-      "Mateusz": [],
+      "Mateusz Pięta": [],
       "Szymon P": []
     }
   },
@@ -7631,15 +7631,15 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 3/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 3/10 Group 1",
-    "player1": "Mariusz O",
+    "player1": "Mariusz Olchawa",
     "player2": "Tomek R",
     "score": "3:2",
     "high_finishes_count": {
-      "Mariusz O": 0,
+      "Mariusz Olchawa": 0,
       "Tomek R": 0
     },
     "high_finishes": {
-      "Mariusz O": [],
+      "Mariusz Olchawa": [],
       "Tomek R": []
     }
   },
@@ -7685,15 +7685,15 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 3/10 Group 2",
     "player1": "Tomi",
-    "player2": "Adrian",
+    "player2": "Adrian Ochel",
     "score": "2:3",
     "high_finishes_count": {
       "Tomi": 0,
-      "Adrian": 0
+      "Adrian Ochel": 0
     },
     "high_finishes": {
       "Tomi": [],
-      "Adrian": []
+      "Adrian Ochel": []
     }
   },
   {
@@ -7718,16 +7718,16 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 3/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 3/10 Group 1",
-    "player1": "Waldemar",
-    "player2": "Mariusz O",
+    "player1": "Waldemar Kopacz",
+    "player2": "Mariusz Olchawa",
     "score": "3:2",
     "high_finishes_count": {
-      "Waldemar": 0,
-      "Mariusz O": 0
+      "Waldemar Kopacz": 0,
+      "Mariusz Olchawa": 0
     },
     "high_finishes": {
-      "Waldemar": [],
-      "Mariusz O": []
+      "Waldemar Kopacz": [],
+      "Mariusz Olchawa": []
     }
   },
   {
@@ -7752,15 +7752,15 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 3/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 3/10 Group 2",
-    "player1": "Adrian",
+    "player1": "Adrian Ochel",
     "player2": "Tomek P",
     "score": "3:0",
     "high_finishes_count": {
-      "Adrian": 0,
+      "Adrian Ochel": 0,
       "Tomek P": 0
     },
     "high_finishes": {
-      "Adrian": [],
+      "Adrian Ochel": [],
       "Tomek P": []
     }
   },
@@ -7769,15 +7769,15 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 3/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 3/10 Group 1",
-    "player1": "Mariusz O",
+    "player1": "Mariusz Olchawa",
     "player2": "Szymon P",
     "score": "3:1",
     "high_finishes_count": {
-      "Mariusz O": 1,
+      "Mariusz Olchawa": 1,
       "Szymon P": 0
     },
     "high_finishes": {
-      "Mariusz O": [
+      "Mariusz Olchawa": [
         102
       ],
       "Szymon P": []
@@ -7788,16 +7788,16 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 3/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 3/10 Group 1",
-    "player1": "Waldemar",
-    "player2": "Mateusz",
+    "player1": "Waldemar Kopacz",
+    "player2": "Mateusz Pięta",
     "score": "1:3",
     "high_finishes_count": {
-      "Waldemar": 0,
-      "Mateusz": 0
+      "Waldemar Kopacz": 0,
+      "Mateusz Pięta": 0
     },
     "high_finishes": {
-      "Waldemar": [],
-      "Mateusz": []
+      "Waldemar Kopacz": [],
+      "Mateusz Pięta": []
     }
   },
   {
@@ -10483,15 +10483,15 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Final",
-    "player1": "Mateusz",
+    "player1": "Mateusz Pięta",
     "player2": "Jarek",
     "score": "3:1",
     "high_finishes_count": {
-      "Mateusz": 0,
+      "Mateusz Pięta": 0,
       "Jarek": 0
     },
     "high_finishes": {
-      "Mateusz": [],
+      "Mateusz Pięta": [],
       "Jarek": []
     }
   },
@@ -10500,15 +10500,15 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 3rd place match",
-    "player1": "Waldemar",
+    "player1": "Waldemar Kopacz",
     "player2": "Tomi",
     "score": "3:1",
     "high_finishes_count": {
-      "Waldemar": 0,
+      "Waldemar Kopacz": 0,
       "Tomi": 0
     },
     "high_finishes": {
-      "Waldemar": [],
+      "Waldemar Kopacz": [],
       "Tomi": []
     }
   },
@@ -10534,16 +10534,16 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Semi-final",
-    "player1": "Mateusz",
-    "player2": "Waldemar",
+    "player1": "Mateusz Pięta",
+    "player2": "Waldemar Kopacz",
     "score": "3:2",
     "high_finishes_count": {
-      "Mateusz": 0,
-      "Waldemar": 0
+      "Mateusz Pięta": 0,
+      "Waldemar Kopacz": 0
     },
     "high_finishes": {
-      "Mateusz": [],
-      "Waldemar": []
+      "Mateusz Pięta": [],
+      "Waldemar Kopacz": []
     }
   },
   {
@@ -10551,15 +10551,15 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Top 8",
-    "player1": "Julian",
+    "player1": "Julian Samek",
     "player2": "Jarek",
     "score": "0:3",
     "high_finishes_count": {
-      "Julian": 0,
+      "Julian Samek": 0,
       "Jarek": 0
     },
     "high_finishes": {
-      "Julian": [],
+      "Julian Samek": [],
       "Jarek": []
     }
   },
@@ -10568,15 +10568,15 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Top 8",
-    "player1": "Mateusz",
+    "player1": "Mateusz Pięta",
     "player2": "Wiktor",
     "score": "3:1",
     "high_finishes_count": {
-      "Mateusz": 0,
+      "Mateusz Pięta": 0,
       "Wiktor": 0
     },
     "high_finishes": {
-      "Mateusz": [],
+      "Mateusz Pięta": [],
       "Wiktor": []
     }
   },
@@ -10585,16 +10585,16 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Top 8",
-    "player1": "Waldemar",
-    "player2": "Hubert",
+    "player1": "Waldemar Kopacz",
+    "player2": "Hubert Sułek",
     "score": "3:0",
     "high_finishes_count": {
-      "Waldemar": 0,
-      "Hubert": 0
+      "Waldemar Kopacz": 0,
+      "Hubert Sułek": 0
     },
     "high_finishes": {
-      "Waldemar": [],
-      "Hubert": []
+      "Waldemar Kopacz": [],
+      "Hubert Sułek": []
     }
   },
   {
@@ -10603,15 +10603,15 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Top 8",
     "player1": "Tomi",
-    "player2": "Mariusz O",
+    "player2": "Mariusz Olchawa",
     "score": "3:2",
     "high_finishes_count": {
       "Tomi": 0,
-      "Mariusz O": 0
+      "Mariusz Olchawa": 0
     },
     "high_finishes": {
       "Tomi": [],
-      "Mariusz O": []
+      "Mariusz Olchawa": []
     }
   },
   {
@@ -10619,15 +10619,15 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Top 16",
-    "player1": "Adrian",
+    "player1": "Adrian Ochel",
     "player2": "Jarek",
     "score": "2:3",
     "high_finishes_count": {
-      "Adrian": 0,
+      "Adrian Ochel": 0,
       "Jarek": 0
     },
     "high_finishes": {
-      "Adrian": [],
+      "Adrian Ochel": [],
       "Jarek": []
     }
   },
@@ -10636,15 +10636,15 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Top 16",
-    "player1": "Julian",
+    "player1": "Julian Samek",
     "player2": "Krystian K",
     "score": "3:1",
     "high_finishes_count": {
-      "Julian": 0,
+      "Julian Samek": 0,
       "Krystian K": 0
     },
     "high_finishes": {
-      "Julian": [],
+      "Julian Samek": [],
       "Krystian K": []
     }
   },
@@ -10670,16 +10670,16 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Top 16",
-    "player1": "Franek",
-    "player2": "Mariusz O",
+    "player1": "Franciszek Kukiełka",
+    "player2": "Mariusz Olchawa",
     "score": "1:3",
     "high_finishes_count": {
-      "Franek": 0,
-      "Mariusz O": 0
+      "Franciszek Kukiełka": 0,
+      "Mariusz Olchawa": 0
     },
     "high_finishes": {
-      "Franek": [],
-      "Mariusz O": []
+      "Franciszek Kukiełka": [],
+      "Mariusz Olchawa": []
     }
   },
   {
@@ -10687,16 +10687,16 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Top 16",
-    "player1": "Mateusz",
-    "player2": "Leszek",
+    "player1": "Mateusz Pięta",
+    "player2": "Leszek Puchowski",
     "score": "3:2",
     "high_finishes_count": {
-      "Mateusz": 0,
-      "Leszek": 0
+      "Mateusz Pięta": 0,
+      "Leszek Puchowski": 0
     },
     "high_finishes": {
-      "Mateusz": [],
-      "Leszek": []
+      "Mateusz Pięta": [],
+      "Leszek Puchowski": []
     }
   },
   {
@@ -10721,15 +10721,15 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Top 16",
-    "player1": "Waldemar",
+    "player1": "Waldemar Kopacz",
     "player2": "Michał K",
     "score": "3:0",
     "high_finishes_count": {
-      "Waldemar": 0,
+      "Waldemar Kopacz": 0,
       "Michał K": 0
     },
     "high_finishes": {
-      "Waldemar": [],
+      "Waldemar Kopacz": [],
       "Michał K": []
     }
   },
@@ -10738,16 +10738,16 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Top 16",
-    "player1": "Piotrek",
-    "player2": "Hubert",
+    "player1": "Piotr Gryga",
+    "player2": "Hubert Sułek",
     "score": "0:3",
     "high_finishes_count": {
-      "Piotrek": 0,
-      "Hubert": 0
+      "Piotr Gryga": 0,
+      "Hubert Sułek": 0
     },
     "high_finishes": {
-      "Piotrek": [],
-      "Hubert": []
+      "Piotr Gryga": [],
+      "Hubert Sułek": []
     }
   },
   {
@@ -10772,15 +10772,15 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Group 4",
-    "player1": "Waldemar",
+    "player1": "Waldemar Kopacz",
     "player2": "Wojtek",
     "score": "3:0",
     "high_finishes_count": {
-      "Waldemar": 1,
+      "Waldemar Kopacz": 1,
       "Wojtek": 0
     },
     "high_finishes": {
-      "Waldemar": [
+      "Waldemar Kopacz": [
         118
       ],
       "Wojtek": []
@@ -10791,16 +10791,16 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Group 1",
-    "player1": "Franek",
-    "player2": "Mateusz",
+    "player1": "Franciszek Kukiełka",
+    "player2": "Mateusz Pięta",
     "score": "1:3",
     "high_finishes_count": {
-      "Franek": 0,
-      "Mateusz": 0
+      "Franciszek Kukiełka": 0,
+      "Mateusz Pięta": 0
     },
     "high_finishes": {
-      "Franek": [],
-      "Mateusz": []
+      "Franciszek Kukiełka": [],
+      "Mateusz Pięta": []
     }
   },
   {
@@ -10809,15 +10809,15 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Group 2",
     "player1": "Tomek Miedziany",
-    "player2": "Mariusz O",
+    "player2": "Mariusz Olchawa",
     "score": "3:0",
     "high_finishes_count": {
       "Tomek Miedziany": 0,
-      "Mariusz O": 0
+      "Mariusz Olchawa": 0
     },
     "high_finishes": {
       "Tomek Miedziany": [],
-      "Mariusz O": []
+      "Mariusz Olchawa": []
     }
   },
   {
@@ -10826,15 +10826,15 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Group 5",
     "player1": "Jarek",
-    "player2": "Leszek",
+    "player2": "Leszek Puchowski",
     "score": "1:3",
     "high_finishes_count": {
       "Jarek": 0,
-      "Leszek": 1
+      "Leszek Puchowski": 1
     },
     "high_finishes": {
       "Jarek": [],
-      "Leszek": [
+      "Leszek Puchowski": [
         122
       ]
     }
@@ -10879,15 +10879,15 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Group 1",
     "player1": "Krystian S",
-    "player2": "Franek",
+    "player2": "Franciszek Kukiełka",
     "score": "0:3",
     "high_finishes_count": {
       "Krystian S": 0,
-      "Franek": 0
+      "Franciszek Kukiełka": 0
     },
     "high_finishes": {
       "Krystian S": [],
-      "Franek": []
+      "Franciszek Kukiełka": []
     }
   },
   {
@@ -10895,16 +10895,16 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Group 1",
-    "player1": "Hubert",
-    "player2": "Mateusz",
+    "player1": "Hubert Sułek",
+    "player2": "Mateusz Pięta",
     "score": "0:3",
     "high_finishes_count": {
-      "Hubert": 0,
-      "Mateusz": 0
+      "Hubert Sułek": 0,
+      "Mateusz Pięta": 0
     },
     "high_finishes": {
-      "Hubert": [],
-      "Mateusz": []
+      "Hubert Sułek": [],
+      "Mateusz Pięta": []
     }
   },
   {
@@ -10913,15 +10913,15 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Group 5",
     "player1": "Krystian K",
-    "player2": "Piotrek",
+    "player2": "Piotr Gryga",
     "score": "0:3",
     "high_finishes_count": {
       "Krystian K": 0,
-      "Piotrek": 0
+      "Piotr Gryga": 0
     },
     "high_finishes": {
       "Krystian K": [],
-      "Piotrek": []
+      "Piotr Gryga": []
     }
   },
   {
@@ -10929,16 +10929,16 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Group 2",
-    "player1": "Julian",
-    "player2": "Mariusz O",
+    "player1": "Julian Samek",
+    "player2": "Mariusz Olchawa",
     "score": "3:1",
     "high_finishes_count": {
-      "Julian": 0,
-      "Mariusz O": 0
+      "Julian Samek": 0,
+      "Mariusz Olchawa": 0
     },
     "high_finishes": {
-      "Julian": [],
-      "Mariusz O": []
+      "Julian Samek": [],
+      "Mariusz Olchawa": []
     }
   },
   {
@@ -10963,15 +10963,15 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Group 1",
-    "player1": "Franek",
+    "player1": "Franciszek Kukiełka",
     "player2": "Tomek P",
     "score": "3:2",
     "high_finishes_count": {
-      "Franek": 0,
+      "Franciszek Kukiełka": 0,
       "Tomek P": 0
     },
     "high_finishes": {
-      "Franek": [],
+      "Franciszek Kukiełka": [],
       "Tomek P": []
     }
   },
@@ -10980,15 +10980,15 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Group 2",
-    "player1": "Julian",
+    "player1": "Julian Samek",
     "player2": "Kasia",
     "score": "3:1",
     "high_finishes_count": {
-      "Julian": 0,
+      "Julian Samek": 0,
       "Kasia": 0
     },
     "high_finishes": {
-      "Julian": [],
+      "Julian Samek": [],
       "Kasia": []
     }
   },
@@ -11015,15 +11015,15 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Group 5",
     "player1": "Jarek",
-    "player2": "Piotrek",
+    "player2": "Piotr Gryga",
     "score": "3:1",
     "high_finishes_count": {
       "Jarek": 0,
-      "Piotrek": 0
+      "Piotr Gryga": 0
     },
     "high_finishes": {
       "Jarek": [],
-      "Piotrek": []
+      "Piotr Gryga": []
     }
   },
   {
@@ -11031,16 +11031,16 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Group 4",
-    "player1": "Roman",
-    "player2": "Adrian",
+    "player1": "Roman Flasza",
+    "player2": "Adrian Ochel",
     "score": "2:3",
     "high_finishes_count": {
-      "Roman": 0,
-      "Adrian": 0
+      "Roman Flasza": 0,
+      "Adrian Ochel": 0
     },
     "high_finishes": {
-      "Roman": [],
-      "Adrian": []
+      "Roman Flasza": [],
+      "Adrian Ochel": []
     }
   },
   {
@@ -11048,16 +11048,16 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Group 1",
-    "player1": "Hubert",
-    "player2": "Franek",
+    "player1": "Hubert Sułek",
+    "player2": "Franciszek Kukiełka",
     "score": "2:3",
     "high_finishes_count": {
-      "Hubert": 0,
-      "Franek": 0
+      "Hubert Sułek": 0,
+      "Franciszek Kukiełka": 0
     },
     "high_finishes": {
-      "Hubert": [],
-      "Franek": []
+      "Hubert Sułek": [],
+      "Franciszek Kukiełka": []
     }
   },
   {
@@ -11066,15 +11066,15 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Group 2",
     "player1": "Tomek G",
-    "player2": "Mariusz O",
+    "player2": "Mariusz Olchawa",
     "score": "1:3",
     "high_finishes_count": {
       "Tomek G": 0,
-      "Mariusz O": 0
+      "Mariusz Olchawa": 0
     },
     "high_finishes": {
       "Tomek G": [],
-      "Mariusz O": []
+      "Mariusz Olchawa": []
     }
   },
   {
@@ -11082,16 +11082,16 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Group 4",
-    "player1": "Waldemar",
-    "player2": "Adrian",
+    "player1": "Waldemar Kopacz",
+    "player2": "Adrian Ochel",
     "score": "3:1",
     "high_finishes_count": {
-      "Waldemar": 0,
-      "Adrian": 0
+      "Waldemar Kopacz": 0,
+      "Adrian Ochel": 0
     },
     "high_finishes": {
-      "Waldemar": [],
-      "Adrian": []
+      "Waldemar Kopacz": [],
+      "Adrian Ochel": []
     }
   },
   {
@@ -11117,15 +11117,15 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Group 5",
     "player1": "Krystian K",
-    "player2": "Leszek",
+    "player2": "Leszek Puchowski",
     "score": "3:2",
     "high_finishes_count": {
       "Krystian K": 0,
-      "Leszek": 0
+      "Leszek Puchowski": 0
     },
     "high_finishes": {
       "Krystian K": [],
-      "Leszek": []
+      "Leszek Puchowski": []
     }
   },
   {
@@ -11134,15 +11134,15 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Group 1",
     "player1": "Krystian S",
-    "player2": "Mateusz",
+    "player2": "Mateusz Pięta",
     "score": "1:3",
     "high_finishes_count": {
       "Krystian S": 0,
-      "Mateusz": 0
+      "Mateusz Pięta": 0
     },
     "high_finishes": {
       "Krystian S": [],
-      "Mateusz": []
+      "Mateusz Pięta": []
     }
   },
   {
@@ -11184,15 +11184,15 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Group 4",
-    "player1": "Roman",
+    "player1": "Roman Flasza",
     "player2": "Wojtek",
     "score": "2:3",
     "high_finishes_count": {
-      "Roman": 0,
+      "Roman Flasza": 0,
       "Wojtek": 0
     },
     "high_finishes": {
-      "Roman": [],
+      "Roman Flasza": [],
       "Wojtek": []
     }
   },
@@ -11201,15 +11201,15 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Group 2",
-    "player1": "Julian",
+    "player1": "Julian Samek",
     "player2": "Tomek Miedziany",
     "score": "3:0",
     "high_finishes_count": {
-      "Julian": 0,
+      "Julian Samek": 0,
       "Tomek Miedziany": 0
     },
     "high_finishes": {
-      "Julian": [],
+      "Julian Samek": [],
       "Tomek Miedziany": []
     }
   },
@@ -11218,15 +11218,15 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Group 1",
-    "player1": "Mateusz",
+    "player1": "Mateusz Pięta",
     "player2": "Tomek P",
     "score": "3:1",
     "high_finishes_count": {
-      "Mateusz": 0,
+      "Mateusz Pięta": 0,
       "Tomek P": 0
     },
     "high_finishes": {
-      "Mateusz": [],
+      "Mateusz Pięta": [],
       "Tomek P": []
     }
   },
@@ -11235,16 +11235,16 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Group 5",
-    "player1": "Leszek",
-    "player2": "Piotrek",
+    "player1": "Leszek Puchowski",
+    "player2": "Piotr Gryga",
     "score": "2:3",
     "high_finishes_count": {
-      "Leszek": 0,
-      "Piotrek": 0
+      "Leszek Puchowski": 0,
+      "Piotr Gryga": 0
     },
     "high_finishes": {
-      "Leszek": [],
-      "Piotrek": []
+      "Leszek Puchowski": [],
+      "Piotr Gryga": []
     }
   },
   {
@@ -11253,15 +11253,15 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Group 4",
     "player1": "Wojtek",
-    "player2": "Adrian",
+    "player2": "Adrian Ochel",
     "score": "0:3",
     "high_finishes_count": {
       "Wojtek": 0,
-      "Adrian": 0
+      "Adrian Ochel": 0
     },
     "high_finishes": {
       "Wojtek": [],
-      "Adrian": []
+      "Adrian Ochel": []
     }
   },
   {
@@ -11286,15 +11286,15 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Group 1",
-    "player1": "Hubert",
+    "player1": "Hubert Sułek",
     "player2": "Tomek P",
     "score": "3:1",
     "high_finishes_count": {
-      "Hubert": 0,
+      "Hubert Sułek": 0,
       "Tomek P": 0
     },
     "high_finishes": {
-      "Hubert": [],
+      "Hubert Sułek": [],
       "Tomek P": []
     }
   },
@@ -11304,15 +11304,15 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Group 2",
     "player1": "Kasia",
-    "player2": "Mariusz O",
+    "player2": "Mariusz Olchawa",
     "score": "0:3",
     "high_finishes_count": {
       "Kasia": 0,
-      "Mariusz O": 0
+      "Mariusz Olchawa": 0
     },
     "high_finishes": {
       "Kasia": [],
-      "Mariusz O": []
+      "Mariusz Olchawa": []
     }
   },
   {
@@ -11337,15 +11337,15 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Group 2",
-    "player1": "Julian",
+    "player1": "Julian Samek",
     "player2": "Tomek G",
     "score": "3:0",
     "high_finishes_count": {
-      "Julian": 0,
+      "Julian Samek": 0,
       "Tomek G": 0
     },
     "high_finishes": {
-      "Julian": [],
+      "Julian Samek": [],
       "Tomek G": []
     }
   },
@@ -11354,15 +11354,15 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Group 1",
-    "player1": "Hubert",
+    "player1": "Hubert Sułek",
     "player2": "Krystian S",
     "score": "3:0",
     "high_finishes_count": {
-      "Hubert": 0,
+      "Hubert Sułek": 0,
       "Krystian S": 0
     },
     "high_finishes": {
-      "Hubert": [],
+      "Hubert Sułek": [],
       "Krystian S": []
     }
   },
@@ -11388,16 +11388,16 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 8/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 8/10 Group 4",
-    "player1": "Roman",
-    "player2": "Waldemar",
+    "player1": "Roman Flasza",
+    "player2": "Waldemar Kopacz",
     "score": "1:3",
     "high_finishes_count": {
-      "Roman": 0,
-      "Waldemar": 0
+      "Roman Flasza": 0,
+      "Waldemar Kopacz": 0
     },
     "high_finishes": {
-      "Roman": [],
-      "Waldemar": []
+      "Roman Flasza": [],
+      "Waldemar Kopacz": []
     }
   },
   {
@@ -11405,15 +11405,15 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 9/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 3rd place match",
-    "player1": "Waldemar",
+    "player1": "Waldemar Kopacz",
     "player2": "Jarek",
     "score": "3:1",
     "high_finishes_count": {
-      "Waldemar": 0,
+      "Waldemar Kopacz": 0,
       "Jarek": 0
     },
     "high_finishes": {
-      "Waldemar": [],
+      "Waldemar Kopacz": [],
       "Jarek": []
     }
   },
@@ -11422,15 +11422,15 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 9/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Final",
-    "player1": "Piotrek",
+    "player1": "Piotr Gryga",
     "player2": "Lipka",
     "score": "4:0",
     "high_finishes_count": {
-      "Piotrek": 0,
+      "Piotr Gryga": 0,
       "Lipka": 0
     },
     "high_finishes": {
-      "Piotrek": [],
+      "Piotr Gryga": [],
       "Lipka": []
     }
   },
@@ -11439,16 +11439,16 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 9/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Semi-final",
-    "player1": "Waldemar",
-    "player2": "Piotrek",
+    "player1": "Waldemar Kopacz",
+    "player2": "Piotr Gryga",
     "score": "2:3",
     "high_finishes_count": {
-      "Waldemar": 0,
-      "Piotrek": 0
+      "Waldemar Kopacz": 0,
+      "Piotr Gryga": 0
     },
     "high_finishes": {
-      "Waldemar": [],
-      "Piotrek": []
+      "Waldemar Kopacz": [],
+      "Piotr Gryga": []
     }
   },
   {
@@ -11473,16 +11473,16 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 9/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Top 8",
-    "player1": "Waldemar",
-    "player2": "Adrian",
+    "player1": "Waldemar Kopacz",
+    "player2": "Adrian Ochel",
     "score": "3:0",
     "high_finishes_count": {
-      "Waldemar": 0,
-      "Adrian": 0
+      "Waldemar Kopacz": 0,
+      "Adrian Ochel": 0
     },
     "high_finishes": {
-      "Waldemar": [],
-      "Adrian": []
+      "Waldemar Kopacz": [],
+      "Adrian Ochel": []
     }
   },
   {
@@ -11507,16 +11507,16 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 9/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Top 8",
-    "player1": "Mateusz",
-    "player2": "Piotrek",
+    "player1": "Mateusz Pięta",
+    "player2": "Piotr Gryga",
     "score": "1:3",
     "high_finishes_count": {
-      "Mateusz": 0,
-      "Piotrek": 0
+      "Mateusz Pięta": 0,
+      "Piotr Gryga": 0
     },
     "high_finishes": {
-      "Mateusz": [],
-      "Piotrek": []
+      "Mateusz Pięta": [],
+      "Piotr Gryga": []
     }
   },
   {
@@ -11524,15 +11524,15 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 9/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Top 8",
-    "player1": "Miedziany",
+    "player1": "Tomasz Krzysztof",
     "player2": "Lipka",
     "score": "1:3",
     "high_finishes_count": {
-      "Miedziany": 0,
+      "Tomasz Krzysztof": 0,
       "Lipka": 0
     },
     "high_finishes": {
-      "Miedziany": [],
+      "Tomasz Krzysztof": [],
       "Lipka": []
     }
   },
@@ -11541,16 +11541,16 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 9/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Group 2",
-    "player1": "Piotrek",
-    "player2": "Tomasz P",
+    "player1": "Piotr Gryga",
+    "player2": "Tomasz Pilecki",
     "score": "3:1",
     "high_finishes_count": {
-      "Piotrek": 0,
-      "Tomasz P": 0
+      "Piotr Gryga": 0,
+      "Tomasz Pilecki": 0
     },
     "high_finishes": {
-      "Piotrek": [],
-      "Tomasz P": []
+      "Piotr Gryga": [],
+      "Tomasz Pilecki": []
     }
   },
   {
@@ -11577,16 +11577,16 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 9/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Group 3",
-    "player1": "Roman",
-    "player2": "Adrian",
+    "player1": "Roman Flasza",
+    "player2": "Adrian Ochel",
     "score": "0:3",
     "high_finishes_count": {
-      "Roman": 0,
-      "Adrian": 0
+      "Roman Flasza": 0,
+      "Adrian Ochel": 0
     },
     "high_finishes": {
-      "Roman": [],
-      "Adrian": []
+      "Roman Flasza": [],
+      "Adrian Ochel": []
     }
   },
   {
@@ -11594,15 +11594,15 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 9/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Group 2",
-    "player1": "Piotrek",
+    "player1": "Piotr Gryga",
     "player2": "Jarek",
     "score": "0:3",
     "high_finishes_count": {
-      "Piotrek": 0,
+      "Piotr Gryga": 0,
       "Jarek": 0
     },
     "high_finishes": {
-      "Piotrek": [],
+      "Piotr Gryga": [],
       "Jarek": []
     }
   },
@@ -11628,15 +11628,15 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 9/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Group 3",
-    "player1": "Miedziany",
+    "player1": "Tomasz Krzysztof",
     "player2": "Paweł Cefal",
     "score": "3:2",
     "high_finishes_count": {
-      "Miedziany": 0,
+      "Tomasz Krzysztof": 0,
       "Paweł Cefal": 0
     },
     "high_finishes": {
-      "Miedziany": [],
+      "Tomasz Krzysztof": [],
       "Paweł Cefal": []
     }
   },
@@ -11645,15 +11645,15 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 9/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Group 4",
-    "player1": "Mateusz",
+    "player1": "Mateusz Pięta",
     "player2": "Wojtek",
     "score": "3:1",
     "high_finishes_count": {
-      "Mateusz": 0,
+      "Mateusz Pięta": 0,
       "Wojtek": 0
     },
     "high_finishes": {
-      "Mateusz": [],
+      "Mateusz Pięta": [],
       "Wojtek": []
     }
   },
@@ -11680,15 +11680,15 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Group 1",
     "player1": "Krystian Sułek",
-    "player2": "Mariusz O",
+    "player2": "Mariusz Olchawa",
     "score": "1:3",
     "high_finishes_count": {
       "Krystian Sułek": 0,
-      "Mariusz O": 0
+      "Mariusz Olchawa": 0
     },
     "high_finishes": {
       "Krystian Sułek": [],
-      "Mariusz O": []
+      "Mariusz Olchawa": []
     }
   },
   {
@@ -11696,15 +11696,15 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 9/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Group 1",
-    "player1": "Waldemar",
+    "player1": "Waldemar Kopacz",
     "player2": "Tomi",
     "score": "3:0",
     "high_finishes_count": {
-      "Waldemar": 0,
+      "Waldemar Kopacz": 0,
       "Tomi": 0
     },
     "high_finishes": {
-      "Waldemar": [],
+      "Waldemar Kopacz": [],
       "Tomi": []
     }
   },
@@ -11713,15 +11713,15 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 9/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Group 4",
-    "player1": "Hubert",
+    "player1": "Hubert Sułek",
     "player2": "Dominik Cierniak",
     "score": "3:0",
     "high_finishes_count": {
-      "Hubert": 0,
+      "Hubert Sułek": 0,
       "Dominik Cierniak": 0
     },
     "high_finishes": {
-      "Hubert": [],
+      "Hubert Sułek": [],
       "Dominik Cierniak": []
     }
   },
@@ -11731,15 +11731,15 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Group 2",
     "player1": "Maciek B",
-    "player2": "Tomasz P",
+    "player2": "Tomasz Pilecki",
     "score": "0:3",
     "high_finishes_count": {
       "Maciek B": 0,
-      "Tomasz P": 0
+      "Tomasz Pilecki": 0
     },
     "high_finishes": {
       "Maciek B": [],
-      "Tomasz P": []
+      "Tomasz Pilecki": []
     }
   },
   {
@@ -11764,15 +11764,15 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 9/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Group 3",
-    "player1": "Roman",
+    "player1": "Roman Flasza",
     "player2": "Paweł Cefal",
     "score": "0:3",
     "high_finishes_count": {
-      "Roman": 0,
+      "Roman Flasza": 0,
       "Paweł Cefal": 0
     },
     "high_finishes": {
-      "Roman": [],
+      "Roman Flasza": [],
       "Paweł Cefal": []
     }
   },
@@ -11781,15 +11781,15 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 9/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Group 2",
-    "player1": "Piotrek",
+    "player1": "Piotr Gryga",
     "player2": "Krystian Krzywy",
     "score": "3:2",
     "high_finishes_count": {
-      "Piotrek": 0,
+      "Piotr Gryga": 0,
       "Krystian Krzywy": 0
     },
     "high_finishes": {
-      "Piotrek": [],
+      "Piotr Gryga": [],
       "Krystian Krzywy": []
     }
   },
@@ -11798,15 +11798,15 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 9/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Group 4",
-    "player1": "Mateusz",
+    "player1": "Mateusz Pięta",
     "player2": "Dominik Cierniak",
     "score": "3:0",
     "high_finishes_count": {
-      "Mateusz": 0,
+      "Mateusz Pięta": 0,
       "Dominik Cierniak": 0
     },
     "high_finishes": {
-      "Mateusz": [],
+      "Mateusz Pięta": [],
       "Dominik Cierniak": []
     }
   },
@@ -11815,16 +11815,16 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 9/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Group 1",
-    "player1": "Waldemar",
-    "player2": "Mariusz O",
+    "player1": "Waldemar Kopacz",
+    "player2": "Mariusz Olchawa",
     "score": "3:1",
     "high_finishes_count": {
-      "Waldemar": 0,
-      "Mariusz O": 0
+      "Waldemar Kopacz": 0,
+      "Mariusz Olchawa": 0
     },
     "high_finishes": {
-      "Waldemar": [],
-      "Mariusz O": []
+      "Waldemar Kopacz": [],
+      "Mariusz Olchawa": []
     }
   },
   {
@@ -11849,16 +11849,16 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 9/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Group 3",
-    "player1": "Miedziany",
-    "player2": "Adrian",
+    "player1": "Tomasz Krzysztof",
+    "player2": "Adrian Ochel",
     "score": "3:2",
     "high_finishes_count": {
-      "Miedziany": 0,
-      "Adrian": 0
+      "Tomasz Krzysztof": 0,
+      "Adrian Ochel": 0
     },
     "high_finishes": {
-      "Miedziany": [],
-      "Adrian": []
+      "Tomasz Krzysztof": [],
+      "Adrian Ochel": []
     }
   },
   {
@@ -11883,15 +11883,15 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 9/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Group 4",
-    "player1": "Hubert",
+    "player1": "Hubert Sułek",
     "player2": "Wojtek",
     "score": "2:3",
     "high_finishes_count": {
-      "Hubert": 0,
+      "Hubert Sułek": 0,
       "Wojtek": 0
     },
     "high_finishes": {
-      "Hubert": [],
+      "Hubert Sułek": [],
       "Wojtek": []
     }
   },
@@ -11901,15 +11901,15 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Group 1",
     "player1": "Lipka",
-    "player2": "Mariusz O",
+    "player2": "Mariusz Olchawa",
     "score": "1:3",
     "high_finishes_count": {
       "Lipka": 0,
-      "Mariusz O": 0
+      "Mariusz Olchawa": 0
     },
     "high_finishes": {
       "Lipka": [],
-      "Mariusz O": []
+      "Mariusz Olchawa": []
     }
   },
   {
@@ -11917,16 +11917,16 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 9/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Group 4",
-    "player1": "Hubert",
-    "player2": "Mateusz",
+    "player1": "Hubert Sułek",
+    "player2": "Mateusz Pięta",
     "score": "1:3",
     "high_finishes_count": {
-      "Hubert": 0,
-      "Mateusz": 0
+      "Hubert Sułek": 0,
+      "Mateusz Pięta": 0
     },
     "high_finishes": {
-      "Hubert": [],
-      "Mateusz": []
+      "Hubert Sułek": [],
+      "Mateusz Pięta": []
     }
   },
   {
@@ -11935,15 +11935,15 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Group 2",
     "player1": "Maciek B",
-    "player2": "Piotrek",
+    "player2": "Piotr Gryga",
     "score": "0:3",
     "high_finishes_count": {
       "Maciek B": 0,
-      "Piotrek": 0
+      "Piotr Gryga": 0
     },
     "high_finishes": {
       "Maciek B": [],
-      "Piotrek": []
+      "Piotr Gryga": []
     }
   },
   {
@@ -11951,15 +11951,15 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 9/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Group 1",
-    "player1": "Waldemar",
+    "player1": "Waldemar Kopacz",
     "player2": "Krystian Sułek",
     "score": "3:0",
     "high_finishes_count": {
-      "Waldemar": 0,
+      "Waldemar Kopacz": 0,
       "Krystian Sułek": 0
     },
     "high_finishes": {
-      "Waldemar": [],
+      "Waldemar Kopacz": [],
       "Krystian Sułek": []
     }
   },
@@ -11968,18 +11968,18 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 9/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Group 3",
-    "player1": "Miedziany",
-    "player2": "Roman",
+    "player1": "Tomasz Krzysztof",
+    "player2": "Roman Flasza",
     "score": "3:1",
     "high_finishes_count": {
-      "Miedziany": 1,
-      "Roman": 0
+      "Tomasz Krzysztof": 1,
+      "Roman Flasza": 0
     },
     "high_finishes": {
-      "Miedziany": [
+      "Tomasz Krzysztof": [
         130
       ],
-      "Roman": []
+      "Roman Flasza": []
     }
   },
   {
@@ -11988,15 +11988,15 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Group 2",
     "player1": "Jarek",
-    "player2": "Tomasz P",
+    "player2": "Tomasz Pilecki",
     "score": "3:2",
     "high_finishes_count": {
       "Jarek": 0,
-      "Tomasz P": 0
+      "Tomasz Pilecki": 0
     },
     "high_finishes": {
       "Jarek": [],
-      "Tomasz P": []
+      "Tomasz Pilecki": []
     }
   },
   {
@@ -12004,15 +12004,15 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 9/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Group 1",
-    "player1": "Waldemar",
+    "player1": "Waldemar Kopacz",
     "player2": "Lipka",
     "score": "3:1",
     "high_finishes_count": {
-      "Waldemar": 0,
+      "Waldemar Kopacz": 0,
       "Lipka": 0
     },
     "high_finishes": {
-      "Waldemar": [],
+      "Waldemar Kopacz": [],
       "Lipka": []
     }
   },
@@ -12021,15 +12021,15 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 9/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Group 1",
-    "player1": "Mariusz O",
+    "player1": "Mariusz Olchawa",
     "player2": "Tomi",
     "score": "0:3",
     "high_finishes_count": {
-      "Mariusz O": 0,
+      "Mariusz Olchawa": 0,
       "Tomi": 0
     },
     "high_finishes": {
-      "Mariusz O": [],
+      "Mariusz Olchawa": [],
       "Tomi": []
     }
   },
@@ -12039,15 +12039,15 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Group 2",
     "player1": "Krystian Krzywy",
-    "player2": "Tomasz P",
+    "player2": "Tomasz Pilecki",
     "score": "1:3",
     "high_finishes_count": {
       "Krystian Krzywy": 0,
-      "Tomasz P": 0
+      "Tomasz Pilecki": 0
     },
     "high_finishes": {
       "Krystian Krzywy": [],
-      "Tomasz P": []
+      "Tomasz Pilecki": []
     }
   },
   {
@@ -12072,15 +12072,15 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 9/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 9/10 Group 3",
-    "player1": "Adrian",
+    "player1": "Adrian Ochel",
     "player2": "Paweł Cefal",
     "score": "3:0",
     "high_finishes_count": {
-      "Adrian": 0,
+      "Adrian Ochel": 0,
       "Paweł Cefal": 0
     },
     "high_finishes": {
-      "Adrian": [],
+      "Adrian Ochel": [],
       "Paweł Cefal": []
     }
   },
