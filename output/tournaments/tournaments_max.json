@@ -5,15 +5,15 @@
     "category": "szerszen_cup",
     "title": "Tomi Dart Club Wiosna 2026 Szerszeń Cup 1/4 3rd place match",
     "player1": "Hubert Sułek",
-    "player2": "Krzysztof Tomasz",
+    "player2": "Tomi Tomasz",
     "score": "3:2",
     "max_count": {
       "Hubert Sułek": 0,
-      "Krzysztof Tomasz": 0
+      "Tomi Tomasz": 0
     },
     "maxes": {
       "Hubert Sułek": [],
-      "Krzysztof Tomasz": []
+      "Tomi Tomasz": []
     }
   },
   {
@@ -41,15 +41,15 @@
     "category": "szerszen_cup",
     "title": "Tomi Dart Club Wiosna 2026 Szerszeń Cup 1/4 Semi-final",
     "player1": "Mariusz Augustynek",
-    "player2": "Krzysztof Tomasz",
+    "player2": "Tomi Tomasz",
     "score": "3:1",
     "max_count": {
       "Mariusz Augustynek": 0,
-      "Krzysztof Tomasz": 0
+      "Tomi Tomasz": 0
     },
     "maxes": {
       "Mariusz Augustynek": [],
-      "Krzysztof Tomasz": []
+      "Tomi Tomasz": []
     }
   },
   {
@@ -75,17 +75,17 @@
     "category": "szerszen_cup",
     "title": "Tomi Dart Club Wiosna 2026 Szerszeń Cup 1/4 Top 8",
     "player1": "Łukasz Konieczny",
-    "player2": "Krzysztof Tomasz",
+    "player2": "Tomi Tomasz",
     "score": "2:3",
     "max_count": {
       "Łukasz Konieczny": 1,
-      "Krzysztof Tomasz": 0
+      "Tomi Tomasz": 0
     },
     "maxes": {
       "Łukasz Konieczny": [
         180
       ],
-      "Krzysztof Tomasz": []
+      "Tomi Tomasz": []
     }
   },
   {
@@ -162,15 +162,15 @@
     "category": "szerszen_cup",
     "title": "Tomi Dart Club Wiosna 2026 Szerszeń Cup 1/4 Top 16",
     "player1": "Jarosław Gryga",
-    "player2": "Krzysztof Tomasz",
+    "player2": "Tomi Tomasz",
     "score": "2:3",
     "max_count": {
       "Jarosław Gryga": 0,
-      "Krzysztof Tomasz": 0
+      "Tomi Tomasz": 0
     },
     "maxes": {
       "Jarosław Gryga": [],
-      "Krzysztof Tomasz": []
+      "Tomi Tomasz": []
     }
   },
   {
@@ -247,15 +247,15 @@
     "category": "szerszen_cup",
     "title": "Tomi Dart Club Wiosna 2026 Szerszeń Cup 1/4 Group 2",
     "player1": "Szymon Put",
-    "player2": "Krzysztof Tomasz",
+    "player2": "Tomi Tomasz",
     "score": "0:3",
     "max_count": {
       "Szymon Put": 0,
-      "Krzysztof Tomasz": 0
+      "Tomi Tomasz": 0
     },
     "maxes": {
       "Szymon Put": [],
-      "Krzysztof Tomasz": []
+      "Tomi Tomasz": []
     }
   },
   {
@@ -402,15 +402,15 @@
     "category": "szerszen_cup",
     "title": "Tomi Dart Club Wiosna 2026 Szerszeń Cup 1/4 Group 2",
     "player1": "Witek Guła",
-    "player2": "Krzysztof Tomasz",
+    "player2": "Tomi Tomasz",
     "score": "2:3",
     "max_count": {
       "Witek Guła": 0,
-      "Krzysztof Tomasz": 0
+      "Tomi Tomasz": 0
     },
     "maxes": {
       "Witek Guła": [],
-      "Krzysztof Tomasz": []
+      "Tomi Tomasz": []
     }
   },
   {
@@ -657,15 +657,15 @@
     "category": "szerszen_cup",
     "title": "Tomi Dart Club Wiosna 2026 Szerszeń Cup 1/4 Group 2",
     "player1": "Krystian Sułek",
-    "player2": "Krzysztof Tomasz",
+    "player2": "Tomi Tomasz",
     "score": "0:3",
     "max_count": {
       "Krystian Sułek": 0,
-      "Krzysztof Tomasz": 0
+      "Tomi Tomasz": 0
     },
     "maxes": {
       "Krystian Sułek": [],
-      "Krzysztof Tomasz": []
+      "Tomi Tomasz": []
     }
   },
   {
@@ -948,15 +948,15 @@
     "category": "szerszen_cup",
     "title": "Tomi Dart Club Wiosna 2026 Szerszeń Cup 1/4 Group 2",
     "player1": "Mateusz Pięta",
-    "player2": "Krzysztof Tomasz",
+    "player2": "Tomi Tomasz",
     "score": "3:1",
     "max_count": {
       "Mateusz Pięta": 0,
-      "Krzysztof Tomasz": 0
+      "Tomi Tomasz": 0
     },
     "maxes": {
       "Mateusz Pięta": [],
-      "Krzysztof Tomasz": []
+      "Tomi Tomasz": []
     }
   },
   {
@@ -3034,15 +3034,15 @@
     "tournament": "Superpuchar Klubu 1z4",
     "category": "superpuchar",
     "title": "Tomi Dart Club Wiosna 2026 Superpuchar Klubu 1z4 Final",
-    "player1": "Tomek Krzysztof Miedziany",
+    "player1": "Tomasz Krzysztof",
     "player2": "Krystian Sułek",
     "score": "4:3",
     "max_count": {
-      "Tomek Krzysztof Miedziany": 1,
+      "Tomasz Krzysztof": 1,
       "Krystian Sułek": 0
     },
     "maxes": {
-      "Tomek Krzysztof Miedziany": [
+      "Tomasz Krzysztof": [
         180
       ],
       "Krystian Sułek": []
@@ -3087,15 +3087,15 @@
     "tournament": "Superpuchar Klubu 1z4",
     "category": "superpuchar",
     "title": "Tomi Dart Club Wiosna 2026 Superpuchar Klubu 1z4 Semi-final",
-    "player1": "Tomek Krzysztof Miedziany",
+    "player1": "Tomasz Krzysztof",
     "player2": "Waldemar Kopacz",
     "score": "4:1",
     "max_count": {
-      "Tomek Krzysztof Miedziany": 0,
+      "Tomasz Krzysztof": 0,
       "Waldemar Kopacz": 0
     },
     "maxes": {
-      "Tomek Krzysztof Miedziany": [],
+      "Tomasz Krzysztof": [],
       "Waldemar Kopacz": []
     }
   },
@@ -3121,15 +3121,15 @@
     "tournament": "Superpuchar Klubu 1z4",
     "category": "superpuchar",
     "title": "Tomi Dart Club Wiosna 2026 Superpuchar Klubu 1z4 Top 8",
-    "player1": "Tomek Krzysztof Miedziany",
+    "player1": "Tomasz Krzysztof",
     "player2": "Piotr Gryga",
     "score": "4:2",
     "max_count": {
-      "Tomek Krzysztof Miedziany": 0,
+      "Tomasz Krzysztof": 0,
       "Piotr Gryga": 0
     },
     "maxes": {
-      "Tomek Krzysztof Miedziany": [],
+      "Tomasz Krzysztof": [],
       "Piotr Gryga": []
     }
   },
@@ -3175,15 +3175,15 @@
     "category": "superpuchar",
     "title": "Tomi Dart Club Wiosna 2026 Superpuchar Klubu 1z4 Group 1",
     "player1": "Tomasz Pilecki",
-    "player2": "Tomek Krzysztof Miedziany",
+    "player2": "Tomasz Krzysztof",
     "score": "1:4",
     "max_count": {
       "Tomasz Pilecki": 0,
-      "Tomek Krzysztof Miedziany": 0
+      "Tomasz Krzysztof": 0
     },
     "maxes": {
       "Tomasz Pilecki": [],
-      "Tomek Krzysztof Miedziany": []
+      "Tomasz Krzysztof": []
     }
   },
   {
@@ -3413,15 +3413,15 @@
     "category": "superpuchar",
     "title": "Tomi Dart Club Wiosna 2026 Superpuchar Klubu 1z4 Group 1",
     "player1": "Daniel Czernecki",
-    "player2": "Tomek Krzysztof Miedziany",
+    "player2": "Tomasz Krzysztof",
     "score": "3:4",
     "max_count": {
       "Daniel Czernecki": 0,
-      "Tomek Krzysztof Miedziany": 0
+      "Tomasz Krzysztof": 0
     },
     "maxes": {
       "Daniel Czernecki": [],
-      "Tomek Krzysztof Miedziany": []
+      "Tomasz Krzysztof": []
     }
   },
   {
@@ -3497,15 +3497,15 @@
     "tournament": "Superpuchar Klubu 1z4",
     "category": "superpuchar",
     "title": "Tomi Dart Club Wiosna 2026 Superpuchar Klubu 1z4 Group 1",
-    "player1": "Tomek Krzysztof Miedziany",
+    "player1": "Tomasz Krzysztof",
     "player2": "Krystian Krzywy",
     "score": "4:2",
     "max_count": {
-      "Tomek Krzysztof Miedziany": 0,
+      "Tomasz Krzysztof": 0,
       "Krystian Krzywy": 0
     },
     "maxes": {
-      "Tomek Krzysztof Miedziany": [],
+      "Tomasz Krzysztof": [],
       "Krystian Krzywy": []
     }
   },
@@ -8071,15 +8071,15 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 4/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 4/10 Group 2",
-    "player1": "Krzysztof Tomasz",
+    "player1": "Tomi Tomasz",
     "player2": "Jarosław Gryga",
     "score": "3:2",
     "max_count": {
-      "Krzysztof Tomasz": 0,
+      "Tomi Tomasz": 0,
       "Jarosław Gryga": 0
     },
     "maxes": {
-      "Krzysztof Tomasz": [],
+      "Tomi Tomasz": [],
       "Jarosław Gryga": []
     }
   },
@@ -8176,15 +8176,15 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 4/10 Group 2",
     "player1": "Krystian Sułek",
-    "player2": "Krzysztof Tomasz",
+    "player2": "Tomi Tomasz",
     "score": "2:3",
     "max_count": {
       "Krystian Sułek": 0,
-      "Krzysztof Tomasz": 0
+      "Tomi Tomasz": 0
     },
     "maxes": {
       "Krystian Sułek": [],
-      "Krzysztof Tomasz": []
+      "Tomi Tomasz": []
     }
   },
   {
@@ -8279,15 +8279,15 @@
     "tournament": "Tomi Dart Club Wiosna 2026 Open 4/10",
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 4/10 Group 2",
-    "player1": "Krzysztof Tomasz",
+    "player1": "Tomi Tomasz",
     "player2": "Daniel Czernecki",
     "score": "1:3",
     "max_count": {
-      "Krzysztof Tomasz": 0,
+      "Tomi Tomasz": 0,
       "Daniel Czernecki": 0
     },
     "maxes": {
-      "Krzysztof Tomasz": [],
+      "Tomi Tomasz": [],
       "Daniel Czernecki": []
     }
   },
@@ -8386,15 +8386,15 @@
     "category": "open",
     "title": "Tomi Dart Club Wiosna 2026 Open 4/10 Group 2",
     "player1": "Julian Samek",
-    "player2": "Krzysztof Tomasz",
+    "player2": "Tomi Tomasz",
     "score": "3:2",
     "max_count": {
       "Julian Samek": 0,
-      "Krzysztof Tomasz": 0
+      "Tomi Tomasz": 0
     },
     "maxes": {
       "Julian Samek": [],
-      "Krzysztof Tomasz": []
+      "Tomi Tomasz": []
     }
   },
   {
