@@ -108,7 +108,12 @@
 </section>
 
 <div class="container mt-4">
-    <h1>🏆 Liga Wiosna 2026</h1>
+    <h1 id="league-title">🏆 Liga</h1>
+
+    <div class="d-flex justify-content-center align-items-center mb-4">
+        <label for="season-select" class="me-2 fw-bold">🗓️ Sezon:</label>
+        <select id="season-select" class="form-select form-select-sm w-auto"></select>
+    </div>
 
     <ul class="nav nav-tabs justify-content-center mb-4" id="leagueTabs" role="tablist">
         <li class="nav-item" role="presentation">
@@ -125,7 +130,7 @@
     <div class="tab-content" id="leagueTabContent">
         <div class="tab-pane fade show active" id="liga1" role="tabpanel">
             <div class="text-center mb-4">
-                <a href="https://n01darts.com/n01/tournament/comp.php?id=t_L01x_7216" target="_blank" rel="noopener" class="btn btn-warning fw-bold">
+                <a id="liga1-nakka-link" href="#" target="_blank" rel="noopener" class="btn btn-warning fw-bold">
                     🏆 I Liga na Nakka ↗
                 </a>
             </div>
@@ -134,7 +139,7 @@
         </div>
         <div class="tab-pane fade" id="liga2" role="tabpanel">
             <div class="text-center mb-4">
-                <a href="https://n01darts.com/n01/tournament/comp.php?id=t_2y14_1402" target="_blank" rel="noopener" class="btn btn-info fw-bold">
+                <a id="liga2-nakka-link" href="#" target="_blank" rel="noopener" class="btn btn-info fw-bold">
                     🏆 II Liga na Nakka ↗
                 </a>
             </div>
@@ -143,10 +148,10 @@
         </div>
         <div class="tab-pane fade" id="all" role="tabpanel">
             <div class="text-center mb-4">
-                <a href="https://n01darts.com/n01/tournament/comp.php?id=t_L01x_7216" target="_blank" rel="noopener" class="btn btn-warning fw-bold me-2">
+                <a id="all-liga1-nakka-link" href="#" target="_blank" rel="noopener" class="btn btn-warning fw-bold me-2">
                     🏆 I Liga na Nakka
                 </a>
-                <a href="https://n01darts.com/n01/tournament/comp.php?id=t_2y14_1402" target="_blank" rel="noopener" class="btn btn-info fw-bold">
+                <a id="all-liga2-nakka-link" href="#" target="_blank" rel="noopener" class="btn btn-info fw-bold">
                     🏆 II Liga na Nakka
                 </a>
             </div>
@@ -271,14 +276,14 @@ function buildLeagueHTML(prefix, containerId) {
     `;
 }
 
-function loadLeague(prefix, containerId) {
+function loadLeague(prefix, containerId, seasonId) {
     buildLeagueHTML(prefix, containerId);
 
     return Promise.all([
-        fetch(`output/${prefix}/${prefix}_max.json`).then(r=>r.json()),
-        fetch(`output/${prefix}/${prefix}_high_finishes.json`).then(r=>r.json()),
-        fetch(`output/${prefix}/${prefix}_fast_legs.json`).then(r=>r.json()),
-        fetch(`output/${prefix}/${prefix}_high_scores.json`).then(r=>r.json())
+        fetch(`output/seasons/${seasonId}/${prefix}/${prefix}_max.json`).then(r=>r.json()),
+        fetch(`output/seasons/${seasonId}/${prefix}/${prefix}_high_finishes.json`).then(r=>r.json()),
+        fetch(`output/seasons/${seasonId}/${prefix}/${prefix}_fast_legs.json`).then(r=>r.json()),
+        fetch(`output/seasons/${seasonId}/${prefix}/${prefix}_high_scores.json`).then(r=>r.json())
     ]).then(([maxData, highData, fastData, scoresData]) => {
         const maxStats={}, highStats={}, fastStats={}, scoresStats={};
         const allMatches=new Map();
@@ -379,11 +384,27 @@ function loadLeague(prefix, containerId) {
     });
 }
 
-// Ładuj I & II Liga
-Promise.all([
-    loadLeague('liga1', 'liga1-content'),
-    loadLeague('liga2', 'liga2-content')
-]).then(([data1, data2]) => {
+// Ładuj listę sezonów i uruchom aktywny sezon
+let seasonsManifest = [];
+
+function updateNakkaLinks(season) {
+    const l1 = season.liga1_tid ? `https://n01darts.com/n01/tournament/comp.php?id=${season.liga1_tid}` : '#';
+    const l2 = season.liga2_tid ? `https://n01darts.com/n01/tournament/comp.php?id=${season.liga2_tid}` : '#';
+    ['liga1-nakka-link', 'all-liga1-nakka-link'].forEach(id => document.getElementById(id).href = l1);
+    ['liga2-nakka-link', 'all-liga2-nakka-link'].forEach(id => document.getElementById(id).href = l2);
+}
+
+function loadSeason(seasonId) {
+    const season = seasonsManifest.find(s => s.id === seasonId);
+    if (!season) return;
+
+    document.getElementById('league-title').textContent = `🏆 Liga ${season.label}`;
+    updateNakkaLinks(season);
+
+    Promise.all([
+        loadLeague('liga1', 'liga1-content', seasonId),
+        loadLeague('liga2', 'liga2-content', seasonId)
+    ]).then(([data1, data2]) => {
     // I & II Liga — łączne statystyki
     buildLeagueHTML('all', 'all-content');
 
@@ -487,7 +508,26 @@ Promise.all([
     document.getElementById(`${p}-all-matches`).textContent=`Mecze (I & II Liga): ${mergedMatchIDs.size}`;
     document.getElementById(`${p}-all-tricks`).textContent=`Suma wybryków: ${tricksRows.reduce((a,b)=>a+b.total,0)}`;
 
-}).catch(err => console.error('Błąd:', err));
+    }).catch(err => console.error('Błąd:', err));
+}
+
+fetch('output/seasons.json').then(r => r.json()).then(seasons => {
+    seasonsManifest = seasons;
+    const select = document.getElementById('season-select');
+    select.innerHTML = '';
+    seasons.forEach(s => {
+        const opt = document.createElement('option');
+        opt.value = s.id;
+        opt.textContent = s.label + (s.active ? ' (aktualny)' : ' (archiwum)');
+        select.appendChild(opt);
+    });
+
+    const active = seasons.find(s => s.active) || seasons[0];
+    select.value = active.id;
+    loadSeason(active.id);
+
+    select.addEventListener('change', () => loadSeason(select.value));
+}).catch(err => console.error('Błąd ładowania listy sezonów:', err));
 </script>
 
 <!-- LATAJĄCY SZERSZEŃ 🐝 -->

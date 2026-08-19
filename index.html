@@ -523,14 +523,19 @@
 </script>
 
 <script>
-Promise.all([
-    fetch('output/liga1/liga1_max.json').then(r=>r.json()),
-    fetch('output/liga2/liga2_max.json').then(r=>r.json()),
-    fetch('output/liga1/liga1_high_finishes.json').then(r=>r.json()),
-    fetch('output/liga2/liga2_high_finishes.json').then(r=>r.json()),
-    fetch('output/liga1/liga1_fast_legs.json').then(r=>r.json()),
-    fetch('output/liga2/liga2_fast_legs.json').then(r=>r.json())
-]).then(([max1, max2, high1, high2, fast1, fast2]) => {
+fetch('output/seasons.json').then(r=>r.json()).then(seasons => {
+    const active = seasons.find(s => s.active) || seasons[0];
+    const sid = active.id;
+
+    return Promise.all([
+        fetch(`output/seasons/${sid}/liga1/liga1_max.json`).then(r=>r.json()),
+        fetch(`output/seasons/${sid}/liga2/liga2_max.json`).then(r=>r.json()),
+        fetch(`output/seasons/${sid}/liga1/liga1_high_finishes.json`).then(r=>r.json()),
+        fetch(`output/seasons/${sid}/liga2/liga2_high_finishes.json`).then(r=>r.json()),
+        fetch(`output/seasons/${sid}/liga1/liga1_fast_legs.json`).then(r=>r.json()),
+        fetch(`output/seasons/${sid}/liga2/liga2_fast_legs.json`).then(r=>r.json())
+    ]);
+}).then(([max1, max2, high1, high2, fast1, fast2]) => {
     const allPlayers = new Set();
     const allMatchIDs = new Set();
     let total180 = 0;
