@@ -99,7 +99,7 @@
         <div class="container py-5">
             <img src="sponsors/logo.png" alt="Tomi Dart Club Logo" class="hero-logo">
             <h1 class="display-3 fw-bold">🎯 Tomi Dart Club 🎯</h1>
-            <p class="lead fs-4">Liga Wiosna 2026</p>
+            <p class="lead fs-4" id="hero-season-label">Liga</p>
              <div class="d-flex justify-content-center gap-4 mt-4 flex-wrap">
                 <a href="liga.html" class="btn btn-warning btn-lg fw-bold px-5 py-3 hero-btn">🏆 Statystyki ligowe</a>
                 <span class="hero-separator d-none d-md-flex align-items-center text-muted">|</span>
@@ -160,8 +160,8 @@
 
 <!-- SZYBKIE STATYSTYKI -->
 <section class="container my-5">
-    <h2 class="section-title">📊 Statystyki sezonu Wiosna 2026</h2>
-    <div class="row g-4 text-center justify-content-center">
+    <h2 class="section-title" id="stats-season-title">📊 Statystyki sezonu</h2>
+    <div class="row g-4 text-center justify-content-center" id="stats-content">
         <div class="col-6 col-md-4">
             <div class="stat-card">
                 <div class="stat-number" id="stat-players">-</div>
@@ -527,6 +527,9 @@ fetch('output/seasons.json').then(r=>r.json()).then(seasons => {
     const active = seasons.find(s => s.active) || seasons[0];
     const sid = active.id;
 
+    document.getElementById('hero-season-label').textContent = `Liga ${active.label}`;
+    document.getElementById('stats-season-title').textContent = `📊 Statystyki sezonu ${active.label}`;
+
     return Promise.all([
         fetch(`output/seasons/${sid}/liga1/liga1_max.json`).then(r=>r.json()),
         fetch(`output/seasons/${sid}/liga2/liga2_max.json`).then(r=>r.json()),
@@ -534,8 +537,8 @@ fetch('output/seasons.json').then(r=>r.json()).then(seasons => {
         fetch(`output/seasons/${sid}/liga2/liga2_high_finishes.json`).then(r=>r.json()),
         fetch(`output/seasons/${sid}/liga1/liga1_fast_legs.json`).then(r=>r.json()),
         fetch(`output/seasons/${sid}/liga2/liga2_fast_legs.json`).then(r=>r.json())
-    ]);
-}).then(([max1, max2, high1, high2, fast1, fast2]) => {
+    ]).then(results => [results, active]);
+}).then(([[max1, max2, high1, high2, fast1, fast2], active]) => {
     const allPlayers = new Set();
     const allMatchIDs = new Set();
     let total180 = 0;
@@ -575,6 +578,17 @@ fetch('output/seasons.json').then(r=>r.json()).then(seasons => {
             }
         });
     });
+
+    if (allMatchIDs.size === 0) {
+        document.getElementById('stats-content').innerHTML = `
+            <div class="col-12">
+                <div class="stat-card">
+                    <p class="mb-0">🗓️ Sezon ${active.label} jeszcze się nie rozpoczął — statystyki pojawią się tutaj po pierwszych rozegranych meczach.</p>
+                </div>
+            </div>
+        `;
+        return;
+    }
 
     document.getElementById('stat-players').textContent = allPlayers.size;
     document.getElementById('stat-matches').textContent = allMatchIDs.size;
