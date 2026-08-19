@@ -1,0 +1,16 @@
+[
+  {
+    "id": "jesien2026",
+    "label": "Jesień 2026",
+    "active": true,
+    "liga1_tid": null,
+    "liga2_tid": null
+  },
+  {
+    "id": "wiosna2026",
+    "label": "Wiosna 2026",
+    "active": false,
+    "liga1_tid": "t_L01x_7216",
+    "liga2_tid": "t_2y14_1402"
+  }
+]
