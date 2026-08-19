@@ -22,8 +22,10 @@ def load_active_season():
 
 TOURNAMENTS_BY_SEASON = {
     "jesien2026": [
-        # ← dopisuj tu turnieje nowego sezonu, np.:
-        # {"name": "Szerszeń Cup I", "tournament_id": "t_XXXX", "category": "szerszen_cup"},
+        # ← wpisz tournament_id, gdy turniej zostanie utworzony na Nakce, i odkomentuj.
+        # {"name": "Szerszeń Cup 1/4 — Jesień 2026", "tournament_id": "t_XXXX", "category": "szerszen_cup"},
+        # {"name": "Open 1/10 — Jesień 2026", "tournament_id": "t_XXXX", "category": "open"},
+        # {"name": "Superpuchar Klubu 1/4 — Jesień 2026", "tournament_id": "t_XXXX", "category": "superpuchar"},
     ],
 
     "wiosna2026": [
