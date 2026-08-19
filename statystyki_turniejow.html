@@ -72,7 +72,12 @@
 </section>
 
 <div class="container mt-4">
-    <h1>📊 Statystyki Turniejowe — Wiosna 2026</h1>
+    <h1 id="tournaments-title">📊 Statystyki Turniejowe</h1>
+
+    <div class="d-flex justify-content-center align-items-center mb-4">
+        <label for="season-select" class="me-2 fw-bold">🗓️ Sezon:</label>
+        <select id="season-select" class="form-select form-select-sm w-auto"></select>
+    </div>
 
     <ul class="nav nav-tabs justify-content-center mb-4" id="tournamentTabs" role="tablist">
         <li class="nav-item" role="presentation">
@@ -380,20 +385,44 @@ function renderTournamentStats(prefix, containerId, maxData, highData, fastData,
 }
 
 // ============================================================
-// ŁADUJ RAZ — renderuj dla wszystkich zakładek
+// ŁADUJ SEZON WYBRANY W DROPDOWNIE
 // ============================================================
 
-Promise.all([
-    fetch('output/tournaments/tournaments_max.json').then(r=>r.json()),
-    fetch('output/tournaments/tournaments_high_finishes.json').then(r=>r.json()),
-    fetch('output/tournaments/tournaments_fast_legs.json').then(r=>r.json()),
-    fetch('output/tournaments/tournaments_high_scores.json').then(r=>r.json())
-]).then(([maxData, highData, fastData, scoresData]) => {
-    renderTournamentStats('all',         'all-content',         maxData, highData, fastData, scoresData, null);
-    renderTournamentStats('szerszen',    'szerszen-content',    maxData, highData, fastData, scoresData, 'szerszen_cup');
-    renderTournamentStats('superpuchar', 'superpuchar-content', maxData, highData, fastData, scoresData, 'superpuchar');
-    renderTournamentStats('open',        'open-content',        maxData, highData, fastData, scoresData, 'open');
-}).catch(err => console.error('Błąd ładowania danych turniejów:', err));
+function loadSeasonTournaments(seasonId, seasonLabel) {
+    document.getElementById('tournaments-title').textContent = `📊 Statystyki Turniejowe — ${seasonLabel}`;
+
+    Promise.all([
+        fetch(`output/seasons/${seasonId}/tournaments/tournaments_max.json`).then(r=>r.json()),
+        fetch(`output/seasons/${seasonId}/tournaments/tournaments_high_finishes.json`).then(r=>r.json()),
+        fetch(`output/seasons/${seasonId}/tournaments/tournaments_fast_legs.json`).then(r=>r.json()),
+        fetch(`output/seasons/${seasonId}/tournaments/tournaments_high_scores.json`).then(r=>r.json())
+    ]).then(([maxData, highData, fastData, scoresData]) => {
+        renderTournamentStats('all',         'all-content',         maxData, highData, fastData, scoresData, null);
+        renderTournamentStats('szerszen',    'szerszen-content',    maxData, highData, fastData, scoresData, 'szerszen_cup');
+        renderTournamentStats('superpuchar', 'superpuchar-content', maxData, highData, fastData, scoresData, 'superpuchar');
+        renderTournamentStats('open',        'open-content',        maxData, highData, fastData, scoresData, 'open');
+    }).catch(err => console.error('Błąd ładowania danych turniejów:', err));
+}
+
+fetch('output/seasons.json').then(r => r.json()).then(seasons => {
+    const select = document.getElementById('season-select');
+    select.innerHTML = '';
+    seasons.forEach(s => {
+        const opt = document.createElement('option');
+        opt.value = s.id;
+        opt.textContent = s.label + (s.active ? ' (aktualny)' : ' (archiwum)');
+        select.appendChild(opt);
+    });
+
+    const active = seasons.find(s => s.active) || seasons[0];
+    select.value = active.id;
+    loadSeasonTournaments(active.id, active.label);
+
+    select.addEventListener('change', () => {
+        const season = seasons.find(s => s.id === select.value);
+        loadSeasonTournaments(season.id, season.label);
+    });
+}).catch(err => console.error('Błąd ładowania listy sezonów:', err));
 </script>
 
 </body>
