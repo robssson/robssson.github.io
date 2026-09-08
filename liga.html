@@ -282,11 +282,27 @@ function loadLeague(prefix, containerId, seasonId) {
         const maxStats={}, highStats={}, fastStats={}, scoresStats={};
         const allMatches=new Map();
         const allMatchIDs=new Set();
+        const playerGroup={};
         let totalMax=0, totalHigh=0, totalFast=0, totalScores=0;
+
+        function recordGroup(m) {
+            if(!m.group) return;
+            [m.player1, m.player2].forEach(p => {
+                if(!p) return;
+                if(!playerGroup[p]) playerGroup[p]=new Set();
+                playerGroup[p].add(m.group);
+            });
+        }
+
+        function groupBadge(player) {
+            const groups = playerGroup[player] ? [...playerGroup[player]].sort() : [];
+            return groups.map(g => `<span class="badge ${g==='A' ? 'bg-warning text-dark' : 'bg-info text-dark'} ms-1">Grupa ${g}</span>`).join('');
+        }
 
         // MAXY
         maxData.forEach(m => {
             allMatchIDs.add(m.tmid);
+            recordGroup(m);
             for(const [p,list] of Object.entries(m.maxes||{})) {
                 if(!maxStats[p]) maxStats[p]=[];
                 maxStats[p].push(...list); totalMax+=list.length;
@@ -368,13 +384,13 @@ function loadLeague(prefix, containerId, seasonId) {
         });
         tricksRows.sort((a,b)=>b.total-a.total);
         const tricksBody=document.getElementById(`${prefix}-tricks-body`);
-        const buildTrick=r=>`<td>${r.player}</td><td>${r.matches}</td><td>${r.total}</td><td>${r.max}</td><td>${r.score170}</td><td>${r.high}</td><td>${r.fast}</td>`;
+        const buildTrick=r=>`<td>${r.player}${groupBadge(r.player)}</td><td>${r.matches}</td><td>${r.total}</td><td>${r.max}</td><td>${r.score170}</td><td>${r.high}</td><td>${r.fast}</td>`;
         colorizeTop3(tricksBody,tricksRows,buildTrick);
         makeSortable(`${prefix}-tricks-table`,tricksRows,()=>colorizeTop3(tricksBody,tricksRows,buildTrick));
         document.getElementById(`${prefix}-all-matches`).textContent=`Mecze: ${allMatchIDs.size}`;
         document.getElementById(`${prefix}-all-tricks`).textContent=`Suma wybryków: ${tricksRows.reduce((a,b)=>a+b.total,0)}`;
 
-        return { maxStats, highStats, fastStats, scoresStats, allMatches, allMatchIDs };
+        return { maxStats, highStats, fastStats, scoresStats, allMatches, allMatchIDs, playerGroup };
     });
 }
 
@@ -482,7 +498,8 @@ function loadSeason(seasonId) {
         const leagues = playerLeague[player] ? [...playerLeague[player]] : [];
         return leagues.map(l => {
             if (l === 'I Liga') return '<span class="badge bg-warning text-dark ms-1">I Liga</span>';
-            return '<span class="badge bg-info text-dark ms-1">II Liga</span>';
+            const groups = data2.playerGroup[player] ? [...data2.playerGroup[player]].sort().join('/') : '';
+            return `<span class="badge bg-info text-dark ms-1">II Liga${groups ? ' Grupa ' + groups : ''}</span>`;
         }).join('');
     }
 

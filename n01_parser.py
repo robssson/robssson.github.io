@@ -15,27 +15,44 @@ def load_active_season():
     return active
 
 def build_leagues(active_season):
-    """Buduje listę lig (I/II) na podstawie aktywnego sezonu z manifestu."""
+    """Buduje listę lig (I/II) na podstawie aktywnego sezonu z manifestu.
+
+    II Liga jest podzielona na dwie grupy (A i B), rozgrywane pod osobnymi
+    tournament_id, ale wyświetlane i zapisywane jako jedna, wspólna "II Liga".
+    """
     season_id = active_season["id"]
     leagues = [
         {
             "name": "I Liga",
-            "tournament_id": active_season.get("liga1_tid"),
+            "tournament_ids": [active_season.get("liga1_tid")],
+            "group_labels": [None],
             "prefix": "liga1",
             "season_id": season_id
         },
         {
             "name": "II Liga",
-            "tournament_id": active_season.get("liga2_tid"),
+            "tournament_ids": [
+                active_season.get("liga2a_tid"),
+                active_season.get("liga2b_tid")
+            ],
+            "group_labels": ["A", "B"],
             "prefix": "liga2",
             "season_id": season_id
         }
     ]
-    missing = [l["name"] for l in leagues if not l["tournament_id"]]
+    for league in leagues:
+        paired = [
+            (tid, grp) for tid, grp in zip(league["tournament_ids"], league["group_labels"])
+            if tid
+        ]
+        league["tournament_ids"] = [tid for tid, _ in paired]
+        league["group_labels"] = [grp for _, grp in paired]
+
+    missing = [l["name"] for l in leagues if not l["tournament_ids"]]
     if missing:
         raise RuntimeError(
             f"Brak tournament_id dla: {', '.join(missing)} w sezonie '{season_id}'. "
-            f"Uzupełnij liga1_tid/liga2_tid w output/seasons.json."
+            f"Uzupełnij liga1_tid/liga2a_tid/liga2b_tid w output/seasons.json."
         )
     return leagues
 
@@ -181,30 +198,34 @@ def calculate_high_scores(match_detail):
     return players_scores, []
 
 def process_league(league):
-    tournament_id = league["tournament_id"]
+    tournament_ids = league["tournament_ids"]
+    group_labels = league["group_labels"]
     prefix = league["prefix"]
     league_name = league["name"]
     season_id = league["season_id"]
     
     print(f"\n{'='*60}")
-    print(f"📋 Przetwarzanie: {league_name} (ID: {tournament_id})")
+    print(f"📋 Przetwarzanie: {league_name} (ID: {', '.join(tournament_ids)})")
     print(f"{'='*60}")
     
     all_fast_results = []
     all_high_results = []
     all_max_results = []
     all_scores_results = []
-    skip = 0
     matches = []
 
-    while True:
-        batch = get_matches(tournament_id, skip)
-        if not batch:
-            break
-        matches.extend(batch)
-        skip += MATCHES_PER_REQUEST
+    for tournament_id, group_label in zip(tournament_ids, group_labels):
+        skip = 0
+        while True:
+            batch = get_matches(tournament_id, skip)
+            if not batch:
+                break
+            for m in batch:
+                m["_group"] = group_label
+            matches.extend(batch)
+            skip += MATCHES_PER_REQUEST
 
-    print(f"Znaleziono {len(matches)} meczów w {league_name}")
+    print(f"Znaleziono {len(matches)} meczów w {league_name} (z {len(tournament_ids)} grup)")
 
     for idx, match in enumerate(matches, start=1):
         tmid = match["tmid"]
@@ -228,28 +249,29 @@ def process_league(league):
         score = f"{match['p1winLegs']}:{match['p2winLegs']}"
         avg1 = match_detail["statsData"][0]["allScore"] * 3 / match_detail["statsData"][0]["allDarts"]
         avg2 = match_detail["statsData"][1]["allScore"] * 3 / match_detail["statsData"][1]["allDarts"]
+        group = match.get("_group")
 
         summary_fast = {
-            "tmid": tmid, "title": match["title"],
+            "tmid": tmid, "title": match["title"], "group": group,
             "player1": player1, "player2": player2, "score": score,
             "fast_legs_count": {player1: len(players_fast_legs[player1]), player2: len(players_fast_legs[player2])},
             "fast_legs": {player1: sorted(players_fast_legs[player1]), player2: sorted(players_fast_legs[player2])},
             "average": {player1: avg1, player2: avg2}
         }
         summary_high = {
-            "tmid": tmid, "title": match["title"],
+            "tmid": tmid, "title": match["title"], "group": group,
             "player1": player1, "player2": player2, "score": score,
             "high_finishes_count": {player1: len(players_high_finishes[player1]), player2: len(players_high_finishes[player2])},
             "high_finishes": {player1: sorted(players_high_finishes[player1]), player2: sorted(players_high_finishes[player2])}
         }
         summary_max = {
-            "tmid": tmid, "title": match["title"],
+            "tmid": tmid, "title": match["title"], "group": group,
             "player1": player1, "player2": player2, "score": score,
             "max_count": {player1: len(players_max[player1]), player2: len(players_max[player2])},
             "maxes": {player1: players_max[player1], player2: players_max[player2]}
         }
         summary_scores = {
-            "tmid": tmid, "title": match["title"],
+            "tmid": tmid, "title": match["title"], "group": group,
             "player1": player1, "player2": player2, "score": score,
             "scores_count": {player1: len(players_scores[player1]), player2: len(players_scores[player2])},
             "scores": {player1: sorted(players_scores[player1]), player2: sorted(players_scores[player2])}
