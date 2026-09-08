@@ -1,1 +1,18 @@
-
+[
+  {
+    "id": "jesien2026",
+    "label": "Jesień 2026",
+    "active": true,
+    "liga1_tid": "t_76AK_7053",
+    "liga2a_tid": "t_4UPX_3308",
+    "liga2b_tid": "t_JTh9_1380"
+  },
+  {
+    "id": "wiosna2026",
+    "label": "Wiosna 2026",
+    "active": false,
+    "liga1_tid": "t_L01x_7216",
+    "liga2a_tid": "t_2y14_1402",
+    "liga2b_tid": null
+  }
+]
