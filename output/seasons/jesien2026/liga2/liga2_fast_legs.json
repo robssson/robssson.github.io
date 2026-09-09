@@ -144,5 +144,225 @@
       "Michał Kowalinski": 53.66550522648084,
       "Jakub Lipka": 58.96907216494845
     }
+  },
+  {
+    "tmid": "t_JTh9_1380_lg_0_6d3h_SVGN_u8zm",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga B",
+    "group": "B",
+    "player1": "Jakub Tota",
+    "player2": "Roman Flasza",
+    "score": "4:7",
+    "fast_legs_count": {
+      "Jakub Tota": 0,
+      "Roman Flasza": 0
+    },
+    "fast_legs": {
+      "Jakub Tota": [],
+      "Roman Flasza": []
+    },
+    "average": {
+      "Jakub Tota": 45.923780487804876,
+      "Roman Flasza": 48.32727272727273
+    }
+  },
+  {
+    "tmid": "t_JTh9_1380_lg_0_u0c3_KVvF_qi4L",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga B",
+    "group": "B",
+    "player1": "Tomasz Gałek",
+    "player2": "Maksymilian Grabarz",
+    "score": "2:7",
+    "fast_legs_count": {
+      "Tomasz Gałek": 0,
+      "Maksymilian Grabarz": 0
+    },
+    "fast_legs": {
+      "Tomasz Gałek": [],
+      "Maksymilian Grabarz": []
+    },
+    "average": {
+      "Tomasz Gałek": 45.47653429602888,
+      "Maksymilian Grabarz": 45.88172043010753
+    }
+  },
+  {
+    "tmid": "t_JTh9_1380_lg_0_308g_SVGN_sdGz",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga B",
+    "group": "B",
+    "player1": "Jakub Tota",
+    "player2": "Szymon Put",
+    "score": "7:3",
+    "fast_legs_count": {
+      "Jakub Tota": 0,
+      "Szymon Put": 0
+    },
+    "fast_legs": {
+      "Jakub Tota": [],
+      "Szymon Put": []
+    },
+    "average": {
+      "Jakub Tota": 38.46373056994819,
+      "Szymon Put": 36.444155844155844
+    }
+  },
+  {
+    "tmid": "t_JTh9_1380_lg_0_g6t9_cFZQ_qi4L",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga B",
+    "group": "B",
+    "player1": "Wojtek Flasza",
+    "player2": "Maksymilian Grabarz",
+    "score": "1:7",
+    "fast_legs_count": {
+      "Wojtek Flasza": 0,
+      "Maksymilian Grabarz": 0
+    },
+    "fast_legs": {
+      "Wojtek Flasza": [],
+      "Maksymilian Grabarz": []
+    },
+    "average": {
+      "Wojtek Flasza": 40.889763779527556,
+      "Maksymilian Grabarz": 46.4015444015444
+    }
+  },
+  {
+    "tmid": "t_JTh9_1380_lg_0_f7d2_KVvF_u8zm",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga B",
+    "group": "B",
+    "player1": "Tomasz Gałek",
+    "player2": "Roman Flasza",
+    "score": "6:6",
+    "fast_legs_count": {
+      "Tomasz Gałek": 0,
+      "Roman Flasza": 0
+    },
+    "fast_legs": {
+      "Tomasz Gałek": [],
+      "Roman Flasza": []
+    },
+    "average": {
+      "Tomasz Gałek": 41.50251256281407,
+      "Roman Flasza": 44.984848484848484
+    }
+  },
+  {
+    "tmid": "t_JTh9_1380_lg_0_r0gz_SVGN_XtFw",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga B",
+    "group": "B",
+    "player1": "Wiktor Święch",
+    "player2": "Jakub Tota",
+    "score": "7:2",
+    "fast_legs_count": {
+      "Wiktor Święch": 0,
+      "Jakub Tota": 0
+    },
+    "fast_legs": {
+      "Wiktor Święch": [],
+      "Jakub Tota": []
+    },
+    "average": {
+      "Wiktor Święch": 47.380782918149464,
+      "Jakub Tota": 42.69230769230769
+    }
+  },
+  {
+    "tmid": "t_JTh9_1380_lg_0_3cvp_qi4L_sdGz",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga B",
+    "group": "B",
+    "player1": "Szymon Put",
+    "player2": "Maksymilian Grabarz",
+    "score": "2:7",
+    "fast_legs_count": {
+      "Szymon Put": 0,
+      "Maksymilian Grabarz": 0
+    },
+    "fast_legs": {
+      "Szymon Put": [],
+      "Maksymilian Grabarz": []
+    },
+    "average": {
+      "Szymon Put": 35.91404011461318,
+      "Maksymilian Grabarz": 37.743589743589745
+    }
+  },
+  {
+    "tmid": "t_JTh9_1380_lg_0_qfms_XtFw_cFZQ",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga B",
+    "group": "B",
+    "player1": "Wojtek Flasza",
+    "player2": "Wiktor Święch",
+    "score": "1:7",
+    "fast_legs_count": {
+      "Wojtek Flasza": 0,
+      "Wiktor Święch": 0
+    },
+    "fast_legs": {
+      "Wojtek Flasza": [],
+      "Wiktor Święch": []
+    },
+    "average": {
+      "Wojtek Flasza": 45.53947368421053,
+      "Wiktor Święch": 52.19213973799127
+    }
+  },
+  {
+    "tmid": "t_JTh9_1380_lg_0_woll_cFZQ_sdGz",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga B",
+    "group": "B",
+    "player1": "Szymon Put",
+    "player2": "Wojtek Flasza",
+    "score": "0:7",
+    "fast_legs_count": {
+      "Szymon Put": 0,
+      "Wojtek Flasza": 0
+    },
+    "fast_legs": {
+      "Szymon Put": [],
+      "Wojtek Flasza": []
+    },
+    "average": {
+      "Szymon Put": 43.44927536231884,
+      "Wojtek Flasza": 50.1
+    }
+  },
+  {
+    "tmid": "t_JTh9_1380_lg_0_x2tk_qi4L_u8zm",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga B",
+    "group": "B",
+    "player1": "Roman Flasza",
+    "player2": "Maksymilian Grabarz",
+    "score": "7:4",
+    "fast_legs_count": {
+      "Roman Flasza": 0,
+      "Maksymilian Grabarz": 0
+    },
+    "fast_legs": {
+      "Roman Flasza": [],
+      "Maksymilian Grabarz": []
+    },
+    "average": {
+      "Roman Flasza": 44.34426229508197,
+      "Maksymilian Grabarz": 41.926430517711175
+    }
+  },
+  {
+    "tmid": "t_JTh9_1380_lg_0_fjmx_XtFw_sdGz",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga B",
+    "group": "B",
+    "player1": "Szymon Put",
+    "player2": "Wiktor Święch",
+    "score": "2:7",
+    "fast_legs_count": {
+      "Szymon Put": 0,
+      "Wiktor Święch": 0
+    },
+    "fast_legs": {
+      "Szymon Put": [],
+      "Wiktor Święch": []
+    },
+    "average": {
+      "Szymon Put": 42.891304347826086,
+      "Wiktor Święch": 48.70397111913358
+    }
   }
 ]
