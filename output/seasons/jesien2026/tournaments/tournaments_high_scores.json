@@ -1,1 +1,614 @@
-[]
+[
+  {
+    "tmid": "t_fPYj_9794_t3_0_Czx5_mPHO",
+    "tournament": "Szerszeń Cup 1/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup Mecz o 3. miejsce",
+    "player1": "Adrian Ochel",
+    "player2": "Michał Kowalinski",
+    "score": "1:3",
+    "scores_count": {
+      "Adrian Ochel": 0,
+      "Michał Kowalinski": 0
+    },
+    "scores": {
+      "Adrian Ochel": [],
+      "Michał Kowalinski": []
+    }
+  },
+  {
+    "tmid": "t_fPYj_9794_t_2_UkCD_oeJE",
+    "tournament": "Szerszeń Cup 1/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup Finał",
+    "player1": "Krystian Heród",
+    "player2": "Mateusz Pięta",
+    "score": "2:4",
+    "scores_count": {
+      "Krystian Heród": 0,
+      "Mateusz Pięta": 0
+    },
+    "scores": {
+      "Krystian Heród": [],
+      "Mateusz Pięta": []
+    }
+  },
+  {
+    "tmid": "t_fPYj_9794_t_1_Czx5_oeJE",
+    "tournament": "Szerszeń Cup 1/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup Półfinał",
+    "player1": "Adrian Ochel",
+    "player2": "Krystian Heród",
+    "score": "2:3",
+    "scores_count": {
+      "Adrian Ochel": 0,
+      "Krystian Heród": 0
+    },
+    "scores": {
+      "Adrian Ochel": [],
+      "Krystian Heród": []
+    }
+  },
+  {
+    "tmid": "t_fPYj_9794_t_1_UkCD_mPHO",
+    "tournament": "Szerszeń Cup 1/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup Półfinał",
+    "player1": "Michał Kowalinski",
+    "player2": "Mateusz Pięta",
+    "score": "0:3",
+    "scores_count": {
+      "Michał Kowalinski": 0,
+      "Mateusz Pięta": 0
+    },
+    "scores": {
+      "Michał Kowalinski": [],
+      "Mateusz Pięta": []
+    }
+  },
+  {
+    "tmid": "t_fPYj_9794_t_0_mPHO_oPXi",
+    "tournament": "Szerszeń Cup 1/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup Top 8",
+    "player1": "Tomasz Krzysztof",
+    "player2": "Michał Kowalinski",
+    "score": "0:3",
+    "scores_count": {
+      "Tomasz Krzysztof": 0,
+      "Michał Kowalinski": 0
+    },
+    "scores": {
+      "Tomasz Krzysztof": [],
+      "Michał Kowalinski": []
+    }
+  },
+  {
+    "tmid": "t_fPYj_9794_t_0_oeJE_r2ZW",
+    "tournament": "Szerszeń Cup 1/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup Top 8",
+    "player1": "Krystian Heród",
+    "player2": "Maksymilian Grabarz",
+    "score": "3:1",
+    "scores_count": {
+      "Krystian Heród": 0,
+      "Maksymilian Grabarz": 0
+    },
+    "scores": {
+      "Krystian Heród": [],
+      "Maksymilian Grabarz": []
+    }
+  },
+  {
+    "tmid": "t_fPYj_9794_t_0_Czx5_S4QO",
+    "tournament": "Szerszeń Cup 1/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup Top 8",
+    "player1": "Adrian Ochel",
+    "player2": "Krystian Krzywy",
+    "score": "3:1",
+    "scores_count": {
+      "Adrian Ochel": 0,
+      "Krystian Krzywy": 0
+    },
+    "scores": {
+      "Adrian Ochel": [],
+      "Krystian Krzywy": []
+    }
+  },
+  {
+    "tmid": "t_fPYj_9794_t_0_UkCD_WBl8",
+    "tournament": "Szerszeń Cup 1/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup Top 8",
+    "player1": "Mateusz Pięta",
+    "player2": "Daniel Czernecki",
+    "score": "3:1",
+    "scores_count": {
+      "Mateusz Pięta": 0,
+      "Daniel Czernecki": 0
+    },
+    "scores": {
+      "Mateusz Pięta": [],
+      "Daniel Czernecki": []
+    }
+  },
+  {
+    "tmid": "t_fPYj_9794_rr_1_ZFkb_oPXi",
+    "tournament": "Szerszeń Cup 1/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup Grupa 2",
+    "player1": "Mariusz Olchawa",
+    "player2": "Tomasz Krzysztof",
+    "score": "0:3",
+    "scores_count": {
+      "Mariusz Olchawa": 0,
+      "Tomasz Krzysztof": 0
+    },
+    "scores": {
+      "Mariusz Olchawa": [],
+      "Tomasz Krzysztof": []
+    }
+  },
+  {
+    "tmid": "t_fPYj_9794_rr_3_iC75_mPHO",
+    "tournament": "Szerszeń Cup 1/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup Grupa 4",
+    "player1": "Wojtek Flasza",
+    "player2": "Michał Kowalinski",
+    "score": "1:3",
+    "scores_count": {
+      "Wojtek Flasza": 0,
+      "Michał Kowalinski": 0
+    },
+    "scores": {
+      "Wojtek Flasza": [],
+      "Michał Kowalinski": []
+    }
+  },
+  {
+    "tmid": "t_fPYj_9794_rr_3_oeJE_plfe",
+    "tournament": "Szerszeń Cup 1/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup Grupa 4",
+    "player1": "Krystian Heród",
+    "player2": "Tomi Tomasz",
+    "score": "3:1",
+    "scores_count": {
+      "Krystian Heród": 0,
+      "Tomi Tomasz": 0
+    },
+    "scores": {
+      "Krystian Heród": [],
+      "Tomi Tomasz": []
+    }
+  },
+  {
+    "tmid": "t_fPYj_9794_rr_2_9l8l_UkCD",
+    "tournament": "Szerszeń Cup 1/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup Grupa 3",
+    "player1": "Mateusz Pięta",
+    "player2": "Bartosz Kowaliński",
+    "score": "3:0",
+    "scores_count": {
+      "Mateusz Pięta": 0,
+      "Bartosz Kowaliński": 0
+    },
+    "scores": {
+      "Mateusz Pięta": [],
+      "Bartosz Kowaliński": []
+    }
+  },
+  {
+    "tmid": "t_fPYj_9794_rr_1_8wcx_r2ZW",
+    "tournament": "Szerszeń Cup 1/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup Grupa 2",
+    "player1": "Roman Flasza",
+    "player2": "Maksymilian Grabarz",
+    "score": "1:3",
+    "scores_count": {
+      "Roman Flasza": 0,
+      "Maksymilian Grabarz": 0
+    },
+    "scores": {
+      "Roman Flasza": [],
+      "Maksymilian Grabarz": []
+    }
+  },
+  {
+    "tmid": "t_fPYj_9794_rr_2_Awja_S4QO",
+    "tournament": "Szerszeń Cup 1/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup Grupa 3",
+    "player1": "Kacper Legutko",
+    "player2": "Krystian Krzywy",
+    "score": "1:3",
+    "scores_count": {
+      "Kacper Legutko": 0,
+      "Krystian Krzywy": 0
+    },
+    "scores": {
+      "Kacper Legutko": [],
+      "Krystian Krzywy": []
+    }
+  },
+  {
+    "tmid": "t_fPYj_9794_rr_0_Czx5_X5QB",
+    "tournament": "Szerszeń Cup 1/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup Grupa 1",
+    "player1": "Tomasz Gałek",
+    "player2": "Adrian Ochel",
+    "score": "0:3",
+    "scores_count": {
+      "Tomasz Gałek": 0,
+      "Adrian Ochel": 0
+    },
+    "scores": {
+      "Tomasz Gałek": [],
+      "Adrian Ochel": []
+    }
+  },
+  {
+    "tmid": "t_fPYj_9794_rr_3_iC75_plfe",
+    "tournament": "Szerszeń Cup 1/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup Grupa 4",
+    "player1": "Wojtek Flasza",
+    "player2": "Tomi Tomasz",
+    "score": "1:3",
+    "scores_count": {
+      "Wojtek Flasza": 0,
+      "Tomi Tomasz": 0
+    },
+    "scores": {
+      "Wojtek Flasza": [],
+      "Tomi Tomasz": []
+    }
+  },
+  {
+    "tmid": "t_fPYj_9794_rr_0_WBl8_xewV",
+    "tournament": "Szerszeń Cup 1/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup Grupa 1",
+    "player1": "Daniel Czernecki",
+    "player2": "Tomasz Radecki",
+    "score": "3:1",
+    "scores_count": {
+      "Daniel Czernecki": 0,
+      "Tomasz Radecki": 0
+    },
+    "scores": {
+      "Daniel Czernecki": [],
+      "Tomasz Radecki": []
+    }
+  },
+  {
+    "tmid": "t_fPYj_9794_rr_1_ZFkb_r2ZW",
+    "tournament": "Szerszeń Cup 1/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup Grupa 2",
+    "player1": "Mariusz Olchawa",
+    "player2": "Maksymilian Grabarz",
+    "score": "1:3",
+    "scores_count": {
+      "Mariusz Olchawa": 0,
+      "Maksymilian Grabarz": 0
+    },
+    "scores": {
+      "Mariusz Olchawa": [],
+      "Maksymilian Grabarz": []
+    }
+  },
+  {
+    "tmid": "t_fPYj_9794_rr_0_Czx5_GqqU",
+    "tournament": "Szerszeń Cup 1/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup Grupa 1",
+    "player1": "Mariusz Kania",
+    "player2": "Adrian Ochel",
+    "score": "1:3",
+    "scores_count": {
+      "Mariusz Kania": 0,
+      "Adrian Ochel": 0
+    },
+    "scores": {
+      "Mariusz Kania": [],
+      "Adrian Ochel": []
+    }
+  },
+  {
+    "tmid": "t_fPYj_9794_rr_2_S4QO_UkCD",
+    "tournament": "Szerszeń Cup 1/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup Grupa 3",
+    "player1": "Mateusz Pięta",
+    "player2": "Krystian Krzywy",
+    "score": "3:2",
+    "scores_count": {
+      "Mateusz Pięta": 0,
+      "Krystian Krzywy": 0
+    },
+    "scores": {
+      "Mateusz Pięta": [],
+      "Krystian Krzywy": []
+    }
+  },
+  {
+    "tmid": "t_fPYj_9794_rr_0_WBl8_X5QB",
+    "tournament": "Szerszeń Cup 1/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup Grupa 1",
+    "player1": "Tomasz Gałek",
+    "player2": "Daniel Czernecki",
+    "score": "1:3",
+    "scores_count": {
+      "Tomasz Gałek": 0,
+      "Daniel Czernecki": 0
+    },
+    "scores": {
+      "Tomasz Gałek": [],
+      "Daniel Czernecki": []
+    }
+  },
+  {
+    "tmid": "t_fPYj_9794_rr_3_mPHO_oeJE",
+    "tournament": "Szerszeń Cup 1/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup Grupa 4",
+    "player1": "Krystian Heród",
+    "player2": "Michał Kowalinski",
+    "score": "3:0",
+    "scores_count": {
+      "Krystian Heród": 0,
+      "Michał Kowalinski": 0
+    },
+    "scores": {
+      "Krystian Heród": [],
+      "Michał Kowalinski": []
+    }
+  },
+  {
+    "tmid": "t_fPYj_9794_rr_1_8wcx_oPXi",
+    "tournament": "Szerszeń Cup 1/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup Grupa 2",
+    "player1": "Roman Flasza",
+    "player2": "Tomasz Krzysztof",
+    "score": "3:1",
+    "scores_count": {
+      "Roman Flasza": 0,
+      "Tomasz Krzysztof": 0
+    },
+    "scores": {
+      "Roman Flasza": [],
+      "Tomasz Krzysztof": []
+    }
+  },
+  {
+    "tmid": "t_fPYj_9794_rr_2_9l8l_Awja",
+    "tournament": "Szerszeń Cup 1/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup Grupa 3",
+    "player1": "Kacper Legutko",
+    "player2": "Bartosz Kowaliński",
+    "score": "3:0",
+    "scores_count": {
+      "Kacper Legutko": 0,
+      "Bartosz Kowaliński": 0
+    },
+    "scores": {
+      "Kacper Legutko": [],
+      "Bartosz Kowaliński": []
+    }
+  },
+  {
+    "tmid": "t_fPYj_9794_rr_0_GqqU_xewV",
+    "tournament": "Szerszeń Cup 1/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup Grupa 1",
+    "player1": "Mariusz Kania",
+    "player2": "Tomasz Radecki",
+    "score": "0:3",
+    "scores_count": {
+      "Mariusz Kania": 0,
+      "Tomasz Radecki": 0
+    },
+    "scores": {
+      "Mariusz Kania": [],
+      "Tomasz Radecki": []
+    }
+  },
+  {
+    "tmid": "t_fPYj_9794_rr_0_Czx5_WBl8",
+    "tournament": "Szerszeń Cup 1/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup Grupa 1",
+    "player1": "Daniel Czernecki",
+    "player2": "Adrian Ochel",
+    "score": "2:3",
+    "scores_count": {
+      "Daniel Czernecki": 0,
+      "Adrian Ochel": 0
+    },
+    "scores": {
+      "Daniel Czernecki": [],
+      "Adrian Ochel": []
+    }
+  },
+  {
+    "tmid": "t_fPYj_9794_rr_1_oPXi_r2ZW",
+    "tournament": "Szerszeń Cup 1/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup Grupa 2",
+    "player1": "Tomasz Krzysztof",
+    "player2": "Maksymilian Grabarz",
+    "score": "3:0",
+    "scores_count": {
+      "Tomasz Krzysztof": 0,
+      "Maksymilian Grabarz": 0
+    },
+    "scores": {
+      "Tomasz Krzysztof": [],
+      "Maksymilian Grabarz": []
+    }
+  },
+  {
+    "tmid": "t_fPYj_9794_rr_2_Awja_UkCD",
+    "tournament": "Szerszeń Cup 1/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup Grupa 3",
+    "player1": "Kacper Legutko",
+    "player2": "Mateusz Pięta",
+    "score": "0:3",
+    "scores_count": {
+      "Kacper Legutko": 0,
+      "Mateusz Pięta": 0
+    },
+    "scores": {
+      "Kacper Legutko": [],
+      "Mateusz Pięta": []
+    }
+  },
+  {
+    "tmid": "t_fPYj_9794_rr_0_X5QB_xewV",
+    "tournament": "Szerszeń Cup 1/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup Grupa 1",
+    "player1": "Tomasz Gałek",
+    "player2": "Tomasz Radecki",
+    "score": "0:3",
+    "scores_count": {
+      "Tomasz Gałek": 0,
+      "Tomasz Radecki": 0
+    },
+    "scores": {
+      "Tomasz Gałek": [],
+      "Tomasz Radecki": []
+    }
+  },
+  {
+    "tmid": "t_fPYj_9794_rr_0_GqqU_WBl8",
+    "tournament": "Szerszeń Cup 1/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup Grupa 1",
+    "player1": "Mariusz Kania",
+    "player2": "Daniel Czernecki",
+    "score": "0:3",
+    "scores_count": {
+      "Mariusz Kania": 0,
+      "Daniel Czernecki": 0
+    },
+    "scores": {
+      "Mariusz Kania": [],
+      "Daniel Czernecki": []
+    }
+  },
+  {
+    "tmid": "t_fPYj_9794_rr_3_mPHO_plfe",
+    "tournament": "Szerszeń Cup 1/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup Grupa 4",
+    "player1": "Michał Kowalinski",
+    "player2": "Tomi Tomasz",
+    "score": "3:2",
+    "scores_count": {
+      "Michał Kowalinski": 0,
+      "Tomi Tomasz": 0
+    },
+    "scores": {
+      "Michał Kowalinski": [],
+      "Tomi Tomasz": []
+    }
+  },
+  {
+    "tmid": "t_fPYj_9794_rr_3_iC75_oeJE",
+    "tournament": "Szerszeń Cup 1/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup Grupa 4",
+    "player1": "Krystian Heród",
+    "player2": "Wojtek Flasza",
+    "score": "1:3",
+    "scores_count": {
+      "Krystian Heród": 0,
+      "Wojtek Flasza": 0
+    },
+    "scores": {
+      "Krystian Heród": [],
+      "Wojtek Flasza": []
+    }
+  },
+  {
+    "tmid": "t_fPYj_9794_rr_1_8wcx_ZFkb",
+    "tournament": "Szerszeń Cup 1/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup Grupa 2",
+    "player1": "Roman Flasza",
+    "player2": "Mariusz Olchawa",
+    "score": "1:3",
+    "scores_count": {
+      "Roman Flasza": 0,
+      "Mariusz Olchawa": 0
+    },
+    "scores": {
+      "Roman Flasza": [],
+      "Mariusz Olchawa": []
+    }
+  },
+  {
+    "tmid": "t_fPYj_9794_rr_2_9l8l_S4QO",
+    "tournament": "Szerszeń Cup 1/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup Grupa 3",
+    "player1": "Bartosz Kowaliński",
+    "player2": "Krystian Krzywy",
+    "score": "1:3",
+    "scores_count": {
+      "Bartosz Kowaliński": 0,
+      "Krystian Krzywy": 0
+    },
+    "scores": {
+      "Bartosz Kowaliński": [],
+      "Krystian Krzywy": []
+    }
+  },
+  {
+    "tmid": "t_fPYj_9794_rr_0_Czx5_xewV",
+    "tournament": "Szerszeń Cup 1/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup Grupa 1",
+    "player1": "Tomasz Radecki",
+    "player2": "Adrian Ochel",
+    "score": "0:3",
+    "scores_count": {
+      "Tomasz Radecki": 0,
+      "Adrian Ochel": 0
+    },
+    "scores": {
+      "Tomasz Radecki": [],
+      "Adrian Ochel": []
+    }
+  },
+  {
+    "tmid": "t_fPYj_9794_rr_0_GqqU_X5QB",
+    "tournament": "Szerszeń Cup 1/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2023 Szerszeń Cup Grupa 1",
+    "player1": "Mariusz Kania",
+    "player2": "Tomasz Gałek",
+    "score": "1:3",
+    "scores_count": {
+      "Mariusz Kania": 0,
+      "Tomasz Gałek": 0
+    },
+    "scores": {
+      "Mariusz Kania": [],
+      "Tomasz Gałek": []
+    }
+  }
+]
