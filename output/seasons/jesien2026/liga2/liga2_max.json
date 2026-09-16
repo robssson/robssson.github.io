@@ -1,5 +1,220 @@
 [
   {
+    "tmid": "t_4UPX_3308_lg_0_ln39_3TAv_GkoY",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga A",
+    "group": "A",
+    "player1": "Tomasz Pilecki",
+    "player2": "Krystian Sułek",
+    "score": "7:4",
+    "max_count": {
+      "Tomasz Pilecki": 0,
+      "Krystian Sułek": 0
+    },
+    "maxes": {
+      "Tomasz Pilecki": [],
+      "Krystian Sułek": []
+    }
+  },
+  {
+    "tmid": "t_4UPX_3308_lg_0_j04c_BN4x_gCKg",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga A",
+    "group": "A",
+    "player1": "Tomasz Radecki",
+    "player2": "Jakub Lipka",
+    "score": "1:7",
+    "max_count": {
+      "Tomasz Radecki": 0,
+      "Jakub Lipka": 0
+    },
+    "maxes": {
+      "Tomasz Radecki": [],
+      "Jakub Lipka": []
+    }
+  },
+  {
+    "tmid": "t_4UPX_3308_lg_0_63ts_d9Th_gCKg",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga A",
+    "group": "A",
+    "player1": "Jakub Lipka",
+    "player2": "Maciek Filipowski",
+    "score": "7:0",
+    "max_count": {
+      "Jakub Lipka": 0,
+      "Maciek Filipowski": 0
+    },
+    "maxes": {
+      "Jakub Lipka": [],
+      "Maciek Filipowski": []
+    }
+  },
+  {
+    "tmid": "t_4UPX_3308_lg_0_1rzr_3TAv_BN4x",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga A",
+    "group": "A",
+    "player1": "Krystian Sułek",
+    "player2": "Tomasz Radecki",
+    "score": "6:6",
+    "max_count": {
+      "Krystian Sułek": 0,
+      "Tomasz Radecki": 0
+    },
+    "maxes": {
+      "Krystian Sułek": [],
+      "Tomasz Radecki": []
+    }
+  },
+  {
+    "tmid": "t_4UPX_3308_lg_0_nlkr_4rJ3_gCKg",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga A",
+    "group": "A",
+    "player1": "Grzegorz Mularz",
+    "player2": "Jakub Lipka",
+    "score": "2:7",
+    "max_count": {
+      "Grzegorz Mularz": 0,
+      "Jakub Lipka": 2
+    },
+    "maxes": {
+      "Grzegorz Mularz": [],
+      "Jakub Lipka": [
+        180,
+        180
+      ]
+    }
+  },
+  {
+    "tmid": "t_4UPX_3308_lg_0_st2a_GkoY_d9Th",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga A",
+    "group": "A",
+    "player1": "Maciek Filipowski",
+    "player2": "Tomasz Pilecki",
+    "score": "4:7",
+    "max_count": {
+      "Maciek Filipowski": 0,
+      "Tomasz Pilecki": 0
+    },
+    "maxes": {
+      "Maciek Filipowski": [],
+      "Tomasz Pilecki": []
+    }
+  },
+  {
+    "tmid": "t_4UPX_3308_lg_0_vlts_6Col_BN4x",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga A",
+    "group": "A",
+    "player1": "Tomasz Radecki",
+    "player2": "Paweł Cefal",
+    "score": "7:5",
+    "max_count": {
+      "Tomasz Radecki": 0,
+      "Paweł Cefal": 0
+    },
+    "maxes": {
+      "Tomasz Radecki": [],
+      "Paweł Cefal": []
+    }
+  },
+  {
+    "tmid": "t_4UPX_3308_lg_0_ckmy_3TAv_gCKg",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga A",
+    "group": "A",
+    "player1": "Krystian Sułek",
+    "player2": "Jakub Lipka",
+    "score": "2:7",
+    "max_count": {
+      "Krystian Sułek": 0,
+      "Jakub Lipka": 0
+    },
+    "maxes": {
+      "Krystian Sułek": [],
+      "Jakub Lipka": []
+    }
+  },
+  {
+    "tmid": "t_4UPX_3308_lg_0_cc81_BN4x_d9Th",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga A",
+    "group": "A",
+    "player1": "Tomasz Radecki",
+    "player2": "Maciek Filipowski",
+    "score": "6:6",
+    "max_count": {
+      "Tomasz Radecki": 0,
+      "Maciek Filipowski": 0
+    },
+    "maxes": {
+      "Tomasz Radecki": [],
+      "Maciek Filipowski": []
+    }
+  },
+  {
+    "tmid": "t_4UPX_3308_lg_0_l41r_4rJ3_GkoY",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga A",
+    "group": "A",
+    "player1": "Grzegorz Mularz",
+    "player2": "Tomasz Pilecki",
+    "score": "7:3",
+    "max_count": {
+      "Grzegorz Mularz": 0,
+      "Tomasz Pilecki": 1
+    },
+    "maxes": {
+      "Grzegorz Mularz": [],
+      "Tomasz Pilecki": [
+        180
+      ]
+    }
+  },
+  {
+    "tmid": "t_4UPX_3308_lg_0_8qfd_3TAv_6Col",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga A",
+    "group": "A",
+    "player1": "Krystian Sułek",
+    "player2": "Paweł Cefal",
+    "score": "7:2",
+    "max_count": {
+      "Krystian Sułek": 0,
+      "Paweł Cefal": 0
+    },
+    "maxes": {
+      "Krystian Sułek": [],
+      "Paweł Cefal": []
+    }
+  },
+  {
+    "tmid": "t_4UPX_3308_lg_0_i5dq_3TAv_4rJ3",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga A",
+    "group": "A",
+    "player1": "Grzegorz Mularz",
+    "player2": "Krystian Sułek",
+    "score": "7:0",
+    "max_count": {
+      "Grzegorz Mularz": 1,
+      "Krystian Sułek": 0
+    },
+    "maxes": {
+      "Grzegorz Mularz": [
+        180
+      ],
+      "Krystian Sułek": []
+    }
+  },
+  {
+    "tmid": "t_4UPX_3308_lg_0_j1ia_BN4x_GkoY",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga A",
+    "group": "A",
+    "player1": "Tomasz Pilecki",
+    "player2": "Tomasz Radecki",
+    "score": "7:4",
+    "max_count": {
+      "Tomasz Pilecki": 0,
+      "Tomasz Radecki": 0
+    },
+    "maxes": {
+      "Tomasz Pilecki": [],
+      "Tomasz Radecki": []
+    }
+  },
+  {
     "tmid": "t_4UPX_3308_lg_0_mmvo_X6iZ_gCKg",
     "title": "Tomi Dart Club Jesień 2026 2 Liga A",
     "group": "A",
