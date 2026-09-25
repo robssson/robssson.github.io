@@ -758,5 +758,1022 @@
       "Mariusz Kania": 39.68,
       "Tomasz Gałek": 40.85
     }
+  },
+  {
+    "tmid": "t_VSJh_3003_t_2_AG8y_Qpal",
+    "tournament": "Superpuchar Klubu 1/4 — Jesień 2026",
+    "category": "superpuchar",
+    "title": "Tomi Dart Club Jesień 2026 Superpuchar Klubu 1z5 Finał",
+    "player1": "Waldemar Kopacz",
+    "player2": "Piotr Gryga",
+    "score": "4:2",
+    "fast_legs_count": {
+      "Waldemar Kopacz": 0,
+      "Piotr Gryga": 0
+    },
+    "fast_legs": {
+      "Waldemar Kopacz": [],
+      "Piotr Gryga": []
+    },
+    "average": {
+      "Waldemar Kopacz": 55.61,
+      "Piotr Gryga": 57.45
+    }
+  },
+  {
+    "tmid": "t_VSJh_3003_t3_0_Jn55_pnhW",
+    "tournament": "Superpuchar Klubu 1/4 — Jesień 2026",
+    "category": "superpuchar",
+    "title": "Tomi Dart Club Jesień 2026 Superpuchar Klubu 1z5 Mecz o 3. miejsce",
+    "player1": "Adrian Ochel",
+    "player2": "Mateusz Pięta",
+    "score": "0:3",
+    "fast_legs_count": {
+      "Adrian Ochel": 0,
+      "Mateusz Pięta": 0
+    },
+    "fast_legs": {
+      "Adrian Ochel": [],
+      "Mateusz Pięta": []
+    },
+    "average": {
+      "Adrian Ochel": 47.04,
+      "Mateusz Pięta": 53.68
+    }
+  },
+  {
+    "tmid": "t_VSJh_3003_t_1_Jn55_Qpal",
+    "tournament": "Superpuchar Klubu 1/4 — Jesień 2026",
+    "category": "superpuchar",
+    "title": "Tomi Dart Club Jesień 2026 Superpuchar Klubu 1z5 Półfinał",
+    "player1": "Adrian Ochel",
+    "player2": "Waldemar Kopacz",
+    "score": "0:3",
+    "fast_legs_count": {
+      "Adrian Ochel": 0,
+      "Waldemar Kopacz": 0
+    },
+    "fast_legs": {
+      "Adrian Ochel": [],
+      "Waldemar Kopacz": []
+    },
+    "average": {
+      "Adrian Ochel": 58.32,
+      "Waldemar Kopacz": 73.92
+    }
+  },
+  {
+    "tmid": "t_VSJh_3003_t_1_AG8y_pnhW",
+    "tournament": "Superpuchar Klubu 1/4 — Jesień 2026",
+    "category": "superpuchar",
+    "title": "Tomi Dart Club Jesień 2026 Superpuchar Klubu 1z5 Półfinał",
+    "player1": "Piotr Gryga",
+    "player2": "Mateusz Pięta",
+    "score": "3:1",
+    "fast_legs_count": {
+      "Piotr Gryga": 0,
+      "Mateusz Pięta": 1
+    },
+    "fast_legs": {
+      "Piotr Gryga": [],
+      "Mateusz Pięta": [
+        17
+      ]
+    },
+    "average": {
+      "Piotr Gryga": 65.06,
+      "Mateusz Pięta": 65.24
+    }
+  },
+  {
+    "tmid": "t_VSJh_3003_t_0_AG8y_cZ6D",
+    "tournament": "Superpuchar Klubu 1/4 — Jesień 2026",
+    "category": "superpuchar",
+    "title": "Tomi Dart Club Jesień 2026 Superpuchar Klubu 1z5 Top 8",
+    "player1": "Tomasz Pilecki",
+    "player2": "Piotr Gryga",
+    "score": "0:3",
+    "fast_legs_count": {
+      "Tomasz Pilecki": 0,
+      "Piotr Gryga": 0
+    },
+    "fast_legs": {
+      "Tomasz Pilecki": [],
+      "Piotr Gryga": []
+    },
+    "average": {
+      "Tomasz Pilecki": 59.81,
+      "Piotr Gryga": 68.32
+    }
+  },
+  {
+    "tmid": "t_VSJh_3003_t_0_Jn55_jpVH",
+    "tournament": "Superpuchar Klubu 1/4 — Jesień 2026",
+    "category": "superpuchar",
+    "title": "Tomi Dart Club Jesień 2026 Superpuchar Klubu 1z5 Top 8",
+    "player1": "Adrian Ochel",
+    "player2": "Tomasz Radecki",
+    "score": "3:2",
+    "fast_legs_count": {
+      "Adrian Ochel": 1,
+      "Tomasz Radecki": 0
+    },
+    "fast_legs": {
+      "Adrian Ochel": [
+        15
+      ],
+      "Tomasz Radecki": []
+    },
+    "average": {
+      "Adrian Ochel": 56.58,
+      "Tomasz Radecki": 52.01
+    }
+  },
+  {
+    "tmid": "t_VSJh_3003_t_0_fCWD_pnhW",
+    "tournament": "Superpuchar Klubu 1/4 — Jesień 2026",
+    "category": "superpuchar",
+    "title": "Tomi Dart Club Jesień 2026 Superpuchar Klubu 1z5 Top 8",
+    "player1": "Krystian Krzywy",
+    "player2": "Mateusz Pięta",
+    "score": "0:3",
+    "fast_legs_count": {
+      "Krystian Krzywy": 0,
+      "Mateusz Pięta": 0
+    },
+    "fast_legs": {
+      "Krystian Krzywy": [],
+      "Mateusz Pięta": []
+    },
+    "average": {
+      "Krystian Krzywy": 58.18,
+      "Mateusz Pięta": 68.32
+    }
+  },
+  {
+    "tmid": "t_VSJh_3003_t_0_Qpal_aiLd",
+    "tournament": "Superpuchar Klubu 1/4 — Jesień 2026",
+    "category": "superpuchar",
+    "title": "Tomi Dart Club Jesień 2026 Superpuchar Klubu 1z5 Top 8",
+    "player1": "Krystian Sułek",
+    "player2": "Waldemar Kopacz",
+    "score": "0:3",
+    "fast_legs_count": {
+      "Krystian Sułek": 0,
+      "Waldemar Kopacz": 0
+    },
+    "fast_legs": {
+      "Krystian Sułek": [],
+      "Waldemar Kopacz": []
+    },
+    "average": {
+      "Krystian Sułek": 63.41,
+      "Waldemar Kopacz": 67.3
+    }
+  },
+  {
+    "tmid": "t_VSJh_3003_rr_3_AG8y_r1Jp",
+    "tournament": "Superpuchar Klubu 1/4 — Jesień 2026",
+    "category": "superpuchar",
+    "title": "Tomi Dart Club Jesień 2026 Superpuchar Klubu 1z5 Grupa 4",
+    "player1": "Piotr Gryga",
+    "player2": "Jadwiga Tomasz",
+    "score": "3:0",
+    "fast_legs_count": {
+      "Piotr Gryga": 0,
+      "Jadwiga Tomasz": 0
+    },
+    "fast_legs": {
+      "Piotr Gryga": [],
+      "Jadwiga Tomasz": []
+    },
+    "average": {
+      "Piotr Gryga": 64.41,
+      "Jadwiga Tomasz": 36.18
+    }
+  },
+  {
+    "tmid": "t_VSJh_3003_rr_0_Ss8C_pnhW",
+    "tournament": "Superpuchar Klubu 1/4 — Jesień 2026",
+    "category": "superpuchar",
+    "title": "Tomi Dart Club Jesień 2026 Superpuchar Klubu 1z5 Grupa 1",
+    "player1": "Tomasz Gałek",
+    "player2": "Mateusz Pięta",
+    "score": "0:3",
+    "fast_legs_count": {
+      "Tomasz Gałek": 0,
+      "Mateusz Pięta": 0
+    },
+    "fast_legs": {
+      "Tomasz Gałek": [],
+      "Mateusz Pięta": []
+    },
+    "average": {
+      "Tomasz Gałek": 48.96,
+      "Mateusz Pięta": 64.41
+    }
+  },
+  {
+    "tmid": "t_VSJh_3003_rr_2_S368_aN2T",
+    "tournament": "Superpuchar Klubu 1/4 — Jesień 2026",
+    "category": "superpuchar",
+    "title": "Tomi Dart Club Jesień 2026 Superpuchar Klubu 1z5 Grupa 3",
+    "player1": "Szymon Put",
+    "player2": "Tomasz Krzysztof",
+    "score": "1:3",
+    "fast_legs_count": {
+      "Szymon Put": 0,
+      "Tomasz Krzysztof": 0
+    },
+    "fast_legs": {
+      "Szymon Put": [],
+      "Tomasz Krzysztof": []
+    },
+    "average": {
+      "Szymon Put": 36.75,
+      "Tomasz Krzysztof": 36.93
+    }
+  },
+  {
+    "tmid": "t_VSJh_3003_rr_1_Qpal_yGIy",
+    "tournament": "Superpuchar Klubu 1/4 — Jesień 2026",
+    "category": "superpuchar",
+    "title": "Tomi Dart Club Jesień 2026 Superpuchar Klubu 1z5 Grupa 2",
+    "player1": "Waldemar Kopacz",
+    "player2": "Tomi Tomasz",
+    "score": "3:2",
+    "fast_legs_count": {
+      "Waldemar Kopacz": 0,
+      "Tomi Tomasz": 0
+    },
+    "fast_legs": {
+      "Waldemar Kopacz": [],
+      "Tomi Tomasz": []
+    },
+    "average": {
+      "Waldemar Kopacz": 58.65,
+      "Tomi Tomasz": 56.25
+    }
+  },
+  {
+    "tmid": "t_VSJh_3003_rr_1_9B5V_goCk",
+    "tournament": "Superpuchar Klubu 1/4 — Jesień 2026",
+    "category": "superpuchar",
+    "title": "Tomi Dart Club Jesień 2026 Superpuchar Klubu 1z5 Grupa 2",
+    "player1": "Michał Kural",
+    "player2": "Dominik Cierniak",
+    "score": "0:3",
+    "fast_legs_count": {
+      "Michał Kural": 0,
+      "Dominik Cierniak": 0
+    },
+    "fast_legs": {
+      "Michał Kural": [],
+      "Dominik Cierniak": []
+    },
+    "average": {
+      "Michał Kural": 40.66,
+      "Dominik Cierniak": 50.1
+    }
+  },
+  {
+    "tmid": "t_VSJh_3003_rr_3_2aLE_aiLd",
+    "tournament": "Superpuchar Klubu 1/4 — Jesień 2026",
+    "category": "superpuchar",
+    "title": "Tomi Dart Club Jesień 2026 Superpuchar Klubu 1z5 Grupa 4",
+    "player1": "Radosław Stalmach",
+    "player2": "Krystian Sułek",
+    "score": "2:3",
+    "fast_legs_count": {
+      "Radosław Stalmach": 0,
+      "Krystian Sułek": 0
+    },
+    "fast_legs": {
+      "Radosław Stalmach": [],
+      "Krystian Sułek": []
+    },
+    "average": {
+      "Radosław Stalmach": 39.85,
+      "Krystian Sułek": 45.26
+    }
+  },
+  {
+    "tmid": "t_VSJh_3003_rr_2_XHb3_jpVH",
+    "tournament": "Superpuchar Klubu 1/4 — Jesień 2026",
+    "category": "superpuchar",
+    "title": "Tomi Dart Club Jesień 2026 Superpuchar Klubu 1z5 Grupa 3",
+    "player1": "Tomasz Radecki",
+    "player2": "Karolina Put",
+    "score": "3:0",
+    "fast_legs_count": {
+      "Tomasz Radecki": 0,
+      "Karolina Put": 0
+    },
+    "fast_legs": {
+      "Tomasz Radecki": [],
+      "Karolina Put": []
+    },
+    "average": {
+      "Tomasz Radecki": 36.12,
+      "Karolina Put": 34.81
+    }
+  },
+  {
+    "tmid": "t_VSJh_3003_rr_0_4paq_pnhW",
+    "tournament": "Superpuchar Klubu 1/4 — Jesień 2026",
+    "category": "superpuchar",
+    "title": "Tomi Dart Club Jesień 2026 Superpuchar Klubu 1z5 Grupa 1",
+    "player1": "Jarosław Gryga",
+    "player2": "Mateusz Pięta",
+    "score": "2:3",
+    "fast_legs_count": {
+      "Jarosław Gryga": 0,
+      "Mateusz Pięta": 0
+    },
+    "fast_legs": {
+      "Jarosław Gryga": [],
+      "Mateusz Pięta": []
+    },
+    "average": {
+      "Jarosław Gryga": 49.09,
+      "Mateusz Pięta": 57.73
+    }
+  },
+  {
+    "tmid": "t_VSJh_3003_rr_3_5tXh_r1Jp",
+    "tournament": "Superpuchar Klubu 1/4 — Jesień 2026",
+    "category": "superpuchar",
+    "title": "Tomi Dart Club Jesień 2026 Superpuchar Klubu 1z5 Grupa 4",
+    "player1": "Hubert Sułek",
+    "player2": "Jadwiga Tomasz",
+    "score": "3:0",
+    "fast_legs_count": {
+      "Hubert Sułek": 0,
+      "Jadwiga Tomasz": 0
+    },
+    "fast_legs": {
+      "Hubert Sułek": [],
+      "Jadwiga Tomasz": []
+    },
+    "average": {
+      "Hubert Sułek": 45.55,
+      "Jadwiga Tomasz": 36.42
+    }
+  },
+  {
+    "tmid": "t_VSJh_3003_rr_0_Ss8C_jkx2",
+    "tournament": "Superpuchar Klubu 1/4 — Jesień 2026",
+    "category": "superpuchar",
+    "title": "Tomi Dart Club Jesień 2026 Superpuchar Klubu 1z5 Grupa 1",
+    "player1": "Tomasz Gałek",
+    "player2": "Daniel Czernecki",
+    "score": "0:3",
+    "fast_legs_count": {
+      "Tomasz Gałek": 0,
+      "Daniel Czernecki": 0
+    },
+    "fast_legs": {
+      "Tomasz Gałek": [],
+      "Daniel Czernecki": []
+    },
+    "average": {
+      "Tomasz Gałek": 47.8,
+      "Daniel Czernecki": 56.36
+    }
+  },
+  {
+    "tmid": "t_VSJh_3003_rr_3_2aLE_AG8y",
+    "tournament": "Superpuchar Klubu 1/4 — Jesień 2026",
+    "category": "superpuchar",
+    "title": "Tomi Dart Club Jesień 2026 Superpuchar Klubu 1z5 Grupa 4",
+    "player1": "Piotr Gryga",
+    "player2": "Radosław Stalmach",
+    "score": "3:1",
+    "fast_legs_count": {
+      "Piotr Gryga": 0,
+      "Radosław Stalmach": 0
+    },
+    "fast_legs": {
+      "Piotr Gryga": [],
+      "Radosław Stalmach": []
+    },
+    "average": {
+      "Piotr Gryga": 53.14,
+      "Radosław Stalmach": 41.59
+    }
+  },
+  {
+    "tmid": "t_VSJh_3003_rr_1_cZ6D_yGIy",
+    "tournament": "Superpuchar Klubu 1/4 — Jesień 2026",
+    "category": "superpuchar",
+    "title": "Tomi Dart Club Jesień 2026 Superpuchar Klubu 1z5 Grupa 2",
+    "player1": "Tomasz Pilecki",
+    "player2": "Tomi Tomasz",
+    "score": "3:1",
+    "fast_legs_count": {
+      "Tomasz Pilecki": 0,
+      "Tomi Tomasz": 0
+    },
+    "fast_legs": {
+      "Tomasz Pilecki": [],
+      "Tomi Tomasz": []
+    },
+    "average": {
+      "Tomasz Pilecki": 41.05,
+      "Tomi Tomasz": 40.35
+    }
+  },
+  {
+    "tmid": "t_VSJh_3003_rr_2_XHb3_fCWD",
+    "tournament": "Superpuchar Klubu 1/4 — Jesień 2026",
+    "category": "superpuchar",
+    "title": "Tomi Dart Club Jesień 2026 Superpuchar Klubu 1z5 Grupa 3",
+    "player1": "Krystian Krzywy",
+    "player2": "Karolina Put",
+    "score": "3:0",
+    "fast_legs_count": {
+      "Krystian Krzywy": 0,
+      "Karolina Put": 0
+    },
+    "fast_legs": {
+      "Krystian Krzywy": [],
+      "Karolina Put": []
+    },
+    "average": {
+      "Krystian Krzywy": 46.97,
+      "Karolina Put": 33.13
+    }
+  },
+  {
+    "tmid": "t_VSJh_3003_rr_2_S368_jpVH",
+    "tournament": "Superpuchar Klubu 1/4 — Jesień 2026",
+    "category": "superpuchar",
+    "title": "Tomi Dart Club Jesień 2026 Superpuchar Klubu 1z5 Grupa 3",
+    "player1": "Szymon Put",
+    "player2": "Tomasz Radecki",
+    "score": "2:3",
+    "fast_legs_count": {
+      "Szymon Put": 0,
+      "Tomasz Radecki": 0
+    },
+    "fast_legs": {
+      "Szymon Put": [],
+      "Tomasz Radecki": []
+    },
+    "average": {
+      "Szymon Put": 41.29,
+      "Tomasz Radecki": 43.02
+    }
+  },
+  {
+    "tmid": "t_VSJh_3003_rr_1_Qpal_goCk",
+    "tournament": "Superpuchar Klubu 1/4 — Jesień 2026",
+    "category": "superpuchar",
+    "title": "Tomi Dart Club Jesień 2026 Superpuchar Klubu 1z5 Grupa 2",
+    "player1": "Waldemar Kopacz",
+    "player2": "Michał Kural",
+    "score": "3:0",
+    "fast_legs_count": {
+      "Waldemar Kopacz": 2,
+      "Michał Kural": 0
+    },
+    "fast_legs": {
+      "Waldemar Kopacz": [
+        16,
+        17
+      ],
+      "Michał Kural": []
+    },
+    "average": {
+      "Waldemar Kopacz": 85.08,
+      "Michał Kural": 44.44
+    }
+  },
+  {
+    "tmid": "t_VSJh_3003_rr_0_4paq_Jn55",
+    "tournament": "Superpuchar Klubu 1/4 — Jesień 2026",
+    "category": "superpuchar",
+    "title": "Tomi Dart Club Jesień 2026 Superpuchar Klubu 1z5 Grupa 1",
+    "player1": "Jarosław Gryga",
+    "player2": "Adrian Ochel",
+    "score": "1:3",
+    "fast_legs_count": {
+      "Jarosław Gryga": 0,
+      "Adrian Ochel": 0
+    },
+    "fast_legs": {
+      "Jarosław Gryga": [],
+      "Adrian Ochel": []
+    },
+    "average": {
+      "Jarosław Gryga": 44.29,
+      "Adrian Ochel": 52.84
+    }
+  },
+  {
+    "tmid": "t_VSJh_3003_rr_2_XHb3_aN2T",
+    "tournament": "Superpuchar Klubu 1/4 — Jesień 2026",
+    "category": "superpuchar",
+    "title": "Tomi Dart Club Jesień 2026 Superpuchar Klubu 1z5 Grupa 3",
+    "player1": "Karolina Put",
+    "player2": "Tomasz Krzysztof",
+    "score": "0:3",
+    "fast_legs_count": {
+      "Karolina Put": 0,
+      "Tomasz Krzysztof": 0
+    },
+    "fast_legs": {
+      "Karolina Put": [],
+      "Tomasz Krzysztof": []
+    },
+    "average": {
+      "Karolina Put": 35.19,
+      "Tomasz Krzysztof": 40.18
+    }
+  },
+  {
+    "tmid": "t_VSJh_3003_rr_3_5tXh_aiLd",
+    "tournament": "Superpuchar Klubu 1/4 — Jesień 2026",
+    "category": "superpuchar",
+    "title": "Tomi Dart Club Jesień 2026 Superpuchar Klubu 1z5 Grupa 4",
+    "player1": "Hubert Sułek",
+    "player2": "Krystian Sułek",
+    "score": "1:3",
+    "fast_legs_count": {
+      "Hubert Sułek": 0,
+      "Krystian Sułek": 0
+    },
+    "fast_legs": {
+      "Hubert Sułek": [],
+      "Krystian Sułek": []
+    },
+    "average": {
+      "Hubert Sułek": 52.46,
+      "Krystian Sułek": 52.75
+    }
+  },
+  {
+    "tmid": "t_VSJh_3003_rr_0_jkx2_pnhW",
+    "tournament": "Superpuchar Klubu 1/4 — Jesień 2026",
+    "category": "superpuchar",
+    "title": "Tomi Dart Club Jesień 2026 Superpuchar Klubu 1z5 Grupa 1",
+    "player1": "Daniel Czernecki",
+    "player2": "Mateusz Pięta",
+    "score": "1:3",
+    "fast_legs_count": {
+      "Daniel Czernecki": 0,
+      "Mateusz Pięta": 0
+    },
+    "fast_legs": {
+      "Daniel Czernecki": [],
+      "Mateusz Pięta": []
+    },
+    "average": {
+      "Daniel Czernecki": 51.35,
+      "Mateusz Pięta": 57.2
+    }
+  },
+  {
+    "tmid": "t_VSJh_3003_rr_1_9B5V_cZ6D",
+    "tournament": "Superpuchar Klubu 1/4 — Jesień 2026",
+    "category": "superpuchar",
+    "title": "Tomi Dart Club Jesień 2026 Superpuchar Klubu 1z5 Grupa 2",
+    "player1": "Tomasz Pilecki",
+    "player2": "Dominik Cierniak",
+    "score": "3:0",
+    "fast_legs_count": {
+      "Tomasz Pilecki": 0,
+      "Dominik Cierniak": 0
+    },
+    "fast_legs": {
+      "Tomasz Pilecki": [],
+      "Dominik Cierniak": []
+    },
+    "average": {
+      "Tomasz Pilecki": 45.09,
+      "Dominik Cierniak": 44.53
+    }
+  },
+  {
+    "tmid": "t_VSJh_3003_rr_3_2aLE_r1Jp",
+    "tournament": "Superpuchar Klubu 1/4 — Jesień 2026",
+    "category": "superpuchar",
+    "title": "Tomi Dart Club Jesień 2026 Superpuchar Klubu 1z5 Grupa 4",
+    "player1": "Radosław Stalmach",
+    "player2": "Jadwiga Tomasz",
+    "score": "3:2",
+    "fast_legs_count": {
+      "Radosław Stalmach": 0,
+      "Jadwiga Tomasz": 0
+    },
+    "fast_legs": {
+      "Radosław Stalmach": [],
+      "Jadwiga Tomasz": []
+    },
+    "average": {
+      "Radosław Stalmach": 36.42,
+      "Jadwiga Tomasz": 35.62
+    }
+  },
+  {
+    "tmid": "t_VSJh_3003_rr_0_Jn55_Ss8C",
+    "tournament": "Superpuchar Klubu 1/4 — Jesień 2026",
+    "category": "superpuchar",
+    "title": "Tomi Dart Club Jesień 2026 Superpuchar Klubu 1z5 Grupa 1",
+    "player1": "Tomasz Gałek",
+    "player2": "Adrian Ochel",
+    "score": "0:3",
+    "fast_legs_count": {
+      "Tomasz Gałek": 0,
+      "Adrian Ochel": 0
+    },
+    "fast_legs": {
+      "Tomasz Gałek": [],
+      "Adrian Ochel": []
+    },
+    "average": {
+      "Tomasz Gałek": 47.25,
+      "Adrian Ochel": 51.24
+    }
+  },
+  {
+    "tmid": "t_VSJh_3003_rr_1_goCk_yGIy",
+    "tournament": "Superpuchar Klubu 1/4 — Jesień 2026",
+    "category": "superpuchar",
+    "title": "Tomi Dart Club Jesień 2026 Superpuchar Klubu 1z5 Grupa 2",
+    "player1": "Michał Kural",
+    "player2": "Tomi Tomasz",
+    "score": "0:3",
+    "fast_legs_count": {
+      "Michał Kural": 0,
+      "Tomi Tomasz": 0
+    },
+    "fast_legs": {
+      "Michał Kural": [],
+      "Tomi Tomasz": []
+    },
+    "average": {
+      "Michał Kural": 41.37,
+      "Tomi Tomasz": 50.1
+    }
+  },
+  {
+    "tmid": "t_VSJh_3003_rr_2_S368_fCWD",
+    "tournament": "Superpuchar Klubu 1/4 — Jesień 2026",
+    "category": "superpuchar",
+    "title": "Tomi Dart Club Jesień 2026 Superpuchar Klubu 1z5 Grupa 3",
+    "player1": "Krystian Krzywy",
+    "player2": "Szymon Put",
+    "score": "3:2",
+    "fast_legs_count": {
+      "Krystian Krzywy": 0,
+      "Szymon Put": 0
+    },
+    "fast_legs": {
+      "Krystian Krzywy": [],
+      "Szymon Put": []
+    },
+    "average": {
+      "Krystian Krzywy": 48.3,
+      "Szymon Put": 46.29
+    }
+  },
+  {
+    "tmid": "t_VSJh_3003_rr_1_9B5V_Qpal",
+    "tournament": "Superpuchar Klubu 1/4 — Jesień 2026",
+    "category": "superpuchar",
+    "title": "Tomi Dart Club Jesień 2026 Superpuchar Klubu 1z5 Grupa 2",
+    "player1": "Waldemar Kopacz",
+    "player2": "Dominik Cierniak",
+    "score": "3:1",
+    "fast_legs_count": {
+      "Waldemar Kopacz": 0,
+      "Dominik Cierniak": 0
+    },
+    "fast_legs": {
+      "Waldemar Kopacz": [],
+      "Dominik Cierniak": []
+    },
+    "average": {
+      "Waldemar Kopacz": 55.61,
+      "Dominik Cierniak": 47.66
+    }
+  },
+  {
+    "tmid": "t_VSJh_3003_rr_3_AG8y_aiLd",
+    "tournament": "Superpuchar Klubu 1/4 — Jesień 2026",
+    "category": "superpuchar",
+    "title": "Tomi Dart Club Jesień 2026 Superpuchar Klubu 1z5 Grupa 4",
+    "player1": "Piotr Gryga",
+    "player2": "Krystian Sułek",
+    "score": "2:3",
+    "fast_legs_count": {
+      "Piotr Gryga": 0,
+      "Krystian Sułek": 0
+    },
+    "fast_legs": {
+      "Piotr Gryga": [],
+      "Krystian Sułek": []
+    },
+    "average": {
+      "Piotr Gryga": 48.89,
+      "Krystian Sułek": 49.87
+    }
+  },
+  {
+    "tmid": "t_VSJh_3003_rr_0_4paq_jkx2",
+    "tournament": "Superpuchar Klubu 1/4 — Jesień 2026",
+    "category": "superpuchar",
+    "title": "Tomi Dart Club Jesień 2026 Superpuchar Klubu 1z5 Grupa 1",
+    "player1": "Jarosław Gryga",
+    "player2": "Daniel Czernecki",
+    "score": "3:2",
+    "fast_legs_count": {
+      "Jarosław Gryga": 0,
+      "Daniel Czernecki": 0
+    },
+    "fast_legs": {
+      "Jarosław Gryga": [],
+      "Daniel Czernecki": []
+    },
+    "average": {
+      "Jarosław Gryga": 52.07,
+      "Daniel Czernecki": 47.9
+    }
+  },
+  {
+    "tmid": "t_VSJh_3003_rr_1_cZ6D_goCk",
+    "tournament": "Superpuchar Klubu 1/4 — Jesień 2026",
+    "category": "superpuchar",
+    "title": "Tomi Dart Club Jesień 2026 Superpuchar Klubu 1z5 Grupa 2",
+    "player1": "Tomasz Pilecki",
+    "player2": "Michał Kural",
+    "score": "3:0",
+    "fast_legs_count": {
+      "Tomasz Pilecki": 0,
+      "Michał Kural": 0
+    },
+    "fast_legs": {
+      "Tomasz Pilecki": [],
+      "Michał Kural": []
+    },
+    "average": {
+      "Tomasz Pilecki": 61.77,
+      "Michał Kural": 39.65
+    }
+  },
+  {
+    "tmid": "t_VSJh_3003_rr_0_Jn55_pnhW",
+    "tournament": "Superpuchar Klubu 1/4 — Jesień 2026",
+    "category": "superpuchar",
+    "title": "Tomi Dart Club Jesień 2026 Superpuchar Klubu 1z5 Grupa 1",
+    "player1": "Adrian Ochel",
+    "player2": "Mateusz Pięta",
+    "score": "3:2",
+    "fast_legs_count": {
+      "Adrian Ochel": 0,
+      "Mateusz Pięta": 0
+    },
+    "fast_legs": {
+      "Adrian Ochel": [],
+      "Mateusz Pięta": []
+    },
+    "average": {
+      "Adrian Ochel": 50.05,
+      "Mateusz Pięta": 47.28
+    }
+  },
+  {
+    "tmid": "t_VSJh_3003_rr_2_aN2T_jpVH",
+    "tournament": "Superpuchar Klubu 1/4 — Jesień 2026",
+    "category": "superpuchar",
+    "title": "Tomi Dart Club Jesień 2026 Superpuchar Klubu 1z5 Grupa 3",
+    "player1": "Tomasz Radecki",
+    "player2": "Tomasz Krzysztof",
+    "score": "2:3",
+    "fast_legs_count": {
+      "Tomasz Radecki": 0,
+      "Tomasz Krzysztof": 0
+    },
+    "fast_legs": {
+      "Tomasz Radecki": [],
+      "Tomasz Krzysztof": []
+    },
+    "average": {
+      "Tomasz Radecki": 43.38,
+      "Tomasz Krzysztof": 42.18
+    }
+  },
+  {
+    "tmid": "t_VSJh_3003_rr_1_9B5V_yGIy",
+    "tournament": "Superpuchar Klubu 1/4 — Jesień 2026",
+    "category": "superpuchar",
+    "title": "Tomi Dart Club Jesień 2026 Superpuchar Klubu 1z5 Grupa 2",
+    "player1": "Dominik Cierniak",
+    "player2": "Tomi Tomasz",
+    "score": "1:3",
+    "fast_legs_count": {
+      "Dominik Cierniak": 0,
+      "Tomi Tomasz": 0
+    },
+    "fast_legs": {
+      "Dominik Cierniak": [],
+      "Tomi Tomasz": []
+    },
+    "average": {
+      "Dominik Cierniak": 44.38,
+      "Tomi Tomasz": 48.93
+    }
+  },
+  {
+    "tmid": "t_VSJh_3003_rr_2_S368_XHb3",
+    "tournament": "Superpuchar Klubu 1/4 — Jesień 2026",
+    "category": "superpuchar",
+    "title": "Tomi Dart Club Jesień 2026 Superpuchar Klubu 1z5 Grupa 3",
+    "player1": "Szymon Put",
+    "player2": "Karolina Put",
+    "score": "3:0",
+    "fast_legs_count": {
+      "Szymon Put": 0,
+      "Karolina Put": 0
+    },
+    "fast_legs": {
+      "Szymon Put": [],
+      "Karolina Put": []
+    },
+    "average": {
+      "Szymon Put": 46.01,
+      "Karolina Put": 35.91
+    }
+  },
+  {
+    "tmid": "t_VSJh_3003_rr_2_aN2T_fCWD",
+    "tournament": "Superpuchar Klubu 1/4 — Jesień 2026",
+    "category": "superpuchar",
+    "title": "Tomi Dart Club Jesień 2026 Superpuchar Klubu 1z5 Grupa 3",
+    "player1": "Krystian Krzywy",
+    "player2": "Tomasz Krzysztof",
+    "score": "3:0",
+    "fast_legs_count": {
+      "Krystian Krzywy": 0,
+      "Tomasz Krzysztof": 0
+    },
+    "fast_legs": {
+      "Krystian Krzywy": [],
+      "Tomasz Krzysztof": []
+    },
+    "average": {
+      "Krystian Krzywy": 52.43,
+      "Tomasz Krzysztof": 44.79
+    }
+  },
+  {
+    "tmid": "t_VSJh_3003_rr_3_2aLE_5tXh",
+    "tournament": "Superpuchar Klubu 1/4 — Jesień 2026",
+    "category": "superpuchar",
+    "title": "Tomi Dart Club Jesień 2026 Superpuchar Klubu 1z5 Grupa 4",
+    "player1": "Hubert Sułek",
+    "player2": "Radosław Stalmach",
+    "score": "3:1",
+    "fast_legs_count": {
+      "Hubert Sułek": 0,
+      "Radosław Stalmach": 0
+    },
+    "fast_legs": {
+      "Hubert Sułek": [],
+      "Radosław Stalmach": []
+    },
+    "average": {
+      "Hubert Sułek": 43.08,
+      "Radosław Stalmach": 35.51
+    }
+  },
+  {
+    "tmid": "t_VSJh_3003_rr_0_4paq_Ss8C",
+    "tournament": "Superpuchar Klubu 1/4 — Jesień 2026",
+    "category": "superpuchar",
+    "title": "Tomi Dart Club Jesień 2026 Superpuchar Klubu 1z5 Grupa 1",
+    "player1": "Jarosław Gryga",
+    "player2": "Tomasz Gałek",
+    "score": "3:2",
+    "fast_legs_count": {
+      "Jarosław Gryga": 0,
+      "Tomasz Gałek": 0
+    },
+    "fast_legs": {
+      "Jarosław Gryga": [],
+      "Tomasz Gałek": []
+    },
+    "average": {
+      "Jarosław Gryga": 45.92,
+      "Tomasz Gałek": 42.97
+    }
+  },
+  {
+    "tmid": "t_VSJh_3003_rr_3_aiLd_r1Jp",
+    "tournament": "Superpuchar Klubu 1/4 — Jesień 2026",
+    "category": "superpuchar",
+    "title": "Tomi Dart Club Jesień 2026 Superpuchar Klubu 1z5 Grupa 4",
+    "player1": "Krystian Sułek",
+    "player2": "Jadwiga Tomasz",
+    "score": "3:0",
+    "fast_legs_count": {
+      "Krystian Sułek": 0,
+      "Jadwiga Tomasz": 0
+    },
+    "fast_legs": {
+      "Krystian Sułek": [],
+      "Jadwiga Tomasz": []
+    },
+    "average": {
+      "Krystian Sułek": 44.64,
+      "Jadwiga Tomasz": 36.67
+    }
+  },
+  {
+    "tmid": "t_VSJh_3003_rr_2_fCWD_jpVH",
+    "tournament": "Superpuchar Klubu 1/4 — Jesień 2026",
+    "category": "superpuchar",
+    "title": "Tomi Dart Club Jesień 2026 Superpuchar Klubu 1z5 Grupa 3",
+    "player1": "Krystian Krzywy",
+    "player2": "Tomasz Radecki",
+    "score": "2:3",
+    "fast_legs_count": {
+      "Krystian Krzywy": 0,
+      "Tomasz Radecki": 0
+    },
+    "fast_legs": {
+      "Krystian Krzywy": [],
+      "Tomasz Radecki": []
+    },
+    "average": {
+      "Krystian Krzywy": 48.88,
+      "Tomasz Radecki": 49.05
+    }
+  },
+  {
+    "tmid": "t_VSJh_3003_rr_0_Jn55_jkx2",
+    "tournament": "Superpuchar Klubu 1/4 — Jesień 2026",
+    "category": "superpuchar",
+    "title": "Tomi Dart Club Jesień 2026 Superpuchar Klubu 1z5 Grupa 1",
+    "player1": "Daniel Czernecki",
+    "player2": "Adrian Ochel",
+    "score": "0:3",
+    "fast_legs_count": {
+      "Daniel Czernecki": 0,
+      "Adrian Ochel": 0
+    },
+    "fast_legs": {
+      "Daniel Czernecki": [],
+      "Adrian Ochel": []
+    },
+    "average": {
+      "Daniel Czernecki": 51.46,
+      "Adrian Ochel": 60.12
+    }
+  },
+  {
+    "tmid": "t_VSJh_3003_rr_3_5tXh_AG8y",
+    "tournament": "Superpuchar Klubu 1/4 — Jesień 2026",
+    "category": "superpuchar",
+    "title": "Tomi Dart Club Jesień 2026 Superpuchar Klubu 1z5 Grupa 4",
+    "player1": "Hubert Sułek",
+    "player2": "Piotr Gryga",
+    "score": "1:3",
+    "fast_legs_count": {
+      "Hubert Sułek": 0,
+      "Piotr Gryga": 1
+    },
+    "fast_legs": {
+      "Hubert Sułek": [],
+      "Piotr Gryga": [
+        17
+      ]
+    },
+    "average": {
+      "Hubert Sułek": 66.84,
+      "Piotr Gryga": 67.61
+    }
+  },
+  {
+    "tmid": "t_VSJh_3003_rr_1_Qpal_cZ6D",
+    "tournament": "Superpuchar Klubu 1/4 — Jesień 2026",
+    "category": "superpuchar",
+    "title": "Tomi Dart Club Jesień 2026 Superpuchar Klubu 1z5 Grupa 2",
+    "player1": "Tomasz Pilecki",
+    "player2": "Waldemar Kopacz",
+    "score": "3:1",
+    "fast_legs_count": {
+      "Tomasz Pilecki": 0,
+      "Waldemar Kopacz": 0
+    },
+    "fast_legs": {
+      "Tomasz Pilecki": [],
+      "Waldemar Kopacz": []
+    },
+    "average": {
+      "Tomasz Pilecki": 46.05,
+      "Waldemar Kopacz": 48.8
+    }
   }
 ]
