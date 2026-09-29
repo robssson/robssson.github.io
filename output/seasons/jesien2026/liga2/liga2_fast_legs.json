@@ -1,5 +1,347 @@
 [
   {
+    "tmid": "t_4UPX_3308_lg_0_4im8_Cv46_X6iZ",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga A",
+    "group": "A",
+    "player1": "Dominik Cierniak",
+    "player2": "Krystian Krzywy",
+    "score": "1:7",
+    "fast_legs_count": {
+      "Dominik Cierniak": 0,
+      "Krystian Krzywy": 0
+    },
+    "fast_legs": {
+      "Dominik Cierniak": [],
+      "Krystian Krzywy": []
+    },
+    "average": {
+      "Dominik Cierniak": 42.67782426778243,
+      "Krystian Krzywy": 49.289256198347104
+    }
+  },
+  {
+    "tmid": "t_4UPX_3308_lg_0_9chm_3TAv_Cv46",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga A",
+    "group": "A",
+    "player1": "Krystian Krzywy",
+    "player2": "Krystian Sułek",
+    "score": "4:7",
+    "fast_legs_count": {
+      "Krystian Krzywy": 0,
+      "Krystian Sułek": 0
+    },
+    "fast_legs": {
+      "Krystian Krzywy": [],
+      "Krystian Sułek": []
+    },
+    "average": {
+      "Krystian Krzywy": 52.22491349480969,
+      "Krystian Sułek": 54.302083333333336
+    }
+  },
+  {
+    "tmid": "t_4UPX_3308_lg_0_s9eo_GkoY_X6iZ",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga A",
+    "group": "A",
+    "player1": "Tomasz Pilecki",
+    "player2": "Dominik Cierniak",
+    "score": "5:7",
+    "fast_legs_count": {
+      "Tomasz Pilecki": 0,
+      "Dominik Cierniak": 0
+    },
+    "fast_legs": {
+      "Tomasz Pilecki": [],
+      "Dominik Cierniak": []
+    },
+    "average": {
+      "Tomasz Pilecki": 49.79829545454545,
+      "Dominik Cierniak": 46.35042735042735
+    }
+  },
+  {
+    "tmid": "t_4UPX_3308_lg_0_0b03_3TAv_BN4x",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga A",
+    "group": "A",
+    "player1": "Tomasz Radecki",
+    "player2": "Krystian Sułek",
+    "score": "7:5",
+    "fast_legs_count": {
+      "Tomasz Radecki": 0,
+      "Krystian Sułek": 0
+    },
+    "fast_legs": {
+      "Tomasz Radecki": [],
+      "Krystian Sułek": []
+    },
+    "average": {
+      "Tomasz Radecki": 50.5045871559633,
+      "Krystian Sułek": 52.09422492401216
+    }
+  },
+  {
+    "tmid": "t_4UPX_3308_lg_0_gxfm_3JFn_Cv46",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga A",
+    "group": "A",
+    "player1": "Krystian Krzywy",
+    "player2": "Michał Kowalinski",
+    "score": "6:6",
+    "fast_legs_count": {
+      "Krystian Krzywy": 0,
+      "Michał Kowalinski": 0
+    },
+    "fast_legs": {
+      "Krystian Krzywy": [],
+      "Michał Kowalinski": []
+    },
+    "average": {
+      "Krystian Krzywy": 45.7,
+      "Michał Kowalinski": 44.25190839694657
+    }
+  },
+  {
+    "tmid": "t_4UPX_3308_lg_0_iuzi_BN4x_GkoY",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga A",
+    "group": "A",
+    "player1": "Tomasz Radecki",
+    "player2": "Tomasz Pilecki",
+    "score": "3:7",
+    "fast_legs_count": {
+      "Tomasz Radecki": 0,
+      "Tomasz Pilecki": 0
+    },
+    "fast_legs": {
+      "Tomasz Radecki": [],
+      "Tomasz Pilecki": []
+    },
+    "average": {
+      "Tomasz Radecki": 45.561872909699,
+      "Tomasz Pilecki": 48.08
+    }
+  },
+  {
+    "tmid": "t_4UPX_3308_lg_0_el92_3TAv_X6iZ",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga A",
+    "group": "A",
+    "player1": "Krystian Sułek",
+    "player2": "Dominik Cierniak",
+    "score": "7:2",
+    "fast_legs_count": {
+      "Krystian Sułek": 0,
+      "Dominik Cierniak": 0
+    },
+    "fast_legs": {
+      "Krystian Sułek": [],
+      "Dominik Cierniak": []
+    },
+    "average": {
+      "Krystian Sułek": 50.37078651685393,
+      "Dominik Cierniak": 44.461832061068705
+    }
+  },
+  {
+    "tmid": "t_4UPX_3308_lg_0_5d02_3JFn_4rJ3",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga A",
+    "group": "A",
+    "player1": "Grzegorz Mularz",
+    "player2": "Michał Kowalinski",
+    "score": "7:1",
+    "fast_legs_count": {
+      "Grzegorz Mularz": 0,
+      "Michał Kowalinski": 0
+    },
+    "fast_legs": {
+      "Grzegorz Mularz": [],
+      "Michał Kowalinski": []
+    },
+    "average": {
+      "Grzegorz Mularz": 62.8586387434555,
+      "Michał Kowalinski": 50.903225806451616
+    }
+  },
+  {
+    "tmid": "t_4UPX_3308_lg_0_kld9_BN4x_Cv46",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga A",
+    "group": "A",
+    "player1": "Tomasz Radecki",
+    "player2": "Krystian Krzywy",
+    "score": "6:6",
+    "fast_legs_count": {
+      "Tomasz Radecki": 0,
+      "Krystian Krzywy": 0
+    },
+    "fast_legs": {
+      "Tomasz Radecki": [],
+      "Krystian Krzywy": []
+    },
+    "average": {
+      "Tomasz Radecki": 45.109947643979055,
+      "Krystian Krzywy": 45.47532467532468
+    }
+  },
+  {
+    "tmid": "t_4UPX_3308_lg_0_yx48_4rJ3_X6iZ",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga A",
+    "group": "A",
+    "player1": "Dominik Cierniak",
+    "player2": "Grzegorz Mularz",
+    "score": "2:7",
+    "fast_legs_count": {
+      "Dominik Cierniak": 0,
+      "Grzegorz Mularz": 0
+    },
+    "fast_legs": {
+      "Dominik Cierniak": [],
+      "Grzegorz Mularz": []
+    },
+    "average": {
+      "Dominik Cierniak": 49.23012552301255,
+      "Grzegorz Mularz": 56.04149377593361
+    }
+  },
+  {
+    "tmid": "t_4UPX_3308_lg_0_ep4h_3JFn_GkoY",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga A",
+    "group": "A",
+    "player1": "Michał Kowalinski",
+    "player2": "Tomasz Pilecki",
+    "score": "5:7",
+    "fast_legs_count": {
+      "Michał Kowalinski": 0,
+      "Tomasz Pilecki": 0
+    },
+    "fast_legs": {
+      "Michał Kowalinski": [],
+      "Tomasz Pilecki": []
+    },
+    "average": {
+      "Michał Kowalinski": 47.410404624277454,
+      "Tomasz Pilecki": 49.98567335243553
+    }
+  },
+  {
+    "tmid": "t_4UPX_3308_lg_0_riom_6Col_Cv46",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga A",
+    "group": "A",
+    "player1": "Paweł Cefal",
+    "player2": "Krystian Krzywy",
+    "score": "5:7",
+    "fast_legs_count": {
+      "Paweł Cefal": 0,
+      "Krystian Krzywy": 0
+    },
+    "fast_legs": {
+      "Paweł Cefal": [],
+      "Krystian Krzywy": []
+    },
+    "average": {
+      "Paweł Cefal": 44.85989010989011,
+      "Krystian Krzywy": 48.43801652892562
+    }
+  },
+  {
+    "tmid": "t_4UPX_3308_lg_0_k8jf_4rJ3_BN4x",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga A",
+    "group": "A",
+    "player1": "Grzegorz Mularz",
+    "player2": "Tomasz Radecki",
+    "score": "6:6",
+    "fast_legs_count": {
+      "Grzegorz Mularz": 0,
+      "Tomasz Radecki": 0
+    },
+    "fast_legs": {
+      "Grzegorz Mularz": [],
+      "Tomasz Radecki": []
+    },
+    "average": {
+      "Grzegorz Mularz": 57.561290322580646,
+      "Tomasz Radecki": 51.69453376205788
+    }
+  },
+  {
+    "tmid": "t_4UPX_3308_lg_0_1wli_3JFn_X6iZ",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga A",
+    "group": "A",
+    "player1": "Michał Kowalinski",
+    "player2": "Dominik Cierniak",
+    "score": "7:4",
+    "fast_legs_count": {
+      "Michał Kowalinski": 0,
+      "Dominik Cierniak": 0
+    },
+    "fast_legs": {
+      "Michał Kowalinski": [],
+      "Dominik Cierniak": []
+    },
+    "average": {
+      "Michał Kowalinski": 45.99713467048711,
+      "Dominik Cierniak": 43.06590257879656
+    }
+  },
+  {
+    "tmid": "t_4UPX_3308_lg_0_0xgc_4rJ3_6Col",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga A",
+    "group": "A",
+    "player1": "Paweł Cefal",
+    "player2": "Grzegorz Mularz",
+    "score": "0:7",
+    "fast_legs_count": {
+      "Paweł Cefal": 0,
+      "Grzegorz Mularz": 0
+    },
+    "fast_legs": {
+      "Paweł Cefal": [],
+      "Grzegorz Mularz": []
+    },
+    "average": {
+      "Paweł Cefal": 45.87931034482759,
+      "Grzegorz Mularz": 60.8150289017341
+    }
+  },
+  {
+    "tmid": "t_4UPX_3308_lg_0_j61l_Cv46_GkoY",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga A",
+    "group": "A",
+    "player1": "Tomasz Pilecki",
+    "player2": "Krystian Krzywy",
+    "score": "6:6",
+    "fast_legs_count": {
+      "Tomasz Pilecki": 0,
+      "Krystian Krzywy": 0
+    },
+    "fast_legs": {
+      "Tomasz Pilecki": [],
+      "Krystian Krzywy": []
+    },
+    "average": {
+      "Tomasz Pilecki": 48.2967032967033,
+      "Krystian Krzywy": 48.81666666666667
+    }
+  },
+  {
+    "tmid": "t_4UPX_3308_lg_0_yppk_BN4x_X6iZ",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga A",
+    "group": "A",
+    "player1": "Tomasz Radecki",
+    "player2": "Dominik Cierniak",
+    "score": "7:3",
+    "fast_legs_count": {
+      "Tomasz Radecki": 1,
+      "Dominik Cierniak": 0
+    },
+    "fast_legs": {
+      "Tomasz Radecki": [
+        16
+      ],
+      "Dominik Cierniak": []
+    },
+    "average": {
+      "Tomasz Radecki": 54.51111111111111,
+      "Dominik Cierniak": 43.52189781021898
+    }
+  },
+  {
     "tmid": "t_4UPX_3308_lg_0_ln39_3TAv_GkoY",
     "title": "Tomi Dart Club Jesień 2026 2 Liga A",
     "group": "A",
