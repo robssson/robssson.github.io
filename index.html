@@ -136,15 +136,6 @@
     
     <div class="row g-4">
 
-         <div class="col-md-4">
-            <div class="event-card">
-                <div class="event-date">1 PAŹ 2026</div>
-                <h5>🏆 Szerszeń Cup 2z5 DI/DO</h5>
-                <p class="text-muted">Czwartek, godz. 18:00</p>
-                <span class="badge bg-success">Zapisy otwarte</span>
-            </div>
-        </div>
-
         <div class="col-md-4">
             <div class="event-card">
                 <div class="event-date">22 PAŹ 2026</div>
@@ -158,6 +149,15 @@
             <div class="event-card">
                 <div class="event-date">5 LIS 2026</div>
                 <h5>🏆 Szerszeń Cup 3z5</h5>
+                <p class="text-muted">Czwartek, godz. 18:00</p>
+                <span class="badge bg-success">Zapisy otwarte</span>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="event-card">
+                <div class="event-date">19 LIS 2026</div>
+                <h5>🎯 Superpuchar Klubu 3z5 DI/MO</h5>
                 <p class="text-muted">Czwartek, godz. 18:00</p>
                 <span class="badge bg-success">Zapisy otwarte</span>
             </div>
@@ -463,26 +463,7 @@
 // Pokaż modal turnieju - raz na sesję
 (function() {
     const tournaments = [
-        {
-            name: "Superpuchar Klubu 1z5",
-            date: "2026-09-24",
-            day: "Czwartek",
-            time: "18:00",
-            location: "Tomi Dart Club, Stary Wiśnicz",
-            fee: "20 zł",
-            format: "501 DI/DO",
-            signups: true
-        },
-                {
-            name: "Szerszeń Cup 2z5",
-            date: "2026-10-01",
-            day: "Czwartek",
-            time: "18:00",
-            location: "Tomi Dart Club, Stary Wiśnicz",
-            fee: "20 zł",
-            format: "501 DO",
-            signups: true
-            },
+
                 {
             name: "Superpuchar Klubu 2z5",
             date: "2026-10-22",
@@ -500,9 +481,19 @@
             time: "18:00",
             location: "Tomi Dart Club, Stary Wiśnicz",
             fee: "20 zł",
-            format: "501",
+            format: "501 DO",
             signups: true
-        }
+        },
+                       {
+            name: "Superpuchar Klubu 3z5",
+            date: "2026-11-19",
+            day: "Czwartek",
+            time: "18:00",
+            location: "Tomi Dart Club, Stary Wiśnicz",
+            fee: "20 zł",
+            format: "501 DI/MO",
+            signups: true
+            }
     ];
 
     const now = new Date();
