@@ -1775,5 +1775,1015 @@
       "Tomasz Pilecki": 46.05,
       "Waldemar Kopacz": 48.8
     }
+  },
+  {
+    "tmid": "t_RBpY_5698_t3_0_j2yv_tWy9",
+    "tournament": "Szerszeń Cup 2/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup 2z5 Mecz o 3. miejsce",
+    "player1": "Waldemar Kopacz",
+    "player2": "Łukasz Konieczny",
+    "score": "3:2",
+    "fast_legs_count": {
+      "Waldemar Kopacz": 0,
+      "Łukasz Konieczny": 0
+    },
+    "fast_legs": {
+      "Waldemar Kopacz": [],
+      "Łukasz Konieczny": []
+    },
+    "average": {
+      "Waldemar Kopacz": 49.77,
+      "Łukasz Konieczny": 44.06
+    }
+  },
+  {
+    "tmid": "t_RBpY_5698_t_2_Enh0_gx0s",
+    "tournament": "Szerszeń Cup 2/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup 2z5 Finał",
+    "player1": "Grzegorz Mularz",
+    "player2": "Adrian Ochel",
+    "score": "3:4",
+    "fast_legs_count": {
+      "Grzegorz Mularz": 0,
+      "Adrian Ochel": 0
+    },
+    "fast_legs": {
+      "Grzegorz Mularz": [],
+      "Adrian Ochel": []
+    },
+    "average": {
+      "Grzegorz Mularz": 47.94,
+      "Adrian Ochel": 45.03
+    }
+  },
+  {
+    "tmid": "t_RBpY_5698_t_1_Enh0_tWy9",
+    "tournament": "Szerszeń Cup 2/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup 2z5 Półfinał",
+    "player1": "Waldemar Kopacz",
+    "player2": "Grzegorz Mularz",
+    "score": "2:3",
+    "fast_legs_count": {
+      "Waldemar Kopacz": 0,
+      "Grzegorz Mularz": 0
+    },
+    "fast_legs": {
+      "Waldemar Kopacz": [],
+      "Grzegorz Mularz": []
+    },
+    "average": {
+      "Waldemar Kopacz": 59.54,
+      "Grzegorz Mularz": 53.76
+    }
+  },
+  {
+    "tmid": "t_RBpY_5698_t_1_gx0s_j2yv",
+    "tournament": "Szerszeń Cup 2/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup 2z5 Półfinał",
+    "player1": "Łukasz Konieczny",
+    "player2": "Adrian Ochel",
+    "score": "2:3",
+    "fast_legs_count": {
+      "Łukasz Konieczny": 0,
+      "Adrian Ochel": 0
+    },
+    "fast_legs": {
+      "Łukasz Konieczny": [],
+      "Adrian Ochel": []
+    },
+    "average": {
+      "Łukasz Konieczny": 54.02,
+      "Adrian Ochel": 49.29
+    }
+  },
+  {
+    "tmid": "t_RBpY_5698_t_0_RxFg_tWy9",
+    "tournament": "Szerszeń Cup 2/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup 2z5 Top 8",
+    "player1": "Waldemar Kopacz",
+    "player2": "Tomasz Radecki",
+    "score": "3:0",
+    "fast_legs_count": {
+      "Waldemar Kopacz": 0,
+      "Tomasz Radecki": 0
+    },
+    "fast_legs": {
+      "Waldemar Kopacz": [],
+      "Tomasz Radecki": []
+    },
+    "average": {
+      "Waldemar Kopacz": 50.66,
+      "Tomasz Radecki": 34.34
+    }
+  },
+  {
+    "tmid": "t_RBpY_5698_t_0_Enh0_NExO",
+    "tournament": "Szerszeń Cup 2/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup 2z5 Top 8",
+    "player1": "Grzegorz Mularz",
+    "player2": "Roman Flasza",
+    "score": "3:2",
+    "fast_legs_count": {
+      "Grzegorz Mularz": 0,
+      "Roman Flasza": 0
+    },
+    "fast_legs": {
+      "Grzegorz Mularz": [],
+      "Roman Flasza": []
+    },
+    "average": {
+      "Grzegorz Mularz": 48.5,
+      "Roman Flasza": 48.13
+    }
+  },
+  {
+    "tmid": "t_RBpY_5698_t_0_0E7W_j2yv",
+    "tournament": "Szerszeń Cup 2/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup 2z5 Top 8",
+    "player1": "Łukasz Konieczny",
+    "player2": "Tomasz Pilecki",
+    "score": "3:0",
+    "fast_legs_count": {
+      "Łukasz Konieczny": 0,
+      "Tomasz Pilecki": 0
+    },
+    "fast_legs": {
+      "Łukasz Konieczny": [],
+      "Tomasz Pilecki": []
+    },
+    "average": {
+      "Łukasz Konieczny": 54.33,
+      "Tomasz Pilecki": 44.81
+    }
+  },
+  {
+    "tmid": "t_RBpY_5698_t_0_gx0s_sgn8",
+    "tournament": "Szerszeń Cup 2/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup 2z5 Top 8",
+    "player1": "Daniel Czernecki",
+    "player2": "Adrian Ochel",
+    "score": "1:3",
+    "fast_legs_count": {
+      "Daniel Czernecki": 0,
+      "Adrian Ochel": 0
+    },
+    "fast_legs": {
+      "Daniel Czernecki": [],
+      "Adrian Ochel": []
+    },
+    "average": {
+      "Daniel Czernecki": 43.43,
+      "Adrian Ochel": 48.63
+    }
+  },
+  {
+    "tmid": "t_RBpY_5698_rr_3_0E7W_24w9",
+    "tournament": "Szerszeń Cup 2/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup 2z5 Grupa 4",
+    "player1": "Tomasz Pilecki",
+    "player2": "Paweł Cefal",
+    "score": "3:0",
+    "fast_legs_count": {
+      "Tomasz Pilecki": 0,
+      "Paweł Cefal": 0
+    },
+    "fast_legs": {
+      "Tomasz Pilecki": [],
+      "Paweł Cefal": []
+    },
+    "average": {
+      "Tomasz Pilecki": 40.62,
+      "Paweł Cefal": 23.76
+    }
+  },
+  {
+    "tmid": "t_RBpY_5698_rr_3_Enh0_KC9r",
+    "tournament": "Szerszeń Cup 2/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup 2z5 Grupa 4",
+    "player1": "Grzegorz Mularz",
+    "player2": "Jarosław Gryga",
+    "score": "3:0",
+    "fast_legs_count": {
+      "Grzegorz Mularz": 0,
+      "Jarosław Gryga": 0
+    },
+    "fast_legs": {
+      "Grzegorz Mularz": [],
+      "Jarosław Gryga": []
+    },
+    "average": {
+      "Grzegorz Mularz": 45.55,
+      "Jarosław Gryga": 40.41
+    }
+  },
+  {
+    "tmid": "t_RBpY_5698_rr_0_gx0s_rKrB",
+    "tournament": "Szerszeń Cup 2/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup 2z5 Grupa 1",
+    "player1": "Adrian Ochel",
+    "player2": "Mateusz Pięta",
+    "score": "3:1",
+    "fast_legs_count": {
+      "Adrian Ochel": 0,
+      "Mateusz Pięta": 0
+    },
+    "fast_legs": {
+      "Adrian Ochel": [],
+      "Mateusz Pięta": []
+    },
+    "average": {
+      "Adrian Ochel": 55.62,
+      "Mateusz Pięta": 49.56
+    }
+  },
+  {
+    "tmid": "t_RBpY_5698_rr_1_1CIT_j2yv",
+    "tournament": "Szerszeń Cup 2/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup 2z5 Grupa 2",
+    "player1": "Łukasz Konieczny",
+    "player2": "Krystian Heród",
+    "score": "3:1",
+    "fast_legs_count": {
+      "Łukasz Konieczny": 1,
+      "Krystian Heród": 0
+    },
+    "fast_legs": {
+      "Łukasz Konieczny": [
+        17
+      ],
+      "Krystian Heród": []
+    },
+    "average": {
+      "Łukasz Konieczny": 67.5,
+      "Krystian Heród": 52.57
+    }
+  },
+  {
+    "tmid": "t_RBpY_5698_rr_2_0Vok_sgn8",
+    "tournament": "Szerszeń Cup 2/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup 2z5 Grupa 3",
+    "player1": "Daniel Czernecki",
+    "player2": "Tomasz Gałek",
+    "score": "2:3",
+    "fast_legs_count": {
+      "Daniel Czernecki": 0,
+      "Tomasz Gałek": 0
+    },
+    "fast_legs": {
+      "Daniel Czernecki": [],
+      "Tomasz Gałek": []
+    },
+    "average": {
+      "Daniel Czernecki": 38.35,
+      "Tomasz Gałek": 43.7
+    }
+  },
+  {
+    "tmid": "t_RBpY_5698_rr_1_7VLC_NExO",
+    "tournament": "Szerszeń Cup 2/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup 2z5 Grupa 2",
+    "player1": "Kacper Legutko",
+    "player2": "Roman Flasza",
+    "score": "0:3",
+    "fast_legs_count": {
+      "Kacper Legutko": 0,
+      "Roman Flasza": 0
+    },
+    "fast_legs": {
+      "Kacper Legutko": [],
+      "Roman Flasza": []
+    },
+    "average": {
+      "Kacper Legutko": 45.03,
+      "Roman Flasza": 46.01
+    }
+  },
+  {
+    "tmid": "t_RBpY_5698_rr_3_24w9_uNuP",
+    "tournament": "Szerszeń Cup 2/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup 2z5 Grupa 4",
+    "player1": "Sebastian Cefal",
+    "player2": "Paweł Cefal",
+    "score": "3:1",
+    "fast_legs_count": {
+      "Sebastian Cefal": 0,
+      "Paweł Cefal": 0
+    },
+    "fast_legs": {
+      "Sebastian Cefal": [],
+      "Paweł Cefal": []
+    },
+    "average": {
+      "Sebastian Cefal": 38.58,
+      "Paweł Cefal": 38.35
+    }
+  },
+  {
+    "tmid": "t_RBpY_5698_rr_0_3AkY_tWy9",
+    "tournament": "Szerszeń Cup 2/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup 2z5 Grupa 1",
+    "player1": "Waldemar Kopacz",
+    "player2": "Tomi",
+    "score": "3:0",
+    "fast_legs_count": {
+      "Waldemar Kopacz": 0,
+      "Tomi": 0
+    },
+    "fast_legs": {
+      "Waldemar Kopacz": [],
+      "Tomi": []
+    },
+    "average": {
+      "Waldemar Kopacz": 46.97,
+      "Tomi": 36.65
+    }
+  },
+  {
+    "tmid": "t_RBpY_5698_rr_2_RxFg_cFR4",
+    "tournament": "Szerszeń Cup 2/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup 2z5 Grupa 3",
+    "player1": "Tomasz Radecki",
+    "player2": "Krystian Krzywy",
+    "score": "3:1",
+    "fast_legs_count": {
+      "Tomasz Radecki": 0,
+      "Krystian Krzywy": 0
+    },
+    "fast_legs": {
+      "Tomasz Radecki": [],
+      "Krystian Krzywy": []
+    },
+    "average": {
+      "Tomasz Radecki": 49.44,
+      "Krystian Krzywy": 44.59
+    }
+  },
+  {
+    "tmid": "t_RBpY_5698_rr_1_1CIT_RgIr",
+    "tournament": "Szerszeń Cup 2/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup 2z5 Grupa 2",
+    "player1": "Michał Kowalinski",
+    "player2": "Krystian Heród",
+    "score": "1:3",
+    "fast_legs_count": {
+      "Michał Kowalinski": 0,
+      "Krystian Heród": 0
+    },
+    "fast_legs": {
+      "Michał Kowalinski": [],
+      "Krystian Heród": []
+    },
+    "average": {
+      "Michał Kowalinski": 31.13,
+      "Krystian Heród": 39.88
+    }
+  },
+  {
+    "tmid": "t_RBpY_5698_rr_2_0Vok_nlaG",
+    "tournament": "Szerszeń Cup 2/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup 2z5 Grupa 3",
+    "player1": "Dominik Cierniak",
+    "player2": "Tomasz Gałek",
+    "score": "3:2",
+    "fast_legs_count": {
+      "Dominik Cierniak": 0,
+      "Tomasz Gałek": 0
+    },
+    "fast_legs": {
+      "Dominik Cierniak": [],
+      "Tomasz Gałek": []
+    },
+    "average": {
+      "Dominik Cierniak": 41.67,
+      "Tomasz Gałek": 40.74
+    }
+  },
+  {
+    "tmid": "t_RBpY_5698_rr_0_UjjR_rKrB",
+    "tournament": "Szerszeń Cup 2/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup 2z5 Grupa 1",
+    "player1": "Hubert Sułek",
+    "player2": "Mateusz Pięta",
+    "score": "2:3",
+    "fast_legs_count": {
+      "Hubert Sułek": 0,
+      "Mateusz Pięta": 0
+    },
+    "fast_legs": {
+      "Hubert Sułek": [],
+      "Mateusz Pięta": []
+    },
+    "average": {
+      "Hubert Sułek": 43.3,
+      "Mateusz Pięta": 47.64
+    }
+  },
+  {
+    "tmid": "t_RBpY_5698_rr_3_0E7W_Enh0",
+    "tournament": "Szerszeń Cup 2/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup 2z5 Grupa 4",
+    "player1": "Tomasz Pilecki",
+    "player2": "Grzegorz Mularz",
+    "score": "0:3",
+    "fast_legs_count": {
+      "Tomasz Pilecki": 0,
+      "Grzegorz Mularz": 0
+    },
+    "fast_legs": {
+      "Tomasz Pilecki": [],
+      "Grzegorz Mularz": []
+    },
+    "average": {
+      "Tomasz Pilecki": 47.0,
+      "Grzegorz Mularz": 53.05
+    }
+  },
+  {
+    "tmid": "t_RBpY_5698_rr_2_RxFg_sgn8",
+    "tournament": "Szerszeń Cup 2/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup 2z5 Grupa 3",
+    "player1": "Daniel Czernecki",
+    "player2": "Tomasz Radecki",
+    "score": "3:0",
+    "fast_legs_count": {
+      "Daniel Czernecki": 0,
+      "Tomasz Radecki": 0
+    },
+    "fast_legs": {
+      "Daniel Czernecki": [],
+      "Tomasz Radecki": []
+    },
+    "average": {
+      "Daniel Czernecki": 49.55,
+      "Tomasz Radecki": 46.0
+    }
+  },
+  {
+    "tmid": "t_RBpY_5698_rr_0_gx0s_tWy9",
+    "tournament": "Szerszeń Cup 2/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup 2z5 Grupa 1",
+    "player1": "Adrian Ochel",
+    "player2": "Waldemar Kopacz",
+    "score": "0:3",
+    "fast_legs_count": {
+      "Adrian Ochel": 0,
+      "Waldemar Kopacz": 0
+    },
+    "fast_legs": {
+      "Adrian Ochel": [],
+      "Waldemar Kopacz": []
+    },
+    "average": {
+      "Adrian Ochel": 51.46,
+      "Waldemar Kopacz": 61.77
+    }
+  },
+  {
+    "tmid": "t_RBpY_5698_rr_3_KC9r_uNuP",
+    "tournament": "Szerszeń Cup 2/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup 2z5 Grupa 4",
+    "player1": "Sebastian Cefal",
+    "player2": "Jarosław Gryga",
+    "score": "2:3",
+    "fast_legs_count": {
+      "Sebastian Cefal": 0,
+      "Jarosław Gryga": 0
+    },
+    "fast_legs": {
+      "Sebastian Cefal": [],
+      "Jarosław Gryga": []
+    },
+    "average": {
+      "Sebastian Cefal": 39.66,
+      "Jarosław Gryga": 38.77
+    }
+  },
+  {
+    "tmid": "t_RBpY_5698_rr_1_7VLC_j2yv",
+    "tournament": "Szerszeń Cup 2/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup 2z5 Grupa 2",
+    "player1": "Łukasz Konieczny",
+    "player2": "Kacper Legutko",
+    "score": "3:2",
+    "fast_legs_count": {
+      "Łukasz Konieczny": 0,
+      "Kacper Legutko": 0
+    },
+    "fast_legs": {
+      "Łukasz Konieczny": [],
+      "Kacper Legutko": []
+    },
+    "average": {
+      "Łukasz Konieczny": 49.83,
+      "Kacper Legutko": 48.59
+    }
+  },
+  {
+    "tmid": "t_RBpY_5698_rr_1_NExO_RgIr",
+    "tournament": "Szerszeń Cup 2/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup 2z5 Grupa 2",
+    "player1": "Michał Kowalinski",
+    "player2": "Roman Flasza",
+    "score": "1:3",
+    "fast_legs_count": {
+      "Michał Kowalinski": 0,
+      "Roman Flasza": 0
+    },
+    "fast_legs": {
+      "Michał Kowalinski": [],
+      "Roman Flasza": []
+    },
+    "average": {
+      "Michał Kowalinski": 42.64,
+      "Roman Flasza": 43.95
+    }
+  },
+  {
+    "tmid": "t_RBpY_5698_rr_0_3AkY_UjjR",
+    "tournament": "Szerszeń Cup 2/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup 2z5 Grupa 1",
+    "player1": "Hubert Sułek",
+    "player2": "Tomi",
+    "score": "3:0",
+    "fast_legs_count": {
+      "Hubert Sułek": 0,
+      "Tomi": 0
+    },
+    "fast_legs": {
+      "Hubert Sułek": [],
+      "Tomi": []
+    },
+    "average": {
+      "Hubert Sułek": 39.9,
+      "Tomi": 38.86
+    }
+  },
+  {
+    "tmid": "t_RBpY_5698_rr_2_cFR4_nlaG",
+    "tournament": "Szerszeń Cup 2/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup 2z5 Grupa 3",
+    "player1": "Dominik Cierniak",
+    "player2": "Krystian Krzywy",
+    "score": "1:3",
+    "fast_legs_count": {
+      "Dominik Cierniak": 0,
+      "Krystian Krzywy": 0
+    },
+    "fast_legs": {
+      "Dominik Cierniak": [],
+      "Krystian Krzywy": []
+    },
+    "average": {
+      "Dominik Cierniak": 31.55,
+      "Krystian Krzywy": 36.48
+    }
+  },
+  {
+    "tmid": "t_RBpY_5698_rr_3_24w9_Enh0",
+    "tournament": "Szerszeń Cup 2/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup 2z5 Grupa 4",
+    "player1": "Grzegorz Mularz",
+    "player2": "Paweł Cefal",
+    "score": "3:1",
+    "fast_legs_count": {
+      "Grzegorz Mularz": 0,
+      "Paweł Cefal": 0
+    },
+    "fast_legs": {
+      "Grzegorz Mularz": [],
+      "Paweł Cefal": []
+    },
+    "average": {
+      "Grzegorz Mularz": 38.68,
+      "Paweł Cefal": 42.56
+    }
+  },
+  {
+    "tmid": "t_RBpY_5698_rr_1_1CIT_7VLC",
+    "tournament": "Szerszeń Cup 2/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup 2z5 Grupa 2",
+    "player1": "Kacper Legutko",
+    "player2": "Krystian Heród",
+    "score": "2:3",
+    "fast_legs_count": {
+      "Kacper Legutko": 0,
+      "Krystian Heród": 0
+    },
+    "fast_legs": {
+      "Kacper Legutko": [],
+      "Krystian Heród": []
+    },
+    "average": {
+      "Kacper Legutko": 46.07,
+      "Krystian Heród": 45.77
+    }
+  },
+  {
+    "tmid": "t_RBpY_5698_rr_0_rKrB_tWy9",
+    "tournament": "Szerszeń Cup 2/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup 2z5 Grupa 1",
+    "player1": "Waldemar Kopacz",
+    "player2": "Mateusz Pięta",
+    "score": "3:0",
+    "fast_legs_count": {
+      "Waldemar Kopacz": 0,
+      "Mateusz Pięta": 0
+    },
+    "fast_legs": {
+      "Waldemar Kopacz": [],
+      "Mateusz Pięta": []
+    },
+    "average": {
+      "Waldemar Kopacz": 60.12,
+      "Mateusz Pięta": 33.72
+    }
+  },
+  {
+    "tmid": "t_RBpY_5698_rr_3_0E7W_KC9r",
+    "tournament": "Szerszeń Cup 2/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup 2z5 Grupa 4",
+    "player1": "Tomasz Pilecki",
+    "player2": "Jarosław Gryga",
+    "score": "3:1",
+    "fast_legs_count": {
+      "Tomasz Pilecki": 0,
+      "Jarosław Gryga": 0
+    },
+    "fast_legs": {
+      "Tomasz Pilecki": [],
+      "Jarosław Gryga": []
+    },
+    "average": {
+      "Tomasz Pilecki": 42.34,
+      "Jarosław Gryga": 39.4
+    }
+  },
+  {
+    "tmid": "t_RBpY_5698_rr_3_Enh0_uNuP",
+    "tournament": "Szerszeń Cup 2/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup 2z5 Grupa 4",
+    "player1": "Sebastian Cefal",
+    "player2": "Grzegorz Mularz",
+    "score": "0:3",
+    "fast_legs_count": {
+      "Sebastian Cefal": 0,
+      "Grzegorz Mularz": 0
+    },
+    "fast_legs": {
+      "Sebastian Cefal": [],
+      "Grzegorz Mularz": []
+    },
+    "average": {
+      "Sebastian Cefal": 37.65,
+      "Grzegorz Mularz": 48.48
+    }
+  },
+  {
+    "tmid": "t_RBpY_5698_rr_2_0Vok_RxFg",
+    "tournament": "Szerszeń Cup 2/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup 2z5 Grupa 3",
+    "player1": "Tomasz Radecki",
+    "player2": "Tomasz Gałek",
+    "score": "3:1",
+    "fast_legs_count": {
+      "Tomasz Radecki": 0,
+      "Tomasz Gałek": 0
+    },
+    "fast_legs": {
+      "Tomasz Radecki": [],
+      "Tomasz Gałek": []
+    },
+    "average": {
+      "Tomasz Radecki": 39.02,
+      "Tomasz Gałek": 39.12
+    }
+  },
+  {
+    "tmid": "t_RBpY_5698_rr_1_NExO_j2yv",
+    "tournament": "Szerszeń Cup 2/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup 2z5 Grupa 2",
+    "player1": "Łukasz Konieczny",
+    "player2": "Roman Flasza",
+    "score": "3:1",
+    "fast_legs_count": {
+      "Łukasz Konieczny": 0,
+      "Roman Flasza": 0
+    },
+    "fast_legs": {
+      "Łukasz Konieczny": [],
+      "Roman Flasza": []
+    },
+    "average": {
+      "Łukasz Konieczny": 55.81,
+      "Roman Flasza": 45.5
+    }
+  },
+  {
+    "tmid": "t_RBpY_5698_rr_0_3AkY_gx0s",
+    "tournament": "Szerszeń Cup 2/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup 2z5 Grupa 1",
+    "player1": "Adrian Ochel",
+    "player2": "Tomi",
+    "score": "3:1",
+    "fast_legs_count": {
+      "Adrian Ochel": 0,
+      "Tomi": 0
+    },
+    "fast_legs": {
+      "Adrian Ochel": [],
+      "Tomi": []
+    },
+    "average": {
+      "Adrian Ochel": 42.43,
+      "Tomi": 39.3
+    }
+  },
+  {
+    "tmid": "t_RBpY_5698_rr_2_cFR4_sgn8",
+    "tournament": "Szerszeń Cup 2/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup 2z5 Grupa 3",
+    "player1": "Daniel Czernecki",
+    "player2": "Krystian Krzywy",
+    "score": "3:1",
+    "fast_legs_count": {
+      "Daniel Czernecki": 0,
+      "Krystian Krzywy": 0
+    },
+    "fast_legs": {
+      "Daniel Czernecki": [],
+      "Krystian Krzywy": []
+    },
+    "average": {
+      "Daniel Czernecki": 42.42,
+      "Krystian Krzywy": 39.74
+    }
+  },
+  {
+    "tmid": "t_RBpY_5698_rr_2_RxFg_nlaG",
+    "tournament": "Szerszeń Cup 2/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup 2z5 Grupa 3",
+    "player1": "Dominik Cierniak",
+    "player2": "Tomasz Radecki",
+    "score": "0:3",
+    "fast_legs_count": {
+      "Dominik Cierniak": 0,
+      "Tomasz Radecki": 0
+    },
+    "fast_legs": {
+      "Dominik Cierniak": [],
+      "Tomasz Radecki": []
+    },
+    "average": {
+      "Dominik Cierniak": 37.94,
+      "Tomasz Radecki": 45.09
+    }
+  },
+  {
+    "tmid": "t_RBpY_5698_rr_3_24w9_KC9r",
+    "tournament": "Szerszeń Cup 2/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup 2z5 Grupa 4",
+    "player1": "Jarosław Gryga",
+    "player2": "Paweł Cefal",
+    "score": "1:3",
+    "fast_legs_count": {
+      "Jarosław Gryga": 0,
+      "Paweł Cefal": 0
+    },
+    "fast_legs": {
+      "Jarosław Gryga": [],
+      "Paweł Cefal": []
+    },
+    "average": {
+      "Jarosław Gryga": 46.62,
+      "Paweł Cefal": 46.96
+    }
+  },
+  {
+    "tmid": "t_RBpY_5698_rr_0_UjjR_tWy9",
+    "tournament": "Szerszeń Cup 2/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup 2z5 Grupa 1",
+    "player1": "Hubert Sułek",
+    "player2": "Waldemar Kopacz",
+    "score": "1:3",
+    "fast_legs_count": {
+      "Hubert Sułek": 0,
+      "Waldemar Kopacz": 0
+    },
+    "fast_legs": {
+      "Hubert Sułek": [],
+      "Waldemar Kopacz": []
+    },
+    "average": {
+      "Hubert Sułek": 45.66,
+      "Waldemar Kopacz": 49.9
+    }
+  },
+  {
+    "tmid": "t_RBpY_5698_rr_0_3AkY_rKrB",
+    "tournament": "Szerszeń Cup 2/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup 2z5 Grupa 1",
+    "player1": "Tomi",
+    "player2": "Mateusz Pięta",
+    "score": "1:3",
+    "fast_legs_count": {
+      "Tomi": 0,
+      "Mateusz Pięta": 0
+    },
+    "fast_legs": {
+      "Tomi": [],
+      "Mateusz Pięta": []
+    },
+    "average": {
+      "Tomi": 50.55,
+      "Mateusz Pięta": 57.76
+    }
+  },
+  {
+    "tmid": "t_RBpY_5698_rr_1_7VLC_RgIr",
+    "tournament": "Szerszeń Cup 2/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup 2z5 Grupa 2",
+    "player1": "Michał Kowalinski",
+    "player2": "Kacper Legutko",
+    "score": "2:3",
+    "fast_legs_count": {
+      "Michał Kowalinski": 0,
+      "Kacper Legutko": 0
+    },
+    "fast_legs": {
+      "Michał Kowalinski": [],
+      "Kacper Legutko": []
+    },
+    "average": {
+      "Michał Kowalinski": 36.25,
+      "Kacper Legutko": 35.58
+    }
+  },
+  {
+    "tmid": "t_RBpY_5698_rr_2_nlaG_sgn8",
+    "tournament": "Szerszeń Cup 2/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup 2z5 Grupa 3",
+    "player1": "Dominik Cierniak",
+    "player2": "Daniel Czernecki",
+    "score": "1:3",
+    "fast_legs_count": {
+      "Dominik Cierniak": 0,
+      "Daniel Czernecki": 0
+    },
+    "fast_legs": {
+      "Dominik Cierniak": [],
+      "Daniel Czernecki": []
+    },
+    "average": {
+      "Dominik Cierniak": 42.13,
+      "Daniel Czernecki": 45.44
+    }
+  },
+  {
+    "tmid": "t_RBpY_5698_rr_1_RgIr_j2yv",
+    "tournament": "Szerszeń Cup 2/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup 2z5 Grupa 2",
+    "player1": "Michał Kowalinski",
+    "player2": "Łukasz Konieczny",
+    "score": "0:3",
+    "fast_legs_count": {
+      "Michał Kowalinski": 0,
+      "Łukasz Konieczny": 0
+    },
+    "fast_legs": {
+      "Michał Kowalinski": [],
+      "Łukasz Konieczny": []
+    },
+    "average": {
+      "Michał Kowalinski": 35.45,
+      "Łukasz Konieczny": 47.46
+    }
+  },
+  {
+    "tmid": "t_RBpY_5698_rr_2_0Vok_cFR4",
+    "tournament": "Szerszeń Cup 2/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup 2z5 Grupa 3",
+    "player1": "Krystian Krzywy",
+    "player2": "Tomasz Gałek",
+    "score": "3:2",
+    "fast_legs_count": {
+      "Krystian Krzywy": 0,
+      "Tomasz Gałek": 0
+    },
+    "fast_legs": {
+      "Krystian Krzywy": [],
+      "Tomasz Gałek": []
+    },
+    "average": {
+      "Krystian Krzywy": 43.47,
+      "Tomasz Gałek": 45.35
+    }
+  },
+  {
+    "tmid": "t_RBpY_5698_rr_0_UjjR_gx0s",
+    "tournament": "Szerszeń Cup 2/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup 2z5 Grupa 1",
+    "player1": "Hubert Sułek",
+    "player2": "Adrian Ochel",
+    "score": "2:3",
+    "fast_legs_count": {
+      "Hubert Sułek": 0,
+      "Adrian Ochel": 0
+    },
+    "fast_legs": {
+      "Hubert Sułek": [],
+      "Adrian Ochel": []
+    },
+    "average": {
+      "Hubert Sułek": 52.54,
+      "Adrian Ochel": 47.75
+    }
+  },
+  {
+    "tmid": "t_RBpY_5698_rr_3_0E7W_uNuP",
+    "tournament": "Szerszeń Cup 2/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup 2z5 Grupa 4",
+    "player1": "Sebastian Cefal",
+    "player2": "Tomasz Pilecki",
+    "score": "3:2",
+    "fast_legs_count": {
+      "Sebastian Cefal": 0,
+      "Tomasz Pilecki": 0
+    },
+    "fast_legs": {
+      "Sebastian Cefal": [],
+      "Tomasz Pilecki": []
+    },
+    "average": {
+      "Sebastian Cefal": 37.37,
+      "Tomasz Pilecki": 38.3
+    }
+  },
+  {
+    "tmid": "t_RBpY_5698_rr_1_1CIT_NExO",
+    "tournament": "Szerszeń Cup 2/5 — Jesień 2026",
+    "category": "szerszen_cup",
+    "title": "Tomi Dart Club Jesień 2026 Szerszeń Cup 2z5 Grupa 2",
+    "player1": "Roman Flasza",
+    "player2": "Krystian Heród",
+    "score": "3:2",
+    "fast_legs_count": {
+      "Roman Flasza": 0,
+      "Krystian Heród": 0
+    },
+    "fast_legs": {
+      "Roman Flasza": [],
+      "Krystian Heród": []
+    },
+    "average": {
+      "Roman Flasza": 46.76,
+      "Krystian Heród": 46.31
+    }
   }
 ]
