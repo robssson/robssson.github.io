@@ -753,6 +753,126 @@
     }
   },
   {
+    "tmid": "t_JTh9_1380_lg_0_nwea_YS7b_qi4L",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga B",
+    "group": "B",
+    "player1": "Rafał Zahora",
+    "player2": "Maksymilian Grabarz",
+    "score": "4:7",
+    "fast_legs_count": {
+      "Rafał Zahora": 0,
+      "Maksymilian Grabarz": 0
+    },
+    "fast_legs": {
+      "Rafał Zahora": [],
+      "Maksymilian Grabarz": []
+    },
+    "average": {
+      "Rafał Zahora": 43.089385474860336,
+      "Maksymilian Grabarz": 43.374301675977655
+    }
+  },
+  {
+    "tmid": "t_JTh9_1380_lg_0_fio2_KVvF_SVGN",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga B",
+    "group": "B",
+    "player1": "Tomasz Gałek",
+    "player2": "Jakub Tota",
+    "score": "7:3",
+    "fast_legs_count": {
+      "Tomasz Gałek": 0,
+      "Jakub Tota": 0
+    },
+    "fast_legs": {
+      "Tomasz Gałek": [],
+      "Jakub Tota": []
+    },
+    "average": {
+      "Tomasz Gałek": 44.90654205607477,
+      "Jakub Tota": 41.42271293375394
+    }
+  },
+  {
+    "tmid": "t_JTh9_1380_lg_0_kpk2_KVvF_YS7b",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga B",
+    "group": "B",
+    "player1": "Rafał Zahora",
+    "player2": "Tomasz Gałek",
+    "score": "6:6",
+    "fast_legs_count": {
+      "Rafał Zahora": 0,
+      "Tomasz Gałek": 0
+    },
+    "fast_legs": {
+      "Rafał Zahora": [],
+      "Tomasz Gałek": []
+    },
+    "average": {
+      "Rafał Zahora": 43.5036855036855,
+      "Tomasz Gałek": 43.08148148148148
+    }
+  },
+  {
+    "tmid": "t_JTh9_1380_lg_0_ojhr_SVGN_qi4L",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga B",
+    "group": "B",
+    "player1": "Jakub Tota",
+    "player2": "Maksymilian Grabarz",
+    "score": "4:7",
+    "fast_legs_count": {
+      "Jakub Tota": 0,
+      "Maksymilian Grabarz": 0
+    },
+    "fast_legs": {
+      "Jakub Tota": [],
+      "Maksymilian Grabarz": []
+    },
+    "average": {
+      "Jakub Tota": 39.68041237113402,
+      "Maksymilian Grabarz": 42.59844559585492
+    }
+  },
+  {
+    "tmid": "t_JTh9_1380_lg_0_lglp_SVGN_YS7b",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga B",
+    "group": "B",
+    "player1": "Rafał Zahora",
+    "player2": "Jakub Tota",
+    "score": "7:3",
+    "fast_legs_count": {
+      "Rafał Zahora": 0,
+      "Jakub Tota": 0
+    },
+    "fast_legs": {
+      "Rafał Zahora": [],
+      "Jakub Tota": []
+    },
+    "average": {
+      "Rafał Zahora": 43.28445747800586,
+      "Jakub Tota": 39.9533527696793
+    }
+  },
+  {
+    "tmid": "t_JTh9_1380_lg_0_vhxm_KVvF_qi4L",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga B",
+    "group": "B",
+    "player1": "Maksymilian Grabarz",
+    "player2": "Tomasz Gałek",
+    "score": "7:5",
+    "fast_legs_count": {
+      "Maksymilian Grabarz": 0,
+      "Tomasz Gałek": 0
+    },
+    "fast_legs": {
+      "Maksymilian Grabarz": [],
+      "Tomasz Gałek": []
+    },
+    "average": {
+      "Maksymilian Grabarz": 43.75,
+      "Tomasz Gałek": 42.67407407407408
+    }
+  },
+  {
     "tmid": "t_JTh9_1380_lg_0_fjd7_SVGN_j4TE",
     "title": "Tomi Dart Club Jesień 2026 2 Liga B",
     "group": "B",

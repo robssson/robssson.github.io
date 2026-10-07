@@ -618,6 +618,102 @@
     }
   },
   {
+    "tmid": "t_JTh9_1380_lg_0_nwea_YS7b_qi4L",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga B",
+    "group": "B",
+    "player1": "Rafał Zahora",
+    "player2": "Maksymilian Grabarz",
+    "score": "4:7",
+    "max_count": {
+      "Rafał Zahora": 0,
+      "Maksymilian Grabarz": 0
+    },
+    "maxes": {
+      "Rafał Zahora": [],
+      "Maksymilian Grabarz": []
+    }
+  },
+  {
+    "tmid": "t_JTh9_1380_lg_0_fio2_KVvF_SVGN",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga B",
+    "group": "B",
+    "player1": "Tomasz Gałek",
+    "player2": "Jakub Tota",
+    "score": "7:3",
+    "max_count": {
+      "Tomasz Gałek": 0,
+      "Jakub Tota": 0
+    },
+    "maxes": {
+      "Tomasz Gałek": [],
+      "Jakub Tota": []
+    }
+  },
+  {
+    "tmid": "t_JTh9_1380_lg_0_kpk2_KVvF_YS7b",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga B",
+    "group": "B",
+    "player1": "Rafał Zahora",
+    "player2": "Tomasz Gałek",
+    "score": "6:6",
+    "max_count": {
+      "Rafał Zahora": 0,
+      "Tomasz Gałek": 0
+    },
+    "maxes": {
+      "Rafał Zahora": [],
+      "Tomasz Gałek": []
+    }
+  },
+  {
+    "tmid": "t_JTh9_1380_lg_0_ojhr_SVGN_qi4L",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga B",
+    "group": "B",
+    "player1": "Jakub Tota",
+    "player2": "Maksymilian Grabarz",
+    "score": "4:7",
+    "max_count": {
+      "Jakub Tota": 0,
+      "Maksymilian Grabarz": 0
+    },
+    "maxes": {
+      "Jakub Tota": [],
+      "Maksymilian Grabarz": []
+    }
+  },
+  {
+    "tmid": "t_JTh9_1380_lg_0_lglp_SVGN_YS7b",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga B",
+    "group": "B",
+    "player1": "Rafał Zahora",
+    "player2": "Jakub Tota",
+    "score": "7:3",
+    "max_count": {
+      "Rafał Zahora": 0,
+      "Jakub Tota": 0
+    },
+    "maxes": {
+      "Rafał Zahora": [],
+      "Jakub Tota": []
+    }
+  },
+  {
+    "tmid": "t_JTh9_1380_lg_0_vhxm_KVvF_qi4L",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga B",
+    "group": "B",
+    "player1": "Maksymilian Grabarz",
+    "player2": "Tomasz Gałek",
+    "score": "7:5",
+    "max_count": {
+      "Maksymilian Grabarz": 0,
+      "Tomasz Gałek": 0
+    },
+    "maxes": {
+      "Maksymilian Grabarz": [],
+      "Tomasz Gałek": []
+    }
+  },
+  {
     "tmid": "t_JTh9_1380_lg_0_fjd7_SVGN_j4TE",
     "title": "Tomi Dart Club Jesień 2026 2 Liga B",
     "group": "B",
