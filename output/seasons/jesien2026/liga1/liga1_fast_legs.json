@@ -1,5 +1,424 @@
 [
   {
+    "tmid": "t_76AK_7053_lg_0_bb4u_UWZy_Wftc",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Waldemar Kopacz",
+    "player2": "Jarosław Gryga",
+    "score": "7:4",
+    "fast_legs_count": {
+      "Waldemar Kopacz": 1,
+      "Jarosław Gryga": 0
+    },
+    "fast_legs": {
+      "Waldemar Kopacz": [
+        18
+      ],
+      "Jarosław Gryga": []
+    },
+    "average": {
+      "Waldemar Kopacz": 56.53448275862069,
+      "Jarosław Gryga": 49.29757785467128
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_dytj_h46b_wtkR",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Tomi Tomasz",
+    "player2": "Piotrek Gryga",
+    "score": "3:7",
+    "fast_legs_count": {
+      "Tomi Tomasz": 0,
+      "Piotrek Gryga": 1
+    },
+    "fast_legs": {
+      "Tomi Tomasz": [],
+      "Piotrek Gryga": [
+        17
+      ]
+    },
+    "average": {
+      "Tomi Tomasz": 55.73542600896861,
+      "Piotrek Gryga": 63.92
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_jykf_HJ15_kSVd",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Franciszek Kukiełka",
+    "player2": "Mateusz Pięta",
+    "score": "7:2",
+    "fast_legs_count": {
+      "Franciszek Kukiełka": 0,
+      "Mateusz Pięta": 0
+    },
+    "fast_legs": {
+      "Franciszek Kukiełka": [],
+      "Mateusz Pięta": []
+    },
+    "average": {
+      "Franciszek Kukiełka": 56.02232142857143,
+      "Mateusz Pięta": 57.86486486486486
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_b53w_Wftc_xD73",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Tomasz Krzysztof",
+    "player2": "Waldemar Kopacz",
+    "score": "2:7",
+    "fast_legs_count": {
+      "Tomasz Krzysztof": 0,
+      "Waldemar Kopacz": 1
+    },
+    "fast_legs": {
+      "Tomasz Krzysztof": [],
+      "Waldemar Kopacz": [
+        18
+      ]
+    },
+    "average": {
+      "Tomasz Krzysztof": 50.65432098765432,
+      "Waldemar Kopacz": 54.66801619433198
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_us0b_UWZy_clh0",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Jarosław Gryga",
+    "player2": "Mariusz Olchawa",
+    "score": "5:7",
+    "fast_legs_count": {
+      "Jarosław Gryga": 0,
+      "Mariusz Olchawa": 0
+    },
+    "fast_legs": {
+      "Jarosław Gryga": [],
+      "Mariusz Olchawa": []
+    },
+    "average": {
+      "Jarosław Gryga": 43.07936507936508,
+      "Mariusz Olchawa": 45.80890052356021
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_i5ef_vdwh_wtkR",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Piotrek Gryga",
+    "player2": "Daniel Czernecki",
+    "score": "6:6",
+    "fast_legs_count": {
+      "Piotrek Gryga": 0,
+      "Daniel Czernecki": 0
+    },
+    "fast_legs": {
+      "Piotrek Gryga": [],
+      "Daniel Czernecki": []
+    },
+    "average": {
+      "Piotrek Gryga": 64.86923076923077,
+      "Daniel Czernecki": 61.90298507462686
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_7hcg_RNEe_kSVd",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Łukasz Konieczny",
+    "player2": "Mateusz Pięta",
+    "score": "6:6",
+    "fast_legs_count": {
+      "Łukasz Konieczny": 2,
+      "Mateusz Pięta": 2
+    },
+    "fast_legs": {
+      "Łukasz Konieczny": [
+        17,
+        18
+      ],
+      "Mateusz Pięta": [
+        15,
+        17
+      ]
+    },
+    "average": {
+      "Łukasz Konieczny": 67.57377049180327,
+      "Mateusz Pięta": 64.63414634146342
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_4zk2_HJ15_ZLBi",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Julian Samek",
+    "player2": "Franciszek Kukiełka",
+    "score": "7:5",
+    "fast_legs_count": {
+      "Julian Samek": 0,
+      "Franciszek Kukiełka": 0
+    },
+    "fast_legs": {
+      "Julian Samek": [],
+      "Franciszek Kukiełka": []
+    },
+    "average": {
+      "Julian Samek": 63.12,
+      "Franciszek Kukiełka": 63.05555555555556
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_x8w9_Wftc_vdwh",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Waldemar Kopacz",
+    "player2": "Daniel Czernecki",
+    "score": "7:2",
+    "fast_legs_count": {
+      "Waldemar Kopacz": 1,
+      "Daniel Czernecki": 0
+    },
+    "fast_legs": {
+      "Waldemar Kopacz": [
+        16
+      ],
+      "Daniel Czernecki": []
+    },
+    "average": {
+      "Waldemar Kopacz": 60.65158371040724,
+      "Daniel Czernecki": 56.62325581395349
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_3wjl_RNEe_ZLBi",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Łukasz Konieczny",
+    "player2": "Julian Samek",
+    "score": "7:1",
+    "fast_legs_count": {
+      "Łukasz Konieczny": 1,
+      "Julian Samek": 0
+    },
+    "fast_legs": {
+      "Łukasz Konieczny": [
+        16
+      ],
+      "Julian Samek": []
+    },
+    "average": {
+      "Łukasz Konieczny": 60.46153846153846,
+      "Julian Samek": 55.31937172774869
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_qu8n_3fIJ_kSVd",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Mateusz Pięta",
+    "player2": "Hubert Sułek",
+    "score": "7:2",
+    "fast_legs_count": {
+      "Mateusz Pięta": 0,
+      "Hubert Sułek": 0
+    },
+    "fast_legs": {
+      "Mateusz Pięta": [],
+      "Hubert Sułek": []
+    },
+    "average": {
+      "Mateusz Pięta": 58.52608695652174,
+      "Hubert Sułek": 51.09375
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_csuq_clh0_wtkR",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Mariusz Olchawa",
+    "player2": "Piotrek Gryga",
+    "score": "4:7",
+    "fast_legs_count": {
+      "Mariusz Olchawa": 0,
+      "Piotrek Gryga": 2
+    },
+    "fast_legs": {
+      "Mariusz Olchawa": [],
+      "Piotrek Gryga": [
+        15,
+        18
+      ]
+    },
+    "average": {
+      "Mariusz Olchawa": 49.29197080291971,
+      "Piotrek Gryga": 59.05434782608695
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_2f2o_UWZy_xD73",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Jarosław Gryga",
+    "player2": "Tomasz Krzysztof",
+    "score": "6:6",
+    "fast_legs_count": {
+      "Jarosław Gryga": 0,
+      "Tomasz Krzysztof": 0
+    },
+    "fast_legs": {
+      "Jarosław Gryga": [],
+      "Tomasz Krzysztof": []
+    },
+    "average": {
+      "Jarosław Gryga": 43.80456852791878,
+      "Tomasz Krzysztof": 43.69565217391305
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_lu5i_ZLBi_vdwh",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Julian Samek",
+    "player2": "Daniel Czernecki",
+    "score": "7:4",
+    "fast_legs_count": {
+      "Julian Samek": 0,
+      "Daniel Czernecki": 0
+    },
+    "fast_legs": {
+      "Julian Samek": [],
+      "Daniel Czernecki": []
+    },
+    "average": {
+      "Julian Samek": 53.5945945945946,
+      "Daniel Czernecki": 53.824137931034485
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_g6xp_Wftc_clh0",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Mariusz Olchawa",
+    "player2": "Waldemar Kopacz",
+    "score": "0:7",
+    "fast_legs_count": {
+      "Mariusz Olchawa": 0,
+      "Waldemar Kopacz": 0
+    },
+    "fast_legs": {
+      "Mariusz Olchawa": [],
+      "Waldemar Kopacz": []
+    },
+    "average": {
+      "Mariusz Olchawa": 52.09090909090909,
+      "Waldemar Kopacz": 63.0
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_zu5w_RNEe_h46b",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Tomi Tomasz",
+    "player2": "Łukasz Konieczny",
+    "score": "0:7",
+    "fast_legs_count": {
+      "Tomi Tomasz": 0,
+      "Łukasz Konieczny": 0
+    },
+    "fast_legs": {
+      "Tomi Tomasz": [],
+      "Łukasz Konieczny": []
+    },
+    "average": {
+      "Tomi Tomasz": 49.14035087719298,
+      "Łukasz Konieczny": 60.8150289017341
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_q4nl_3fIJ_HJ15",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Hubert Sułek",
+    "player2": "Franciszek Kukiełka",
+    "score": "1:7",
+    "fast_legs_count": {
+      "Hubert Sułek": 0,
+      "Franciszek Kukiełka": 0
+    },
+    "fast_legs": {
+      "Hubert Sułek": [],
+      "Franciszek Kukiełka": []
+    },
+    "average": {
+      "Hubert Sułek": 51.50684931506849,
+      "Franciszek Kukiełka": 53.86425339366516
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_4cgn_HJ15_h46b",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Tomi Tomasz",
+    "player2": "Franciszek Kukiełka",
+    "score": "1:7",
+    "fast_legs_count": {
+      "Tomi Tomasz": 0,
+      "Franciszek Kukiełka": 0
+    },
+    "fast_legs": {
+      "Tomi Tomasz": [],
+      "Franciszek Kukiełka": []
+    },
+    "average": {
+      "Tomi Tomasz": 45.136986301369866,
+      "Franciszek Kukiełka": 53.56164383561644
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_8u69_ZLBi_xD73",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Tomasz Krzysztof",
+    "player2": "Julian Samek",
+    "score": "5:7",
+    "fast_legs_count": {
+      "Tomasz Krzysztof": 0,
+      "Julian Samek": 0
+    },
+    "fast_legs": {
+      "Tomasz Krzysztof": [],
+      "Julian Samek": []
+    },
+    "average": {
+      "Tomasz Krzysztof": 51.95846645367412,
+      "Julian Samek": 54.23659305993691
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_m9tm_3fIJ_RNEe",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Łukasz Konieczny",
+    "player2": "Hubert Sułek",
+    "score": "7:3",
+    "fast_legs_count": {
+      "Łukasz Konieczny": 0,
+      "Hubert Sułek": 0
+    },
+    "fast_legs": {
+      "Łukasz Konieczny": [],
+      "Hubert Sułek": []
+    },
+    "average": {
+      "Łukasz Konieczny": 61.98283261802575,
+      "Hubert Sułek": 56.14655172413793
+    }
+  },
+  {
     "tmid": "t_76AK_7053_lg_0_ifly_kSVd_wtkR",
     "title": "Tomi Dart Club Jesień 2026 1 Liga",
     "group": null,
