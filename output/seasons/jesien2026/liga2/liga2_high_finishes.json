@@ -1,5 +1,41 @@
 [
   {
+    "tmid": "t_4UPX_3308_lg_0_is1f_BN4x_gCKg",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga A",
+    "group": "A",
+    "player1": "Jakub Lipka",
+    "player2": "Tomasz Radecki",
+    "score": "7:1",
+    "high_finishes_count": {
+      "Jakub Lipka": 1,
+      "Tomasz Radecki": 0
+    },
+    "high_finishes": {
+      "Jakub Lipka": [
+        113
+      ],
+      "Tomasz Radecki": []
+    }
+  },
+  {
+    "tmid": "t_4UPX_3308_lg_0_fq16_Cv46_d9Th",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga A",
+    "group": "A",
+    "player1": "Maciek Filipowski",
+    "player2": "Krystian Krzywy",
+    "score": "7:5",
+    "high_finishes_count": {
+      "Maciek Filipowski": 1,
+      "Krystian Krzywy": 0
+    },
+    "high_finishes": {
+      "Maciek Filipowski": [
+        108
+      ],
+      "Krystian Krzywy": []
+    }
+  },
+  {
     "tmid": "t_4UPX_3308_lg_0_4im8_Cv46_X6iZ",
     "title": "Tomi Dart Club Jesień 2026 2 Liga A",
     "group": "A",
