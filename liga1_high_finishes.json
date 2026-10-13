@@ -1,0 +1,973 @@
+[
+  {
+    "tmid": "t_76AK_7053_lg_0_519h_BPcZ_h46b",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Tomi Tomasz",
+    "player2": "Adrian Ochel",
+    "score": "5:7",
+    "high_finishes_count": {
+      "Tomi Tomasz": 0,
+      "Adrian Ochel": 0
+    },
+    "high_finishes": {
+      "Tomi Tomasz": [],
+      "Adrian Ochel": []
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_bb4u_UWZy_Wftc",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Waldemar Kopacz",
+    "player2": "Jarosław Gryga",
+    "score": "7:4",
+    "high_finishes_count": {
+      "Waldemar Kopacz": 0,
+      "Jarosław Gryga": 0
+    },
+    "high_finishes": {
+      "Waldemar Kopacz": [],
+      "Jarosław Gryga": []
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_dytj_h46b_wtkR",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Tomi Tomasz",
+    "player2": "Piotrek Gryga",
+    "score": "3:7",
+    "high_finishes_count": {
+      "Tomi Tomasz": 0,
+      "Piotrek Gryga": 0
+    },
+    "high_finishes": {
+      "Tomi Tomasz": [],
+      "Piotrek Gryga": []
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_jykf_HJ15_kSVd",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Franciszek Kukiełka",
+    "player2": "Mateusz Pięta",
+    "score": "7:2",
+    "high_finishes_count": {
+      "Franciszek Kukiełka": 0,
+      "Mateusz Pięta": 0
+    },
+    "high_finishes": {
+      "Franciszek Kukiełka": [],
+      "Mateusz Pięta": []
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_b53w_Wftc_xD73",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Tomasz Krzysztof",
+    "player2": "Waldemar Kopacz",
+    "score": "2:7",
+    "high_finishes_count": {
+      "Tomasz Krzysztof": 0,
+      "Waldemar Kopacz": 0
+    },
+    "high_finishes": {
+      "Tomasz Krzysztof": [],
+      "Waldemar Kopacz": []
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_us0b_UWZy_clh0",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Jarosław Gryga",
+    "player2": "Mariusz Olchawa",
+    "score": "5:7",
+    "high_finishes_count": {
+      "Jarosław Gryga": 0,
+      "Mariusz Olchawa": 0
+    },
+    "high_finishes": {
+      "Jarosław Gryga": [],
+      "Mariusz Olchawa": []
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_i5ef_vdwh_wtkR",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Piotrek Gryga",
+    "player2": "Daniel Czernecki",
+    "score": "6:6",
+    "high_finishes_count": {
+      "Piotrek Gryga": 0,
+      "Daniel Czernecki": 1
+    },
+    "high_finishes": {
+      "Piotrek Gryga": [],
+      "Daniel Czernecki": [
+        157
+      ]
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_7hcg_RNEe_kSVd",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Łukasz Konieczny",
+    "player2": "Mateusz Pięta",
+    "score": "6:6",
+    "high_finishes_count": {
+      "Łukasz Konieczny": 0,
+      "Mateusz Pięta": 0
+    },
+    "high_finishes": {
+      "Łukasz Konieczny": [],
+      "Mateusz Pięta": []
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_4zk2_HJ15_ZLBi",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Julian Samek",
+    "player2": "Franciszek Kukiełka",
+    "score": "7:5",
+    "high_finishes_count": {
+      "Julian Samek": 0,
+      "Franciszek Kukiełka": 1
+    },
+    "high_finishes": {
+      "Julian Samek": [],
+      "Franciszek Kukiełka": [
+        100
+      ]
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_x8w9_Wftc_vdwh",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Waldemar Kopacz",
+    "player2": "Daniel Czernecki",
+    "score": "7:2",
+    "high_finishes_count": {
+      "Waldemar Kopacz": 0,
+      "Daniel Czernecki": 0
+    },
+    "high_finishes": {
+      "Waldemar Kopacz": [],
+      "Daniel Czernecki": []
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_3wjl_RNEe_ZLBi",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Łukasz Konieczny",
+    "player2": "Julian Samek",
+    "score": "7:1",
+    "high_finishes_count": {
+      "Łukasz Konieczny": 0,
+      "Julian Samek": 0
+    },
+    "high_finishes": {
+      "Łukasz Konieczny": [],
+      "Julian Samek": []
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_qu8n_3fIJ_kSVd",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Mateusz Pięta",
+    "player2": "Hubert Sułek",
+    "score": "7:2",
+    "high_finishes_count": {
+      "Mateusz Pięta": 0,
+      "Hubert Sułek": 0
+    },
+    "high_finishes": {
+      "Mateusz Pięta": [],
+      "Hubert Sułek": []
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_csuq_clh0_wtkR",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Mariusz Olchawa",
+    "player2": "Piotrek Gryga",
+    "score": "4:7",
+    "high_finishes_count": {
+      "Mariusz Olchawa": 0,
+      "Piotrek Gryga": 0
+    },
+    "high_finishes": {
+      "Mariusz Olchawa": [],
+      "Piotrek Gryga": []
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_2f2o_UWZy_xD73",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Jarosław Gryga",
+    "player2": "Tomasz Krzysztof",
+    "score": "6:6",
+    "high_finishes_count": {
+      "Jarosław Gryga": 0,
+      "Tomasz Krzysztof": 0
+    },
+    "high_finishes": {
+      "Jarosław Gryga": [],
+      "Tomasz Krzysztof": []
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_lu5i_ZLBi_vdwh",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Julian Samek",
+    "player2": "Daniel Czernecki",
+    "score": "7:4",
+    "high_finishes_count": {
+      "Julian Samek": 0,
+      "Daniel Czernecki": 0
+    },
+    "high_finishes": {
+      "Julian Samek": [],
+      "Daniel Czernecki": []
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_g6xp_Wftc_clh0",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Mariusz Olchawa",
+    "player2": "Waldemar Kopacz",
+    "score": "0:7",
+    "high_finishes_count": {
+      "Mariusz Olchawa": 0,
+      "Waldemar Kopacz": 0
+    },
+    "high_finishes": {
+      "Mariusz Olchawa": [],
+      "Waldemar Kopacz": []
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_zu5w_RNEe_h46b",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Tomi Tomasz",
+    "player2": "Łukasz Konieczny",
+    "score": "0:7",
+    "high_finishes_count": {
+      "Tomi Tomasz": 0,
+      "Łukasz Konieczny": 0
+    },
+    "high_finishes": {
+      "Tomi Tomasz": [],
+      "Łukasz Konieczny": []
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_q4nl_3fIJ_HJ15",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Hubert Sułek",
+    "player2": "Franciszek Kukiełka",
+    "score": "1:7",
+    "high_finishes_count": {
+      "Hubert Sułek": 0,
+      "Franciszek Kukiełka": 0
+    },
+    "high_finishes": {
+      "Hubert Sułek": [],
+      "Franciszek Kukiełka": []
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_4cgn_HJ15_h46b",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Tomi Tomasz",
+    "player2": "Franciszek Kukiełka",
+    "score": "1:7",
+    "high_finishes_count": {
+      "Tomi Tomasz": 0,
+      "Franciszek Kukiełka": 0
+    },
+    "high_finishes": {
+      "Tomi Tomasz": [],
+      "Franciszek Kukiełka": []
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_8u69_ZLBi_xD73",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Tomasz Krzysztof",
+    "player2": "Julian Samek",
+    "score": "5:7",
+    "high_finishes_count": {
+      "Tomasz Krzysztof": 0,
+      "Julian Samek": 0
+    },
+    "high_finishes": {
+      "Tomasz Krzysztof": [],
+      "Julian Samek": []
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_m9tm_3fIJ_RNEe",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Łukasz Konieczny",
+    "player2": "Hubert Sułek",
+    "score": "7:3",
+    "high_finishes_count": {
+      "Łukasz Konieczny": 0,
+      "Hubert Sułek": 0
+    },
+    "high_finishes": {
+      "Łukasz Konieczny": [],
+      "Hubert Sułek": []
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_ifly_kSVd_wtkR",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Mateusz Pięta",
+    "player2": "Piotrek Gryga",
+    "score": "2:7",
+    "high_finishes_count": {
+      "Mateusz Pięta": 0,
+      "Piotrek Gryga": 0
+    },
+    "high_finishes": {
+      "Mateusz Pięta": [],
+      "Piotrek Gryga": []
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_mjmc_BPcZ_ZLBi",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Julian Samek",
+    "player2": "Adrian Ochel",
+    "score": "7:4",
+    "high_finishes_count": {
+      "Julian Samek": 1,
+      "Adrian Ochel": 0
+    },
+    "high_finishes": {
+      "Julian Samek": [
+        100
+      ],
+      "Adrian Ochel": []
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_q0jz_UWZy_h46b",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Tomi Tomasz",
+    "player2": "Jarosław Gryga",
+    "score": "4:7",
+    "high_finishes_count": {
+      "Tomi Tomasz": 0,
+      "Jarosław Gryga": 0
+    },
+    "high_finishes": {
+      "Tomi Tomasz": [],
+      "Jarosław Gryga": []
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_10fc_UWZy_kSVd",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Mateusz Pięta",
+    "player2": "Jarosław Gryga",
+    "score": "7:2",
+    "high_finishes_count": {
+      "Mateusz Pięta": 0,
+      "Jarosław Gryga": 0
+    },
+    "high_finishes": {
+      "Mateusz Pięta": [],
+      "Jarosław Gryga": []
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_hezj_3fIJ_BPcZ",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Hubert Sułek",
+    "player2": "Adrian Ochel",
+    "score": "3:7",
+    "high_finishes_count": {
+      "Hubert Sułek": 0,
+      "Adrian Ochel": 1
+    },
+    "high_finishes": {
+      "Hubert Sułek": [],
+      "Adrian Ochel": [
+        108
+      ]
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_pzxr_ZLBi_wtkR",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Julian Samek",
+    "player2": "Piotrek Gryga",
+    "score": "6:6",
+    "high_finishes_count": {
+      "Julian Samek": 0,
+      "Piotrek Gryga": 0
+    },
+    "high_finishes": {
+      "Julian Samek": [],
+      "Piotrek Gryga": []
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_o5fa_clh0_xD73",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Mariusz Olchawa",
+    "player2": "Tomasz Krzysztof",
+    "score": "6:6",
+    "high_finishes_count": {
+      "Mariusz Olchawa": 0,
+      "Tomasz Krzysztof": 0
+    },
+    "high_finishes": {
+      "Mariusz Olchawa": [],
+      "Tomasz Krzysztof": []
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_sp7f_3fIJ_ZLBi",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Julian Samek",
+    "player2": "Hubert Sułek",
+    "score": "7:1",
+    "high_finishes_count": {
+      "Julian Samek": 0,
+      "Hubert Sułek": 0
+    },
+    "high_finishes": {
+      "Julian Samek": [],
+      "Hubert Sułek": []
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_cx5a_Wftc_kSVd",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Mateusz Pięta",
+    "player2": "Waldemar Kopacz",
+    "score": "7:2",
+    "high_finishes_count": {
+      "Mateusz Pięta": 0,
+      "Waldemar Kopacz": 1
+    },
+    "high_finishes": {
+      "Mateusz Pięta": [],
+      "Waldemar Kopacz": [
+        114
+      ]
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_r3qe_UWZy_vdwh",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Daniel Czernecki",
+    "player2": "Jarosław Gryga",
+    "score": "7:3",
+    "high_finishes_count": {
+      "Daniel Czernecki": 0,
+      "Jarosław Gryga": 0
+    },
+    "high_finishes": {
+      "Daniel Czernecki": [],
+      "Jarosław Gryga": []
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_jqoe_BPcZ_wtkR",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Adrian Ochel",
+    "player2": "Piotrek Gryga",
+    "score": "5:7",
+    "high_finishes_count": {
+      "Adrian Ochel": 0,
+      "Piotrek Gryga": 1
+    },
+    "high_finishes": {
+      "Adrian Ochel": [],
+      "Piotrek Gryga": [
+        100
+      ]
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_7zwh_vdwh_xD73",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Tomasz Krzysztof",
+    "player2": "Daniel Czernecki",
+    "score": "4:7",
+    "high_finishes_count": {
+      "Tomasz Krzysztof": 0,
+      "Daniel Czernecki": 0
+    },
+    "high_finishes": {
+      "Tomasz Krzysztof": [],
+      "Daniel Czernecki": []
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_aijt_ZLBi_clh0",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Julian Samek",
+    "player2": "Mariusz Olchawa",
+    "score": "7:5",
+    "high_finishes_count": {
+      "Julian Samek": 0,
+      "Mariusz Olchawa": 0
+    },
+    "high_finishes": {
+      "Julian Samek": [],
+      "Mariusz Olchawa": []
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_q3y9_BPcZ_Wftc",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Adrian Ochel",
+    "player2": "Waldemar Kopacz",
+    "score": "3:7",
+    "high_finishes_count": {
+      "Adrian Ochel": 0,
+      "Waldemar Kopacz": 1
+    },
+    "high_finishes": {
+      "Adrian Ochel": [],
+      "Waldemar Kopacz": [
+        100
+      ]
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_9339_3fIJ_h46b",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Hubert Sułek",
+    "player2": "Tomi Tomasz",
+    "score": "4:7",
+    "high_finishes_count": {
+      "Hubert Sułek": 0,
+      "Tomi Tomasz": 0
+    },
+    "high_finishes": {
+      "Hubert Sułek": [],
+      "Tomi Tomasz": []
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_gyro_BPcZ_xD73",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Adrian Ochel",
+    "player2": "Tomasz Krzysztof",
+    "score": "7:2",
+    "high_finishes_count": {
+      "Adrian Ochel": 0,
+      "Tomasz Krzysztof": 0
+    },
+    "high_finishes": {
+      "Adrian Ochel": [],
+      "Tomasz Krzysztof": []
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_q2hy_Wftc_h46b",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Tomi Tomasz",
+    "player2": "Waldemar Kopacz",
+    "score": "2:7",
+    "high_finishes_count": {
+      "Tomi Tomasz": 0,
+      "Waldemar Kopacz": 0
+    },
+    "high_finishes": {
+      "Tomi Tomasz": [],
+      "Waldemar Kopacz": []
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_248d_clh0_vdwh",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Mariusz Olchawa",
+    "player2": "Daniel Czernecki",
+    "score": "2:7",
+    "high_finishes_count": {
+      "Mariusz Olchawa": 0,
+      "Daniel Czernecki": 0
+    },
+    "high_finishes": {
+      "Mariusz Olchawa": [],
+      "Daniel Czernecki": []
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_4ajj_HJ15_clh0",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Mariusz Olchawa",
+    "player2": "Franciszek Kukiełka",
+    "score": "1:7",
+    "high_finishes_count": {
+      "Mariusz Olchawa": 0,
+      "Franciszek Kukiełka": 0
+    },
+    "high_finishes": {
+      "Mariusz Olchawa": [],
+      "Franciszek Kukiełka": []
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_49qf_HJ15_RNEe",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Łukasz Konieczny",
+    "player2": "Franciszek Kukiełka",
+    "score": "7:4",
+    "high_finishes_count": {
+      "Łukasz Konieczny": 1,
+      "Franciszek Kukiełka": 0
+    },
+    "high_finishes": {
+      "Łukasz Konieczny": [
+        130
+      ],
+      "Franciszek Kukiełka": []
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_1p9m_BPcZ_UWZy",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Adrian Ochel",
+    "player2": "Jarosław Gryga",
+    "score": "7:1",
+    "high_finishes_count": {
+      "Adrian Ochel": 0,
+      "Jarosław Gryga": 1
+    },
+    "high_finishes": {
+      "Adrian Ochel": [],
+      "Jarosław Gryga": [
+        100
+      ]
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_375o_kSVd_vdwh",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Mateusz Pięta",
+    "player2": "Daniel Czernecki",
+    "score": "7:3",
+    "high_finishes_count": {
+      "Mateusz Pięta": 0,
+      "Daniel Czernecki": 0
+    },
+    "high_finishes": {
+      "Mateusz Pięta": [],
+      "Daniel Czernecki": []
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_axbd_clh0_h46b",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Tomi Tomasz",
+    "player2": "Mariusz Olchawa",
+    "score": "5:7",
+    "high_finishes_count": {
+      "Tomi Tomasz": 0,
+      "Mariusz Olchawa": 0
+    },
+    "high_finishes": {
+      "Tomi Tomasz": [],
+      "Mariusz Olchawa": []
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_ehpt_HJ15_Wftc",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Franciszek Kukiełka",
+    "player2": "Waldemar Kopacz",
+    "score": "3:7",
+    "high_finishes_count": {
+      "Franciszek Kukiełka": 0,
+      "Waldemar Kopacz": 2
+    },
+    "high_finishes": {
+      "Franciszek Kukiełka": [],
+      "Waldemar Kopacz": [
+        105,
+        114
+      ]
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_78ae_3fIJ_wtkR",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Hubert Sułek",
+    "player2": "Piotrek Gryga",
+    "score": "3:7",
+    "high_finishes_count": {
+      "Hubert Sułek": 0,
+      "Piotrek Gryga": 0
+    },
+    "high_finishes": {
+      "Hubert Sułek": [],
+      "Piotrek Gryga": []
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_saks_RNEe_UWZy",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Łukasz Konieczny",
+    "player2": "Jarosław Gryga",
+    "score": "7:3",
+    "high_finishes_count": {
+      "Łukasz Konieczny": 0,
+      "Jarosław Gryga": 0
+    },
+    "high_finishes": {
+      "Łukasz Konieczny": [],
+      "Jarosław Gryga": []
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_3ahi_kSVd_xD73",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Mateusz Pięta",
+    "player2": "Tomasz Krzysztof",
+    "score": "7:3",
+    "high_finishes_count": {
+      "Mateusz Pięta": 0,
+      "Tomasz Krzysztof": 0
+    },
+    "high_finishes": {
+      "Mateusz Pięta": [],
+      "Tomasz Krzysztof": []
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_61jp_HJ15_wtkR",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Franciszek Kukiełka",
+    "player2": "Piotrek Gryga",
+    "score": "7:2",
+    "high_finishes_count": {
+      "Franciszek Kukiełka": 0,
+      "Piotrek Gryga": 0
+    },
+    "high_finishes": {
+      "Franciszek Kukiełka": [],
+      "Piotrek Gryga": []
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_s91t_RNEe_Wftc",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Łukasz Konieczny",
+    "player2": "Waldemar Kopacz",
+    "score": "5:7",
+    "high_finishes_count": {
+      "Łukasz Konieczny": 0,
+      "Waldemar Kopacz": 0
+    },
+    "high_finishes": {
+      "Łukasz Konieczny": [],
+      "Waldemar Kopacz": []
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_k0js_h46b_vdwh",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Tomi Tomasz",
+    "player2": "Daniel Czernecki",
+    "score": "7:4",
+    "high_finishes_count": {
+      "Tomi Tomasz": 0,
+      "Daniel Czernecki": 0
+    },
+    "high_finishes": {
+      "Tomi Tomasz": [],
+      "Daniel Czernecki": []
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_nrz9_clh0_kSVd",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Mateusz Pięta",
+    "player2": "Mariusz Olchawa",
+    "score": "7:2",
+    "high_finishes_count": {
+      "Mateusz Pięta": 0,
+      "Mariusz Olchawa": 1
+    },
+    "high_finishes": {
+      "Mateusz Pięta": [],
+      "Mariusz Olchawa": [
+        104
+      ]
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_5v5o_3fIJ_UWZy",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Hubert Sułek",
+    "player2": "Jarosław Gryga",
+    "score": "6:6",
+    "high_finishes_count": {
+      "Hubert Sułek": 0,
+      "Jarosław Gryga": 0
+    },
+    "high_finishes": {
+      "Hubert Sułek": [],
+      "Jarosław Gryga": []
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_8xnl_BPcZ_vdwh",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Adrian Ochel",
+    "player2": "Daniel Czernecki",
+    "score": "5:7",
+    "high_finishes_count": {
+      "Adrian Ochel": 0,
+      "Daniel Czernecki": 0
+    },
+    "high_finishes": {
+      "Adrian Ochel": [],
+      "Daniel Czernecki": []
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_tnod_h46b_xD73",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Tomi Tomasz",
+    "player2": "Tomasz Krzysztof",
+    "score": "7:1",
+    "high_finishes_count": {
+      "Tomi Tomasz": 0,
+      "Tomasz Krzysztof": 0
+    },
+    "high_finishes": {
+      "Tomi Tomasz": [],
+      "Tomasz Krzysztof": []
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_p4lf_RNEe_wtkR",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Łukasz Konieczny",
+    "player2": "Piotrek Gryga",
+    "score": "4:7",
+    "high_finishes_count": {
+      "Łukasz Konieczny": 1,
+      "Piotrek Gryga": 1
+    },
+    "high_finishes": {
+      "Łukasz Konieczny": [
+        108
+      ],
+      "Piotrek Gryga": [
+        146
+      ]
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_a2ja_3fIJ_Wftc",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Hubert Sułek",
+    "player2": "Waldemar Kopacz",
+    "score": "0:7",
+    "high_finishes_count": {
+      "Hubert Sułek": 0,
+      "Waldemar Kopacz": 0
+    },
+    "high_finishes": {
+      "Hubert Sułek": [],
+      "Waldemar Kopacz": []
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_66lh_RNEe_xD73",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Łukasz Konieczny",
+    "player2": "Tomasz Krzysztof",
+    "score": "7:3",
+    "high_finishes_count": {
+      "Łukasz Konieczny": 0,
+      "Tomasz Krzysztof": 0
+    },
+    "high_finishes": {
+      "Łukasz Konieczny": [],
+      "Tomasz Krzysztof": []
+    }
+  },
+  {
+    "tmid": "t_76AK_7053_lg_0_2dnd_BPcZ_clh0",
+    "title": "Tomi Dart Club Jesień 2026 1 Liga",
+    "group": null,
+    "player1": "Adrian Ochel",
+    "player2": "Mariusz Olchawa",
+    "score": "7:3",
+    "high_finishes_count": {
+      "Adrian Ochel": 0,
+      "Mariusz Olchawa": 0
+    },
+    "high_finishes": {
+      "Adrian Ochel": [],
+      "Mariusz Olchawa": []
+    }
+  }
+]
