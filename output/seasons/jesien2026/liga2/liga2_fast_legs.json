@@ -1,5 +1,209 @@
 [
   {
+    "tmid": "t_4UPX_3308_lg_0_n4ml_4rJ3_BN4x",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga A",
+    "group": "A",
+    "player1": "Tomasz Radecki",
+    "player2": "Grzegorz Mularz",
+    "score": "0:7",
+    "fast_legs_count": {
+      "Tomasz Radecki": 0,
+      "Grzegorz Mularz": 0
+    },
+    "fast_legs": {
+      "Tomasz Radecki": [],
+      "Grzegorz Mularz": []
+    },
+    "average": {
+      "Tomasz Radecki": 56.53703703703704,
+      "Grzegorz Mularz": 64.15243902439025
+    }
+  },
+  {
+    "tmid": "t_4UPX_3308_lg_0_4ojd_3JFn_4rJ3",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga A",
+    "group": "A",
+    "player1": "Michał Kowalinski",
+    "player2": "Grzegorz Mularz",
+    "score": "4:7",
+    "fast_legs_count": {
+      "Michał Kowalinski": 0,
+      "Grzegorz Mularz": 1
+    },
+    "fast_legs": {
+      "Michał Kowalinski": [],
+      "Grzegorz Mularz": [
+        18
+      ]
+    },
+    "average": {
+      "Michał Kowalinski": 56.357142857142854,
+      "Grzegorz Mularz": 60.13483146067416
+    }
+  },
+  {
+    "tmid": "t_4UPX_3308_lg_0_7c3n_6Col_BN4x",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga A",
+    "group": "A",
+    "player1": "Paweł Cefal",
+    "player2": "Tomasz Radecki",
+    "score": "5:7",
+    "fast_legs_count": {
+      "Paweł Cefal": 0,
+      "Tomasz Radecki": 0
+    },
+    "fast_legs": {
+      "Paweł Cefal": [],
+      "Tomasz Radecki": []
+    },
+    "average": {
+      "Paweł Cefal": 40.97310513447433,
+      "Tomasz Radecki": 42.857142857142854
+    }
+  },
+  {
+    "tmid": "t_4UPX_3308_lg_0_w2sy_Cv46_GkoY",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga A",
+    "group": "A",
+    "player1": "Krystian Krzywy",
+    "player2": "Tomasz Pilecki",
+    "score": "2:7",
+    "fast_legs_count": {
+      "Krystian Krzywy": 0,
+      "Tomasz Pilecki": 0
+    },
+    "fast_legs": {
+      "Krystian Krzywy": [],
+      "Tomasz Pilecki": []
+    },
+    "average": {
+      "Krystian Krzywy": 45.043795620437955,
+      "Tomasz Pilecki": 48.27372262773723
+    }
+  },
+  {
+    "tmid": "t_4UPX_3308_lg_0_yhde_4rJ3_GkoY",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga A",
+    "group": "A",
+    "player1": "Tomasz Pilecki",
+    "player2": "Grzegorz Mularz",
+    "score": "0:7",
+    "fast_legs_count": {
+      "Tomasz Pilecki": 0,
+      "Grzegorz Mularz": 0
+    },
+    "fast_legs": {
+      "Tomasz Pilecki": [],
+      "Grzegorz Mularz": []
+    },
+    "average": {
+      "Tomasz Pilecki": 46.74193548387097,
+      "Grzegorz Mularz": 55.666666666666664
+    }
+  },
+  {
+    "tmid": "t_4UPX_3308_lg_0_yybi_3JFn_6Col",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga A",
+    "group": "A",
+    "player1": "Paweł Cefal",
+    "player2": "Michał Kowalinski",
+    "score": "4:7",
+    "fast_legs_count": {
+      "Paweł Cefal": 0,
+      "Michał Kowalinski": 0
+    },
+    "fast_legs": {
+      "Paweł Cefal": [],
+      "Michał Kowalinski": []
+    },
+    "average": {
+      "Paweł Cefal": 40.26495726495727,
+      "Michał Kowalinski": 46.820809248554916
+    }
+  },
+  {
+    "tmid": "t_4UPX_3308_lg_0_q7t6_BN4x_Cv46",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga A",
+    "group": "A",
+    "player1": "Krystian Krzywy",
+    "player2": "Tomasz Radecki",
+    "score": "4:7",
+    "fast_legs_count": {
+      "Krystian Krzywy": 0,
+      "Tomasz Radecki": 1
+    },
+    "fast_legs": {
+      "Krystian Krzywy": [],
+      "Tomasz Radecki": [
+        17
+      ]
+    },
+    "average": {
+      "Krystian Krzywy": 47.637770897832816,
+      "Tomasz Radecki": 49.16717325227963
+    }
+  },
+  {
+    "tmid": "t_4UPX_3308_lg_0_sosj_6Col_GkoY",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga A",
+    "group": "A",
+    "player1": "Paweł Cefal",
+    "player2": "Tomasz Pilecki",
+    "score": "2:7",
+    "fast_legs_count": {
+      "Paweł Cefal": 0,
+      "Tomasz Pilecki": 0
+    },
+    "fast_legs": {
+      "Paweł Cefal": [],
+      "Tomasz Pilecki": []
+    },
+    "average": {
+      "Paweł Cefal": 41.384892086330936,
+      "Tomasz Pilecki": 48.31182795698925
+    }
+  },
+  {
+    "tmid": "t_4UPX_3308_lg_0_1nrk_4rJ3_Cv46",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga A",
+    "group": "A",
+    "player1": "Grzegorz Mularz",
+    "player2": "Krystian Krzywy",
+    "score": "7:2",
+    "fast_legs_count": {
+      "Grzegorz Mularz": 0,
+      "Krystian Krzywy": 0
+    },
+    "fast_legs": {
+      "Grzegorz Mularz": [],
+      "Krystian Krzywy": []
+    },
+    "average": {
+      "Grzegorz Mularz": 52.576470588235296,
+      "Krystian Krzywy": 48.47244094488189
+    }
+  },
+  {
+    "tmid": "t_4UPX_3308_lg_0_1bxn_3JFn_BN4x",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga A",
+    "group": "A",
+    "player1": "Michał Kowalinski",
+    "player2": "Tomasz Radecki",
+    "score": "7:5",
+    "fast_legs_count": {
+      "Michał Kowalinski": 0,
+      "Tomasz Radecki": 0
+    },
+    "fast_legs": {
+      "Michał Kowalinski": [],
+      "Tomasz Radecki": []
+    },
+    "average": {
+      "Michał Kowalinski": 48.16011235955056,
+      "Tomasz Radecki": 47.76203966005666
+    }
+  },
+  {
     "tmid": "t_4UPX_3308_lg_0_is1f_BN4x_gCKg",
     "title": "Tomi Dart Club Jesień 2026 2 Liga A",
     "group": "A",
@@ -792,6 +996,66 @@
     "average": {
       "Michał Kowalinski": 53.66550522648084,
       "Jakub Lipka": 58.96907216494845
+    }
+  },
+  {
+    "tmid": "t_JTh9_1380_lg_0_49ag_j4TE_u8zm",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga B",
+    "group": "B",
+    "player1": "Roman Flasza",
+    "player2": "Grzegorz Kulig",
+    "score": "7:2",
+    "fast_legs_count": {
+      "Roman Flasza": 0,
+      "Grzegorz Kulig": 0
+    },
+    "fast_legs": {
+      "Roman Flasza": [],
+      "Grzegorz Kulig": []
+    },
+    "average": {
+      "Roman Flasza": 47.594306049822066,
+      "Grzegorz Kulig": 45.417582417582416
+    }
+  },
+  {
+    "tmid": "t_JTh9_1380_lg_0_392m_YS7b_j4TE",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga B",
+    "group": "B",
+    "player1": "Rafał Zahora",
+    "player2": "Grzegorz Kulig",
+    "score": "7:1",
+    "fast_legs_count": {
+      "Rafał Zahora": 0,
+      "Grzegorz Kulig": 0
+    },
+    "fast_legs": {
+      "Rafał Zahora": [],
+      "Grzegorz Kulig": []
+    },
+    "average": {
+      "Rafał Zahora": 49.30769230769231,
+      "Grzegorz Kulig": 49.525862068965516
+    }
+  },
+  {
+    "tmid": "t_JTh9_1380_lg_0_wxnv_YS7b_u8zm",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga B",
+    "group": "B",
+    "player1": "Rafał Zahora",
+    "player2": "Roman Flasza",
+    "score": "6:6",
+    "fast_legs_count": {
+      "Rafał Zahora": 0,
+      "Roman Flasza": 0
+    },
+    "fast_legs": {
+      "Rafał Zahora": [],
+      "Roman Flasza": []
+    },
+    "average": {
+      "Rafał Zahora": 43.37755102040816,
+      "Roman Flasza": 43.603053435114504
     }
   },
   {
