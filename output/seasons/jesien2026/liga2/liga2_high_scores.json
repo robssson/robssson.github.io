@@ -786,6 +786,166 @@
     }
   },
   {
+    "tmid": "t_JTh9_1380_lg_0_l3hp_1eJf_qi4L",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga B",
+    "group": "B",
+    "player1": "Maksymilian Grabarz",
+    "player2": "Wiktor Borowiec",
+    "score": "3:7",
+    "scores_count": {
+      "Maksymilian Grabarz": 0,
+      "Wiktor Borowiec": 0
+    },
+    "scores": {
+      "Maksymilian Grabarz": [],
+      "Wiktor Borowiec": []
+    }
+  },
+  {
+    "tmid": "t_JTh9_1380_lg_0_nqrg_1eJf_u8zm",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga B",
+    "group": "B",
+    "player1": "Wiktor Borowiec",
+    "player2": "Roman Flasza",
+    "score": "4:7",
+    "scores_count": {
+      "Wiktor Borowiec": 0,
+      "Roman Flasza": 0
+    },
+    "scores": {
+      "Wiktor Borowiec": [],
+      "Roman Flasza": []
+    }
+  },
+  {
+    "tmid": "t_JTh9_1380_lg_0_20hq_XtFw_sdGz",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga B",
+    "group": "B",
+    "player1": "Wiktor Święch",
+    "player2": "Szymon Put",
+    "score": "7:0",
+    "scores_count": {
+      "Wiktor Święch": 0,
+      "Szymon Put": 0
+    },
+    "scores": {
+      "Wiktor Święch": [],
+      "Szymon Put": []
+    }
+  },
+  {
+    "tmid": "t_JTh9_1380_lg_0_i02e_1eJf_sdGz",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga B",
+    "group": "B",
+    "player1": "Szymon Put",
+    "player2": "Wiktor Borowiec",
+    "score": "0:7",
+    "scores_count": {
+      "Szymon Put": 0,
+      "Wiktor Borowiec": 0
+    },
+    "scores": {
+      "Szymon Put": [],
+      "Wiktor Borowiec": []
+    }
+  },
+  {
+    "tmid": "t_JTh9_1380_lg_0_lc05_cFZQ_qi4L",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga B",
+    "group": "B",
+    "player1": "Maksymilian Grabarz",
+    "player2": "Wojtek Flasza",
+    "score": "7:2",
+    "scores_count": {
+      "Maksymilian Grabarz": 0,
+      "Wojtek Flasza": 0
+    },
+    "scores": {
+      "Maksymilian Grabarz": [],
+      "Wojtek Flasza": []
+    }
+  },
+  {
+    "tmid": "t_JTh9_1380_lg_0_jwq9_XtFw_u8zm",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga B",
+    "group": "B",
+    "player1": "Wiktor Święch",
+    "player2": "Roman Flasza",
+    "score": "6:6",
+    "scores_count": {
+      "Wiktor Święch": 0,
+      "Roman Flasza": 0
+    },
+    "scores": {
+      "Wiktor Święch": [],
+      "Roman Flasza": []
+    }
+  },
+  {
+    "tmid": "t_JTh9_1380_lg_0_0ch8_cFZQ_sdGz",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga B",
+    "group": "B",
+    "player1": "Wojtek Flasza",
+    "player2": "Szymon Put",
+    "score": "6:6",
+    "scores_count": {
+      "Wojtek Flasza": 0,
+      "Szymon Put": 0
+    },
+    "scores": {
+      "Wojtek Flasza": [],
+      "Szymon Put": []
+    }
+  },
+  {
+    "tmid": "t_JTh9_1380_lg_0_5z0q_j4TE_qi4L",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga B",
+    "group": "B",
+    "player1": "Grzegorz Kulig",
+    "player2": "Maksymilian Grabarz",
+    "score": "6:6",
+    "scores_count": {
+      "Grzegorz Kulig": 0,
+      "Maksymilian Grabarz": 0
+    },
+    "scores": {
+      "Grzegorz Kulig": [],
+      "Maksymilian Grabarz": []
+    }
+  },
+  {
+    "tmid": "t_JTh9_1380_lg_0_f9qc_1eJf_XtFw",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga B",
+    "group": "B",
+    "player1": "Wiktor Borowiec",
+    "player2": "Wiktor Święch",
+    "score": "6:6",
+    "scores_count": {
+      "Wiktor Borowiec": 0,
+      "Wiktor Święch": 0
+    },
+    "scores": {
+      "Wiktor Borowiec": [],
+      "Wiktor Święch": []
+    }
+  },
+  {
+    "tmid": "t_JTh9_1380_lg_0_zfvm_j4TE_sdGz",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga B",
+    "group": "B",
+    "player1": "Grzegorz Kulig",
+    "player2": "Szymon Put",
+    "score": "7:3",
+    "scores_count": {
+      "Grzegorz Kulig": 0,
+      "Szymon Put": 0
+    },
+    "scores": {
+      "Grzegorz Kulig": [],
+      "Szymon Put": []
+    }
+  },
+  {
     "tmid": "t_JTh9_1380_lg_0_49ag_j4TE_u8zm",
     "title": "Tomi Dart Club Jesień 2026 2 Liga B",
     "group": "B",
