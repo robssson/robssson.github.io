@@ -1,5 +1,297 @@
 [
   {
+    "tmid": "t_4UPX_3308_lg_0_38ds_X6iZ_d9Th",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga A",
+    "group": "A",
+    "player1": "Dominik Cierniak",
+    "player2": "Maciek Filipowski",
+    "score": "6:4",
+    "fast_legs_count": {
+      "Dominik Cierniak": 0,
+      "Maciek Filipowski": 0
+    },
+    "fast_legs": {
+      "Dominik Cierniak": [],
+      "Maciek Filipowski": []
+    },
+    "average": {
+      "Dominik Cierniak": 45.34285714285714,
+      "Maciek Filipowski": 45.309375
+    }
+  },
+  {
+    "tmid": "t_4UPX_3308_lg_0_u8ha_4rJ3_d9Th",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga A",
+    "group": "A",
+    "player1": "Maciek Filipowski",
+    "player2": "Grzegorz Mularz",
+    "score": "1:7",
+    "fast_legs_count": {
+      "Maciek Filipowski": 0,
+      "Grzegorz Mularz": 0
+    },
+    "fast_legs": {
+      "Maciek Filipowski": [],
+      "Grzegorz Mularz": []
+    },
+    "average": {
+      "Maciek Filipowski": 47.18807339449541,
+      "Grzegorz Mularz": 55.29953917050691
+    }
+  },
+  {
+    "tmid": "t_4UPX_3308_lg_0_iv8o_4rJ3_X6iZ",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga A",
+    "group": "A",
+    "player1": "Grzegorz Mularz",
+    "player2": "Dominik Cierniak",
+    "score": "7:3",
+    "fast_legs_count": {
+      "Grzegorz Mularz": 0,
+      "Dominik Cierniak": 0
+    },
+    "fast_legs": {
+      "Grzegorz Mularz": [],
+      "Dominik Cierniak": []
+    },
+    "average": {
+      "Grzegorz Mularz": 60.037974683544306,
+      "Dominik Cierniak": 52.294871794871796
+    }
+  },
+  {
+    "tmid": "t_4UPX_3308_lg_0_hk0g_GkoY_d9Th",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga A",
+    "group": "A",
+    "player1": "Tomasz Pilecki",
+    "player2": "Maciek Filipowski",
+    "score": "7:2",
+    "fast_legs_count": {
+      "Tomasz Pilecki": 0,
+      "Maciek Filipowski": 0
+    },
+    "fast_legs": {
+      "Tomasz Pilecki": [],
+      "Maciek Filipowski": []
+    },
+    "average": {
+      "Tomasz Pilecki": 48.81521739130435,
+      "Maciek Filipowski": 44.520446096654275
+    }
+  },
+  {
+    "tmid": "t_4UPX_3308_lg_0_c5em_4rJ3_gCKg",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga A",
+    "group": "A",
+    "player1": "Jakub Lipka",
+    "player2": "Grzegorz Mularz",
+    "score": "7:2",
+    "fast_legs_count": {
+      "Jakub Lipka": 2,
+      "Grzegorz Mularz": 0
+    },
+    "fast_legs": {
+      "Jakub Lipka": [
+        17,
+        18
+      ],
+      "Grzegorz Mularz": []
+    },
+    "average": {
+      "Jakub Lipka": 67.97969543147208,
+      "Grzegorz Mularz": 57.87958115183246
+    }
+  },
+  {
+    "tmid": "t_4UPX_3308_lg_0_qr8v_BN4x_d9Th",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga A",
+    "group": "A",
+    "player1": "Maciek Filipowski",
+    "player2": "Tomasz Radecki",
+    "score": "7:3",
+    "fast_legs_count": {
+      "Maciek Filipowski": 0,
+      "Tomasz Radecki": 0
+    },
+    "fast_legs": {
+      "Maciek Filipowski": [],
+      "Tomasz Radecki": []
+    },
+    "average": {
+      "Maciek Filipowski": 44.02077151335312,
+      "Tomasz Radecki": 42.28012048192771
+    }
+  },
+  {
+    "tmid": "t_4UPX_3308_lg_0_ux5d_3JFn_X6iZ",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga A",
+    "group": "A",
+    "player1": "Dominik Cierniak",
+    "player2": "Michał Kowalinski",
+    "score": "7:4",
+    "fast_legs_count": {
+      "Dominik Cierniak": 0,
+      "Michał Kowalinski": 0
+    },
+    "fast_legs": {
+      "Dominik Cierniak": [],
+      "Michał Kowalinski": []
+    },
+    "average": {
+      "Dominik Cierniak": 42.17054263565891,
+      "Michał Kowalinski": 40.542857142857144
+    }
+  },
+  {
+    "tmid": "t_4UPX_3308_lg_0_2i28_GkoY_gCKg",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga A",
+    "group": "A",
+    "player1": "Tomasz Pilecki",
+    "player2": "Jakub Lipka",
+    "score": "1:7",
+    "fast_legs_count": {
+      "Tomasz Pilecki": 1,
+      "Jakub Lipka": 2
+    },
+    "fast_legs": {
+      "Tomasz Pilecki": [
+        18
+      ],
+      "Jakub Lipka": [
+        16,
+        18
+      ]
+    },
+    "average": {
+      "Tomasz Pilecki": 58.592592592592595,
+      "Jakub Lipka": 70.96296296296296
+    }
+  },
+  {
+    "tmid": "t_4UPX_3308_lg_0_tszq_4rJ3_d9Th",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga A",
+    "group": "A",
+    "player1": "Grzegorz Mularz",
+    "player2": "Maciek Filipowski",
+    "score": "7:5",
+    "fast_legs_count": {
+      "Grzegorz Mularz": 0,
+      "Maciek Filipowski": 0
+    },
+    "fast_legs": {
+      "Grzegorz Mularz": [],
+      "Maciek Filipowski": []
+    },
+    "average": {
+      "Grzegorz Mularz": 48.30327868852459,
+      "Maciek Filipowski": 46.96153846153846
+    }
+  },
+  {
+    "tmid": "t_4UPX_3308_lg_0_pn4p_3JFn_GkoY",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga A",
+    "group": "A",
+    "player1": "Tomasz Pilecki",
+    "player2": "Michał Kowalinski",
+    "score": "7:4",
+    "fast_legs_count": {
+      "Tomasz Pilecki": 0,
+      "Michał Kowalinski": 0
+    },
+    "fast_legs": {
+      "Tomasz Pilecki": [],
+      "Michał Kowalinski": []
+    },
+    "average": {
+      "Tomasz Pilecki": 50.905660377358494,
+      "Michał Kowalinski": 45.762057877813504
+    }
+  },
+  {
+    "tmid": "t_4UPX_3308_lg_0_k3ut_BN4x_X6iZ",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga A",
+    "group": "A",
+    "player1": "Dominik Cierniak",
+    "player2": "Tomasz Radecki",
+    "score": "6:6",
+    "fast_legs_count": {
+      "Dominik Cierniak": 0,
+      "Tomasz Radecki": 0
+    },
+    "fast_legs": {
+      "Dominik Cierniak": [],
+      "Tomasz Radecki": []
+    },
+    "average": {
+      "Dominik Cierniak": 45.13350785340314,
+      "Tomasz Radecki": 44.27937336814622
+    }
+  },
+  {
+    "tmid": "t_4UPX_3308_lg_0_ikvr_d9Th_gCKg",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga A",
+    "group": "A",
+    "player1": "Maciek Filipowski",
+    "player2": "Jakub Lipka",
+    "score": "0:7",
+    "fast_legs_count": {
+      "Maciek Filipowski": 0,
+      "Jakub Lipka": 1
+    },
+    "fast_legs": {
+      "Maciek Filipowski": [],
+      "Jakub Lipka": [
+        17
+      ]
+    },
+    "average": {
+      "Maciek Filipowski": 47.96153846153846,
+      "Jakub Lipka": 66.16981132075472
+    }
+  },
+  {
+    "tmid": "t_4UPX_3308_lg_0_z8nh_X6iZ_gCKg",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga A",
+    "group": "A",
+    "player1": "Dominik Cierniak",
+    "player2": "Jakub Lipka",
+    "score": "2:7",
+    "fast_legs_count": {
+      "Dominik Cierniak": 0,
+      "Jakub Lipka": 1
+    },
+    "fast_legs": {
+      "Dominik Cierniak": [],
+      "Jakub Lipka": [
+        18
+      ]
+    },
+    "average": {
+      "Dominik Cierniak": 51.49038461538461,
+      "Jakub Lipka": 64.3623188405797
+    }
+  },
+  {
+    "tmid": "t_4UPX_3308_lg_0_5jpj_3JFn_BN4x",
+    "title": "Tomi Dart Club Jesień 2026 2 Liga A",
+    "group": "A",
+    "player1": "Tomasz Radecki",
+    "player2": "Michał Kowalinski",
+    "score": "7:4",
+    "fast_legs_count": {
+      "Tomasz Radecki": 0,
+      "Michał Kowalinski": 0
+    },
+    "fast_legs": {
+      "Tomasz Radecki": [],
+      "Michał Kowalinski": []
+    },
+    "average": {
+      "Tomasz Radecki": 47.8368580060423,
+      "Michał Kowalinski": 48.28353658536585
+    }
+  },
+  {
     "tmid": "t_4UPX_3308_lg_0_n4ml_4rJ3_BN4x",
     "title": "Tomi Dart Club Jesień 2026 2 Liga A",
     "group": "A",
